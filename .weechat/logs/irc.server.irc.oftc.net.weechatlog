@@ -1,0 +1,255 @@
+2015-03-04 20:27:15	--	irc: connecting to server irc.oftc.net/6667...
+2015-03-04 20:27:15	--	irc: connected to irc.oftc.net/6667 (64.62.190.36)
+2015-03-04 20:27:15	--	charm.oftc.net (charm.oftc.net): *** Looking up your hostname...
+2015-03-04 20:27:15	--	charm.oftc.net (charm.oftc.net): *** Checking Ident
+2015-03-04 20:27:15	--	charm.oftc.net (charm.oftc.net): *** Found your hostname
+2015-03-04 20:27:26	--	charm.oftc.net (charm.oftc.net): *** No Ident response
+2015-03-04 20:27:26	--	Welcome to the OFTC Internet Relay Chat Network msjche
+2015-03-04 20:27:26	--	Your host is charm.oftc.net[64.62.190.36/6667], running version hybrid-7.2.2+oftc1.6.11
+2015-03-04 20:27:26	--	This server was created Mar 10 2013 at 19:50:37
+2015-03-04 20:27:26	--	charm.oftc.net hybrid-7.2.2+oftc1.6.11 CDGPRSabcdfgiklnorsuwxyz biklmnopstveI bkloveI
+2015-03-04 20:27:26	--	CALLERID CASEMAPPING=rfc1459 DEAF=D KICKLEN=160 MODES=4 NICKLEN=30 PREFIX=(ov)@+ STATUSMSG=@+ TOPICLEN=390 NETWORK=OFTC MAXLIST=beI:100 MAXTARGETS=1 CHANTYPES=# :are supported by this server
+2015-03-04 20:27:26	--	CHANLIMIT=#:70 CHANNELLEN=50 CHANMODES=eIqb,k,l,imnpstMRS ELIST=CMNTU SAFELIST KNOCK AWAYLEN=160 EXCEPTS=e INVEX=I :are supported by this server
+2015-03-04 20:27:26	--	5Y4AAAAL8 :your unique ID
+2015-03-04 20:27:26	--	There are 37 users and 10301 invisible on 18 servers
+2015-03-04 20:27:26	--	17 :IRC Operators online
+2015-03-04 20:27:26	--	2313 :channels formed
+2015-03-04 20:27:26	--	I have 203 clients and 1 servers
+2015-03-04 20:27:26	--	Current local users: 203  Max: 203
+2015-03-04 20:27:26	--	Current global users: 10338  Max: 10503
+2015-03-04 20:27:26	--	Highest connection count: 204 (203 clients) (431 connections received)
+2015-03-04 20:27:26	--	- charm.oftc.net Message of the Day -
+2015-03-04 20:27:26	--	-   O
+2015-03-04 20:27:26	--	-    \   The Open and Free
+2015-03-04 20:27:26	--	-     O
+2015-03-04 20:27:26	--	-    /|  Technology Community
+2015-03-04 20:27:26	--	- O-O O
+2015-03-04 20:27:26	--	-
+2015-03-04 20:27:26	--	- Welcome to OFTC's IRC network.
+2015-03-04 20:27:26	--	-
+2015-03-04 20:27:26	--	- The Open and Free Technology Community was founded at the
+2015-03-04 20:27:26	--	- end of 2001 by a group of experienced members of the Open
+2015-03-04 20:27:26	--	- Source and Free Software communities; it is aimed at
+2015-03-04 20:27:26	--	- providing these communities with better communication,
+2015-03-04 20:27:26	--	- development, and support infrastructure. Our goal is to
+2015-03-04 20:27:26	--	- provide stable services to members of the community in any
+2015-03-04 20:27:26	--	- part of the world, while listening closely to their needs
+2015-03-04 20:27:26	--	- and desires.
+2015-03-04 20:27:26	--	-
+2015-03-04 20:27:26	--	- We are not a general purpose chat platform, but a topical
+2015-03-04 20:27:26	--	- network intent on providing the open source and free
+2015-03-04 20:27:26	--	- software communities a means to cooperate and communicate.
+2015-03-04 20:27:26	--	- As such, illegal and off-topic activity, such as warez
+2015-03-04 20:27:26	--	- trading, may result in being barred from access.
+2015-03-04 20:27:26	--	-
+2015-03-04 20:27:26	--	- For more information on OFTC, please visit http://www.oftc.net/.
+2015-03-04 20:27:26	--	-
+2015-03-04 20:27:26	--	- If you require assistance stop by in channel #oftc, or email
+2015-03-04 20:27:26	--	- support@oftc.net with details.
+2015-03-04 20:27:26	--	-
+2015-03-04 20:27:26	--	- Thanks and enjoy your stay,
+2015-03-04 20:27:26	--	-
+2015-03-04 20:27:26	--	-         The OFTC team
+2015-03-04 20:27:26	--	End of /MOTD command.
+2015-03-04 20:27:26	--	User mode [+i] by msjche
+2015-03-04 20:27:26	--	ChanServ (services@services.oftc.net): Deopped you on channel #kde because it is registered with channel services
+2015-03-04 20:27:26	--	ChanServ (services@services.oftc.net): and you are not a CHANOP on its access list.
+2015-03-04 20:27:26	--	ChanServ (services@services.oftc.net): Deopped you on channel #vim because it is registered with channel services
+2015-03-04 20:27:26	--	ChanServ (services@services.oftc.net): and you are not a CHANOP on its access list.
+2015-03-04 20:27:26	--	ChanServ (services@services.oftc.net): Deopped you on channel #zsh because it is registered with channel services
+2015-03-04 20:27:26	--	ChanServ (services@services.oftc.net): and you are not a CHANOP on its access list.
+2015-03-04 20:29:30	=!=	irc: this buffer is not a channel!
+2015-03-04 22:55:59	=!=	irc: reading data on socket: error 110 Connection timed out
+2015-03-04 22:55:59	--	irc: disconnecting from server...
+2015-03-04 22:55:59	--	irc: disconnected from server
+2015-03-04 22:55:59	--	irc: reconnecting to server in 10 seconds
+2015-03-04 22:56:09	--	irc: reconnecting to server...
+2015-03-04 22:56:09	--	irc: connecting to server irc.oftc.net/6667...
+2015-03-04 22:56:09	--	irc: connected to irc.oftc.net/6667 (64.62.190.36)
+2015-03-04 22:56:09	--	charm.oftc.net (charm.oftc.net): *** Looking up your hostname...
+2015-03-04 22:56:09	--	charm.oftc.net (charm.oftc.net): *** Checking Ident
+2015-03-04 22:56:10	--	charm.oftc.net (charm.oftc.net): *** Found your hostname
+2015-03-04 22:56:20	--	charm.oftc.net (charm.oftc.net): *** No Ident response
+2015-03-04 22:56:20	--	Welcome to the OFTC Internet Relay Chat Network msjche
+2015-03-04 22:56:20	--	Your host is charm.oftc.net[64.62.190.36/6667], running version hybrid-7.2.2+oftc1.6.11
+2015-03-04 22:56:20	--	This server was created Mar 10 2013 at 19:50:37
+2015-03-04 22:56:20	--	charm.oftc.net hybrid-7.2.2+oftc1.6.11 CDGPRSabcdfgiklnorsuwxyz biklmnopstveI bkloveI
+2015-03-04 22:56:20	--	CALLERID CASEMAPPING=rfc1459 DEAF=D KICKLEN=160 MODES=4 NICKLEN=30 PREFIX=(ov)@+ STATUSMSG=@+ TOPICLEN=390 NETWORK=OFTC MAXLIST=beI:100 MAXTARGETS=1 CHANTYPES=# :are supported by this server
+2015-03-04 22:56:20	--	CHANLIMIT=#:70 CHANNELLEN=50 CHANMODES=eIqb,k,l,imnpstMRS ELIST=CMNTU SAFELIST KNOCK AWAYLEN=160 EXCEPTS=e INVEX=I :are supported by this server
+2015-03-04 22:56:20	--	5Y4AAAAUL :your unique ID
+2015-03-04 22:56:20	--	There are 39 users and 10301 invisible on 18 servers
+2015-03-04 22:56:20	--	17 :IRC Operators online
+2015-03-04 22:56:20	--	4 :unknown connection(s)
+2015-03-04 22:56:20	--	2315 :channels formed
+2015-03-04 22:56:20	--	I have 294 clients and 1 servers
+2015-03-04 22:56:20	--	Current local users: 294  Max: 294
+2015-03-04 22:56:20	--	Current global users: 10340  Max: 10503
+2015-03-04 22:56:20	--	Highest connection count: 294 (293 clients) (732 connections received)
+2015-03-04 22:56:20	--	- charm.oftc.net Message of the Day -
+2015-03-04 22:56:20	--	-   O
+2015-03-04 22:56:20	--	-    \   The Open and Free
+2015-03-04 22:56:20	--	-     O
+2015-03-04 22:56:20	--	-    /|  Technology Community
+2015-03-04 22:56:20	--	- O-O O
+2015-03-04 22:56:20	--	-
+2015-03-04 22:56:20	--	- Welcome to OFTC's IRC network.
+2015-03-04 22:56:20	--	-
+2015-03-04 22:56:20	--	- The Open and Free Technology Community was founded at the
+2015-03-04 22:56:20	--	- end of 2001 by a group of experienced members of the Open
+2015-03-04 22:56:20	--	- Source and Free Software communities; it is aimed at
+2015-03-04 22:56:20	--	- providing these communities with better communication,
+2015-03-04 22:56:20	--	- development, and support infrastructure. Our goal is to
+2015-03-04 22:56:20	--	- provide stable services to members of the community in any
+2015-03-04 22:56:20	--	- part of the world, while listening closely to their needs
+2015-03-04 22:56:20	--	- and desires.
+2015-03-04 22:56:20	--	-
+2015-03-04 22:56:20	--	- We are not a general purpose chat platform, but a topical
+2015-03-04 22:56:20	--	- network intent on providing the open source and free
+2015-03-04 22:56:20	--	- software communities a means to cooperate and communicate.
+2015-03-04 22:56:20	--	- As such, illegal and off-topic activity, such as warez
+2015-03-04 22:56:20	--	- trading, may result in being barred from access.
+2015-03-04 22:56:20	--	-
+2015-03-04 22:56:20	--	- For more information on OFTC, please visit http://www.oftc.net/.
+2015-03-04 22:56:20	--	-
+2015-03-04 22:56:20	--	- If you require assistance stop by in channel #oftc, or email
+2015-03-04 22:56:20	--	- support@oftc.net with details.
+2015-03-04 22:56:20	--	-
+2015-03-04 22:56:20	--	- Thanks and enjoy your stay,
+2015-03-04 22:56:20	--	-
+2015-03-04 22:56:20	--	-         The OFTC team
+2015-03-04 22:56:20	--	End of /MOTD command.
+2015-03-04 22:56:20	--	User mode [+i] by msjche
+2015-03-05 17:22:08	--	irc: disconnected from server
+2015-03-08 10:18:15	--	irc: connecting to server irc.oftc.net/6667...
+2015-03-08 10:18:15	--	irc: connected to irc.oftc.net/6667 (206.12.19.242)
+2015-03-08 10:18:16	--	graviton.oftc.net (graviton.oftc.net): *** Looking up your hostname...
+2015-03-08 10:18:16	--	graviton.oftc.net (graviton.oftc.net): *** Checking Ident
+2015-03-08 10:18:16	--	graviton.oftc.net (graviton.oftc.net): *** Found your hostname
+2015-03-08 10:18:27	--	graviton.oftc.net (graviton.oftc.net): *** No Ident response
+2015-03-08 10:18:27	--	Welcome to the OFTC Internet Relay Chat Network msjche
+2015-03-08 10:18:27	--	Your host is graviton.oftc.net[206.12.19.242/6667], running version hybrid-7.2.2+oftc1.6.16
+2015-03-08 10:18:27	--	This server was created Sep  8 2014 at 22:06:16
+2015-03-08 10:18:27	--	graviton.oftc.net hybrid-7.2.2+oftc1.6.16 CDGPRSabcdfgiklnorsuwxyz biklmnopstveI bkloveI
+2015-03-08 10:18:27	--	CALLERID CASEMAPPING=rfc1459 DEAF=D KICKLEN=160 MODES=4 NICKLEN=30 PREFIX=(ov)@+ STATUSMSG=@+ TOPICLEN=390 NETWORK=OFTC MAXLIST=beI:100 MAXTARGETS=1 CHANTYPES=# :are supported by this server
+2015-03-08 10:18:27	--	CHANLIMIT=#:70 CHANNELLEN=50 CHANMODES=eIqb,k,l,imnpstMRS AWAYLEN=160 KNOCK ELIST=CMNTU SAFELIST EXCEPTS=e INVEX=I :are supported by this server
+2015-03-08 10:18:27	--	3N2AABRJG :your unique ID
+2015-03-08 10:18:27	--	There are 32 users and 10310 invisible on 18 servers
+2015-03-08 10:18:27	--	17 :IRC Operators online
+2015-03-08 10:18:27	--	1 :unknown connection(s)
+2015-03-08 10:18:27	--	2312 :channels formed
+2015-03-08 10:18:27	--	I have 2006 clients and 9 servers
+2015-03-08 10:18:27	--	Current local users: 2006  Max: 2377
+2015-03-08 10:18:27	--	Current global users: 10342  Max: 11771
+2015-03-08 10:18:27	--	Highest connection count: 2385 (2377 clients) (69019 connections received)
+2015-03-08 10:18:27	--	- graviton.oftc.net Message of the Day -
+2015-03-08 10:18:27	--	-   O
+2015-03-08 10:18:27	--	-    \   The Open and Free
+2015-03-08 10:18:27	--	-     O
+2015-03-08 10:18:27	--	-    /|  Technology Community
+2015-03-08 10:18:27	--	- O-O O
+2015-03-08 10:18:27	--	-
+2015-03-08 10:18:27	--	- Welcome to OFTC's IRC network.
+2015-03-08 10:18:27	--	-
+2015-03-08 10:18:27	--	- The Open and Free Technology Community was founded at the
+2015-03-08 10:18:27	--	- end of 2001 by a group of experienced members of the Open
+2015-03-08 10:18:27	--	- Source and Free Software communities; it is aimed at
+2015-03-08 10:18:27	--	- providing these communities with better communication,
+2015-03-08 10:18:27	--	- development, and support infrastructure. Our goal is to
+2015-03-08 10:18:27	--	- provide stable services to members of the community in any
+2015-03-08 10:18:27	--	- part of the world, while listening closely to their needs
+2015-03-08 10:18:27	--	- and desires.
+2015-03-08 10:18:27	--	-
+2015-03-08 10:18:27	--	- We are not a general purpose chat platform, but a topical
+2015-03-08 10:18:27	--	- network intent on providing the open source and free
+2015-03-08 10:18:27	--	- software communities a means to cooperate and communicate.
+2015-03-08 10:18:27	--	- As such, illegal and off-topic activity, such as warez
+2015-03-08 10:18:27	--	- trading, may result in being barred from access.
+2015-03-08 10:18:27	--	-
+2015-03-08 10:18:27	--	- For more information on OFTC, please visit http://www.oftc.net/.
+2015-03-08 10:18:27	--	-
+2015-03-08 10:18:27	--	- If you require assistance stop by in channel #oftc, or email
+2015-03-08 10:18:27	--	- support@oftc.net with details.
+2015-03-08 10:18:27	--	-
+2015-03-08 10:18:27	--	- Thanks and enjoy your stay,
+2015-03-08 10:18:27	--	-
+2015-03-08 10:18:27	--	-         The OFTC team
+2015-03-08 10:18:27	--	End of /MOTD command.
+2015-03-08 10:18:27	--	User mode [+i] by msjche
+2015-03-08 10:18:27	--	ChanServ (services@services.oftc.net): Deopped you on channel #kde because it is registered with channel services
+2015-03-08 10:18:27	--	ChanServ (services@services.oftc.net): and you are not a CHANOP on its access list.
+2015-03-08 10:18:27	--	ChanServ (services@services.oftc.net): Deopped you on channel #vim because it is registered with channel services
+2015-03-08 10:18:27	--	ChanServ (services@services.oftc.net): and you are not a CHANOP on its access list.
+2015-03-08 10:18:27	--	ChanServ (services@services.oftc.net): Deopped you on channel #zsh because it is registered with channel services
+2015-03-08 10:18:27	--	ChanServ (services@services.oftc.net): and you are not a CHANOP on its access list.
+2015-03-08 10:18:56	--	#gentoo-laptop: No such channel
+2015-03-08 10:19:02	--	Mode #archlinux [+nt]
+2015-03-08 10:19:02	--	Channel #archlinux created on Sun, 09 Oct 2011 17:00:25
+2015-03-08 10:19:04	--	#manjaro: No such channel
+2015-03-08 10:19:06	--	#linuxdistrocommunity: No such channel
+2015-03-08 10:19:08	--	Mode #luakit [+nt]
+2015-03-08 10:19:08	--	Channel #luakit created on Sat, 31 Jul 2010 20:09:42
+2015-03-08 10:19:10	--	#vim: No such channel
+2015-03-08 10:19:12	--	#zsh: No such channel
+2015-03-08 10:19:14	--	#weechat: No such channel
+2015-03-14 10:30:15	--	irc: connecting to server irc.oftc.net/6667...
+2015-03-14 10:30:15	--	irc: connected to irc.oftc.net/6667 (207.192.72.99)
+2015-03-14 10:30:16	--	weber.oftc.net (weber.oftc.net): *** Looking up your hostname...
+2015-03-14 10:30:16	--	weber.oftc.net (weber.oftc.net): *** Checking Ident
+2015-03-14 10:30:16	--	weber.oftc.net (weber.oftc.net): *** Found your hostname
+2015-03-14 10:30:26	--	weber.oftc.net (weber.oftc.net): *** No Ident response
+2015-03-14 10:30:26	--	Welcome to the OFTC Internet Relay Chat Network msjche
+2015-03-14 10:30:26	--	Your host is weber.oftc.net[207.192.72.99/6667], running version hybrid-7.2.2+oftc1.6.16
+2015-03-14 10:30:26	--	This server was created Mar 11 2015 at 09:03:38
+2015-03-14 10:30:26	--	weber.oftc.net hybrid-7.2.2+oftc1.6.16 CDGPRSabcdfgiklnorsuwxyz biklmnopstveI bkloveI
+2015-03-14 10:30:26	--	CALLERID CASEMAPPING=rfc1459 DEAF=D KICKLEN=160 MODES=4 NICKLEN=30 PREFIX=(ov)@+ STATUSMSG=@+ TOPICLEN=390 NETWORK=OFTC MAXLIST=beI:100 MAXTARGETS=1 CHANTYPES=# :are supported by this server
+2015-03-14 10:30:26	--	CHANLIMIT=#:70 CHANNELLEN=50 CHANMODES=eIqb,k,l,imnpstMRS AWAYLEN=160 KNOCK ELIST=CMNTU SAFELIST EXCEPTS=e INVEX=I :are supported by this server
+2015-03-14 10:30:26	--	7VOAAAF28 :your unique ID
+2015-03-14 10:30:26	--	There are 38 users and 10434 invisible on 17 servers
+2015-03-14 10:30:26	--	21 :IRC Operators online
+2015-03-14 10:30:26	--	2 :unknown connection(s)
+2015-03-14 10:30:26	--	2299 :channels formed
+2015-03-14 10:30:26	--	I have 1151 clients and 1 servers
+2015-03-14 10:30:26	--	Current local users: 1151  Max: 1190
+2015-03-14 10:30:26	--	Current global users: 10472  Max: 11204
+2015-03-14 10:30:26	--	Highest connection count: 1191 (1190 clients) (7523 connections received)
+2015-03-14 10:30:26	--	- weber.oftc.net Message of the Day -
+2015-03-14 10:30:26	--	-   O
+2015-03-14 10:30:26	--	-    \   The Open and Free
+2015-03-14 10:30:26	--	-     O
+2015-03-14 10:30:26	--	-    /|  Technology Community
+2015-03-14 10:30:26	--	- O-O O
+2015-03-14 10:30:26	--	-
+2015-03-14 10:30:26	--	- Welcome to OFTC's IRC network.
+2015-03-14 10:30:26	--	-
+2015-03-14 10:30:26	--	- The Open and Free Technology Community was founded at the
+2015-03-14 10:30:26	--	- end of 2001 by a group of experienced members of the Open
+2015-03-14 10:30:26	--	- Source and Free Software communities; it is aimed at
+2015-03-14 10:30:26	--	- providing these communities with better communication,
+2015-03-14 10:30:26	--	- development, and support infrastructure. Our goal is to
+2015-03-14 10:30:26	--	- provide stable services to members of the community in any
+2015-03-14 10:30:26	--	- part of the world, while listening closely to their needs
+2015-03-14 10:30:26	--	- and desires.
+2015-03-14 10:30:26	--	-
+2015-03-14 10:30:26	--	- We are not a general purpose chat platform, but a topical
+2015-03-14 10:30:26	--	- network intent on providing the open source and free
+2015-03-14 10:30:26	--	- software communities a means to cooperate and communicate.
+2015-03-14 10:30:26	--	- As such, illegal and off-topic activity, such as warez
+2015-03-14 10:30:26	--	- trading, may result in being barred from access.
+2015-03-14 10:30:26	--	-
+2015-03-14 10:30:26	--	- For more information on OFTC, please visit http://www.oftc.net/.
+2015-03-14 10:30:26	--	-
+2015-03-14 10:30:26	--	- If you require assistance stop by in channel #oftc, or email
+2015-03-14 10:30:26	--	- support@oftc.net with details.
+2015-03-14 10:30:26	--	-
+2015-03-14 10:30:26	--	- Thanks and enjoy your stay,
+2015-03-14 10:30:26	--	-
+2015-03-14 10:30:26	--	-         The OFTC team
+2015-03-14 10:30:26	--	End of /MOTD command.
+2015-03-14 10:30:26	--	User mode [+i] by msjche
+2015-03-14 10:30:27	--	ChanServ (services@services.oftc.net): Deopped you on channel #kde because it is registered with channel services
+2015-03-14 10:30:27	--	ChanServ (services@services.oftc.net): and you are not a CHANOP on its access list.
+2015-03-14 10:30:27	--	ChanServ (services@services.oftc.net): Deopped you on channel #vim because it is registered with channel services
+2015-03-14 10:30:27	--	ChanServ (services@services.oftc.net): and you are not a CHANOP on its access list.
+2015-03-14 10:30:27	--	ChanServ (services@services.oftc.net): Deopped you on channel #zsh because it is registered with channel services
+2015-03-14 10:30:27	--	ChanServ (services@services.oftc.net): and you are not a CHANOP on its access list.
+2015-03-14 10:30:34	--	irc: disconnected from server

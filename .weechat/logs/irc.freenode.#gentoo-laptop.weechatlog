@@ -1,0 +1,686 @@
+2015-03-01 19:18:26	-->	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-03-01 19:18:26	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-01 19:18:26	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-01 19:18:26	--	Channel #gentoo-laptop: 11 nicks (3 ops, 1 voice, 7 normals)
+2015-03-01 19:18:32	--	Mode #gentoo-laptop [+cnt]
+2015-03-01 19:18:32	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-01 19:20:18	--	irc: disconnected from server
+2015-03-01 19:20:52	-->	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-03-01 19:20:52	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-01 19:20:52	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-01 19:20:52	--	Channel #gentoo-laptop: 11 nicks (3 ops, 1 voice, 7 normals)
+2015-03-01 19:20:59	--	Mode #gentoo-laptop [+cnt]
+2015-03-01 19:20:59	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-01 22:51:27	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-03-01 22:51:27	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-01 22:51:27	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-01 22:51:27	--	Channel #gentoo-laptop: 11 nicks (3 ops, 1 voice, 7 normals)
+2015-03-01 22:51:34	--	Mode #gentoo-laptop [+cnt]
+2015-03-01 22:51:34	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-02 07:40:46	--	irc: disconnected from server
+2015-03-02 07:41:14	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-03-02 07:41:15	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-02 07:41:15	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-02 07:41:15	--	Channel #gentoo-laptop: 10 nicks (2 ops, 1 voice, 7 normals)
+2015-03-02 07:41:38	--	Mode #gentoo-laptop [+cnt]
+2015-03-02 07:41:39	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-02 10:30:48	════>	uDH (~unDeadHer@216.56.16.98) has joined #gentoo-laptop
+2015-03-02 12:34:23	<════	uDH (~unDeadHer@216.56.16.98) has quit (Ping timeout: 256 seconds)
+2015-03-02 13:38:19	════>	Necrose99_ (~direwolf9@c-68-44-221-49.hsd1.in.comcast.net) has joined #gentoo-laptop
+2015-03-02 13:41:08	<════	Necrose99 (~direwolf9@unaffiliated/necrose99) has quit (Ping timeout: 252 seconds)
+2015-03-02 14:05:25	════>	uDH (~unDeadHer@216.56.16.98) has joined #gentoo-laptop
+2015-03-02 16:30:39	<════	Necrose99_ (~direwolf9@c-68-44-221-49.hsd1.in.comcast.net) has quit (Quit: Leaving)
+2015-03-02 16:30:57	════>	Necrose99_ (~direwolf9@c-68-44-221-49.hsd1.in.comcast.net) has joined #gentoo-laptop
+2015-03-02 16:33:06	════>	direwolf99 (~direwolf9@unaffiliated/necrose99) has joined #gentoo-laptop
+2015-03-02 16:33:13	--	direwolf99 is now known as necrose99
+2015-03-02 16:37:04	<════	Necrose99_ (~direwolf9@c-68-44-221-49.hsd1.in.comcast.net) has quit (Ping timeout: 256 seconds)
+2015-03-02 21:43:32	--	irc: disconnected from server
+2015-03-02 22:35:40	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-03-02 22:35:40	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-02 22:35:40	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-02 22:35:40	--	Channel #gentoo-laptop: 11 nicks (2 ops, 1 voice, 8 normals)
+2015-03-02 22:35:48	--	Mode #gentoo-laptop [+cnt]
+2015-03-02 22:35:48	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-03 15:53:51	--	irc: disconnected from server
+2015-03-03 15:54:20	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-03-03 15:54:21	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-03 15:54:21	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-03 15:54:21	--	Channel #gentoo-laptop: 10 nicks (2 ops, 1 voice, 7 normals)
+2015-03-03 15:54:42	--	Mode #gentoo-laptop [+cnt]
+2015-03-03 15:54:43	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-03 16:17:32	--	irc: disconnected from server
+2015-03-03 16:52:02	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-03-03 16:52:02	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-03 16:52:02	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-03 16:52:02	--	Channel #gentoo-laptop: 10 nicks (2 ops, 1 voice, 7 normals)
+2015-03-03 16:52:08	--	Mode #gentoo-laptop [+cnt]
+2015-03-03 16:52:08	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-03 16:58:56	════>	uDH (~unDeadHer@216.56.16.98) has joined #gentoo-laptop
+2015-03-03 19:05:42	<════	necrose99 (~direwolf9@unaffiliated/necrose99) has quit (Read error: Connection reset by peer)
+2015-03-03 19:05:43	════>	necrose99 (~direwolf9@c-68-44-221-49.hsd1.in.comcast.net) has joined #gentoo-laptop
+2015-03-03 19:06:07	<════	necrose99 (~direwolf9@c-68-44-221-49.hsd1.in.comcast.net) has quit (Changing host)
+2015-03-03 19:06:07	════>	necrose99 (~direwolf9@unaffiliated/necrose99) has joined #gentoo-laptop
+2015-03-03 22:32:29	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-03-03 22:32:29	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-03 22:32:29	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-03 22:32:29	--	Channel #gentoo-laptop: 11 nicks (2 ops, 1 voice, 8 normals)
+2015-03-03 22:32:29	--	Notice(tepper.freenode.net): [freenode-info] why register and identify? your IRC nick is how people know you. http://freenode.net/faq.shtml#nicksetup
+2015-03-03 22:32:34	--	Mode #gentoo-laptop [+cnt]
+2015-03-03 22:32:34	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-04 09:20:53	--	irc: disconnected from server
+2015-03-04 09:21:08	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-03-04 09:21:08	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-04 09:21:08	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-04 09:21:08	--	Channel #gentoo-laptop: 10 nicks (2 ops, 1 voice, 7 normals)
+2015-03-04 09:21:13	--	Mode #gentoo-laptop [+cnt]
+2015-03-04 09:21:13	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-04 10:31:44	════>	uDH (~unDeadHer@216.56.16.98) has joined #gentoo-laptop
+2015-03-04 12:35:53	<════	uDH (~unDeadHer@216.56.16.98) has quit (Ping timeout: 256 seconds)
+2015-03-04 13:58:09	════>	uDH (~unDeadHer@216.56.16.98) has joined #gentoo-laptop
+2015-03-04 15:31:51	<════	Necrose99 (~direwolf9@unaffiliated/necrose99) has quit (Ping timeout: 246 seconds)
+2015-03-04 15:55:14	════>	Necrose99 (~direwolf9@unaffiliated/necrose99) has joined #gentoo-laptop
+2015-03-04 16:32:17	<════	Necrose99 (~direwolf9@unaffiliated/necrose99) has quit (Ping timeout: 245 seconds)
+2015-03-04 18:21:21	<════	uranus (~uranus@ip72-192-133-197.sd.sd.cox.net) has quit (Ping timeout: 250 seconds)
+2015-03-04 18:28:05	════>	uranus (~uranus@ip72-192-133-197.sd.sd.cox.net) has joined #gentoo-laptop
+2015-03-04 20:21:32	--	irc: disconnected from server
+2015-03-04 20:22:00	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-03-04 20:22:01	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-04 20:22:01	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-04 20:22:01	--	Channel #gentoo-laptop: 10 nicks (2 ops, 1 voice, 7 normals)
+2015-03-04 20:22:22	--	Mode #gentoo-laptop [+cnt]
+2015-03-04 20:22:22	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-04 20:54:42	════>	Necrose99 (~direwolf9@c-68-44-221-49.hsd1.in.comcast.net) has joined #gentoo-laptop
+2015-03-04 20:55:42	<════	Necrose99 (~direwolf9@c-68-44-221-49.hsd1.in.comcast.net) has quit (Changing host)
+2015-03-04 20:55:42	════>	Necrose99 (~direwolf9@unaffiliated/necrose99) has joined #gentoo-laptop
+2015-03-04 22:55:40	--	irc: disconnected from server
+2015-03-04 22:56:06	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-03-04 22:56:06	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-04 22:56:06	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-04 22:56:06	--	Channel #gentoo-laptop: 11 nicks (2 ops, 1 voice, 8 normals)
+2015-03-04 22:56:26	--	Mode #gentoo-laptop [+cnt]
+2015-03-04 22:56:26	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-05 17:22:08	--	irc: disconnected from server
+2015-03-05 17:22:27	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-03-05 17:22:27	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-05 17:22:27	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-05 17:22:27	--	Channel #gentoo-laptop: 11 nicks (2 ops, 1 voice, 8 normals)
+2015-03-05 17:22:31	--	Mode #gentoo-laptop [+cnt]
+2015-03-05 17:22:31	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-05 17:38:16	--	irc: disconnected from server
+2015-03-05 17:56:50	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-03-05 17:56:50	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-05 17:56:50	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-05 17:56:50	--	Channel #gentoo-laptop: 11 nicks (2 ops, 1 voice, 8 normals)
+2015-03-05 17:56:54	--	Mode #gentoo-laptop [+cnt]
+2015-03-05 17:56:54	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-05 20:28:41	════>	The_Eccentric (~The_Eccen@pentoo/user/TheEccentric) has joined #gentoo-laptop
+2015-03-05 22:23:12	--	irc: disconnected from server
+2015-03-05 22:23:39	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-03-05 22:23:39	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-05 22:23:39	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-05 22:23:39	--	Channel #gentoo-laptop: 12 nicks (2 ops, 1 voice, 9 normals)
+2015-03-05 22:24:00	--	Mode #gentoo-laptop [+cnt]
+2015-03-05 22:24:00	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-06 17:18:56	--	irc: disconnected from server
+2015-03-06 17:19:18	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-03-06 17:19:18	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-06 17:19:18	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-06 17:19:18	--	Channel #gentoo-laptop: 12 nicks (2 ops, 1 voice, 9 normals)
+2015-03-06 17:19:40	--	Mode #gentoo-laptop [+cnt]
+2015-03-06 17:19:40	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-06 17:24:24	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-03-06 17:24:24	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-06 17:24:24	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-06 17:24:24	--	Channel #gentoo-laptop: 12 nicks (2 ops, 1 voice, 9 normals)
+2015-03-06 17:24:26	--	Mode #gentoo-laptop [+cnt]
+2015-03-06 17:24:26	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-06 20:44:42	--	irc: disconnected from server
+2015-03-06 21:05:22	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-03-06 21:05:22	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-06 21:05:22	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-06 21:05:22	--	Channel #gentoo-laptop: 12 nicks (2 ops, 1 voice, 9 normals)
+2015-03-06 21:05:28	--	Mode #gentoo-laptop [+cnt]
+2015-03-06 21:05:28	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-07 06:37:50	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-03-07 06:37:50	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-07 06:37:50	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-07 06:37:50	--	Channel #gentoo-laptop: 11 nicks (2 ops, 1 voice, 8 normals)
+2015-03-07 06:37:56	--	Mode #gentoo-laptop [+cnt]
+2015-03-07 06:37:56	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-07 07:46:39	--	irc: disconnected from server
+2015-03-07 07:47:05	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-03-07 07:47:05	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-07 07:47:05	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-07 07:47:05	--	Channel #gentoo-laptop: 11 nicks (2 ops, 1 voice, 8 normals)
+2015-03-07 07:47:33	--	Mode #gentoo-laptop [+cnt]
+2015-03-07 07:47:33	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-07 08:19:55	--	irc: disconnected from server
+2015-03-07 08:24:58	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-03-07 08:24:58	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-07 08:24:58	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-07 08:24:58	--	Channel #gentoo-laptop: 11 nicks (2 ops, 1 voice, 8 normals)
+2015-03-07 08:25:03	--	Mode #gentoo-laptop [+cnt]
+2015-03-07 08:25:03	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-07 08:27:12	--	irc: disconnected from server
+2015-03-07 08:29:17	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-03-07 08:29:17	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-07 08:29:17	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-07 08:29:17	--	Channel #gentoo-laptop: 11 nicks (2 ops, 1 voice, 8 normals)
+2015-03-07 08:29:22	--	Mode #gentoo-laptop [+cnt]
+2015-03-07 08:29:22	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-07 08:41:16	--	irc: disconnected from server
+2015-03-07 10:58:54	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-03-07 10:58:54	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-07 10:58:54	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-07 10:58:54	--	Channel #gentoo-laptop: 11 nicks (2 ops, 1 voice, 8 normals)
+2015-03-07 10:59:01	--	Mode #gentoo-laptop [+cnt]
+2015-03-07 10:59:01	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-07 16:05:20	--	irc: disconnected from server
+2015-03-07 16:05:46	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-03-07 16:05:46	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-07 16:05:46	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-07 16:05:46	--	Channel #gentoo-laptop: 11 nicks (2 ops, 1 voice, 8 normals)
+2015-03-07 16:06:10	--	Mode #gentoo-laptop [+cnt]
+2015-03-07 16:06:10	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-07 18:34:44	--	irc: disconnected from server
+2015-03-07 18:35:13	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-03-07 18:35:13	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-07 18:35:13	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-07 18:35:13	--	Channel #gentoo-laptop: 11 nicks (2 ops, 1 voice, 8 normals)
+2015-03-07 18:35:37	--	Mode #gentoo-laptop [+cnt]
+2015-03-07 18:35:37	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-07 19:29:59	════>	Necrose99 (~direwolf9@c-68-44-221-49.hsd1.in.comcast.net) has joined #gentoo-laptop
+2015-03-07 19:30:54	<════	Necrose99 (~direwolf9@c-68-44-221-49.hsd1.in.comcast.net) has quit (Changing host)
+2015-03-07 19:30:54	════>	Necrose99 (~direwolf9@unaffiliated/necrose99) has joined #gentoo-laptop
+2015-03-07 19:32:42	<════	Necrose99_ (~direwolf9@unaffiliated/necrose99) has quit (Ping timeout: 245 seconds)
+2015-03-08 09:40:43	--	irc: disconnected from server
+2015-03-08 09:43:47	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-03-08 09:43:47	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-08 09:43:47	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-08 09:43:48	--	Channel #gentoo-laptop: 11 nicks (2 ops, 1 voice, 8 normals)
+2015-03-08 09:43:56	--	Mode #gentoo-laptop [+cnt]
+2015-03-08 09:43:57	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-08 17:04:14	════>	msjche (~msjche@gateway/vpn/privateinternetaccess/msjche) has joined #gentoo-laptop
+2015-03-08 17:04:14	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-08 17:04:14	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-08 17:04:14	--	Channel #gentoo-laptop: 11 nicks (2 ops, 1 voice, 8 normals)
+2015-03-08 17:04:21	--	Mode #gentoo-laptop [+cnt]
+2015-03-08 17:04:21	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-08 17:46:03	--	irc: disconnected from server
+2015-03-08 19:32:41	════>	msjche (~msjche@gateway/vpn/privateinternetaccess/msjche) has joined #gentoo-laptop
+2015-03-08 19:32:41	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-08 19:32:41	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-08 19:32:41	--	Channel #gentoo-laptop: 10 nicks (2 ops, 1 voice, 7 normals)
+2015-03-08 19:32:49	--	Mode #gentoo-laptop [+cnt]
+2015-03-08 19:32:50	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-08 20:51:36	════>	c74d (~c74d3a4eb@2002:4404:712c:0:76de:2bff:fed4:2766) has joined #gentoo-laptop
+2015-03-08 20:59:37	<════	c74d (~c74d3a4eb@2002:4404:712c:0:76de:2bff:fed4:2766) has quit (Quit: c74d)
+2015-03-08 21:01:01	════>	c74d (~c74d3a4eb@2002:4404:712c:0:76de:2bff:fed4:2766) has joined #gentoo-laptop
+2015-03-08 21:21:18	<════	c74d (~c74d3a4eb@2002:4404:712c:0:76de:2bff:fed4:2766) has quit (Remote host closed the connection)
+2015-03-08 21:23:13	════>	c74d (~c74d3a4eb@2002:4404:712c:0:76de:2bff:fed4:2766) has joined #gentoo-laptop
+2015-03-09 01:17:17	--	irc: disconnected from server
+2015-03-09 01:17:39	════>	msjche (~msjche@gateway/vpn/privateinternetaccess/msjche) has joined #gentoo-laptop
+2015-03-09 01:17:39	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-09 01:17:39	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-09 01:17:39	--	Channel #gentoo-laptop: 11 nicks (2 ops, 1 voice, 8 normals)
+2015-03-09 01:18:03	--	Mode #gentoo-laptop [+cnt]
+2015-03-09 01:18:03	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-09 09:50:51	--	irc: disconnected from server
+2015-03-09 09:51:18	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-03-09 09:51:18	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-09 09:51:18	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-09 09:51:18	--	Channel #gentoo-laptop: 10 nicks (2 ops, 1 voice, 7 normals)
+2015-03-09 09:51:42	--	Mode #gentoo-laptop [+cnt]
+2015-03-09 09:51:42	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-09 10:17:04	--	irc: disconnected from server
+2015-03-09 10:17:16	════>	msjche (~msjche@gateway/vpn/privateinternetaccess/msjche) has joined #gentoo-laptop
+2015-03-09 10:17:16	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-09 10:17:16	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-09 10:17:16	--	Channel #gentoo-laptop: 10 nicks (2 ops, 1 voice, 7 normals)
+2015-03-09 10:17:23	--	Mode #gentoo-laptop [+cnt]
+2015-03-09 10:17:23	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-09 10:22:37	════>	uDH (~unDeadHer@216.56.16.98) has joined #gentoo-laptop
+2015-03-09 10:31:28	--	irc: disconnected from server
+2015-03-09 11:57:47	════>	msjche (~msjche@gateway/vpn/privateinternetaccess/msjche) has joined #gentoo-laptop
+2015-03-09 11:57:47	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-09 11:57:47	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-09 11:57:47	--	Channel #gentoo-laptop: 10 nicks (2 ops, 1 voice, 7 normals)
+2015-03-09 11:57:55	--	Mode #gentoo-laptop [+cnt]
+2015-03-09 11:57:56	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-09 12:36:55	<════	uDH (~unDeadHer@216.56.16.98) has quit (Ping timeout: 245 seconds)
+2015-03-09 13:38:23	════>	Necrose99 (~direwolf9@c-68-44-221-49.hsd1.in.comcast.net) has joined #gentoo-laptop
+2015-03-09 13:39:27	<════	Necrose99 (~direwolf9@c-68-44-221-49.hsd1.in.comcast.net) has quit (Changing host)
+2015-03-09 13:39:27	════>	Necrose99 (~direwolf9@unaffiliated/necrose99) has joined #gentoo-laptop
+2015-03-09 14:03:02	════>	uDH (~unDeadHer@216.56.16.98) has joined #gentoo-laptop
+2015-03-09 16:09:23	--	irc: disconnected from server
+2015-03-09 16:09:53	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-03-09 16:09:53	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-09 16:09:53	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-09 16:09:53	--	Channel #gentoo-laptop: 11 nicks (2 ops, 1 voice, 8 normals)
+2015-03-09 16:10:15	--	Mode #gentoo-laptop [+cnt]
+2015-03-09 16:10:15	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-09 19:15:34	--	irc: disconnected from server
+2015-03-09 19:15:58	════>	msjche (~msjche@gateway/vpn/privateinternetaccess/msjche) has joined #gentoo-laptop
+2015-03-09 19:15:58	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-09 19:15:58	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-09 19:15:58	--	Channel #gentoo-laptop: 11 nicks (2 ops, 1 voice, 8 normals)
+2015-03-09 19:16:20	--	Mode #gentoo-laptop [+cnt]
+2015-03-09 19:16:20	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-09 19:35:28	--	irc: disconnected from server
+2015-03-09 19:47:03	════>	msjche (~msjche@gateway/vpn/privateinternetaccess/msjche) has joined #gentoo-laptop
+2015-03-09 19:47:03	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-09 19:47:03	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-09 19:47:03	--	Channel #gentoo-laptop: 10 nicks (2 ops, 1 voice, 7 normals)
+2015-03-09 19:47:10	--	Mode #gentoo-laptop [+cnt]
+2015-03-09 19:47:11	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-10 08:13:30	--	irc: disconnected from server
+2015-03-10 08:13:59	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-03-10 08:14:00	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-10 08:14:00	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-10 08:14:00	--	Channel #gentoo-laptop: 9 nicks (2 ops, 1 voice, 6 normals)
+2015-03-10 08:14:23	--	Mode #gentoo-laptop [+cnt]
+2015-03-10 08:14:23	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-10 08:20:55	════>	uDH (~unDeadHer@216.56.16.98) has joined #gentoo-laptop
+2015-03-10 13:13:51	--	irc: disconnected from server
+2015-03-11 20:10:27	════>	msjche (~msjche@gateway/vpn/privateinternetaccess/msjche) has joined #gentoo-laptop
+2015-03-11 20:10:27	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-11 20:10:27	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-11 20:10:27	--	Channel #gentoo-laptop: 10 nicks (2 ops, 1 voice, 7 normals)
+2015-03-11 20:10:35	--	Mode #gentoo-laptop [+cnt]
+2015-03-11 20:10:35	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-11 20:10:47	--	irc: disconnected from server
+2015-03-11 20:58:10	════>	msjche (~msjche@68-116-62-62.static.mdfd.or.charter.com) has joined #gentoo-laptop
+2015-03-11 20:58:10	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-11 20:58:10	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-11 20:58:10	--	Channel #gentoo-laptop: 10 nicks (2 ops, 1 voice, 7 normals)
+2015-03-11 20:58:18	--	Mode #gentoo-laptop [+cnt]
+2015-03-11 20:58:18	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-11 22:06:05	--	irc: disconnected from server
+2015-03-12 14:50:52	════>	msjche (~msjche@108.61.228.117) has joined #gentoo-laptop
+2015-03-12 14:50:52	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-12 14:50:52	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-12 14:50:52	--	Channel #gentoo-laptop: 10 nicks (2 ops, 1 voice, 7 normals)
+2015-03-12 14:50:52	--	Notice(hobana.freenode.net): [freenode-info] if you're at a conference and other people are having trouble connecting, please mention it to staff: http://freenode.net/faq.shtml#gettinghelp
+2015-03-12 14:51:00	--	Mode #gentoo-laptop [+cnt]
+2015-03-12 14:51:00	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-12 14:59:20	════>	genfoo (~geoffroy@AMontsouris-651-1-15-177.w90-46.abo.wanadoo.fr) has joined #gentoo-laptop
+2015-03-12 16:52:43	--	irc: disconnected from server
+2015-03-12 16:53:12	════>	msjche (~msjche@68-189-54-208.dhcp.rdng.ca.charter.com) has joined #gentoo-laptop
+2015-03-12 16:53:12	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-12 16:53:12	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-12 16:53:12	--	Channel #gentoo-laptop: 11 nicks (2 ops, 1 voice, 8 normals)
+2015-03-12 16:53:34	--	Mode #gentoo-laptop [+cnt]
+2015-03-12 16:53:34	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-12 17:27:01	<════	necrose99_ (~Direwolf9@unaffiliated/necrose99) has quit (Read error: Connection reset by peer)
+2015-03-12 17:49:43	<════	uDH (~unDeadHer@216.56.16.98) has quit (Ping timeout: 252 seconds)
+2015-03-12 23:00:27	--	irc: disconnected from server
+2015-03-12 23:01:00	════>	msjche (~msjche@68-189-54-208.dhcp.rdng.ca.charter.com) has joined #gentoo-laptop
+2015-03-12 23:01:00	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-12 23:01:00	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-12 23:01:00	--	Channel #gentoo-laptop: 12 nicks (2 ops, 1 voice, 9 normals)
+2015-03-12 23:01:20	--	Mode #gentoo-laptop [+cnt]
+2015-03-12 23:01:20	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-13 09:12:17	--	irc: disconnected from server
+2015-03-13 09:12:45	════>	msjche (~msjche@68-189-54-208.dhcp.rdng.ca.charter.com) has joined #gentoo-laptop
+2015-03-13 09:12:45	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-13 09:12:45	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-13 09:12:45	--	Channel #gentoo-laptop: 11 nicks (2 ops, 1 voice, 8 normals)
+2015-03-13 09:13:07	--	Mode #gentoo-laptop [+cnt]
+2015-03-13 09:13:07	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-13 09:46:27	--	irc: disconnected from server
+2015-03-13 09:46:54	════>	msjche (~msjche@68-189-54-208.dhcp.rdng.ca.charter.com) has joined #gentoo-laptop
+2015-03-13 09:46:54	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-13 09:46:54	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-13 09:46:54	--	Channel #gentoo-laptop: 11 nicks (2 ops, 1 voice, 8 normals)
+2015-03-13 09:47:16	--	Mode #gentoo-laptop [+cnt]
+2015-03-13 09:47:16	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-13 10:26:03	════>	uDH (~unDeadHer@216.56.16.98) has joined #gentoo-laptop
+2015-03-13 10:28:35	--	irc: disconnected from server
+2015-03-14 10:27:32	════>	msjche (~msjche@68-189-54-208.dhcp.rdng.ca.charter.com) has joined #gentoo-laptop
+2015-03-14 10:27:32	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-14 10:27:32	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-14 10:27:32	--	Channel #gentoo-laptop: 11 nicks (2 ops, 1 voice, 8 normals)
+2015-03-14 10:27:40	--	Mode #gentoo-laptop [+cnt]
+2015-03-14 10:27:40	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-14 10:28:57	<════	c74d (~c74d3a4eb@2002:4404:712c:0:76de:2bff:fed4:2766) has quit (Remote host closed the connection)
+2015-03-14 10:30:34	--	irc: disconnected from server
+2015-03-14 10:30:54	════>	msjche (~msjche@68-189-54-208.dhcp.rdng.ca.charter.com) has joined #gentoo-laptop
+2015-03-14 10:30:54	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-14 10:30:54	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-14 10:30:54	--	Channel #gentoo-laptop: 11 nicks (2 ops, 1 voice, 8 normals)
+2015-03-14 10:31:02	--	Mode #gentoo-laptop [+cnt]
+2015-03-14 10:31:02	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-14 12:06:35	════>	waltercool (~waltercoo@pc-189-240-239-201.cm.vtr.net) has joined #gentoo-laptop
+2015-03-14 12:06:50	<════	necrose99 (~Direwolf9@unaffiliated/necrose99) has quit (Quit: Leaving)
+2015-03-14 12:07:08	════>	necrose99 (~Direwolf9@unaffiliated/necrose99) has joined #gentoo-laptop
+2015-03-14 12:10:15	<════	necrose99 (~Direwolf9@unaffiliated/necrose99) has quit (Client Quit)
+2015-03-14 13:09:51	<════	c74d (~c74d3a4eb@2002:4404:712c:0:76de:2bff:fed4:2766) has quit (Read error: Connection reset by peer)
+2015-03-14 13:11:41	════>	c74d (~c74d3a4eb@2002:4404:712c:0:76de:2bff:fed4:2766) has joined #gentoo-laptop
+2015-03-14 14:36:48	════>	genfoo (~geoffroy@AMontsouris-651-1-15-177.w90-46.abo.wanadoo.fr) has joined #gentoo-laptop
+2015-03-14 14:57:25	<════	genfoo (~geoffroy@AMontsouris-651-1-15-177.w90-46.abo.wanadoo.fr) has quit (Quit: Leaving)
+2015-03-14 15:29:53	<════	waltercool (~waltercoo@pc-189-240-239-201.cm.vtr.net) has quit (Quit: Konversation terminated!)
+2015-03-14 16:33:15	════>	necrose99 (~Direwolf9@c-68-44-221-49.hsd1.in.comcast.net) has joined #gentoo-laptop
+2015-03-14 16:33:28	<════	necrose99 (~Direwolf9@c-68-44-221-49.hsd1.in.comcast.net) has quit (Changing host)
+2015-03-14 16:33:28	════>	necrose99 (~Direwolf9@unaffiliated/necrose99) has joined #gentoo-laptop
+2015-03-14 17:05:02	<════	theBear (i_am@unaffiliated/thebear) has quit (Ping timeout: 265 seconds)
+2015-03-14 17:05:32	════>	theBear (i_am@unaffiliated/thebear) has joined #gentoo-laptop
+2015-03-14 17:55:51	════>	necrose99_ (~Direwolf9@unaffiliated/necrose99) has joined #gentoo-laptop
+2015-03-14 17:58:24	<════	necrose99 (~Direwolf9@unaffiliated/necrose99) has quit (Ping timeout: 264 seconds)
+2015-03-14 18:24:14	════>	necrose99 (~Direwolf9@unaffiliated/necrose99) has joined #gentoo-laptop
+2015-03-14 18:26:26	════>	Direwolf99 (~Direwolf9@unaffiliated/necrose99) has joined #gentoo-laptop
+2015-03-14 18:26:42	<════	necrose99_ (~Direwolf9@unaffiliated/necrose99) has quit (Ping timeout: 252 seconds)
+2015-03-14 18:28:35	<════	necrose99 (~Direwolf9@unaffiliated/necrose99) has quit (Ping timeout: 245 seconds)
+2015-03-14 18:39:52	--	Direwolf99 is now known as necrose99
+2015-03-14 18:56:01	════>	necrose99_ (~Direwolf9@unaffiliated/necrose99) has joined #gentoo-laptop
+2015-03-14 18:57:20	<════	necrose99 (~Direwolf9@unaffiliated/necrose99) has quit (Ping timeout: 245 seconds)
+2015-03-14 19:24:07	════>	Direwolf99 (~Direwolf9@unaffiliated/necrose99) has joined #gentoo-laptop
+2015-03-14 19:27:03	════>	necrose99 (~Direwolf9@unaffiliated/necrose99) has joined #gentoo-laptop
+2015-03-14 19:27:49	<════	necrose99_ (~Direwolf9@unaffiliated/necrose99) has quit (Ping timeout: 264 seconds)
+2015-03-14 19:28:25	<════	Direwolf99 (~Direwolf9@unaffiliated/necrose99) has quit (Ping timeout: 250 seconds)
+2015-03-14 19:55:12	════>	necrose99_ (~Direwolf9@unaffiliated/necrose99) has joined #gentoo-laptop
+2015-03-14 19:57:20	<════	necrose99 (~Direwolf9@unaffiliated/necrose99) has quit (Ping timeout: 240 seconds)
+2015-03-14 20:00:16	<════	c74d (~c74d3a4eb@2002:4404:712c:0:76de:2bff:fed4:2766) has quit (Read error: Connection reset by peer)
+2015-03-14 21:26:29	════>	Direwolf99 (~Direwolf9@unaffiliated/necrose99) has joined #gentoo-laptop
+2015-03-14 21:27:30	<════	necrose99_ (~Direwolf9@unaffiliated/necrose99) has quit (Ping timeout: 256 seconds)
+2015-03-14 22:25:50	════>	necrose99 (~Direwolf9@unaffiliated/necrose99) has joined #gentoo-laptop
+2015-03-14 22:28:33	<════	Direwolf99 (~Direwolf9@unaffiliated/necrose99) has quit (Ping timeout: 252 seconds)
+2015-03-14 22:56:26	════>	necrose99_ (~Direwolf9@unaffiliated/necrose99) has joined #gentoo-laptop
+2015-03-14 22:59:00	<════	necrose99 (~Direwolf9@unaffiliated/necrose99) has quit (Ping timeout: 264 seconds)
+2015-03-15 07:44:01	--	irc: disconnected from server
+2015-03-16 17:44:15	════>	msjche (~msjche@108.61.228.45) has joined #gentoo-laptop
+2015-03-16 17:44:15	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-16 17:44:15	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-16 17:44:15	--	Channel #gentoo-laptop: 11 nicks (2 ops, 1 voice, 8 normals)
+2015-03-16 17:44:15	--	Notice(verne.freenode.net): [freenode-info] channel flooding and no channel staff around to help? Please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+2015-03-16 17:44:23	--	Mode #gentoo-laptop [+cnt]
+2015-03-16 17:44:23	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-16 21:36:08	--	irc: disconnected from server
+2015-03-17 15:24:35	════>	msjche (~msjche@gateway/vpn/privateinternetaccess/msjche) has joined #gentoo-laptop
+2015-03-17 15:24:35	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-17 15:24:35	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-17 15:24:35	--	Channel #gentoo-laptop: 11 nicks (2 ops, 1 voice, 8 normals)
+2015-03-17 15:24:43	--	Mode #gentoo-laptop [+cnt]
+2015-03-17 15:24:44	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-17 18:06:25	════>	waltercool (~waltercoo@pc-189-240-239-201.cm.vtr.net) has joined #gentoo-laptop
+2015-03-17 21:21:37	════>	msjche (~msjche@gateway/vpn/privateinternetaccess/msjche) has joined #gentoo-laptop
+2015-03-17 21:21:37	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-17 21:21:37	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-17 21:21:37	--	Channel #gentoo-laptop: 12 nicks (2 ops, 1 voice, 9 normals)
+2015-03-17 21:21:49	--	Mode #gentoo-laptop [+cnt]
+2015-03-17 21:21:49	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-18 16:55:32	--	irc: disconnected from server
+2015-03-18 16:55:53	════>	msjche (~msjche@108.61.228.49) has joined #gentoo-laptop
+2015-03-18 16:55:53	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-18 16:55:53	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-18 16:55:53	--	Channel #gentoo-laptop: 11 nicks (2 ops, 1 voice, 8 normals)
+2015-03-18 16:56:17	--	Mode #gentoo-laptop [+cnt]
+2015-03-18 16:56:17	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-18 17:42:44	--	irc: disconnected from server
+2015-03-18 17:43:15	════>	msjche (~msjche@50.126.88.58) has joined #gentoo-laptop
+2015-03-18 17:43:15	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-18 17:43:15	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-18 17:43:15	--	Channel #gentoo-laptop: 10 nicks (2 ops, 1 voice, 7 normals)
+2015-03-18 17:43:37	--	Mode #gentoo-laptop [+cnt]
+2015-03-18 17:43:37	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-18 18:08:52	--	irc: disconnected from server
+2015-03-18 18:09:21	════>	msjche (~msjche@50.126.88.58) has joined #gentoo-laptop
+2015-03-18 18:09:21	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-18 18:09:21	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-18 18:09:21	--	Channel #gentoo-laptop: 10 nicks (2 ops, 1 voice, 7 normals)
+2015-03-18 18:09:37	--	irc: disconnected from server
+2015-03-18 20:54:48	════>	msjche (~msjche@50.126.88.58) has joined #gentoo-laptop
+2015-03-18 20:54:48	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-18 20:54:48	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-18 20:54:48	--	Channel #gentoo-laptop: 10 nicks (2 ops, 1 voice, 7 normals)
+2015-03-18 20:54:48	--	Notice(hitchcock.freenode.net): [freenode-info] channel trolls and no channel staff around to help? please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+2015-03-18 20:54:57	--	Mode #gentoo-laptop [+cnt]
+2015-03-18 20:54:57	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-18 20:57:22	════>	c74d (~c74d3a4eb@2002:4404:712c:0:76de:2bff:fed4:2766) has joined #gentoo-laptop
+2015-03-18 21:13:32	════>	necrose99_ (~Direwolf9@unaffiliated/necrose99) has joined #gentoo-laptop
+2015-03-18 21:15:13	════>	Direwolf99 (~Direwolf9@c-68-44-235-11.hsd1.in.comcast.net) has joined #gentoo-laptop
+2015-03-18 21:15:13	<════	Direwolf99 (~Direwolf9@c-68-44-235-11.hsd1.in.comcast.net) has quit (Changing host)
+2015-03-18 21:15:13	════>	Direwolf99 (~Direwolf9@unaffiliated/necrose99) has joined #gentoo-laptop
+2015-03-18 21:16:05	<════	necrose99 (~Direwolf9@unaffiliated/necrose99) has quit (Ping timeout: 245 seconds)
+2015-03-18 21:18:16	<════	necrose99_ (~Direwolf9@unaffiliated/necrose99) has quit (Ping timeout: 252 seconds)
+2015-03-18 23:10:02	--	irc: disconnected from server
+2015-03-18 23:13:35	════>	msjche (~msjche@50.126.88.58) has joined #gentoo-laptop
+2015-03-18 23:13:35	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-18 23:13:35	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-18 23:13:35	--	Channel #gentoo-laptop: 11 nicks (2 ops, 1 voice, 8 normals)
+2015-03-18 23:13:57	--	Mode #gentoo-laptop [+cnt]
+2015-03-18 23:13:57	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-20 09:55:40	════>	msjche (~msjche@108.61.228.113) has joined #gentoo-laptop
+2015-03-20 09:55:40	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-20 09:55:40	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-20 09:55:40	--	Channel #gentoo-laptop: 11 nicks (2 ops, 1 voice, 8 normals)
+2015-03-20 09:55:48	--	Mode #gentoo-laptop [+cnt]
+2015-03-20 09:55:48	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-20 12:07:22	--	irc: disconnected from server
+2015-03-20 17:27:08	════>	msjche (~msjche@108.61.228.140) has joined #gentoo-laptop
+2015-03-20 17:27:08	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-20 17:27:08	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-20 17:27:08	--	Channel #gentoo-laptop: 11 nicks (2 ops, 1 voice, 8 normals)
+2015-03-20 17:27:15	--	Mode #gentoo-laptop [+cnt]
+2015-03-20 17:27:16	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-20 17:49:01	--	irc: disconnected from server
+2015-03-20 17:49:32	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-03-20 17:49:33	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-20 17:49:33	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-20 17:49:33	--	Channel #gentoo-laptop: 11 nicks (2 ops, 1 voice, 8 normals)
+2015-03-20 17:49:54	--	Mode #gentoo-laptop [+cnt]
+2015-03-20 17:49:55	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-20 18:33:10	--	irc: disconnected from server
+2015-03-20 18:33:38	════>	msjche (~msjche@108.61.228.29) has joined #gentoo-laptop
+2015-03-20 18:33:39	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-20 18:33:39	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-20 18:33:39	--	Channel #gentoo-laptop: 11 nicks (2 ops, 1 voice, 8 normals)
+2015-03-20 18:34:00	--	Mode #gentoo-laptop [+cnt]
+2015-03-20 18:34:01	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-20 20:35:49	════>	tepidjuice (~tofa@ppp121-44-231-201.lns20.syd7.internode.on.net) has joined #gentoo-laptop
+2015-03-21 04:05:22	<════	dappiu (~rottame@host178-12-static.46-85-b.business.telecomitalia.it) has quit (Ping timeout: 244 seconds)
+2015-03-21 04:36:16	════>	dappiu (~rottame@host178-12-static.46-85-b.business.telecomitalia.it) has joined #gentoo-laptop
+2015-03-21 04:45:36	<════	dappiu (~rottame@host178-12-static.46-85-b.business.telecomitalia.it) has quit (Ping timeout: 252 seconds)
+2015-03-21 04:46:59	════>	dappiu (~rottame@host178-12-static.46-85-b.business.telecomitalia.it) has joined #gentoo-laptop
+2015-03-21 08:36:28	<════	tepidjuice (~tofa@ppp121-44-231-201.lns20.syd7.internode.on.net) has quit (Ping timeout: 265 seconds)
+2015-03-21 09:54:20	════>	waltercool (~waltercoo@pc-166-90-156-186.cm.vtr.net) has joined #gentoo-laptop
+2015-03-21 10:41:48	════>	necrose99 (~Direwolf9@c-68-44-235-11.hsd1.in.comcast.net) has joined #gentoo-laptop
+2015-03-21 10:41:48	<════	necrose99 (~Direwolf9@c-68-44-235-11.hsd1.in.comcast.net) has quit (Changing host)
+2015-03-21 10:41:48	════>	necrose99 (~Direwolf9@unaffiliated/necrose99) has joined #gentoo-laptop
+2015-03-21 10:46:03	<════	necrose99 (~Direwolf9@unaffiliated/necrose99) has quit (Ping timeout: 246 seconds)
+2015-03-21 10:48:41	════>	necrose99 (~Direwolf9@unaffiliated/necrose99) has joined #gentoo-laptop
+2015-03-21 11:10:48	<════	uranus (~uranus@ip72-192-133-197.sd.sd.cox.net) has quit (Quit: Leaving)
+2015-03-21 12:09:22	<════	necrose99 (~Direwolf9@unaffiliated/necrose99) has quit (Ping timeout: 264 seconds)
+2015-03-21 16:35:42	<════	waltercool (~waltercoo@pc-166-90-156-186.cm.vtr.net) has quit (Ping timeout: 264 seconds)
+2015-03-21 16:46:40	════>	waltercool (~waltercoo@pc-166-90-156-186.cm.vtr.net) has joined #gentoo-laptop
+2015-03-21 16:59:26	<════	waltercool (~waltercoo@pc-166-90-156-186.cm.vtr.net) has quit (Quit: Konversation terminated!)
+2015-03-21 16:59:40	════>	waltercool (~waltercoo@pc-166-90-156-186.cm.vtr.net) has joined #gentoo-laptop
+2015-03-21 19:12:03	════>	tepidjuice (~tofa@ppp121-44-231-201.lns20.syd7.internode.on.net) has joined #gentoo-laptop
+2015-03-21 20:04:15	--	irc: disconnected from server
+2015-03-21 20:19:39	════>	msjche (~msjche@108.61.228.148) has joined #gentoo-laptop
+2015-03-21 20:19:39	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-21 20:19:39	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-21 20:19:39	--	Channel #gentoo-laptop: 12 nicks (2 ops, 1 voice, 9 normals)
+2015-03-21 20:20:03	--	Mode #gentoo-laptop [+cnt]
+2015-03-21 20:20:03	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-21 20:30:18	════>	uranus (~uranus@ip72-192-133-197.sd.sd.cox.net) has joined #gentoo-laptop
+2015-03-22 13:07:14	--	irc: disconnected from server
+2015-03-22 13:07:39	════>	msjche (~msjche@gateway/vpn/privateinternetaccess/msjche) has joined #gentoo-laptop
+2015-03-22 13:07:39	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-22 13:07:39	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-22 13:07:39	--	Channel #gentoo-laptop: 11 nicks (1 op, 1 voice, 9 normals)
+2015-03-22 13:08:03	--	Mode #gentoo-laptop [+cnt]
+2015-03-22 13:08:03	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-22 14:31:12	--	irc: disconnected from server
+2015-03-22 20:29:52	════>	msjche (~msjche@108.61.228.75) has joined #gentoo-laptop
+2015-03-22 20:29:52	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-22 20:29:52	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-22 20:29:52	--	Channel #gentoo-laptop: 12 nicks (2 ops, 1 voice, 9 normals)
+2015-03-22 20:30:14	--	Mode #gentoo-laptop [+cnt]
+2015-03-22 20:30:14	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-23 02:18:14	════>	tepidjuice (~tofa@ppp121-44-231-201.lns20.syd7.internode.on.net) has joined #gentoo-laptop
+2015-03-23 03:14:50	<════	The_Eccentric (~The_Eccen@pentoo/user/TheEccentric) has quit (Ping timeout: 252 seconds)
+2015-03-23 03:31:52	<════	necrose99 (~Direwolf9@unaffiliated/necrose99) has quit (Ping timeout: 245 seconds)
+2015-03-23 04:28:33	════>	necrose99 (~Direwolf9@c-68-44-235-11.hsd1.in.comcast.net) has joined #gentoo-laptop
+2015-03-23 04:28:34	<════	necrose99 (~Direwolf9@c-68-44-235-11.hsd1.in.comcast.net) has quit (Changing host)
+2015-03-23 04:28:34	════>	necrose99 (~Direwolf9@unaffiliated/necrose99) has joined #gentoo-laptop
+2015-03-23 04:59:11	════>	The_Eccentric (~The_Eccen@pentoo/user/TheEccentric) has joined #gentoo-laptop
+2015-03-23 18:15:08	--	irc: disconnected from server
+2015-03-23 18:15:33	════>	msjche (~msjche@gateway/vpn/privateinternetaccess/msjche) has joined #gentoo-laptop
+2015-03-23 18:15:33	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-23 18:15:33	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-23 18:15:33	--	Channel #gentoo-laptop: 13 nicks (2 ops, 1 voice, 10 normals)
+2015-03-23 18:15:55	--	Mode #gentoo-laptop [+cnt]
+2015-03-23 18:15:55	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-23 18:50:03	--	irc: disconnected from server
+2015-03-25 21:57:33	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-03-25 21:57:33	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-25 21:57:33	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-25 21:57:33	--	Channel #gentoo-laptop: 13 nicks (2 ops, 1 voice, 10 normals)
+2015-03-25 21:57:40	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-25 21:57:54	════>	waltercool (~waltercoo@pc-166-90-156-186.cm.vtr.net) has joined #gentoo-laptop
+2015-03-25 22:01:08	<════	waltercool (~waltercoo@pc-166-90-156-186.cm.vtr.net) has quit (Client Quit)
+2015-03-25 22:02:33	════>	waltercool (~waltercoo@pc-166-90-156-186.cm.vtr.net) has joined #gentoo-laptop
+2015-03-25 22:08:34	<════	waltercool (~waltercoo@pc-166-90-156-186.cm.vtr.net) has quit (Quit: Konversation terminated!)
+2015-03-25 22:11:08	════>	waltercool (~waltercoo@pc-166-90-156-186.cm.vtr.net) has joined #gentoo-laptop
+2015-03-26 10:22:21	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-03-26 10:22:21	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-26 10:22:21	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-26 10:22:21	--	Channel #gentoo-laptop: 13 nicks (2 ops, 1 voice, 10 normals)
+2015-03-26 10:22:29	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-26 10:28:57	════>	necrose99 (~Direwolf3@unaffiliated/necrose99) has joined #gentoo-laptop
+2015-03-26 10:47:56	<════	kiuma (~kiuma@static-217-133-17-91.clienti.tiscali.it) has quit (Quit: Leaving)
+2015-03-26 11:42:46	--	irc: disconnected from server
+2015-03-26 11:43:15	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-03-26 11:43:15	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-26 11:43:15	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-26 11:43:15	--	Channel #gentoo-laptop: 13 nicks (2 ops, 1 voice, 10 normals)
+2015-03-26 11:43:37	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-26 12:02:27	════>	waltercool_ (~waltercoo@186.103.176.74) has joined #gentoo-laptop
+2015-03-26 12:02:33	<════	waltercool (~waltercoo@186.103.176.74) has quit (Quit: Konversation terminated!)
+2015-03-26 12:03:54	--	waltercool_ is now known as waltercool
+2015-03-26 12:21:38	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-03-26 12:21:38	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-26 12:21:38	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-26 12:21:38	--	Channel #gentoo-laptop: 13 nicks (2 ops, 1 voice, 10 normals)
+2015-03-26 12:21:45	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-26 13:11:08	<════	necrose99 (~Direwolf3@unaffiliated/necrose99) has quit (Remote host closed the connection)
+2015-03-26 14:54:42	<════	waltercool (~waltercoo@186.103.176.74) has quit (Ping timeout: 252 seconds)
+2015-03-26 16:36:55	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-03-26 16:36:55	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-26 16:36:55	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-26 16:36:55	--	Channel #gentoo-laptop: 12 nicks (2 ops, 1 voice, 9 normals)
+2015-03-26 16:37:04	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-26 17:30:36	<════	carc (~carc@unaffiliated/carc) has quit (Ping timeout: 256 seconds)
+2015-03-26 17:32:05	════>	carc (~carc@unaffiliated/carc) has joined #gentoo-laptop
+2015-03-26 18:25:20	════>	necrose99 (~Direwolf9@unaffiliated/necrose99) has joined #gentoo-laptop
+2015-03-26 18:31:47	════>	necrose99_ (~Direwolf9@c-68-44-235-11.hsd1.in.comcast.net) has joined #gentoo-laptop
+2015-03-26 18:31:47	<════	necrose99_ (~Direwolf9@c-68-44-235-11.hsd1.in.comcast.net) has quit (Changing host)
+2015-03-26 18:31:47	════>	necrose99_ (~Direwolf9@unaffiliated/necrose99) has joined #gentoo-laptop
+2015-03-26 18:32:19	════>	Direwolf99 (~Direwolf9@c-68-44-235-11.hsd1.in.comcast.net) has joined #gentoo-laptop
+2015-03-26 18:32:19	<════	Direwolf99 (~Direwolf9@c-68-44-235-11.hsd1.in.comcast.net) has quit (Changing host)
+2015-03-26 18:32:19	════>	Direwolf99 (~Direwolf9@unaffiliated/necrose99) has joined #gentoo-laptop
+2015-03-26 18:35:37	<════	necrose99 (~Direwolf9@unaffiliated/necrose99) has quit (Ping timeout: 250 seconds)
+2015-03-26 18:36:25	<════	necrose99_ (~Direwolf9@unaffiliated/necrose99) has quit (Ping timeout: 255 seconds)
+2015-03-26 18:39:30	<════	carc (~carc@unaffiliated/carc) has quit (Ping timeout: 246 seconds)
+2015-03-26 18:45:11	════>	carc (~carc@unaffiliated/carc) has joined #gentoo-laptop
+2015-03-26 18:51:27	<════	waltercool (~waltercoo@186.103.176.74) has quit (Quit: Konversation terminated!)
+2015-03-26 19:02:54	--	irc: disconnected from server
+2015-03-26 19:03:36	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-03-26 19:03:36	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-26 19:03:36	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-26 19:03:36	--	Channel #gentoo-laptop: 13 nicks (2 ops, 1 voice, 10 normals)
+2015-03-26 19:04:00	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-27 08:32:11	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-03-27 08:32:11	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-27 08:32:11	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-27 08:32:11	--	Channel #gentoo-laptop: 13 nicks (2 ops, 1 voice, 10 normals)
+2015-03-27 08:32:19	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-27 08:32:49	════>	waltercool (~waltercoo@186.103.176.74) has joined #gentoo-laptop
+2015-03-27 08:33:51	<════	Direwolf99 (~Direwolf9@unaffiliated/necrose99) has quit (Ping timeout: 255 seconds)
+2015-03-27 09:00:26	<════	waltercool (~waltercoo@186.103.176.74) has quit (Ping timeout: 264 seconds)
+2015-03-27 10:44:10	════>	waltercool (~waltercoo@186.103.176.74) has joined #gentoo-laptop
+2015-03-27 10:45:29	<════	necrose99_ (~Direwolf9@unaffiliated/necrose99) has quit (Ping timeout: 252 seconds)
+2015-03-27 12:20:46	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-03-27 12:20:46	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-27 12:20:46	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-27 12:20:46	--	Channel #gentoo-laptop: 12 nicks (2 ops, 1 voice, 9 normals)
+2015-03-27 12:20:54	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-27 12:51:08	════>	waltercool_ (~waltercoo@mail.mobileaware.com) has joined #gentoo-laptop
+2015-03-27 12:51:30	<════	waltercool (~waltercoo@186.103.176.74) has quit (Ping timeout: 272 seconds)
+2015-03-27 12:57:17	<════	c74d (~c74d3a4eb@2002:4404:712c:0:76de:2bff:fed4:2766) has quit (Ping timeout: 252 seconds)
+2015-03-27 13:01:31	════>	waltercool__ (~waltercoo@186.103.176.74) has joined #gentoo-laptop
+2015-03-27 13:01:37	<════	waltercool_ (~waltercoo@mail.mobileaware.com) has quit (Ping timeout: 255 seconds)
+2015-03-27 13:24:08	════>	c74d (~c74d3a4eb@2002:4404:712c:0:76de:2bff:fed4:2766) has joined #gentoo-laptop
+2015-03-27 13:24:20	<════	c74d (~c74d3a4eb@2002:4404:712c:0:76de:2bff:fed4:2766) has quit (Remote host closed the connection)
+2015-03-27 13:26:17	════>	c74d (~c74d3a4eb@2002:4404:712c:0:76de:2bff:fed4:2766) has joined #gentoo-laptop
+2015-03-27 13:44:06	<════	c74d (~c74d3a4eb@2002:4404:712c:0:76de:2bff:fed4:2766) has quit (Quit: c74d)
+2015-03-27 16:45:06	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-03-27 16:45:06	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-27 16:45:06	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-27 16:45:06	--	Channel #gentoo-laptop: 11 nicks (2 ops, 1 voice, 8 normals)
+2015-03-27 16:45:15	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-27 18:16:16	════>	tepidjuice (~tofa@ppp121-44-159-249.lns20.syd7.internode.on.net) has joined #gentoo-laptop
+2015-03-27 18:23:36	<════	waltercool__ (~waltercoo@186.103.176.74) has quit (Ping timeout: 252 seconds)
+2015-03-27 19:03:01	<════	tepidjuice (~tofa@ppp121-44-159-249.lns20.syd7.internode.on.net) has quit (Ping timeout: 256 seconds)
+2015-03-27 19:19:20	════>	waltercool (~waltercoo@pc-166-90-156-186.cm.vtr.net) has joined #gentoo-laptop
+2015-03-27 19:22:09	════>	tepidjuice (~tofa@ppp121-44-159-249.lns20.syd7.internode.on.net) has joined #gentoo-laptop
+2015-03-28 00:08:10	<════	waltercool (~waltercoo@pc-166-90-156-186.cm.vtr.net) has quit (Quit: Konversation terminated!)
+2015-03-28 01:43:05	<════	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has quit (Ping timeout: 256 seconds)
+2015-03-28 01:43:05	--	irc: disconnected from server
+2015-03-28 20:16:49	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-03-28 20:16:49	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-28 20:16:49	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-28 20:16:49	--	Channel #gentoo-laptop: 12 nicks (2 ops, 1 voice, 9 normals)
+2015-03-28 20:16:57	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-28 20:18:48	════>	c74d (~c74d3a4eb@2002:4404:712c:0:76de:2bff:fed4:2766) has joined #gentoo-laptop
+2015-03-28 20:25:06	<════	waltercool (~waltercoo@pc-166-90-156-186.cm.vtr.net) has quit (Quit: Konversation terminated!)
+2015-03-28 21:22:22	════>	waltercool (~waltercoo@pc-166-90-156-186.cm.vtr.net) has joined #gentoo-laptop
+2015-03-28 21:29:23	<════	waltercool (~waltercoo@pc-166-90-156-186.cm.vtr.net) has quit (Quit: Konversation terminated!)
+2015-03-28 23:31:22	<════	c74d (~c74d3a4eb@2002:4404:712c:0:76de:2bff:fed4:2766) has quit (Ping timeout: 256 seconds)
+2015-03-28 23:35:37	════>	c74d (~c74d3a4eb@2002:4404:712c:0:76de:2bff:fed4:2766) has joined #gentoo-laptop
+2015-03-29 00:18:56	<════	carc (~carc@unaffiliated/carc) has quit (Quit: QUIT)
+2015-03-29 00:19:53	════>	carc (~carc@unaffiliated/carc) has joined #gentoo-laptop
+2015-03-29 00:34:41	<════	uranus (~uranus@ip72-192-133-197.sd.sd.cox.net) has quit (Quit: Leaving)
+2015-03-29 00:40:23	════>	uranus (~uranus@ip72-192-133-197.sd.sd.cox.net) has joined #gentoo-laptop
+2015-03-29 00:48:09	════>	tepidjuice (~tofa@ppp121-44-159-249.lns20.syd7.internode.on.net) has joined #gentoo-laptop
+2015-03-29 06:50:05	--	irc: disconnected from server
+2015-03-29 06:50:36	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-03-29 06:50:36	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-29 06:50:36	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-29 06:50:36	--	Channel #gentoo-laptop: 13 nicks (2 ops, 1 voice, 10 normals)
+2015-03-29 06:50:36	--	Notice(hobana.freenode.net): [freenode-info] channel flooding and no channel staff around to help? Please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+2015-03-29 06:51:00	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-03-29 08:59:49	<════	tepidjuice (~tofa@ppp121-44-159-249.lns20.syd7.internode.on.net) has quit (Ping timeout: 264 seconds)
+2015-03-29 13:02:06	════>	waltercool (~waltercoo@pc-166-90-156-186.cm.vtr.net) has joined #gentoo-laptop
+2015-03-29 13:18:23	════>	necrose99_ (~Direwolf9@c-68-44-235-11.hsd1.in.comcast.net) has joined #gentoo-laptop
+2015-03-29 13:18:37	<════	necrose99_ (~Direwolf9@c-68-44-235-11.hsd1.in.comcast.net) has quit (Changing host)
+2015-03-29 13:18:37	════>	necrose99_ (~Direwolf9@unaffiliated/necrose99) has joined #gentoo-laptop
+2015-03-29 13:21:16	<════	necrose99 (~Direwolf9@unaffiliated/necrose99) has quit (Ping timeout: 252 seconds)
+2015-03-29 13:35:05	<════	waltercool (~waltercoo@pc-166-90-156-186.cm.vtr.net) has quit (Quit: Konversation terminated!)
+2015-03-29 14:45:09	════>	tepidjuice (~tofa@ppp121-44-159-249.lns20.syd7.internode.on.net) has joined #gentoo-laptop
+2015-03-29 14:58:45	════>	Direwolf99 (~Direwolf9@unaffiliated/necrose99) has joined #gentoo-laptop
+2015-03-29 15:02:13	<════	necrose99_ (~Direwolf9@unaffiliated/necrose99) has quit (Ping timeout: 244 seconds)
+2015-03-29 15:23:45	════>	don_quixote (~don_quixo@h238n12-vrr-a31.ias.bredband.telia.com) has joined #gentoo-laptop
+2015-03-29 16:11:58	<════	tepidjuice (~tofa@ppp121-44-159-249.lns20.syd7.internode.on.net) has quit (Ping timeout: 244 seconds)
+2015-03-29 16:19:08	════>	tepidjuice (~tofa@ppp121-44-215-222.lns20.syd7.internode.on.net) has joined #gentoo-laptop
+2015-03-29 16:58:44	════>	tofa_ (~tofa@ppp121-44-195-252.lns20.syd7.internode.on.net) has joined #gentoo-laptop
+2015-03-29 16:58:54	<════	tepidjuice (~tofa@ppp121-44-215-222.lns20.syd7.internode.on.net) has quit (Ping timeout: 272 seconds)
+2015-03-29 18:51:35	--	c74d is now known as Guest7872
+2015-03-29 18:51:37	<════	Guest7872 (~c74d3a4eb@2002:4404:712c:0:76de:2bff:fed4:2766) has quit (Read error: Connection reset by peer)
+2015-03-29 18:52:33	════>	c74d (~c74d3a4eb@2002:4404:712c:0:76de:2bff:fed4:2766) has joined #gentoo-laptop
+2015-03-29 20:02:14	<════	c74d (~c74d3a4eb@2002:4404:712c:0:76de:2bff:fed4:2766) has quit (Read error: Connection reset by peer)
+2015-03-29 20:03:49	════>	c74d (~c74d3a4eb@2002:4404:712c:0:76de:2bff:fed4:2766) has joined #gentoo-laptop
+2015-03-31 20:37:01	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-03-31 20:37:01	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-03-31 20:37:01	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-03-31 20:37:01	--	Channel #gentoo-laptop: 15 nicks (2 ops, 1 voice, 12 normals)
+2015-03-31 20:37:08	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-04-05 20:49:08	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-04-05 20:49:08	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-04-05 20:49:08	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-04-05 20:49:08	--	Channel #gentoo-laptop: 14 nicks (2 ops, 1 voice, 11 normals)
+2015-04-05 20:49:22	--	Channel created on Sat, 25 Nov 2006 22:42:43
+2015-04-08 09:21:39	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #gentoo-laptop
+2015-04-08 09:21:39	--	Topic for #gentoo-laptop is "If you're going to paste more than 3 lines, use http://pastebin.ca/ | If it's mobile, compile it."
+2015-04-08 09:21:39	--	Topic set by steev (uid1383@gentoo/developer/steev) on Wed, 26 Dec 2012 15:20:03
+2015-04-08 09:21:39	--	Channel #gentoo-laptop: 12 nicks (2 ops, 1 voice, 9 normals)

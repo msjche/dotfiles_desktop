@@ -1,0 +1,456 @@
+2014-02-12 08:03:46	-->	msjche1 (~msjche@99-16-101-1.lightspeed.snrsca.sbcglobal.net) has joined #ubuntu-unregged
+2014-02-12 08:03:46	--	Topic for #ubuntu-unregged is "#ubuntu currently blocks users connected from freenode webchat. If you need help with Ubuntu, please connect from a desktop client. Some examples: xchat, pidgin, konversation. RotMG users: see http://community.kabam.com/forums/announcement.php?f=1089"
+2014-02-12 08:03:46	--	Topic set by rww (robert@unaffiliated/rww) on Thu, 06 Feb 2014 08:21:49
+2014-02-12 08:03:46	--	Channel #ubuntu-unregged: 33 nicks (17 ops, 0 voices, 16 normals)
+2014-02-12 08:03:46	--	PvNotice(ChanServ): Please register your nickname to join #ubuntu - we are experiencing technical difficulties. Instructions at http://freenode.net/faq.shtml#nicksetup
+2014-02-12 08:03:46	-->	AaronCampbell (~aaroncamp@98.188.127.35) has joined #ubuntu-unregged
+2014-02-12 08:03:51	--	Mode #ubuntu-unregged [+Fmnstzf #ubuntu]
+2014-02-12 08:03:51	--	Channel created on Mon, 26 Jan 2009 21:27:44
+2014-02-12 08:06:33	<--	AaronCampbell (~aaroncamp@98.188.127.35) has left #ubuntu-unregged
+2014-02-12 08:08:23	-->	c-c-m (~quassel@210.Red-88-8-117.dynamicIP.rima-tde.net) has joined #ubuntu-unregged
+2014-02-12 08:53:24	<--	c-c-m (~quassel@210.Red-88-8-117.dynamicIP.rima-tde.net) has quit (Quit: No Ping reply in 180 seconds.)
+2014-02-12 08:53:38	-->	c-c-m (~quassel@210.Red-88-8-117.dynamicIP.rima-tde.net) has joined #ubuntu-unregged
+2014-02-12 09:36:58	-->	Stinky-Feet (~stinkyfee@h-137-216.a213.priv.bahnhof.se) has joined #ubuntu-unregged
+2014-02-12 09:44:39	<--	Walzmyn (~quassel@h86.143.17.98.dynamic.ip.windstream.net) has quit (Read error: Connection reset by peer)
+2014-02-12 10:25:16	-->	phunyguy_ (~plorpian@unaffiliated/phunyguy) has joined #ubuntu-unregged
+2014-02-12 10:25:16	--	Mode #ubuntu-unregged [+o phunyguy_] by ChanServ
+2014-02-12 10:25:41	<--	phunyguy (~plorpian@unaffiliated/phunyguy) has quit (Ping timeout: 245 seconds)
+2014-02-12 10:52:11	<--	LinuxGuy91 (~LinuxGuy9@cpc5-mapp12-2-0-cust480.12-4.cable.virginm.net) has quit (Read error: Connection reset by peer)
+2014-02-12 11:02:08	<--	Programmer_ (~khaotic@unaffiliated/khaotic) has left #ubuntu-unregged
+2014-02-12 11:21:56	--	phunyguy_ is now known as phunyguy
+2014-02-12 11:34:54	-->	k1l (~k1l@ubuntu/member/k1l) has joined #ubuntu-unregged
+2014-02-12 11:35:08	--	Mode #ubuntu-unregged [+o k1l] by ChanServ
+2014-02-12 11:35:53	-->	Walzmyn (~quassel@h86.143.17.98.dynamic.ip.windstream.net) has joined #ubuntu-unregged
+2014-02-12 11:38:30	<--	k1l_ (~k1l@ubuntu/member/k1l) has quit (Ping timeout: 250 seconds)
+2014-02-12 11:44:34	<--	Walzmyn (~quassel@h86.143.17.98.dynamic.ip.windstream.net) has quit (Read error: Connection reset by peer)
+2014-02-12 11:56:08	-->	Walzmyn (~quassel@h86.143.17.98.dynamic.ip.windstream.net) has joined #ubuntu-unregged
+2014-02-12 12:02:29	<--	Walzmyn (~quassel@h86.143.17.98.dynamic.ip.windstream.net) has quit (Read error: Connection reset by peer)
+2014-02-12 12:04:12	-->	Walzmyn (~quassel@h86.143.17.98.dynamic.ip.windstream.net) has joined #ubuntu-unregged
+2014-02-12 12:17:08	-->	phunyguy_ (~plorpian@unaffiliated/phunyguy) has joined #ubuntu-unregged
+2014-02-12 12:17:08	--	Mode #ubuntu-unregged [+o phunyguy_] by ChanServ
+2014-02-12 12:18:15	<--	phunyguy (~plorpian@unaffiliated/phunyguy) has quit (Ping timeout: 272 seconds)
+2014-02-12 12:18:22	--	phunyguy_ is now known as phunyguy
+2014-02-12 13:07:19	<--	c-c-m (~quassel@210.Red-88-8-117.dynamicIP.rima-tde.net) has quit (Remote host closed the connection)
+2014-02-12 13:09:50	<--	Walzmyn (~quassel@h86.143.17.98.dynamic.ip.windstream.net) has quit (Remote host closed the connection)
+2014-02-12 13:10:28	<--	tankdriver_ (~quassel@d91-128-99-65.cust.tele2.at) has quit (Read error: Operation timed out)
+2014-02-12 13:34:34	-->	Walzmyn (~quassel@h86.143.17.98.dynamic.ip.windstream.net) has joined #ubuntu-unregged
+2014-02-12 14:11:20	-->	azend (~quassel@192-0-154-49.cpe.teksavvy.com) has joined #ubuntu-unregged
+2014-02-12 14:11:20	<--	azend (~quassel@192-0-154-49.cpe.teksavvy.com) has quit (Changing host)
+2014-02-12 14:11:20	-->	azend (~quassel@unaffiliated/azend) has joined #ubuntu-unregged
+2014-02-12 14:14:32	<--	Walzmyn (~quassel@h86.143.17.98.dynamic.ip.windstream.net) has quit (Remote host closed the connection)
+2014-02-12 14:15:54	-->	Walzmyn (~quassel@h86.143.17.98.dynamic.ip.windstream.net) has joined #ubuntu-unregged
+2014-02-12 14:27:29	-->	phunyguy_ (~plorpian@unaffiliated/phunyguy) has joined #ubuntu-unregged
+2014-02-12 14:27:29	--	Mode #ubuntu-unregged [+o phunyguy_] by ChanServ
+2014-02-12 14:27:54	<--	phunyguy (~plorpian@unaffiliated/phunyguy) has quit (Ping timeout: 260 seconds)
+2014-02-12 14:45:35	<--	genii (~quassel@ubuntu/member/genii) has quit (Read error: Connection reset by peer)
+2014-02-12 16:02:39	--	phunyguy_ is now known as phunyguy
+2014-02-12 16:35:32	-->	ShooterMG (~shootermg@c-24-21-207-128.hsd1.or.comcast.net) has joined #ubuntu-unregged
+2014-02-12 16:55:01	<--	maitake (~maitake@unaffiliated/maitake) has left #ubuntu-unregged
+2014-02-12 17:16:07	<--	James0r (~james@113.189.8.237) has quit (Quit: Leaving)
+2014-02-12 17:16:23	-->	James0r (~james@113.189.8.237) has joined #ubuntu-unregged
+2014-02-12 17:17:12	<--	James0r (~james@113.189.8.237) has left #ubuntu-unregged
+2014-02-12 18:22:03	--	irc: disconnected from server
+2014-02-12 18:22:35	-->	msjche1 (~msjche@99-16-101-1.lightspeed.snrsca.sbcglobal.net) has joined #ubuntu-unregged
+2014-02-12 18:22:35	--	Topic for #ubuntu-unregged is "#ubuntu currently blocks users connected from freenode webchat. If you need help with Ubuntu, please connect from a desktop client. Some examples: xchat, pidgin, konversation. RotMG users: see http://community.kabam.com/forums/announcement.php?f=1089"
+2014-02-12 18:22:35	--	Topic set by rww (robert@unaffiliated/rww) on Thu, 06 Feb 2014 08:21:49
+2014-02-12 18:22:36	--	Channel #ubuntu-unregged: 65 nicks (10 ops, 0 voices, 55 normals)
+2014-02-12 18:22:36	--	PvNotice(ChanServ): Please register your nickname to join #ubuntu - we are experiencing technical difficulties. Instructions at http://freenode.net/faq.shtml#nicksetup
+2014-02-12 18:22:49	--	Mode #ubuntu-unregged [+Fmnstzf #ubuntu]
+2014-02-12 18:22:49	--	Channel created on Mon, 26 Jan 2009 21:27:44
+2014-02-12 18:23:09	<--	kloeri (~kloeri@freenode/staff/exherbo.kloeri) has quit (Ping timeout: 608 seconds)
+2014-02-12 18:23:12	-->	k1l_ (~k1l@xdsl-84-44-144-249.netcologne.de) has joined #ubuntu-unregged
+2014-02-12 18:23:12	<--	k1l_ (~k1l@xdsl-84-44-144-249.netcologne.de) has quit (Changing host)
+2014-02-12 18:23:12	-->	k1l_ (~k1l@ubuntu/member/k1l) has joined #ubuntu-unregged
+2014-02-12 18:23:12	--	Mode #ubuntu-unregged [+o k1l_] by ChanServ
+2014-02-12 18:23:59	-->	Neozonz (~Neozonz@198-84-191-16.cpe.teksavvy.com) has joined #ubuntu-unregged
+2014-02-12 18:23:59	<--	Neozonz (~Neozonz@198-84-191-16.cpe.teksavvy.com) has quit (Changing host)
+2014-02-12 18:23:59	-->	Neozonz (~Neozonz@unaffiliated/neozonz) has joined #ubuntu-unregged
+2014-02-12 18:24:01	-->	dous_ (~dous@37.139.10.103) has joined #ubuntu-unregged
+2014-02-12 18:24:54	-->	marienz (~marienz@freenode/staff/marienz) has joined #ubuntu-unregged
+2014-02-12 18:24:54	--	Mode #ubuntu-unregged [+o marienz] by ChanServ
+2014-02-12 18:26:47	-->	Pici (~Pici@nullcortex.com) has joined #ubuntu-unregged
+2014-02-12 18:27:35	<--	Weegee- (Weegee@zero.read.some.bytes.from.devzero.info) has quit (Ping timeout: 265 seconds)
+2014-02-12 18:30:22	<--	Neozonz (~Neozonz@unaffiliated/neozonz) has quit (Excess Flood)
+2014-02-12 18:30:22	-->	aloril_ (~aloril@dsl-tkubrasgw2-54f80b-12.dhcp.inet.fi) has joined #ubuntu-unregged
+2014-02-12 18:30:22	-->	pibby_ (~pibby@99-160-9-110.lightspeed.rcsntx.sbcglobal.net) has joined #ubuntu-unregged
+2014-02-12 18:30:22	-->	Blowfish (~IRC@46.228.54.111) has joined #ubuntu-unregged
+2014-02-12 18:30:22	-->	ChkDigit (~u388mw@74.3.144.66) has joined #ubuntu-unregged
+2014-02-12 18:30:22	-->	steffengy (~quassel@p57B49C4F.dip0.t-ipconnect.de) has joined #ubuntu-unregged
+2014-02-12 18:30:23	-->	jcastro_ (~jorge@c-69-245-80-238.hsd1.mi.comcast.net) has joined #ubuntu-unregged
+2014-02-12 18:30:23	-->	Morgan_Freeman (~not_avail@99-194-190-173.dyn.centurytel.net) has joined #ubuntu-unregged
+2014-02-12 18:30:23	-->	Neozonz (~Neozonz@198-84-191-16.cpe.teksavvy.com) has joined #ubuntu-unregged
+2014-02-12 18:30:23	<--	Neozonz (~Neozonz@198-84-191-16.cpe.teksavvy.com) has quit (Changing host)
+2014-02-12 18:30:23	-->	Neozonz (~Neozonz@unaffiliated/neozonz) has joined #ubuntu-unregged
+2014-02-12 18:30:23	<--	k1l_ (~k1l@ubuntu/member/k1l) has quit (Ping timeout: 260 seconds)
+2014-02-12 18:30:23	<--	92AAAD7YB (~phiwo@217.172.172.7) has quit (Ping timeout: 260 seconds)
+2014-02-12 18:30:23	<--	kloeri_ (~kloeri@freenode/staff/exherbo.kloeri) has quit (Ping timeout: 608 seconds)
+2014-02-12 18:30:23	--	Pici is now known as Guest56659
+2014-02-12 18:30:23	<--	magnus_ (~magnus@c193-14-123-186.cust.tele2.se) has quit (Ping timeout: 265 seconds)
+2014-02-12 18:30:23	-->	shawnwang__ (~shawn@175.41.48.77) has joined #ubuntu-unregged
+2014-02-12 18:30:23	-->	kloeri (~kloeri@freenode/staff/exherbo.kloeri) has joined #ubuntu-unregged
+2014-02-12 18:30:23	--	Mode #ubuntu-unregged [+o kloeri] by ChanServ
+2014-02-12 18:30:23	-->	enchilad1 (~enchilado@defocus/yummy/enchilado) has joined #ubuntu-unregged
+2014-02-12 18:30:23	-->	alexandros_c (~alexandro@108.60.244.15) has joined #ubuntu-unregged
+2014-02-12 18:30:23	<--	alexandros_c (~alexandro@108.60.244.15) has quit (Changing host)
+2014-02-12 18:30:23	-->	alexandros_c (~alexandro@unaffiliated/alexandros-c/x-1684531) has joined #ubuntu-unregged
+2014-02-12 18:30:23	-->	Weegee (Weegee@84.201.30.244) has joined #ubuntu-unregged
+2014-02-12 18:31:06	-->	SunshineDave (~david@124-150-81-102.dyn.iinet.net.au) has joined #ubuntu-unregged
+2014-02-12 18:31:24	-->	phiwo (~phiwo@217.172.172.7) has joined #ubuntu-unregged
+2014-02-12 18:31:30	<--	dous_ (~dous@37.139.10.103) has quit (Ping timeout: 260 seconds)
+2014-02-12 18:31:39	-->	evilsteve_ (~evilsteph@109.201.154.136) has joined #ubuntu-unregged
+2014-02-12 18:31:45	-->	joeri__ (~joeri@209.141.56.186) has joined #ubuntu-unregged
+2014-02-12 18:31:55	<--	akim_ (~akim@unaffiliated/akim) has quit (Ping timeout: 265 seconds)
+2014-02-12 18:32:51	<--	ttal (~ttal@122-60-122-129.jetstream.xtra.co.nz) has quit (Ping timeout: 265 seconds)
+2014-02-12 18:33:21	-->	bigbadben_ (~bigbadben@24-176-0-21.dhcp.klmz.mi.charter.com) has joined #ubuntu-unregged
+2014-02-12 18:33:37	<--	bigbadben (~bigbadben@24-176-0-21.dhcp.klmz.mi.charter.com) has quit (*.net *.split)
+2014-02-12 18:33:37	<--	Defaultti (defaultti@lakka.kapsi.fi) has quit (*.net *.split)
+2014-02-12 18:33:37	<--	evilstephen (~evilsteph@109.201.152.24) has quit (*.net *.split)
+2014-02-12 18:33:37	<--	Tech_Talk (~quassel@192.241.205.5) has quit (*.net *.split)
+2014-02-12 18:33:37	<--	desti_T2 (~desti@dslb-092-072-216-175.pools.arcor-ip.net) has quit (*.net *.split)
+2014-02-12 18:33:37	<--	aloril (~aloril@dsl-tkubrasgw2-54f80b-12.dhcp.inet.fi) has quit (*.net *.split)
+2014-02-12 18:34:00	<--	curfont (~gt@87.117.198.78) has quit (*.net *.split)
+2014-02-12 18:34:00	<--	garbage_guzzler (~mhobson@CPE-124-179-83-146.lns6.cht.bigpond.net.au) has quit (*.net *.split)
+2014-02-12 18:34:00	<--	joeri_ (~joeri@209.141.56.186) has quit (*.net *.split)
+2014-02-12 18:34:30	<--	JZTech101 (~JZTech101@botters/jztech101) has quit (*.net *.split)
+2014-02-12 18:34:30	<--	_2rB (~IRC@46.228.54.111) has quit (*.net *.split)
+2014-02-12 18:34:30	<--	Stimrol (~Stimrol@46-239-219-51.tal.is) has quit (*.net *.split)
+2014-02-12 18:34:30	<--	eataix (~eataix@unaffiliated/eataix) has quit (*.net *.split)
+2014-02-12 18:34:30	<--	pathy (~Chrono@rngftw.com) has quit (*.net *.split)
+2014-02-12 18:34:30	<--	steviedon (~steve@stephendonovan.plus.com) has quit (*.net *.split)
+2014-02-12 18:34:30	<--	pishuilu (~smuxi@119.39.124.239) has quit (*.net *.split)
+2014-02-12 18:34:30	<--	shawnwang_ (~shawn@175.41.48.77) has quit (*.net *.split)
+2014-02-12 18:34:30	<--	enchilado (~enchilado@defocus/yummy/enchilado) has quit (*.net *.split)
+2014-02-12 18:34:30	<--	agsd (~asc@78.90.208.40) has quit (*.net *.split)
+2014-02-12 18:34:30	-->	elky (elky@symposium.elkbuntu.net) has joined #ubuntu-unregged
+2014-02-12 18:34:30	<--	elky (elky@symposium.elkbuntu.net) has quit (Changing host)
+2014-02-12 18:34:30	-->	elky (elky@ubuntu/member/pdpc.professional.elky) has joined #ubuntu-unregged
+2014-02-12 18:34:30	--	Mode #ubuntu-unregged [+o elky] by ChanServ
+2014-02-12 18:34:30	-->	bariumbitmap (~nbeaver@108-241-79-18.lightspeed.cicril.sbcglobal.net) has joined #ubuntu-unregged
+2014-02-12 18:35:12	<--	enchilad1 (~enchilado@defocus/yummy/enchilado) has quit (Remote host closed the connection)
+2014-02-12 18:35:27	<--	alexandros_c (~alexandro@unaffiliated/alexandros-c/x-1684531) has quit (Ping timeout: 260 seconds)
+2014-02-12 18:35:27	<--	pibby_ (~pibby@99-160-9-110.lightspeed.rcsntx.sbcglobal.net) has quit (Ping timeout: 260 seconds)
+2014-02-12 18:35:27	<--	aloril_ (~aloril@dsl-tkubrasgw2-54f80b-12.dhcp.inet.fi) has quit (Ping timeout: 260 seconds)
+2014-02-12 18:36:08	-->	phiwo_ (~phiwo@argon247.server4you.de) has joined #ubuntu-unregged
+2014-02-12 18:36:11	-->	monkeyjuice (~quassel@unaffiliated/mydogsnameisrudy) has joined #ubuntu-unregged
+2014-02-12 18:36:14	-->	underdog` (~underdog`@blargo.org) has joined #ubuntu-unregged
+2014-02-12 18:36:52	-->	JoseeAntonioR (jose@ubuntu/member/jose) has joined #ubuntu-unregged
+2014-02-12 18:36:52	--	Mode #ubuntu-unregged [+o JoseeAntonioR] by ChanServ
+2014-02-12 18:37:12	-->	systadmni (~systadmni@81.17.16.170) has joined #ubuntu-unregged
+2014-02-12 18:37:14	-->	crus (~crusader@2001:44b8:319e:2900:a12d:1c15:24a3:9fc) has joined #ubuntu-unregged
+2014-02-12 18:37:15	-->	dusty__ (~dusty@135-23-33-3.cpe.pppoe.ca) has joined #ubuntu-unregged
+2014-02-12 18:37:45	-->	pishuilu (~smuxi@119.39.124.239) has joined #ubuntu-unregged
+2014-02-12 18:38:05	-->	JZTech101 (~JZTech101@botters/jztech101) has joined #ubuntu-unregged
+2014-02-12 18:38:19	-->	eataix (~eataix@li392-136.members.linode.com) has joined #ubuntu-unregged
+2014-02-12 18:38:19	-->	pathy (~Chrono@178.79.178.202) has joined #ubuntu-unregged
+2014-02-12 18:38:24	<--	joeri__ (~joeri@209.141.56.186) has quit (Ping timeout: 260 seconds)
+2014-02-12 18:38:24	<--	phiwo (~phiwo@217.172.172.7) has quit (Ping timeout: 260 seconds)
+2014-02-12 18:38:27	<--	Blowfish (~IRC@46.228.54.111) has quit (Ping timeout: 260 seconds)
+2014-02-12 18:38:30	<--	Weegee (Weegee@84.201.30.244) has quit (Ping timeout: 260 seconds)
+2014-02-12 18:38:34	--	JoseeAntonioR is now known as jose
+2014-02-12 18:38:37	-->	desti_T2 (~desti@dslb-092-072-216-175.pools.arcor-ip.net) has joined #ubuntu-unregged
+2014-02-12 18:38:42	-->	pipi (~pi@108.170.133.167) has joined #ubuntu-unregged
+2014-02-12 18:38:43	-->	Rynomster (~quassel@196-215-126-244.dynamic.isadsl.co.za) has joined #ubuntu-unregged
+2014-02-12 18:38:44	-->	jhesketh (~josh@ppp14-2-183-162.lns20.hba2.internode.on.net) has joined #ubuntu-unregged
+2014-02-12 18:38:46	-->	kandinski (~kandinski@hiperactivo.com) has joined #ubuntu-unregged
+2014-02-12 18:38:46	-->	Stimrol (~Stimrol@46-239-219-51.tal.is) has joined #ubuntu-unregged
+2014-02-12 18:38:47	-->	enchilado (~enchilado@defocus/yummy/enchilado) has joined #ubuntu-unregged
+2014-02-12 18:38:54	-->	cvvmaster (~cvvmaster@74.63.213.248) has joined #ubuntu-unregged
+2014-02-12 18:38:58	-->	roland (~quassel@218.223.196.88.sta.estpak.ee) has joined #ubuntu-unregged
+2014-02-12 18:39:03	-->	Tech_Talk (~quassel@192.241.205.5) has joined #ubuntu-unregged
+2014-02-12 18:39:08	-->	spinx^ (spinx@pool.devops.sh) has joined #ubuntu-unregged
+2014-02-12 18:39:08	-->	geoffb (~geoffb@ppp59-167-167-145.static.internode.on.net) has joined #ubuntu-unregged
+2014-02-12 18:39:13	-->	Weegee (Weegee@zero.read.some.bytes.from.devzero.info) has joined #ubuntu-unregged
+2014-02-12 18:39:33	-->	curfont (~gt@87.117.198.78) has joined #ubuntu-unregged
+2014-02-12 18:39:34	-->	milessabin_ (~miles@host86-156-109-94.range86-156.btcentralplus.com) has joined #ubuntu-unregged
+2014-02-12 18:39:35	-->	sburjan_ (Sorinello@79.112.122.67) has joined #ubuntu-unregged
+2014-02-12 18:39:46	-->	_2rB (~IRC@46.228.54.111) has joined #ubuntu-unregged
+2014-02-12 18:39:48	-->	lemao (~lemao@201.17.120.251) has joined #ubuntu-unregged
+2014-02-12 18:40:00	<--	jcastro_ (~jorge@c-69-245-80-238.hsd1.mi.comcast.net) has quit (Ping timeout: 260 seconds)
+2014-02-12 18:40:06	-->	dichapabe_ (~smuxi@119.92.145.181) has joined #ubuntu-unregged
+2014-02-12 18:40:06	-->	githogori (~githogori@c-69-181-109-63.hsd1.ca.comcast.net) has joined #ubuntu-unregged
+2014-02-12 18:40:18	<--	dichapabe_ (~smuxi@119.92.145.181) has left #ubuntu-unregged
+2014-02-12 18:40:51	-->	gnuluddite (~themaster@67.8.161.210) has joined #ubuntu-unregged
+2014-02-12 18:40:55	-->	BuFF (~3p0@94.244.83.182) has joined #ubuntu-unregged
+2014-02-12 18:42:24	<--	pishuilu (~smuxi@119.39.124.239) has left #ubuntu-unregged
+2014-02-12 18:42:48	-->	jcastro_ (~jorge@c-69-245-80-238.hsd1.mi.comcast.net) has joined #ubuntu-unregged
+2014-02-12 18:42:49	-->	joeri_ (~joeri@209.141.56.186) has joined #ubuntu-unregged
+2014-02-12 18:42:53	-->	Neozonz|Disc (~Neozonz@unaffiliated/neozonz) has joined #ubuntu-unregged
+2014-02-12 18:42:55	-->	Teduardo (~DW-10297@dhcp92.cmh.ee.net) has joined #ubuntu-unregged
+2014-02-12 18:43:16	<--	Neozonz (~Neozonz@unaffiliated/neozonz) has quit (Ping timeout: 260 seconds)
+2014-02-12 18:43:16	-->	adamxWork (~adam@240.35.124.24.cm.sunflower.com) has joined #ubuntu-unregged
+2014-02-12 18:43:18	<--	adamxWork (~adam@240.35.124.24.cm.sunflower.com) has quit (Excess Flood)
+2014-02-12 18:43:18	-->	wenchma (~wenchma@202.108.130.138) has joined #ubuntu-unregged
+2014-02-12 18:43:19	-->	DarwinSurvivor (~DarwinSur@184.65.103.23) has joined #ubuntu-unregged
+2014-02-12 18:43:24	-->	anders__ (~anders@213.132.98.41) has joined #ubuntu-unregged
+2014-02-12 18:43:28	<--	cvvmaster (~cvvmaster@74.63.213.248) has quit (Ping timeout: 260 seconds)
+2014-02-12 18:44:10	-->	azend_ (~quassel@192-0-154-49.cpe.teksavvy.com) has joined #ubuntu-unregged
+2014-02-12 18:44:10	<--	azend_ (~quassel@192-0-154-49.cpe.teksavvy.com) has quit (Changing host)
+2014-02-12 18:44:10	-->	azend_ (~quassel@unaffiliated/azend) has joined #ubuntu-unregged
+2014-02-12 18:44:14	<--	ChkDigit (~u388mw@74.3.144.66) has quit (Ping timeout: 260 seconds)
+2014-02-12 18:44:16	-->	cvvmaster (~cvvmaster@74.63.213.248) has joined #ubuntu-unregged
+2014-02-12 18:44:16	<--	lemao (~lemao@201.17.120.251) has quit (Ping timeout: 245 seconds)
+2014-02-12 18:44:20	-->	adamxWork (~adam@240.35.124.24.cm.sunflower.com) has joined #ubuntu-unregged
+2014-02-12 18:44:23	<--	adamxWork (~adam@240.35.124.24.cm.sunflower.com) has quit (Excess Flood)
+2014-02-12 18:44:30	-->	edong23_ (~quassel@mptc-dhcp-50-220.mptelco.com) has joined #ubuntu-unregged
+2014-02-12 18:44:35	-->	dous (~dous@37.139.10.103) has joined #ubuntu-unregged
+2014-02-12 18:44:41	-->	rrva_ (unknown@y.mima.x.se) has joined #ubuntu-unregged
+2014-02-12 18:44:41	-->	josmala_ (~josmala@kekkonen.niksula.hut.fi) has joined #ubuntu-unregged
+2014-02-12 18:44:41	-->	disposab1e (disposable@shell.websupport.sk) has joined #ubuntu-unregged
+2014-02-12 18:44:41	-->	The_Pugi1ist (~pug@c-76-119-122-192.hsd1.nh.comcast.net) has joined #ubuntu-unregged
+2014-02-12 18:44:55	-->	skfin_ (skfin@hilla.kapsi.fi) has joined #ubuntu-unregged
+2014-02-12 18:44:55	-->	TREllis_ (~trellis@pegasus.trellisnet.co.uk) has joined #ubuntu-unregged
+2014-02-12 18:44:55	-->	James1234 (~james@50.36.85.65) has joined #ubuntu-unregged
+2014-02-12 18:45:00	-->	phunyguy (~plorpian@unaffiliated/phunyguy) has joined #ubuntu-unregged
+2014-02-12 18:45:02	<--	cprofitt_ (~cprofitt@framboise.hoopycat.com) has quit (Ping timeout: 260 seconds)
+2014-02-12 18:45:04	-->	enchilad1 (~enchilado@woenwhoa.com) has joined #ubuntu-unregged
+2014-02-12 18:45:05	-->	Crazyzurfer (~crazyzurf@pc-218-171-104-200.cm.vtr.net) has joined #ubuntu-unregged
+2014-02-12 18:45:06	-->	Orien_ (~textual@220-244-159-182.static.tpgi.com.au) has joined #ubuntu-unregged
+2014-02-12 18:45:07	-->	samfty_ (~Sam@125.63.51.73) has joined #ubuntu-unregged
+2014-02-12 18:45:19	-->	skaet (~kate.stew@99-191-111-134.lightspeed.austtx.sbcglobal.net) has joined #ubuntu-unregged
+2014-02-12 18:45:19	-->	fakir (~AnonMatir@107-223-45-183.lightspeed.cicril.sbcglobal.net) has joined #ubuntu-unregged
+2014-02-12 18:45:19	<--	enchilad1 (~enchilado@woenwhoa.com) has quit (Changing host)
+2014-02-12 18:45:19	-->	enchilad1 (~enchilado@defocus/yummy/enchilado) has joined #ubuntu-unregged
+2014-02-12 18:45:19	--	Mode #ubuntu-unregged [+o phunyguy] by ChanServ
+2014-02-12 18:45:19	-->	andyfied (~andyfied@213-152-46-168.dsl.eclipse.net.uk) has joined #ubuntu-unregged
+2014-02-12 18:45:23	-->	GabrieleV_ (~GabrieleV@host190-79-static.230-95-b.business.telecomitalia.it) has joined #ubuntu-unregged
+2014-02-12 18:45:24	-->	Walzmyn (~quassel@98.17.143.86) has joined #ubuntu-unregged
+2014-02-12 18:45:30	<--	phiwo_ (~phiwo@argon247.server4you.de) has quit (Ping timeout: 260 seconds)
+2014-02-12 18:45:32	-->	k1l (~k1l@ubuntu/member/k1l) has joined #ubuntu-unregged
+2014-02-12 18:45:32	--	Mode #ubuntu-unregged [+o k1l] by ChanServ
+2014-02-12 18:45:33	<--	bigbadben_ (~bigbadben@24-176-0-21.dhcp.klmz.mi.charter.com) has quit (Quit: Leaving)
+2014-02-12 18:45:34	-->	cprofitt (~cprofitt@framboise.hoopycat.com) has joined #ubuntu-unregged
+2014-02-12 18:45:35	-->	sluther (~sluther@ip68-227-13-135.lv.lv.cox.net) has joined #ubuntu-unregged
+2014-02-12 18:45:47	-->	mrJack1 (~Thunderbi@178.214.37.221) has joined #ubuntu-unregged
+2014-02-12 18:45:50	-->	seudo_tw_ (r01944023@linux5.csie.ntu.edu.tw) has joined #ubuntu-unregged
+2014-02-12 18:45:50	-->	acidrain (~quassel@24-159-53-235.dhcp.jcsn.tn.charter.com) has joined #ubuntu-unregged
+2014-02-12 18:45:59	-->	vmesons (~quassel@128.224.252.2) has joined #ubuntu-unregged
+2014-02-12 18:46:00	-->	Dabien (~lumbernoc@78-86-17-164.zone2.bethere.co.uk) has joined #ubuntu-unregged
+2014-02-12 18:46:02	-->	sid_ (~smuxi@72.135.26.171) has joined #ubuntu-unregged
+2014-02-12 18:46:04	-->	DrDigital_ (DrDigital@2604:180::18db:57e8) has joined #ubuntu-unregged
+2014-02-12 18:46:04	-->	fishwithapipe (~fishy@80.229.8.131) has joined #ubuntu-unregged
+2014-02-12 18:46:09	-->	yeticry_ (~yeticry@60.168.93.85) has joined #ubuntu-unregged
+2014-02-12 18:46:15	-->	Tuna-Fish (~quassel@tuna.kortex.jyu.fi) has joined #ubuntu-unregged
+2014-02-12 18:46:33	-->	Rynofear (~quassel@196-215-126-244.dynamic.isadsl.co.za) has joined #ubuntu-unregged
+2014-02-12 18:46:39	-->	ChkDigit (~u388mw@74.3.144.66) has joined #ubuntu-unregged
+2014-02-12 18:46:40	-->	luilakde1e (~luilakde1@178-117-141-107.access.telenet.be) has joined #ubuntu-unregged
+2014-02-12 18:46:42	-->	el3ctron1 (~el3ctron@186.155.139.139) has joined #ubuntu-unregged
+2014-02-12 18:46:46	-->	roland___ (~quassel@218.223.196.88.sta.estpak.ee) has joined #ubuntu-unregged
+2014-02-12 18:46:46	<--	roland (~quassel@218.223.196.88.sta.estpak.ee) has quit (Disconnected by services)
+2014-02-12 18:47:04	-->	hggdh (~hggdh@ubuntu/member/hggdh) has joined #ubuntu-unregged
+2014-02-12 18:47:04	--	Mode #ubuntu-unregged [+o hggdh] by ChanServ
+2014-02-12 18:47:05	-->	phiwo (~phiwo@argon247.server4you.de) has joined #ubuntu-unregged
+2014-02-12 18:47:30	<--	pathy (~Chrono@178.79.178.202) has quit (Ping timeout: 260 seconds)
+2014-02-12 18:47:33	<--	Tech_Talk (~quassel@192.241.205.5) has quit (Ping timeout: 260 seconds)
+2014-02-12 18:47:33	<--	enchilado (~enchilado@defocus/yummy/enchilado) has quit (Ping timeout: 260 seconds)
+2014-02-12 18:47:33	<--	Stimrol (~Stimrol@46-239-219-51.tal.is) has quit (Ping timeout: 260 seconds)
+2014-02-12 18:47:33	<--	eataix (~eataix@li392-136.members.linode.com) has quit (Ping timeout: 260 seconds)
+2014-02-12 18:47:33	<--	pipi (~pi@108.170.133.167) has quit (Ping timeout: 260 seconds)
+2014-02-12 18:47:33	<--	curfont (~gt@87.117.198.78) has quit (Ping timeout: 260 seconds)
+2014-02-12 18:47:33	<--	Rynomster (~quassel@196-215-126-244.dynamic.isadsl.co.za) has quit (Ping timeout: 260 seconds)
+2014-02-12 18:47:34	-->	aloril_ (~aloril@dsl-tkubrasgw2-54f80b-12.dhcp.inet.fi) has joined #ubuntu-unregged
+2014-02-12 18:47:37	-->	SuperLag (~akulbe@unaffiliated/superlag) has joined #ubuntu-unregged
+2014-02-12 18:47:37	-->	FunnyLookinHat (~funnylook@ubuntu/member/funnylookinhat) has joined #ubuntu-unregged
+2014-02-12 18:47:37	--	Mode #ubuntu-unregged [+o FunnyLookinHat] by ChanServ
+2014-02-12 18:47:41	-->	karthus` (~karthus@host-109-204-132-118.tp-fne.tampereenpuhelin.net) has joined #ubuntu-unregged
+2014-02-12 18:47:41	-->	krabador (~krabador@unaffiliated/krabador) has joined #ubuntu-unregged
+2014-02-12 18:47:44	<--	surgeterrix (~surge@nl1x.mullvad.net) has quit (Read error: Operation timed out)
+2014-02-12 18:47:55	-->	adamxWork (~adam@240.35.124.24.cm.sunflower.com) has joined #ubuntu-unregged
+2014-02-12 18:47:57	<--	adamxWork (~adam@240.35.124.24.cm.sunflower.com) has quit (Excess Flood)
+2014-02-12 18:48:24	-->	adamxWork (~adam@240.35.124.24.cm.sunflower.com) has joined #ubuntu-unregged
+2014-02-12 18:48:32	-->	pipi (~pi@108.170.133.167) has joined #ubuntu-unregged
+2014-02-12 18:48:47	-->	Tech_Talk (~quassel@192.241.205.5) has joined #ubuntu-unregged
+2014-02-12 18:48:47	<--	sburjan_ (Sorinello@79.112.122.67) has quit (Ping timeout: 260 seconds)
+2014-02-12 18:48:52	-->	Stimrol (~Stimrol@46-239-219-51.tal.is) has joined #ubuntu-unregged
+2014-02-12 18:48:52	-->	ncom0pl (~ncom0pl@89-71-65-172.dynamic.chello.pl) has joined #ubuntu-unregged
+2014-02-12 18:48:52	-->	curfont (~gt@87.117.198.78) has joined #ubuntu-unregged
+2014-02-12 18:48:54	-->	d-snp (~tinco@tinco.nl) has joined #ubuntu-unregged
+2014-02-12 18:49:06	-->	sburjan_ (Sorinello@79.112.122.67) has joined #ubuntu-unregged
+2014-02-12 18:49:49	-->	kloeri_ (~kloeri@freenode/staff/exherbo.kloeri) has joined #ubuntu-unregged
+2014-02-12 18:49:49	--	Mode #ubuntu-unregged [+o kloeri_] by ChanServ
+2014-02-12 18:49:59	<--	FunnyLookinHat (~funnylook@ubuntu/member/funnylookinhat) has quit (Read error: Connection reset by peer)
+2014-02-12 18:49:59	<--	kloeri (~kloeri@freenode/staff/exherbo.kloeri) has quit (*.net *.split)
+2014-02-12 18:50:00	<--	marienz (~marienz@freenode/staff/marienz) has quit (*.net *.split)
+2014-02-12 18:50:00	<--	f|shy (~fishy@80.229.8.131) has quit (*.net *.split)
+2014-02-12 18:50:00	<--	Croon2 (~croon@0x5e91ad47.adsl.cybercity.dk) has quit (*.net *.split)
+2014-02-12 18:50:00	<--	weiyang (~weiyang@220.248.0.154) has quit (*.net *.split)
+2014-02-12 18:50:00	<--	Guest26753 (~smuxi@72.135.26.171) has quit (*.net *.split)
+2014-02-12 18:50:00	<--	phunyguy_ (~plorpian@unaffiliated/phunyguy) has quit (*.net *.split)
+2014-02-12 18:50:01	<--	Walzmy_ (~quassel@h86.143.17.98.dynamic.ip.windstream.net) has quit (*.net *.split)
+2014-02-12 18:50:01	<--	Tuna-Fish2 (~quassel@tuna.kortex.jyu.fi) has quit (*.net *.split)
+2014-02-12 18:50:01	<--	el3ctron (~el3ctron@186.155.139.139) has quit (*.net *.split)
+2014-02-12 18:50:02	<--	azend (~quassel@unaffiliated/azend) has quit (*.net *.split)
+2014-02-12 18:50:04	<--	DrDigital (~DrDigital@192.30.32.93) has quit (*.net *.split)
+2014-02-12 18:50:10	<--	Walzmyn (~quassel@98.17.143.86) has quit (Ping timeout: 260 seconds)
+2014-02-12 18:50:10	--	GabrieleV_ is now known as GabrieleV
+2014-02-12 18:50:41	-->	tnguyen_ (~tvn@adaptive.cs.unm.edu) has joined #ubuntu-unregged
+2014-02-12 18:50:42	-->	Chetic (~pi@c83-250-75-148.bredband.comhem.se) has joined #ubuntu-unregged
+2014-02-12 18:50:42	<--	sid_ (~smuxi@72.135.26.171) has quit (Ping timeout: 260 seconds)
+2014-02-12 18:50:46	--	sburjan_ is now known as sburjan`
+2014-02-12 18:50:53	-->	pipi_ (~pi@dhcp-108-170-133-167.cable.user.start.ca) has joined #ubuntu-unregged
+2014-02-12 18:50:53	-->	Walzmyn (~quassel@h86.143.17.98.dynamic.ip.windstream.net) has joined #ubuntu-unregged
+2014-02-12 18:50:56	-->	beasty (~beasty@was.niethier.be) has joined #ubuntu-unregged
+2014-02-12 18:50:57	-->	hollandheese (~hollandhe@162.217.249.142) has joined #ubuntu-unregged
+2014-02-12 18:51:01	<--	pipi (~pi@108.170.133.167) has quit (Ping timeout: 260 seconds)
+2014-02-12 18:51:06	-->	monop0ly (~monop0ly@cassowary.riseup.net) has joined #ubuntu-unregged
+2014-02-12 18:52:24	-->	Croon (~croon@0x5e91ad47.adsl.cybercity.dk) has joined #ubuntu-unregged
+2014-02-12 18:53:07	<--	gnuluddite (~themaster@67.8.161.210) has left #ubuntu-unregged
+2014-02-12 18:53:25	-->	sid (~smuxi@72.135.26.171) has joined #ubuntu-unregged
+2014-02-12 18:53:48	--	sid is now known as Guest4583
+2014-02-12 18:54:02	-->	Birdman3131 (~quassel@192.241.205.5) has joined #ubuntu-unregged
+2014-02-12 18:58:13	<--	Tech_Talk (~quassel@192.241.205.5) has quit (Ping timeout: 260 seconds)
+2014-02-12 18:58:14	<--	jhesketh (~josh@ppp14-2-183-162.lns20.hba2.internode.on.net) has quit (Ping timeout: 260 seconds)
+2014-02-12 18:58:14	<--	curfont (~gt@87.117.198.78) has quit (Ping timeout: 260 seconds)
+2014-02-12 18:58:14	-->	eataix (~eataix@li392-136.members.linode.com) has joined #ubuntu-unregged
+2014-02-12 18:58:14	<--	eataix (~eataix@li392-136.members.linode.com) has quit (Changing host)
+2014-02-12 18:58:15	-->	eataix (~eataix@unaffiliated/eataix) has joined #ubuntu-unregged
+2014-02-12 18:58:16	-->	pathy (~Chrono@rngftw.com) has joined #ubuntu-unregged
+2014-02-12 18:58:16	-->	JoeNobody (~JoeSomebo@blk-224-199-159.eastlink.ca) has joined #ubuntu-unregged
+2014-02-12 18:58:43	-->	steffengy_ (~quassel@p57B49C4F.dip0.t-ipconnect.de) has joined #ubuntu-unregged
+2014-02-12 18:59:07	-->	curfont (~gt@87.117.198.78) has joined #ubuntu-unregged
+2014-02-12 18:59:11	-->	weiyang (~weiyang@220.248.0.154) has joined #ubuntu-unregged
+2014-02-12 18:59:15	-->	jhesketh (~josh@ppp14-2-183-162.lns20.hba2.internode.on.net) has joined #ubuntu-unregged
+2014-02-12 19:00:42	-->	phiwo_ (~phiwo@argon247.server4you.de) has joined #ubuntu-unregged
+2014-02-12 19:01:00	-->	jb__ (~jb@hagbart.nvg.ntnu.no) has joined #ubuntu-unregged
+2014-02-12 19:01:00	-->	pdimov (~pdimov@78.130.213.45) has joined #ubuntu-unregged
+2014-02-12 19:01:10	-->	pipi (~pi@dhcp-108-170-133-167.cable.user.start.ca) has joined #ubuntu-unregged
+2014-02-12 19:01:24	-->	Walzmy_ (~quassel@h86.143.17.98.dynamic.ip.windstream.net) has joined #ubuntu-unregged
+2014-02-12 19:01:25	-->	marienz (~marienz@freenode/staff/marienz) has joined #ubuntu-unregged
+2014-02-12 19:01:25	--	Mode #ubuntu-unregged [+o marienz] by ChanServ
+2014-02-12 19:02:26	-->	garbage_guzzler (~mhobson@CPE-124-179-83-146.lns6.cht.bigpond.net.au) has joined #ubuntu-unregged
+2014-02-12 19:02:37	-->	Chetic_ (~pi@c83-250-75-148.bredband.comhem.se) has joined #ubuntu-unregged
+2014-02-12 19:03:18	<--	Guest56659 (~Pici@nullcortex.com) has quit (Ping timeout: 265 seconds)
+2014-02-12 19:04:13	<--	steffengy (~quassel@p57B49C4F.dip0.t-ipconnect.de) has quit (Ping timeout: 260 seconds)
+2014-02-12 19:04:14	<--	Walzmyn (~quassel@h86.143.17.98.dynamic.ip.windstream.net) has quit (Ping timeout: 260 seconds)
+2014-02-12 19:04:14	<--	pipi_ (~pi@dhcp-108-170-133-167.cable.user.start.ca) has quit (Ping timeout: 260 seconds)
+2014-02-12 19:04:20	<--	evilsteve_ (~evilsteph@109.201.154.136) has quit (Ping timeout: 260 seconds)
+2014-02-12 19:04:20	<--	phiwo (~phiwo@argon247.server4you.de) has quit (Ping timeout: 260 seconds)
+2014-02-12 19:04:20	<--	Chetic (~pi@c83-250-75-148.bredband.comhem.se) has quit (Ping timeout: 260 seconds)
+2014-02-12 19:04:21	<--	tnguyen_ (~tvn@adaptive.cs.unm.edu) has quit (Ping timeout: 260 seconds)
+2014-02-12 19:05:04	-->	tnguyen_ (~tvn@adaptive.cs.unm.edu) has joined #ubuntu-unregged
+2014-02-12 19:05:06	<--	Morgan_Freeman (~not_avail@99-194-190-173.dyn.centurytel.net) has quit (Ping timeout: 260 seconds)
+2014-02-12 19:05:17	-->	surgeterrix (~surge@se2x.mullvad.net) has joined #ubuntu-unregged
+2014-02-12 19:05:35	<--	Snake2k_ (~snake2k@ip68-100-207-22.dc.dc.cox.net) has quit (Quit: Lost terminal)
+2014-02-12 19:09:05	-->	akim_ (~akim@unaffiliated/akim) has joined #ubuntu-unregged
+2014-02-12 19:09:54	-->	Pici (~Pici@ubuntu/member/pdpc.professional.pici) has joined #ubuntu-unregged
+2014-02-12 19:09:54	--	Mode #ubuntu-unregged [+o Pici] by ChanServ
+2014-02-12 19:10:29	-->	xiaolu (~xiaolu@210.21.244.26) has joined #ubuntu-unregged
+2014-02-12 19:10:30	-->	alokyadav15 (~alokyadav@203.147.90.41) has joined #ubuntu-unregged
+2014-02-12 19:10:46	<--	alokyadav15 (~alokyadav@203.147.90.41) has quit (Read error: Connection reset by peer)
+2014-02-12 19:11:13	-->	evilsteve_ (~evilsteph@109.201.154.213) has joined #ubuntu-unregged
+2014-02-12 19:13:04	-->	Defaulttinen (defaultti@lakka.kapsi.fi) has joined #ubuntu-unregged
+2014-02-12 19:29:27	-->	magnus_ (~magnus@c193-14-123-186.cust.tele2.se) has joined #ubuntu-unregged
+2014-02-12 19:29:27	-->	steviedon (~steve@212.159.22.24) has joined #ubuntu-unregged
+2014-02-12 19:29:27	-->	agsd (~asc@78.90.208.40) has joined #ubuntu-unregged
+2014-02-12 19:30:05	<--	xorox90__ (uid7069@gateway/web/irccloud.com/session) has quit (Changing host)
+2014-02-12 19:30:05	-->	xorox90__ (uid7069@gateway/web/irccloud.com/x-bvbgqizlpkqjxwpd) has joined #ubuntu-unregged
+2014-02-12 19:30:06	<--	Aric (uid16344@gateway/web/irccloud.com/session) has quit (Changing host)
+2014-02-12 19:30:06	-->	Aric (uid16344@gateway/web/irccloud.com/x-ytuntgigrubrljvp) has joined #ubuntu-unregged
+2014-02-12 19:30:22	<--	akim_ (~akim@unaffiliated/akim) has quit (Changing host)
+2014-02-12 19:30:22	-->	akim_ (~akim@nat/cisco/x-woqifbwxvglbroxc) has joined #ubuntu-unregged
+2014-02-12 19:32:54	<--	rayston_ (~rayston@ip68-106-242-42.ph.ph.cox.net) has quit (Read error: Operation timed out)
+2014-02-12 19:33:49	<--	Crazyzurfer (~crazyzurf@pc-218-171-104-200.cm.vtr.net) has quit (Quit: Saliendo)
+2014-02-12 19:37:50	-->	rayston_ (~rayston@ip68-106-242-42.ph.ph.cox.net) has joined #ubuntu-unregged
+2014-02-12 19:41:51	<--	krabador (~krabador@unaffiliated/krabador) has quit (Read error: Connection reset by peer)
+2014-02-12 19:46:19	<--	shawnwang__ (~shawn@175.41.48.77) has quit (Ping timeout: 265 seconds)
+2014-02-12 19:46:45	-->	shawnwang__ (~shawn@175.41.48.77) has joined #ubuntu-unregged
+2014-02-12 19:50:56	<--	JoeNobody (~JoeSomebo@blk-224-199-159.eastlink.ca) has quit (Quit: Ex-Chat)
+2014-02-12 20:00:19	<--	desti_T2 (~desti@dslb-092-072-216-175.pools.arcor-ip.net) has left #ubuntu-unregged
+2014-02-12 20:05:56	<--	ejuan (~ethan@97-83-33-60.dhcp.trcy.mi.charter.com) has quit (Quit: Leaving)
+2014-02-12 20:27:14	--	Symmetri1 is now known as Symmetria
+2014-02-12 20:27:41	<--	Symmetria (~andrew@41.191.224.202) has quit (Changing host)
+2014-02-12 20:27:42	-->	Symmetria (~andrew@unaffiliated/symmetria) has joined #ubuntu-unregged
+2014-02-12 20:36:20	<--	crus (~crusader@2001:44b8:319e:2900:a12d:1c15:24a3:9fc) has left #ubuntu-unregged
+2014-02-12 20:44:38	-->	Walzmyn (~quassel@h59.3.30.71.dynamic.ip.windstream.net) has joined #ubuntu-unregged
+2014-02-12 20:46:29	<--	jcastro_ (~jorge@c-69-245-80-238.hsd1.mi.comcast.net) has quit (Ping timeout: 248 seconds)
+2014-02-12 20:47:51	-->	steffengy (~quassel@p57B48C4A.dip0.t-ipconnect.de) has joined #ubuntu-unregged
+2014-02-12 20:48:03	<--	Walzmy_ (~quassel@h86.143.17.98.dynamic.ip.windstream.net) has quit (Ping timeout: 260 seconds)
+2014-02-12 20:50:45	<--	steffengy_ (~quassel@p57B49C4F.dip0.t-ipconnect.de) has quit (Ping timeout: 248 seconds)
+2014-02-12 20:53:30	-->	Orien (~textual@220-244-159-182.static.tpgi.com.au) has joined #ubuntu-unregged
+2014-02-12 20:53:32	<--	Orien_ (~textual@220-244-159-182.static.tpgi.com.au) has quit (Read error: Connection reset by peer)
+2014-02-12 20:55:51	<--	Orien (~textual@220-244-159-182.static.tpgi.com.au) has quit (Read error: Connection reset by peer)
+2014-02-12 20:56:16	-->	Orien (~textual@220-244-159-182.static.tpgi.com.au) has joined #ubuntu-unregged
+2014-02-12 20:59:05	<--	cheesecakes_ (~quassel@27.106.11.163) has quit (Changing host)
+2014-02-12 20:59:05	-->	cheesecakes_ (~quassel@unaffiliated/yummy) has joined #ubuntu-unregged
+2014-02-12 20:59:10	--	cheesecakes_ is now known as cheesecakes
+2014-02-12 21:06:14	<--	edong23_ (~quassel@mptc-dhcp-50-220.mptelco.com) has quit (Remote host closed the connection)
+2014-02-12 21:06:41	-->	edong23 (~quassel@mptc-dhcp-50-220.mptelco.com) has joined #ubuntu-unregged
+2014-02-12 21:09:05	<--	cheesecakes (~quassel@unaffiliated/yummy) has left #ubuntu-unregged
+2014-02-12 21:10:09	<--	Orien (~textual@220-244-159-182.static.tpgi.com.au) has quit (Read error: Connection reset by peer)
+2014-02-12 21:10:21	<--	monkeyjuice (~quassel@unaffiliated/mydogsnameisrudy) has quit (Ping timeout: 272 seconds)
+2014-02-12 21:10:34	-->	Orien (~textual@220-244-159-182.static.tpgi.com.au) has joined #ubuntu-unregged
+2014-02-12 21:59:16	--	stub` is now known as stub
+2014-02-12 22:02:46	<--	geoffb (~geoffb@ppp59-167-167-145.static.internode.on.net) has quit (Ping timeout: 248 seconds)
+2014-02-12 22:15:39	-->	ne0sis (~quassel@41-135-71-185.dsl.mweb.co.za) has joined #ubuntu-unregged
+2014-02-12 22:28:31	<--	Orien (~textual@220-244-159-182.static.tpgi.com.au) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-02-12 22:31:51	<--	azend_ (~quassel@unaffiliated/azend) has quit (Ping timeout: 245 seconds)
+2014-02-12 22:31:52	-->	Orien (~textual@220-244-159-182.static.tpgi.com.au) has joined #ubuntu-unregged
+2014-02-12 23:07:11	-->	Walzmy_ (~quassel@h217.7.30.71.dynamic.ip.windstream.net) has joined #ubuntu-unregged
+2014-02-12 23:10:51	<--	Walzmyn (~quassel@h59.3.30.71.dynamic.ip.windstream.net) has quit (Ping timeout: 260 seconds)
+2014-02-12 23:18:36	-->	azend (~quassel@192-0-154-49.cpe.teksavvy.com) has joined #ubuntu-unregged
+2014-02-12 23:18:36	<--	azend (~quassel@192-0-154-49.cpe.teksavvy.com) has quit (Changing host)
+2014-02-12 23:18:36	-->	azend (~quassel@unaffiliated/azend) has joined #ubuntu-unregged
+2014-02-12 23:19:00	-->	tankdriver (~quassel@d91-128-99-65.cust.tele2.at) has joined #ubuntu-unregged
+2014-02-12 23:22:16	<--	el3ctron1 (~el3ctron@186.155.139.139) has quit (Ping timeout: 245 seconds)
+2014-02-12 23:51:29	<--	yeticry_ (~yeticry@60.168.93.85) has quit (Read error: Connection reset by peer)
+2014-02-12 23:52:17	-->	Neozonz (~Neozonz@unaffiliated/neozonz) has joined #ubuntu-unregged
+2014-02-12 23:52:40	-->	yeticry (~yeticry@114.96.139.124) has joined #ubuntu-unregged
+2014-02-12 23:53:09	<--	garbage_guzzler (~mhobson@CPE-124-179-83-146.lns6.cht.bigpond.net.au) has quit (Ping timeout: 248 seconds)
+2014-02-12 23:55:17	<--	Neozonz|Disc (~Neozonz@unaffiliated/neozonz) has quit (Ping timeout: 248 seconds)
+2014-02-12 23:55:54	<--	hollandheese (~hollandhe@162.217.249.142) has quit (Ping timeout: 245 seconds)
+2014-02-12 23:57:57	-->	hollandheese (~hollandhe@162.217.249.142) has joined #ubuntu-unregged
+2014-02-13 00:07:41	<--	hollandheese (~hollandhe@162.217.249.142) has quit (Ping timeout: 272 seconds)
+2014-02-13 00:07:52	-->	k1l_ (~k1l@ubuntu/member/k1l) has joined #ubuntu-unregged
+2014-02-13 00:07:52	--	Mode #ubuntu-unregged [+o k1l_] by ChanServ
+2014-02-13 00:10:03	-->	hollandheese (~hollandhe@162.217.249.142) has joined #ubuntu-unregged
+2014-02-13 18:10:04	--	irc: disconnected from server
+2014-02-13 18:10:35	-->	msjche1 (~msjche@99-16-101-1.lightspeed.snrsca.sbcglobal.net) has joined #ubuntu-unregged
+2014-02-13 18:10:35	--	Topic for #ubuntu-unregged is "#ubuntu currently blocks users connected from freenode webchat. If you need help with Ubuntu, please connect from a desktop client. Some examples: xchat, pidgin, konversation. RotMG users: see http://community.kabam.com/forums/announcement.php?f=1089"
+2014-02-13 18:10:35	--	Topic set by rww (robert@unaffiliated/rww) on Thu, 06 Feb 2014 08:21:49
+2014-02-13 18:10:35	--	Channel #ubuntu-unregged: 94 nicks (16 ops, 0 voices, 78 normals)
+2014-02-13 18:10:35	--	PvNotice(ChanServ): Please register your nickname to join #ubuntu - we are experiencing technical difficulties. Instructions at http://freenode.net/faq.shtml#nicksetup
+2014-02-13 18:10:47	--	Mode #ubuntu-unregged [+Fmnstzf #ubuntu]
+2014-02-13 18:10:47	--	Channel created on Mon, 26 Jan 2009 21:27:44
+2014-02-13 18:37:11	<--	Orien (~textual@220-244-159-182.static.tpgi.com.au) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-02-13 18:39:49	--	Mode #ubuntu-unregged [+i] by rww
+2014-02-13 18:39:51	<--	rww has kicked _2rB (akim_ aloril_ anders__ andyfied Aric away azend beasty Birdman3131 Chetic_ cprofitt Croon curfont cvvmaster der0b disposab1e dous DrDigital_ DustyBrewer eataix edong23 fishwithapipe GabrieleV githogori Guest4583 hollandheese hyper_1 IcePee joeri_ johannes3 jos)
+2014-02-13 18:40:06	@rww	oh ffs
+2014-02-13 18:40:47	<--	rww has kicked akim_ (aloril_ anders__ andyfied Aric away azend beasty Birdman3131 Chetic_ cprofitt Croon curfont cvvmaster der0b disposab1e dous DrDigital_ DustyBrewer eataix edong23 fishwithapipe GabrieleV githogori Guest4583 hollandheese hyper_1 IcePee joeri_ johannes3 josmala_ )
+2014-02-13 18:41:06	<--	monkeyjuice (~quassel@unaffiliated/mydogsnameisrudy) has quit (Read error: Connection reset by peer)
+2014-02-13 18:42:52	<--	rww has kicked aloril_ (aloril_)
+2014-02-13 18:42:52	<--	rww has kicked anders__ (anders__)
+2014-02-13 18:42:52	<--	rww has kicked andyfied (andyfied)
+2014-02-13 18:42:52	<--	rww has kicked Aric (Aric)
+2014-02-13 18:42:54	<--	rww has kicked away (away)
+2014-02-13 18:42:56	<--	rww has kicked azend (azend)
+2014-02-13 18:42:59	<--	rww has kicked beasty (beasty)
+2014-02-13 18:43:01	<--	rww has kicked Birdman3131 (Birdman3131)
+2014-02-13 18:43:04	<--	rww has kicked Chetic_ (Chetic_)
+2014-02-13 18:43:06	<--	rww has kicked cprofitt (cprofitt)
+2014-02-13 18:43:09	<--	rww has kicked Croon (Croon)
+2014-02-13 18:43:11	<--	rww has kicked curfont (curfont)
+2014-02-13 18:43:14	<--	rww has kicked cvvmaster (cvvmaster)
+2014-02-13 18:43:16	<--	rww has kicked der0b (der0b)
+2014-02-13 18:43:19	<--	rww has kicked disposab1e (disposab1e)
+2014-02-13 18:43:21	<--	rww has kicked dous (dous)
+2014-02-13 18:43:24	<--	rww has kicked DrDigital_ (DrDigital_)
+2014-02-13 18:43:26	<--	rww has kicked DustyBrewer (DustyBrewer)
+2014-02-13 18:43:29	<--	rww has kicked eataix (eataix)
+2014-02-13 18:43:31	<--	rww has kicked edong23 (edong23)
+2014-02-13 18:43:34	<--	rww has kicked fishwithapipe (fishwithapipe)
+2014-02-13 18:43:36	<--	rww has kicked GabrieleV (GabrieleV)
+2014-02-13 18:43:39	<--	rww has kicked githogori (githogori)
+2014-02-13 18:43:41	<--	rww has kicked Guest4583 (Guest4583)
+2014-02-13 18:43:44	<--	rww has kicked hollandheese (hollandheese)
+2014-02-13 18:43:46	<--	rww has kicked hyper_1 (hyper_1)
+2014-02-13 18:43:49	<--	rww has kicked IcePee (IcePee)
+2014-02-13 18:43:51	<--	rww has kicked joeri_ (joeri_)
+2014-02-13 18:43:54	<--	rww has kicked johannes3 (johannes3)
+2014-02-13 18:43:56	<--	rww has kicked josmala_ (josmala_)
+2014-02-13 18:43:59	<--	rww has kicked JZTech101 (JZTech101)
+2014-02-13 18:44:01	<--	rww has kicked kandinski (kandinski)
+2014-02-13 18:44:04	<--	rww has kicked karthus` (karthus`)
+2014-02-13 18:44:06	<--	rww has kicked luilakde1e (luilakde1e)
+2014-02-13 18:44:09	<--	rww has kicked magnus_ (magnus_)
+2014-02-13 18:44:14	<--	rww has kicked monop0ly (monop0ly)
+2014-02-13 18:44:17	<--	rww has kicked mrJack1 (mrJack1)
+2014-02-13 18:44:19	<--	rww has kicked msjche1 (msjche1)

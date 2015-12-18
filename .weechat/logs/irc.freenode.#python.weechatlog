@@ -1,0 +1,729 @@
+2015-12-08 18:42:43	════>	msjche (~msjche@gateway/vpn/privateinternetaccess/msjche) has joined #python
+2015-12-08 18:42:43	--	Topic for #python is "Don't paste, use https://bpaste.net/+python | http://bit.ly/psf-coc | NO LOL | Tutorial: http://bit.ly/MCAhYx | New programmer? http://goo.gl/c170V | Specify 2.x or 3.x in your question | Find your local User Group: http://goo.gl/S1Zsq | #python-fr #python.de #python-es #python.tw #python.pl #python-br #python-nl #python-ir #python.it #python-ro #python-india #python-hu #python-dev"
+2015-12-08 18:42:43	--	Topic set by ssbr_at_work (scorchsabe@python/site-packages/ssbr) on Tue, 01 Sep 2015 00:01:20
+2015-12-08 18:42:43	--	Channel #python: 1565 nicks (0 ops, 0 voices, 1565 normals)
+2015-12-08 18:42:44	--	Channel created on Sat, 25 Nov 2006 22:42:41
+2015-12-08 18:42:59	<════	bocard (~bocard@dhcp-189-134.gjk.dk) has quit (Ping timeout: 250 seconds)
+2015-12-08 18:44:20	ninebits	http://pastebin.com/8GVMqNFX
+2015-12-08 18:44:21	infobob	http://paste.pound-python.org/show/XnSX41d7ZUsRFYyFRBJu/ (repasted for ninebits)
+2015-12-08 18:44:23	ninebits	that's for python 3
+2015-12-08 18:44:38	ninebits	i've tried dozens of variations on it.. oh cool infobob .. i'll take a look
+2015-12-08 18:44:39	════>	spvensko (~spvensko@unaffiliated/spvensko) has joined #python
+2015-12-08 18:44:51	ninebits	oh
+2015-12-08 18:44:51	<════	wildlander (~wild@unaffiliated/wildlander) has quit (Quit: Saliendo)
+2015-12-08 18:44:52	ninebits	lol
+2015-12-08 18:45:08	ninebits	infobob's some kind of bot?
+2015-12-08 18:45:13	Vgr	yes
+2015-12-08 18:45:14	ninebits	oh he's the lol bot.
+2015-12-08 18:45:33	Vgr	ninebits: please don't use a bare except - if you need to catch KeyboardInterrupt, use 'except KeyboardInterrupt:' instead
+2015-12-08 18:45:44	ninebits	ya, done those
+2015-12-08 18:45:58	ninebits	i mean, using the bare except was my last ditch effort
+2015-12-08 18:46:28	Vgr	I'm not seeing anything like you're describing over here (using 3.5.1rc1)
+2015-12-08 18:46:32	ninebits	i'm looking for a way around what's happening there, and so far nobody else even acknowledges there's a prolem.
+2015-12-08 18:46:37	ninebits	i'm on Windows 8
+2015-12-08 18:47:22	Vgr	the only cause I can think of is something weird going on at a lower level
+2015-12-08 18:47:27	nedbat	ninebits: have you shown what weird things happen when you tyupe Ctrl-C?
+2015-12-08 18:47:28	ninebits	ya
+2015-12-08 18:47:34	ninebits	well, i assumed that
+2015-12-08 18:47:40	════>	bedekelly_ (1fcdfb15@gateway/web/freenode/ip.31.205.251.21) has joined #python
+2015-12-08 18:47:45	ninebits	just hoping maybe someone here would have a workaround
+2015-12-08 18:47:58	bedekelly_	ninebits what do you need a workaround for?
+2015-12-08 18:48:06	z1haze	hypothetically, what would be the fastest way possible to check a massive list of doamins to see if they are actual domains? and how long would it take to check say.. 80,000
+2015-12-08 18:48:09	════>	Rena (~rena@PSTNON1203W-LP140-02-2389809833.dsl.bell.ca) has joined #python
+2015-12-08 18:48:14	_habnabit	z1haze, what's a domain
+2015-12-08 18:48:22	Vgr	ninebits: please show us a paste with your full output
+2015-12-08 18:48:28	════>	TheoryCat (TheoryCat@unaffiliated/wye-naught/x-8734122) has joined #python
+2015-12-08 18:48:31	Vgr	full code and exact output
+2015-12-15 18:07:12	════>	msjche1 (~msjche@unaffiliated/msjche) has joined #python
+2015-12-15 18:07:12	--	Topic for #python is "Don't paste, use https://bpaste.net/+python | http://bit.ly/psf-coc | NO LOL | Tutorial: http://bit.ly/MCAhYx | New programmer? http://goo.gl/c170V | Specify 2.x or 3.x in your question | Find your local User Group: http://goo.gl/S1Zsq | #python-fr #python.de #python-es #python.tw #python.pl #python-br #python-nl #python-ir #python.it #python-ro #python-india #python-hu #python-dev"
+2015-12-15 18:07:12	--	Topic set by ssbr_at_work (scorchsabe@python/site-packages/ssbr) on Tue, 01 Sep 2015 00:01:20
+2015-12-15 18:07:12	--	Channel #python: 1615 nicks (0 ops, 0 voices, 1615 normals)
+2015-12-15 18:07:13	--	Channel created on Sat, 25 Nov 2006 22:42:41
+2015-12-15 18:07:16	<════	OtherAllan (~OtherAlla@198.8.80.12) has quit (Ping timeout: 260 seconds)
+2015-12-15 18:07:34	════>	pnhlantau (~Thunderbi@m121-202-109-199.smartone.com) has joined #python
+2015-12-15 18:07:36	_habnabit	nabblet, mostly i'm curious about what your definition of 'pythonic' is
+2015-12-15 18:07:52	════>	Qria (uid25348@gateway/web/irccloud.com/x-eeyaushzicvarqcc) has joined #python
+2015-12-15 18:08:21	<════	nimomo (~nimomo@bzq-109-67-139-145.red.bezeqint.net) has quit (Ping timeout: 272 seconds)
+2015-12-15 18:08:47	════>	kazimuth (~james@dhcp-18-189-38-215.dyn.mit.edu) has joined #python
+2015-12-15 18:09:00	════>	arescorpio (~arescorpi@40-243-16-190.fibertel.com.ar) has joined #python
+2015-12-15 18:09:12	<════	kenbolton (~kenbolton@ool-4575754f.dyn.optonline.net) has quit (Quit: kenbolton)
+2015-12-15 18:09:15	nabblet	using the capabilites of the datatypes as intended instead of reinventing the wheel with some buggy home-grown functions
+2015-12-15 18:09:57	<════	yedi (~yedi@c-76-117-143-120.hsd1.nj.comcast.net) has quit (Ping timeout: 240 seconds)
+2015-12-15 18:10:05	nabblet	_habnabit: maybe something like string.lstrip().rstrip() is better to understand/read
+2015-12-15 18:10:22	<════	justanotheruser (~Justan@unaffiliated/justanotheruser) has quit (Ping timeout: 255 seconds)
+2015-12-15 18:10:28	════>	xk_id (~xk_id@unaffiliated/xk-id/x-0573425) has joined #python
+2015-12-15 18:10:58	_habnabit	nabblet, unless ; is the only thing at the beginning and end of the string, you couldn't use it
+2015-12-15 18:10:59	════>	desantis (~desantis@50.153.219.10) has joined #python
+2015-12-15 18:11:40	════>	philr_ (~phil@ppp14-2-67-163.lns21.adl6.internode.on.net) has joined #python
+2015-12-15 18:11:47	<════	desantis (~desantis@50.153.219.10) has left #python
+2015-12-15 18:12:33	ratrace	_habnabit: nedbat: okay, I fixed it, I think there was a hidden recursive import with A importing B, A importing C, and C importing B but also other modules that might be importing A....
+2015-12-15 18:12:37	ratrace	thanks for your help!
+2015-12-15 18:12:42	sa23m	_habnabit: I guess I will have to clear window content (the things that actually use memory) manually on window close as was suggested by simpson, or just hope that nobody who edits this thing in the future ever allows for any error to be triggered, or say that well if you triggered an error in the first place through misuse is it really my fault that now its leaking ram until you close it. Guess I will do some combination of all 3.
+2015-12-15 18:12:48	nabblet	ah yes, the lstrip rstrip idea is not practical
+2015-12-15 18:12:58	════>	desantis (~desantis@50.153.219.10) has joined #python
+2015-12-15 18:13:38	_habnabit	ratrace, that shouldn't lead to modules being imported twice
+2015-12-15 18:13:54	<════	hectortrope (~hectortro@unaffiliated/hectortrope) has quit (Read error: Connection reset by peer)
+2015-12-15 18:13:57	<════	desantis (~desantis@50.153.219.10) has left #python
+2015-12-15 18:14:31	════>	hectortrope (~hectortro@unaffiliated/hectortrope) has joined #python
+2015-12-15 18:14:47	════>	rvin1228 (670e3ca2@gateway/web/freenode/ip.103.14.60.162) has joined #python
+2015-12-15 18:14:52	════>	Jon_R (Jon_R@82-71-10-145.dsl.in-addr.zen.co.uk) has joined #python
+2015-12-15 18:14:56	════>	desantis (~desantis@50.153.219.10) has joined #python
+2015-12-15 18:14:59	ratrace	_habnabit: well, unless there's a bug in python 3.5, I suspect Flask is doing something.
+2015-12-15 18:15:18	_habnabit	ratrace, flask _is_ pretty bad
+2015-12-15 18:15:28	════>	smaudet (~smaudet@cpe-98-28-35-88.columbus.res.rr.com) has joined #python
+2015-12-15 18:15:50	<════	desantis (~desantis@50.153.219.10) has quit (Client Quit)
+2015-12-15 18:15:51	nabblet	_habnabit: actually it looks like my suggested solution is good after all :) thanks for your concern!
+2015-12-15 18:16:08	════>	desantis (~desantis@50.153.219.10) has joined #python
+2015-12-15 18:16:13	════>	boo7 (~msus@unaffiliated/msus) has joined #python
+2015-12-15 18:16:19	rvin1228	Hi Guys, i need help choosing the right version of Python 2 or 3 for my Windows but can't seem to find the system requirements, it is compatible for 32 bit systems like mine?
+2015-12-15 18:16:27	<════	Sheraf (~Sheraf@sheraf.wtf) has quit (Quit: WeeChat 1.0.1)
+2015-12-15 18:16:27	ratrace	_habnabit: could be. :)   thanks. gotta go.
+2015-12-15 18:16:28	<════	desantis (~desantis@50.153.219.10) has quit (Client Quit)
+2015-12-15 18:16:31	rvin1228	is it*
+2015-12-15 18:16:42	════>	Sheraf (~Sheraf@sheraf.wtf) has joined #python
+2015-12-15 18:16:46	════>	desantis (~desantis@50.153.219.10) has joined #python
+2015-12-15 18:16:48	<════	ratrace (~root@unaffiliated/ratrace) has quit (Quit: leaving)
+2015-12-15 18:16:51	_habnabit	rvin1228, you can use either one on 32-bit systems
+2015-12-15 18:17:11	rvin1228	but i don't know which to download
+2015-12-15 18:17:23	════>	salimfadhley (uid31217@wikipedia/salimfadhley) has joined #python
+2015-12-15 18:17:29	aerialB	2 is more widespread, 3 is eventually going to replace it.
+2015-12-15 18:17:32	aerialB	It's up to you.
+2015-12-15 18:17:39	_habnabit	rvin1228, there's a link in the /topic i think
+2015-12-15 18:17:43	_habnabit	aerialB, theoretically
+2015-12-15 18:17:47	rvin1228	When i go to the "downloads" tab, there are no such thing of a download to get the 32 bit
+2015-12-15 18:17:52	aerialB	_habnabit: Yeah
+2015-12-15 18:17:57	<════	luckman212 (~luckman21@unaffiliated/luckman212) has quit (Ping timeout: 240 seconds)
+2015-12-15 18:18:02	rvin1228	the 32 bit system that i've found is for mac
+2015-12-15 18:18:24	aerialB	_habnabit: Do you think habits are too ingrained?
+2015-12-15 18:18:37	<════	Viper168 (~Viper@unaffiliated/viper168) has quit (Ping timeout: 240 seconds)
+2015-12-15 18:18:44	nedbat	rvin1228: you want x86: https://www.python.org/downloads/windows/
+2015-12-15 18:19:05	_habnabit	aerialB, it's about tools, not habits
+2015-12-15 18:19:18	rvin1228	x86 are for 32 bit systems?
+2015-12-15 18:19:27	<════	zandrmartin (~zandr@cpe-74-131-208-242.kya.res.rr.com) has quit (Read error: Connection reset by peer)
+2015-12-15 18:19:29	<════	cewood (~cewood@eth59-167-133-100.static.internode.on.net) has quit (Ping timeout: 256 seconds)
+2015-12-15 18:19:46	nedbat	rvin1228: yes
+2015-12-15 18:19:48	aerialB	So the libraries available for 3 aren't up to scratch/won't be?
+2015-12-15 18:20:09	_habnabit	aerialB, the tooling available for porting to 3 isn't sufficiently automated/correct yet
+2015-12-15 18:20:09	bowzer	hey aerialB , can you check if boto lib works with Pythong 3
+2015-12-15 18:20:26	════>	TyrfingMjolnir (~Tyrfing@c-66-229-198-181.hsd1.fl.comcast.net) has joined #python
+2015-12-15 18:20:35	aerialB	bowzer: I use Python 2
+2015-12-15 18:20:44	rvin1228	Ok thanks, and btw do you guys know any good sites to start leaning Python?
+2015-12-15 18:20:54	interest1ng	hey, anyone know how to make argparse "forget" about a positional argument if a specific flag is used? i.e. my code reads a file, so file is a positional argument. however, it is not required if --version is passed, as my software simple outputs the version without reading a file
+2015-12-15 18:21:00	aerialB	revolve: look at the topic
+2015-12-15 18:21:05	aerialB	sorry meant rvin1228
+2015-12-15 18:21:10	<════	Mitch-_- (~Mitch@d149-67-206-235.try.wideopenwest.com) has quit (Quit: This computer has gone to sleep)
+2015-12-15 18:21:20	interest1ng	(I'm using python 3)
+2015-12-15 18:21:49	════>	Mo0g1e (~F4sh@184.170.105.220) has joined #python
+2015-12-15 18:22:02	<════	Encapsulation (~Astoundin@unaffiliated/encapsulation) has quit (Ping timeout: 246 seconds)
+2015-12-15 18:22:19	════>	wei2912 (~wei2912@unaffiliated/wei2912) has joined #python
+2015-12-15 18:22:27	<════	rvin1228 (670e3ca2@gateway/web/freenode/ip.103.14.60.162) has left #python
+2015-12-15 18:22:31	_habnabit	interest1ng, use click instead; it handles this better
+2015-12-15 18:23:18	<════	Mo0g1e (~F4sh@184.170.105.220) has left #python
+2015-12-15 18:23:24	════>	luckman212 (~luckman21@unaffiliated/luckman212) has joined #python
+2015-12-15 18:23:44	════>	racbear (~racbear@182.253.240.243) has joined #python
+2015-12-15 18:23:46	════>	BSaboia (~BSaboia@80.66.232.74) has joined #python
+2015-12-15 18:24:06	<════	mmercer (~mmercer@c-50-174-236-251.hsd1.ca.comcast.net) has quit (Quit: KVIrc 4.2.0 Equilibrium http://www.kvirc.net/)
+2015-12-15 18:24:10	════>	magine (~magine@124.205.66.195) has joined #python
+2015-12-15 18:24:15	════>	yedi (~yedi@c-76-117-143-120.hsd1.nj.comcast.net) has joined #python
+2015-12-15 18:24:30	════>	zandrmartin (~zandr@74.131.208.242) has joined #python
+2015-12-15 18:24:56	════>	chemist69_ (~apl@a89-182-147-15.net-htp.de) has joined #python
+2015-12-15 18:25:05	<════	BrunoSaboia (~BSaboia@80.66.232.74) has quit (Ping timeout: 250 seconds)
+2015-12-15 18:25:07	<════	tom_simpson (~tsimpson@103.224.120.243) has quit (Quit: tom_simpson)
+2015-12-15 18:25:16	════>	the_rat (~the_rat@2a02:8109:8380:3e8c:ad19:86c0:10d6:98c6) has joined #python
+2015-12-15 18:25:42	════>	Guddu (~Guddu@unaffiliated/guddu) has joined #python
+2015-12-15 18:25:52	<════	cewing (~textual@174-21-98-77.tukw.qwest.net) has quit (Ping timeout: 246 seconds)
+2015-12-15 18:26:35	<════	blackgoat (~blackgoat@221.157.123.200) has quit (Ping timeout: 255 seconds)
+2015-12-15 18:26:58	<════	bilb_ono (~alex@207.71.224.29) has quit (Quit: bilb_ono)
+2015-12-15 18:27:01	════>	zhaodx1 (~Thunderbi@119.39.65.33) has joined #python
+2015-12-15 18:27:37	<════	chemist69 (~apl@a89-182-146-254.net-htp.de) has quit (Ping timeout: 240 seconds)
+2015-12-15 18:27:41	<════	zhaodx1 (~Thunderbi@119.39.65.33) has quit (Remote host closed the connection)
+2015-12-15 18:28:19	════>	cdnsteve (c6548790@gateway/web/cgi-irc/kiwiirc.com/ip.198.84.135.144) has joined #python
+2015-12-15 18:28:40	<════	Pinkamena_D (~Pinkamena@207.200.163.25) has quit (Ping timeout: 246 seconds)
+2015-12-15 18:29:44	<════	the_rat (~the_rat@2a02:8109:8380:3e8c:ad19:86c0:10d6:98c6) has quit (Ping timeout: 255 seconds)
+2015-12-15 18:30:07	<════	Yzguy (~Yzguy@c-98-235-63-240.hsd1.pa.comcast.net) has quit (Quit: Zzz...)
+2015-12-15 18:30:10	boo7	still having hard time with this... can anyone chack this out? :) http://pastebin.com/4gTRkqan
+2015-12-15 18:30:11	infobob	http://paste.pound-python.org/show/BCQ63KAXaMk3eujufOze/ (repasted for boo7)
+2015-12-15 18:30:17	════>	trumpetarn (~trumpetar@h88-129-226-41.dynamic.se.alltele.net) has joined #python
+2015-12-15 18:30:23	════>	basix (~basix@unaffiliated/basix) has joined #python
+2015-12-15 18:30:31	════>	Yzguy (~Yzguy@c-98-235-63-240.hsd1.pa.comcast.net) has joined #python
+2015-12-15 18:31:46	_habnabit	boo7, oh, trying to reload plugins? yeah, python doesn't really support that
+2015-12-15 18:31:50	_habnabit	boo7, is this an irc bot?
+2015-12-15 18:32:13	boo7	yeah, how did you know?
+2015-12-15 18:32:33	_habnabit	boo7, everyone who wants this is writing an irc bot
+2015-12-15 18:32:42	boo7	lol :D
+2015-12-15 18:32:52	<════	MateoElGato (~MateoElGa@64-60-85-178.static-ip.telepacific.net) has quit (Ping timeout: 255 seconds)
+2015-12-15 18:32:58	_habnabit	boo7, anyway, the better solution is to use znc instead of worrying your process exiting
+2015-12-15 18:33:14	boo7	ZNC? :o
+2015-12-15 18:33:16	════>	otter768 (~otter768@cpe-67-11-53-3.satx.res.rr.com) has joined #python
+2015-12-15 18:33:22	════>	cewing (~textual@174-21-98-77.tukw.qwest.net) has joined #python
+2015-12-15 18:33:29	_habnabit	boo7, http://wiki.znc.in/ZNC
+2015-12-15 18:33:41	<════	Earlo (~Earlo@line-10441.dyn.kponet.fi) has quit (Ping timeout: 272 seconds)
+2015-12-15 18:33:54	════>	mango_ (561f853e@gateway/web/cgi-irc/kiwiirc.com/ip.86.31.133.62) has joined #python
+2015-12-15 18:34:05	════>	Wulf4 (~Wulf@unaffiliated/wulf) has joined #python
+2015-12-15 18:34:23	════>	citizen-stig (~citizen-s@89.221.207.219) has joined #python
+2015-12-15 18:34:55	<════	Sawbones (~sawbon3s@pool-96-243-182-204.tampfl.fios.verizon.net) has quit (Remote host closed the connection)
+2015-12-15 18:34:58	boo7	_habnabit: looks sweet, but it wont stop any data (log) losses.. :<
+2015-12-15 18:35:31	_habnabit	boo7, sure, but reloading doesn't help that either
+2015-12-15 18:35:37	<════	mango_ (561f853e@gateway/web/cgi-irc/kiwiirc.com/ip.86.31.133.62) has quit (Client Quit)
+2015-12-15 18:35:38	════>	Pinkamena_D (~Pinkamena@207.200.163.25) has joined #python
+2015-12-15 18:35:47	_habnabit	boo7, your process can exit unexpectedly, so you need to persist data you care about either way
+2015-12-15 18:36:06	════>	Sawbones (~sawbon3s@pool-96-243-182-204.tampfl.fios.verizon.net) has joined #python
+2015-12-15 18:36:10	<════	yedi (~yedi@c-76-117-143-120.hsd1.nj.comcast.net) has quit (Remote host closed the connection)
+2015-12-15 18:36:18	════>	jdownie_ (~jdownie@203.26.11.83) has joined #python
+2015-12-15 18:36:22	<════	Wild_Cat (~Wild_Cat@69-196-167-199.dsl.teksavvy.com) has quit (Ping timeout: 246 seconds)
+2015-12-15 18:36:27	<════	trumpetarn (~trumpetar@h88-129-226-41.dynamic.se.alltele.net) has quit (Ping timeout: 260 seconds)
+2015-12-15 18:36:36	<════	luckman212 (~luckman21@unaffiliated/luckman212) has quit (Ping timeout: 245 seconds)
+2015-12-15 18:36:44	════>	yedi (~yedi@c-76-117-143-120.hsd1.nj.comcast.net) has joined #python
+2015-12-15 18:36:48	════>	DownFreeze (~emersonmd@50.153.191.54) has joined #python
+2015-12-15 18:36:52	════>	bilb_ono (~alex@ip68-6-122-121.sb.sd.cox.net) has joined #python
+2015-12-15 18:37:25	<════	Pr0t3us (~Pr0t3us@gateway/vpn/privateinternetaccess/pr0t3us) has quit (Ping timeout: 246 seconds)
+2015-12-15 18:37:41	<════	cdnsteve (c6548790@gateway/web/cgi-irc/kiwiirc.com/ip.198.84.135.144) has left #python
+2015-12-15 18:37:46	<════	otter768 (~otter768@cpe-67-11-53-3.satx.res.rr.com) has quit (Ping timeout: 240 seconds)
+2015-12-15 18:37:54	<════	thinkt4n_ (~thinkt4nk@host-184-174-145-69.FAROLT2.epbfi.com) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2015-12-15 18:37:55	<════	Wulf (~Wulf@unaffiliated/wulf) has quit (Ping timeout: 272 seconds)
+2015-12-15 18:38:49	<════	bwreilly (~bwreilly@128.177.12.30) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2015-12-15 18:39:06	════>	Sapio (~SapioSapi@cpe-104-34-188-220.socal.res.rr.com) has joined #python
+2015-12-15 18:39:11	<════	citizen-stig (~citizen-s@89.221.207.219) has quit (Ping timeout: 255 seconds)
+2015-12-15 18:39:44	jdownie_	I am having some trouble comparing sets of integers. I thought I knew how == worked between two set()s, but apparently not.
+2015-12-15 18:39:50	jdownie_	Can anybody explain why I am getting this?
+2015-12-15 18:39:54	jdownie_	https://bpaste.net/show/d3fa8037c8e8
+2015-12-15 18:39:59	boo7	_habnabit: thanks for the info & tips, you sure saved me a long irritating night tring to solve this
+2015-12-15 18:40:16	nedbat	jdownie_: sets don't keep duplicates.
+2015-12-15 18:40:17	_habnabit	jdownie_, sets remove duplicates
+2015-12-15 18:40:20	yeryry	jdownie_: What is a set?
+2015-12-15 18:40:28	jdownie_	oh, that explains it.
+2015-12-15 18:40:29	nedbat	jdownie_: you are comparing {1, 3} to {1, 3}
+2015-12-15 18:40:47	<════	yedi (~yedi@c-76-117-143-120.hsd1.nj.comcast.net) has quit (Ping timeout: 240 seconds)
+2015-12-15 18:41:09	jdownie_	I'm trying to get [1, 1, 3] == [1, 3] -> False
+2015-12-15 18:41:16	_habnabit	jdownie_, collections.Counter
+2015-12-15 18:41:23	════>	yedi (~yedi@c-76-117-143-120.hsd1.nj.comcast.net) has joined #python
+2015-12-15 18:41:29	yeryry	So your line 6 does that, doesn't it?
+2015-12-15 18:41:34	<════	racbear (~racbear@182.253.240.243) has quit (Read error: Connection reset by peer)
+2015-12-15 18:41:48	════>	Guddu_ (~Guddu@unaffiliated/guddu) has joined #python
+2015-12-15 18:41:51	KirkMcDonald	jdownie_: Also you are calling list() on things that are already lists.
+2015-12-15 18:42:22	<════	microdex (~microdex@2601:645:c001:9d70:a8ab:d41e:cde8:10f3) has quit (Remote host closed the connection)
+2015-12-15 18:42:25	<════	drink1n (~drink1n@unaffiliated/xrosnight) has quit (Ping timeout: 250 seconds)
+2015-12-15 18:42:44	════>	zepolen (~zepolen@188.4.137.173.dsl.dyn.forthnet.gr) has joined #python
+2015-12-15 18:42:49	<════	xk_id (~xk_id@unaffiliated/xk-id/x-0573425) has quit (Remote host closed the connection)
+2015-12-15 18:43:09	jdownie_	line 6 returns True which was confusing me.
+2015-12-15 18:43:16	jdownie_	This is a clearer demonstation...
+2015-12-15 18:43:19	jdownie_	https://bpaste.net/show/201f5f853842
+2015-12-15 18:43:24	════>	xk_id (~xk_id@unaffiliated/xk-id/x-0573425) has joined #python
+2015-12-15 18:43:27	yeryry	Your paste says false?
+2015-12-15 18:43:30	jdownie_	Let me read up on collections.Counter.
+2015-12-15 18:43:32	jdownie_	Thanks for the tip.
+2015-12-15 18:43:37	════>	zhaodx1 (~Thunderbi@119.39.65.33) has joined #python
+2015-12-15 18:43:46	nedbat	jdownie_: why not just compare the lists?
+2015-12-15 18:43:51	<════	Sawbones (~sawbon3s@pool-96-243-182-204.tampfl.fios.verizon.net) has quit (Remote host closed the connection)
+2015-12-15 18:43:57	<════	bowzer (~ijenius@ip68-8-138-136.sd.sd.cox.net) has quit (Ping timeout: 240 seconds)
+2015-12-15 18:44:23	<════	zhaodx1 (~Thunderbi@119.39.65.33) has quit (Remote host closed the connection)
+2015-12-15 18:44:26	jdownie_	oh, I could sort() a and b and then a == b would do what i'm hoping for?
+2015-12-15 18:44:35	yeryry	It already does...
+2015-12-15 18:44:42	nedbat	jdownie_: yes, or use collections.Counter
+2015-12-15 18:45:02	<════	Guddu (~Guddu@unaffiliated/guddu) has quit (Ping timeout: 255 seconds)
+2015-12-15 18:45:04	<════	rwscarb (~ryan@c-24-22-85-8.hsd1.or.comcast.net) has quit (Quit: Leaving)
+2015-12-15 18:45:39	<════	sssilver (~sssilver@38.122.48.218) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2015-12-15 18:45:52	jdownie_	that answers my question. Thanks everybody.
+2015-12-15 18:45:58	════>	badon (~badon@pdpc/supporter/active/badon) has joined #python
+2015-12-15 18:46:08	════>	myztic (~myztic@unaffiliated/myztic) has joined #python
+2015-12-15 18:46:27	<════	blackwind_123 (~IceChat9@117.192.142.197) has quit (Ping timeout: 240 seconds)
+2015-12-15 18:46:27	<════	wei2912 (~wei2912@unaffiliated/wei2912) has quit (Quit: leaving)
+2015-12-15 18:46:42	════>	Sawbones (~sawbon3s@pool-96-243-182-204.tampfl.fios.verizon.net) has joined #python
+2015-12-15 18:46:56	<════	Vornicus (~Vorn@2601:198:102:12f0:841:bb5a:383c:d847) has quit (Ping timeout: 260 seconds)
+2015-12-15 18:47:25	<════	myztic (~myztic@unaffiliated/myztic) has quit (Client Quit)
+2015-12-15 18:47:31	<════	zepolen (~zepolen@188.4.137.173.dsl.dyn.forthnet.gr) has quit (Ping timeout: 260 seconds)
+2015-12-15 18:47:35	════>	bowzer (~ijenius@ip68-8-138-136.sd.sd.cox.net) has joined #python
+2015-12-15 18:47:41	════>	myztic (~myztic@unaffiliated/myztic) has joined #python
+2015-12-15 18:47:47	<════	mrhanky (mrhanky@cocaine-import.agency) has quit (Quit: G-Lined)
+2015-12-15 18:48:35	<════	Sawbones (~sawbon3s@pool-96-243-182-204.tampfl.fios.verizon.net) has quit (Remote host closed the connection)
+2015-12-15 18:48:41	<════	xk_id (~xk_id@unaffiliated/xk-id/x-0573425) has quit (Ping timeout: 260 seconds)
+2015-12-15 18:48:55	════>	nszceta (~nszceta@c-50-175-158-180.hsd1.tx.comcast.net) has joined #python
+2015-12-15 18:49:52	nszceta	does anybody have experience with running Theano with Celery? https://dpaste.de/FzOV
+2015-12-15 18:50:12	nszceta	For some reason I am getting "Not able to select available GPU from 1 cards (initialization error)."
+2015-12-15 18:50:43	nszceta	Celery spawns two processes even when there is concurrency=1 ... may this have to do with it?
+2015-12-15 18:50:51	════>	mrhanky (mrhanky@unterschicht.tv) has joined #python
+2015-12-15 18:50:53	<════	aretecode (~aretecode@104.156.228.200) has quit (Quit: Toodaloo)
+2015-12-15 18:51:20	<════	yedi (~yedi@c-76-117-143-120.hsd1.nj.comcast.net) has quit (Remote host closed the connection)
+2015-12-15 18:51:22	════>	blackwind_123 (~IceChat9@117.192.148.253) has joined #python
+2015-12-15 18:51:25	nszceta	I am using delayed GPU initialization by importing theano very late in my code
+2015-12-15 18:51:47	<════	mattb__ (~mattb__@wsip-70-166-126-90.ph.ph.cox.net) has quit (Ping timeout: 256 seconds)
+2015-12-15 18:51:57	════>	yedi (~yedi@c-76-117-143-120.hsd1.nj.comcast.net) has joined #python
+2015-12-15 18:51:58	<════	bilb_ono (~alex@ip68-6-122-121.sb.sd.cox.net) has quit (Quit: bilb_ono)
+2015-12-15 18:52:51	<════	morissette (~morissett@2602:306:3b30:2840::46) has quit (Quit: Leaving)
+2015-12-15 18:52:52	════>	Pr0t3us (~Pr0t3us@c-73-23-160-212.hsd1.fl.comcast.net) has joined #python
+2015-12-15 18:53:16	════>	The_DarkKnight (~The_DarkK@c-73-183-240-153.hsd1.tx.comcast.net) has joined #python
+2015-12-15 18:53:52	════>	Sawbones (~sawbon3s@pool-96-243-182-204.tampfl.fios.verizon.net) has joined #python
+2015-12-15 18:53:53	<════	Guddu_ (~Guddu@unaffiliated/guddu) has quit (Read error: Connection reset by peer)
+2015-12-15 18:54:09	════>	Guddu_ (~Guddu@unaffiliated/guddu) has joined #python
+2015-12-15 18:55:00	════>	robattila256 (~robattila@node-1w7jr9qjcski662f6kng8bdmn.ipv6.telus.net) has joined #python
+2015-12-15 18:55:30	<════	myztic (~myztic@unaffiliated/myztic) has quit (Quit: leaving)
+2015-12-15 18:55:56	════>	luckman212 (~luckman21@unaffiliated/luckman212) has joined #python
+2015-12-15 18:56:06	<════	yedi (~yedi@c-76-117-143-120.hsd1.nj.comcast.net) has quit (Ping timeout: 240 seconds)
+2015-12-15 18:56:07	════>	myztic (~myztic@unaffiliated/myztic) has joined #python
+2015-12-15 18:56:42	════>	kirobaito (~kirobaito@2604:2000:1280:20cd:bf:bdc8:a841:4513) has joined #python
+2015-12-15 18:56:59	════>	josuebrunel (~josuebrun@2a01:e35:2f0b:900:ba86:87ff:fe53:30f7) has joined #python
+2015-12-15 18:57:21	════>	catpigger (~catpig@p5B09EA75.dip0.t-ipconnect.de) has joined #python
+2015-12-15 18:57:44	<════	boo7 (~msus@unaffiliated/msus) has left #python ("yo")
+2015-12-15 18:57:57	<════	jazzzu (~jazoja@D97B7B1C.cm-3-4b.dynamic.ziggo.nl) has quit (Ping timeout: 240 seconds)
+2015-12-15 18:58:08	════>	zsak423 (~zsak423@unaffiliated/zsak423) has joined #python
+2015-12-15 18:59:16	<════	Back2Basics (~Back2Basi@ip-64-134-28-138.public.wayport.net) has quit (Quit: Back2Basics)
+2015-12-15 19:00:20	<════	jdownie_ (~jdownie@203.26.11.83) has quit (Ping timeout: 255 seconds)
+2015-12-15 19:00:38	════>	moeabdol (~moeabdol@37.106.141.194) has joined #python
+2015-12-15 19:00:46	<════	catpiggest (~catpig@p5B09EE4D.dip0.t-ipconnect.de) has quit (Ping timeout: 240 seconds)
+2015-12-15 19:00:49	════>	zhaodx1 (~Thunderbi@119.39.65.33) has joined #python
+2015-12-15 19:01:09	════>	dlitvak (~dlitvak@190.19.25.204) has joined #python
+2015-12-15 19:01:13	<════	szt (~szt@botters/szt) has quit (Ping timeout: 246 seconds)
+2015-12-15 19:01:25	<════	zhaodx1 (~Thunderbi@119.39.65.33) has quit (Remote host closed the connection)
+2015-12-15 19:01:26	════>	Wild_Cat (~Wild_Cat@69-196-167-199.dsl.teksavvy.com) has joined #python
+2015-12-15 19:01:36	<════	myztic (~myztic@unaffiliated/myztic) has quit (Quit: leaving)
+2015-12-15 19:01:37	<════	Pinkamena_D (~Pinkamena@207.200.163.25) has quit (Ping timeout: 240 seconds)
+2015-12-15 19:02:16	<════	pohker1424 (~pohker142@pool-108-17-125-7.pitbpa.fios.verizon.net) has quit (Quit: pohker1424)
+2015-12-15 19:02:42	════>	echindod (~echindod@2602:304:cded:5d70:1c33:a27e:5d92:c991) has joined #python
+2015-12-15 19:03:19	════>	pohker1424 (~pohker142@pool-108-17-125-7.pitbpa.fios.verizon.net) has joined #python
+2015-12-15 19:03:20	<════	zsak423 (~zsak423@unaffiliated/zsak423) has quit (Ping timeout: 265 seconds)
+2015-12-15 19:03:22	════>	szt (~szt@botters/szt) has joined #python
+2015-12-15 19:03:48	════>	nimomo (~nimomo@bzq-109-67-139-145.red.bezeqint.net) has joined #python
+2015-12-15 19:05:14	<════	WaffleZ (wafflez@unaffiliated/wafflez) has quit (Ping timeout: 260 seconds)
+2015-12-15 19:05:14	<════	neoncontrails (~neoncontr@wsip-98-186-230-186.sd.sd.cox.net) has quit (Remote host closed the connection)
+2015-12-15 19:05:23	<════	Kamilion (kamilion@copper.sllabs.com) has quit (Ping timeout: 256 seconds)
+2015-12-15 19:06:43	<════	Pr0t3us (~Pr0t3us@c-73-23-160-212.hsd1.fl.comcast.net) has quit (Ping timeout: 265 seconds)
+2015-12-15 19:06:46	<════	AndyRez (~andyrez@71-88-222-112.dhcp.kgpt.tn.charter.com) has quit (Ping timeout: 260 seconds)
+2015-12-15 19:07:17	<════	DownFreeze (~emersonmd@50.153.191.54) has quit (Ping timeout: 240 seconds)
+2015-12-15 19:07:29	════>	lompik (lompik@unaffiliated/lompik) has joined #python
+2015-12-15 19:07:58	════>	cewood (~cewood@123-243-84-198.tpgi.com.au) has joined #python
+2015-12-15 19:08:11	════>	myztic (~myztic@unaffiliated/myztic) has joined #python
+2015-12-15 19:08:26	<════	nimomo (~nimomo@bzq-109-67-139-145.red.bezeqint.net) has quit (Ping timeout: 255 seconds)
+2015-12-15 19:09:02	════>	desophos (~desophos@173.241.250.232) has joined #python
+2015-12-15 19:09:34	════>	Zeranoe (~Zeranoe@c-67-167-133-141.hsd1.mi.comcast.net) has joined #python
+2015-12-15 19:10:03	Zeranoe	How could I check if a url exists/is valid without downloading the whole file? Does requests.get() download the whole thing?
+2015-12-15 19:10:26	<════	ojii|work (~ojii_work@pix.hde.co.jp) has quit (Remote host closed the connection)
+2015-12-15 19:10:50	════>	Mamaril (70c662de@gateway/web/freenode/ip.112.198.98.222) has joined #python
+2015-12-15 19:11:03	<════	HTT-Bird (~HTT-Bird@unaffiliated/htt-bird) has quit (Ping timeout: 256 seconds)
+2015-12-15 19:11:10	_habnabit	Zeranoe, requests.head
+2015-12-15 19:11:39	autrilla	Zeranoe: yes
+2015-12-15 19:12:14	Mamaril	PyCharm | What are the causes of this error 'str' object is not callable.
+2015-12-15 19:12:35	autrilla	Mamaril: well, it's pretty much self-explainatory
+2015-12-15 19:12:38	nszceta	Mamaril what are you feeding your str into
+2015-12-15 19:12:40	autrilla	You can't call strings
+2015-12-15 19:13:26	jason__	it usually happens to me when doing print('Something: %d' % (something)) and leave out the %
+2015-12-15 19:13:46	<════	desophos (~desophos@173.241.250.232) has quit (Ping timeout: 260 seconds)
+2015-12-15 19:14:46	<════	luckman212 (~luckman21@unaffiliated/luckman212) has quit (Ping timeout: 240 seconds)
+2015-12-15 19:15:06	<════	frostschutz (~frostschu@x2f6544b.dyn.telefonica.de) has quit (Ping timeout: 240 seconds)
+2015-12-15 19:15:16	════>	rntz (~rntz@pool-96-248-68-233.cmdnnj.fios.verizon.net) has joined #python
+2015-12-15 19:15:17	<════	brendel (~brice@cev75-5-88-175-55-89.fbx.proxad.net) has quit (Ping timeout: 240 seconds)
+2015-12-15 19:15:31	════>	nso95 (~textual@unaffiliated/nathan1995) has joined #python
+2015-12-15 19:16:04	<════	F2Knight (~F2Knight@50.139.86.39) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2015-12-15 19:16:11	<════	dlitvak (~dlitvak@190.19.25.204) has quit (Remote host closed the connection)
+2015-12-15 19:16:28	════>	frostschutz (~frostschu@x2f65d30.dyn.telefonica.de) has joined #python
+2015-12-15 19:17:06	<════	Leates (~Leates@unaffiliated/rbxdev) has quit (Quit: Follow me - http://www.twitter.com/TheLeates)
+2015-12-15 19:17:46	rntz	a friend of mine has found (I think) a bug in python (both 2 and 3 exhibit same behavior)
+2015-12-15 19:17:48	════>	ojii|work (~ojii_work@pix.hde.co.jp) has joined #python
+2015-12-15 19:17:54	════>	simplycycling (~rsherman@65-78-99-3.c3-0.smt-ubr1.atw-smt.pa.cable.rcn.com) has joined #python
+2015-12-15 19:17:55	<════	nso95 (~textual@unaffiliated/nathan1995) has quit (Client Quit)
+2015-12-15 19:17:55	<════	pilva (~pilva@202.254.189.46.rev.vodafone.pt) has quit (Read error: No route to host)
+2015-12-15 19:17:57	rntz	>>> a,b = (lambda: 1, lambda: 1.0)
+2015-12-15 19:18:03	bowzer	let me try rntz
+2015-12-15 19:18:08	rntz	>>> b()
+2015-12-15 19:18:09	rntz	1
+2015-12-15 19:18:11	════>	pilva (~pilva@202.254.189.46.rev.vodafone.pt) has joined #python
+2015-12-15 19:18:16	rntz	>>> type(b())
+2015-12-15 19:18:19	rntz	<class 'int'>
+2015-12-15 19:18:53	hobo	what is it suppose to be?
+2015-12-15 19:18:56	════>	the_rat (~the_rat@ip5f5aef15.dynamic.kabel-deutschland.de) has joined #python
+2015-12-15 19:19:12	rntz	float
+2015-12-15 19:19:19	bowzer	it is supposed to be float
+2015-12-15 19:19:21	rntz	1.0
+2015-12-15 19:19:24	rntz	is a float
+2015-12-15 19:19:30	rntz	compare:
+2015-12-15 19:19:31	════>	nso95 (~textual@unaffiliated/nathan1995) has joined #python
+2015-12-15 19:19:33	rntz	>>> a,b = 1, 1.0
+2015-12-15 19:19:38	rntz	>>> type(b)
+2015-12-15 19:19:40	bowzer	but why would you use lambda not as a function, but to just return a static value
+2015-12-15 19:19:49	rntz	<class 'float'>
+2015-12-15 19:20:01	<════	astrofog (~astrofog@unaffiliated/astrofog) has quit (Quit: Quite)
+2015-12-15 19:20:02	rntz	bowzer: it's not good code, but it demonstrates a bug :P
+2015-12-15 19:20:16	bowzer	not necessarily, let me think about it
+2015-12-15 19:20:24	════>	zhaodx (~Thunderbi@119.39.65.33) has joined #python
+2015-12-15 19:20:47	autrilla	interesting
+2015-12-15 19:21:25	<════	jabagawee (~jabagawee@unaffiliated/jabagawee) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2015-12-15 19:21:30	════>	BaD_CrC (~badcrc@2601:601:500:1a8::32) has joined #python
+2015-12-15 19:22:23	════>	yedi (~yedi@c-76-117-143-120.hsd1.nj.comcast.net) has joined #python
+2015-12-15 19:22:23	<════	austengary (~muffinz@cpe-75-82-50-255.socal.res.rr.com) has quit (Read error: Connection reset by peer)
+2015-12-15 19:22:28	bowzer	it certainly seems like a bug
+2015-12-15 19:22:49	════>	enterprisey (~enterpris@wikipedia/APerson) has joined #python
+2015-12-15 19:22:57	<════	acangiani (~acangiani@181.91.83.27) has quit (Remote host closed the connection)
+2015-12-15 19:23:03	════>	austengary (~muffinz@cpe-75-82-50-255.socal.res.rr.com) has joined #python
+2015-12-15 19:23:05	Zeranoe	How could I concatenate the raw data from multiple files into one
+2015-12-15 19:23:29	════>	Arlen0 (~Arlen0@199.193.218.81) has joined #python
+2015-12-15 19:23:36	<════	Seppy (~SilentPen@unaffiliated/silentpenguin) has quit (Remote host closed the connection)
+2015-12-15 19:23:41	<════	the_rat (~the_rat@ip5f5aef15.dynamic.kabel-deutschland.de) has quit (Ping timeout: 260 seconds)
+2015-12-15 19:23:43	jason__	yeah it seems like some weird optimization thing
+2015-12-15 19:23:47	<════	Arlen0 (~Arlen0@199.193.218.81) has quit (Client Quit)
+2015-12-15 19:24:08	<════	verovan (~verovan@unaffiliated/verovan) has quit (Remote host closed the connection)
+2015-12-15 19:24:12	yeryry	Yeah, if you change the first 1 to 1.0, b() is then a float
+2015-12-15 19:24:19	<════	saschpe (~saschpe@opensuse/member/saschpe) has quit (Ping timeout: 246 seconds)
+2015-12-15 19:24:30	════>	aavrug (~gaurav@117.240.170.130) has joined #python
+2015-12-15 19:24:34	bowzer	a,b = (lambda x: x+1, lambda x: x+1.0)
+2015-12-15 19:24:43	bowzer	if you do type(b(1)), what should it be?
+2015-12-15 19:25:02	bowzer	it should be a float, right?
+2015-12-15 19:25:09	════>	Croves (~Croves@187.39.8.190) has joined #python
+2015-12-15 19:25:15	autrilla	So, for lambda: a, lambda b, where b is a float, it only produces the weird output when a == b
+2015-12-15 19:25:52	bowzer	well, autrilla, my example generalizes the experiment to non-static lambda functions
+2015-12-15 19:25:59	yeryry	No? Only when a is not a float
+2015-12-15 19:26:21	autrilla	yeryry: I'm asuming a is an integer, and b a float
+2015-12-15 19:26:22	yeryry	Oh no, you're right
+2015-12-15 19:26:29	════>	saschpe (~saschpe@opensuse/member/saschpe) has joined #python
+2015-12-15 19:26:36	════>	mandeepb (~mandeepb@162.216.46.152) has joined #python
+2015-12-15 19:26:37	KirkMcDonald	Those lambdas share a code object.
+2015-12-15 19:26:39	KirkMcDonald	Curious.
+2015-12-15 19:26:50	jason__	a,b = (lambda: 1, lambda: 1.0 + 0) works like you would expect
+2015-12-15 19:27:00	autrilla	can someone check on pypy?
+2015-12-15 19:27:01	<════	yedi (~yedi@c-76-117-143-120.hsd1.nj.comcast.net) has quit (Ping timeout: 265 seconds)
+2015-12-15 19:27:07	yeryry	2, 1.0 works as expected
+2015-12-15 19:27:15	yeryry	1, 1.0 is weird
+2015-12-15 19:27:24	_habnabit	ahahaha
+2015-12-15 19:27:25	_habnabit	i know what it is
+2015-12-15 19:27:51	KirkMcDonald	_habnabit: Doesn't seem like constant folding would do this...
+2015-12-15 19:27:55	════>	knarfly (~IceChat9@2601:58d:200:63e0:a14f:21b3:3848:6aa5) has joined #python
+2015-12-15 19:27:58	autrilla	KirkMcDonald: it looks like CPython is saying 'these two are the same thing, and since they're immutable, let's have them refer to the same thing'
+2015-12-15 19:27:58	_habnabit	1 == 1.0, so the compiler is trying to be too smart and put both into the same co_const slot
+2015-12-15 19:28:01	════>	yedi (~yedi@c-76-117-143-120.hsd1.nj.comcast.net) has joined #python
+2015-12-15 19:28:02	knarfly	I have a python program that is written in 3 but the server at work only has 2.7.8...can anyone recommend a converter that will dumb down this code?
+2015-12-15 19:28:05	autrilla	yeah, what I thought
+2015-12-15 19:28:11	autrilla	_habnabit: does PyPy do this?
+2015-12-15 19:28:16	_habnabit	autrilla, no idea
+2015-12-15 19:28:19	════>	tvm (~tvm@router-sever2-nat-e.pilsfree.net) has joined #python
+2015-12-15 19:28:30	════>	malinoff (~malinoff@unaffiliated/malinoff) has joined #python
+2015-12-15 19:28:30	════>	blackgoat (~blackgoat@222.104.135.236) has joined #python
+2015-12-15 19:28:38	autrilla	_habnabit: does CPython care they're 'promitives'?
+2015-12-15 19:28:42	autrilla	primitives
+2015-12-15 19:28:46	KirkMcDonald	_habnabit: But the constants are in entirely different functions. It's collapsing the *code objects* together, not the constants 1 and 1.0.
+2015-12-15 19:28:57	autrilla	Or would it happen for all a, b as long as a == b
+2015-12-15 19:29:09	KirkMcDonald	_habnabit: Both lambdas refer to a single code object.
+2015-12-15 19:29:10	bowzer	a,b = (lambda x: x+1, lambda x: x+2.0)  _habnabit do you think type(b(1)) will be a float or an int?
+2015-12-15 19:29:19	_habnabit	KirkMcDonald, no, i know; i get it
+2015-12-15 19:29:41	_habnabit	KirkMcDonald, it's bizarre but i fully expect that it's attempted optimization gone awry
+2015-12-15 19:29:55	════>	travnewmatic (~travnewma@corp.external.dfw02.800hosting.net) has joined #python
+2015-12-15 19:29:58	<════	jjmalina (~jjmalina@static-71-183-236-90.nycmny.fios.verizon.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2015-12-15 19:30:06	<════	buck1 (~buck1@173-228-104-18.dsl.dynamic.fusionbroadband.com) has quit (Ping timeout: 240 seconds)
+2015-12-15 19:30:16	════>	bolichep (~Keith@179.38.140.241) has joined #python
+2015-12-15 19:30:16	_habnabit	digging into the compiler now
+2015-12-15 19:30:52	════>	baweaver (~baweaver@c-24-4-24-160.hsd1.ca.comcast.net) has joined #python
+2015-12-15 19:31:02	KirkMcDonald	_habnabit: Aw hell: https://hg.python.org/cpython/file/2.7/Objects/codeobject.c#l416
+2015-12-15 19:31:09	════>	xk_id (~xk_id@unaffiliated/xk-id/x-0573425) has joined #python
+2015-12-15 19:31:09	════>	jabagawee (~jabagawee@unaffiliated/jabagawee) has joined #python
+2015-12-15 19:31:11	KirkMcDonald	_habnabit: I blame that line of code right there.
+2015-12-15 19:31:11	<════	xk_id (~xk_id@unaffiliated/xk-id/x-0573425) has quit (Remote host closed the connection)
+2015-12-15 19:31:18	_habnabit	KirkMcDonald, ahahahaha yesssssssss
+2015-12-15 19:31:39	_habnabit	KirkMcDonald, because code objects themselves are considered constants, they compare equal
+2015-12-15 19:31:55	_habnabit	KirkMcDonald, and so the top-level code object collapses both into the same const slot
+2015-12-15 19:31:59	KirkMcDonald	Yeeeep.
+2015-12-15 19:32:05	_habnabit	i love it
+2015-12-15 19:32:08	autrilla	yup it doesn't work for instances
+2015-12-15 19:32:17	bowzer	dear dear dear, oh dear
+2015-12-15 19:32:18	════>	luckman212 (~luckman21@unaffiliated/luckman212) has joined #python
+2015-12-15 19:32:20	_habnabit	it's a shame this can only work on literals
+2015-12-15 19:32:27	asdf	ha, hilarious
+2015-12-15 19:32:29	_habnabit	because this is _hilarious_
+2015-12-15 19:32:34	autrilla	class A() __equals__ return True class B() __equals__ return True, doesn't work :d
+2015-12-15 19:32:40	bowzer	why is it hilarious, i do not get it
+2015-12-15 19:32:41	autrilla	_habnabit: feature
+2015-12-15 19:32:45	bowzer	i want a good laugh too
+2015-12-15 19:32:47	<════	dbristow (~dbristow@nylug/member/dbristow) has quit (Remote host closed the connection)
+2015-12-15 19:32:50	autrilla	bowzer: because it's terrible
+2015-12-15 19:32:51	_habnabit	bowzer, python is trying to be too smart for its own good
+2015-12-15 19:33:13	yeryry	If its only discovered when doing strange things with lambdas like that, is it really a problem?
+2015-12-15 19:33:15	bowzer	does that mean the guys who wrote the Python compiler are trying to be too smart?
+2015-12-15 19:33:22	_habnabit	yeryry, it's not just lambdas
+2015-12-15 19:33:33	════>	dlitvak (~dlitvak@190.19.25.204) has joined #python
+2015-12-15 19:33:39	KirkMcDonald	Yeah, it'd work for any closure.
+2015-12-15 19:34:00	KirkMcDonald	That is, any functions defined inside of some other function.
+2015-12-15 19:34:08	KirkMcDonald	Or... maybe module-level functions?
+2015-12-15 19:34:11	KirkMcDonald	Hmm.
+2015-12-15 19:34:15	bowzer	yeryry : is defining two lambda functions, one that should return an int and one that should return a float that odd?
+2015-12-15 19:34:36	autrilla	am I seeing gotos in the source? are they really there?
+2015-12-15 19:34:44	_habnabit	autrilla, goto is fine
+2015-12-15 19:34:44	bowzer	a,b = (lambda x: x+1, lambda x: x+1.0) isn't that odd to me because i recently defined two identical functions, one to return an int and one to return a float
+2015-12-15 19:35:02	yeryry	It's only because you're defining them at the same time, I think?
+2015-12-15 19:35:08	bowzer	oh
+2015-12-15 19:35:11	autrilla	_habnabit: sometimes
+2015-12-15 19:35:16	_habnabit	autrilla, in C
+2015-12-15 19:35:19	<════	ob_ (~ob@60-240-60-98.tpgi.com.au) has quit (Quit: Leaving)
+2015-12-15 19:35:26	<════	baweaver (~baweaver@c-24-4-24-160.hsd1.ca.comcast.net) has quit (Ping timeout: 255 seconds)
+2015-12-15 19:35:29	════>	tom_simpson (~tsimpson@103.224.120.243) has joined #python
+2015-12-15 19:36:09	bowzer	is a lambda a closure?
+2015-12-15 19:36:13	_habnabit	bowzer, it can be
+2015-12-15 19:36:31	bowzer	but is : a = lambda: 1  a closure?
+2015-12-15 19:36:39	_habnabit	bowzer, at the module scope? no
+2015-12-15 19:36:47	════>	Noldorin (~noldorin@unaffiliated/noldorin) has joined #python
+2015-12-15 19:37:04	bowzer	dear, dear, dear. oh dear
+2015-12-15 19:37:12	KirkMcDonald	Oh! I see why it only comes up with lambdas: The code object knows the *name* of the function.
+2015-12-15 19:37:14	autrilla	Interview question!
+2015-12-15 19:37:33	_habnabit	KirkMcDonald, right, and i was trying to do it with two functions with the same name
+2015-12-15 19:37:33	autrilla	KirkMcDonald: lambdas have names?
+2015-12-15 19:37:37	bowzer	don't interview me like that bro
+2015-12-15 19:37:41	_habnabit	KirkMcDonald, actually, that's right: it's comparing lnotab too
+2015-12-15 19:37:51	_habnabit	or is it?
+2015-12-15 19:37:53	<════	maroloccio (~marolocci@151.15.34.222) has quit (Quit: WeeChat 1.2)
+2015-12-15 19:37:57	<════	dlitvak (~dlitvak@190.19.25.204) has quit (Ping timeout: 240 seconds)
+2015-12-15 19:38:01	_habnabit	it's comparing co_firstlineno, at least
+2015-12-15 19:38:08	KirkMcDonald	_habnabit: Oh, ho, ho, and it compares the first line number!
+2015-12-15 19:38:09	_habnabit	so you can't get it without two functions with the same name on the same line
+2015-12-15 19:38:13	KirkMcDonald	_habnabit: Yesss.
+2015-12-15 19:38:24	_habnabit	so ok yeah it's just lambdas
+2015-12-15 19:38:31	KirkMcDonald	autrilla: Lambdas get a placeholder name, "<lambda>".
+2015-12-15 19:38:48	autrilla	aha
+2015-12-15 19:39:00	<════	curtis_ (~cwens@96.53.50.226) has quit (Quit: ZNC - http://znc.in)
+2015-12-15 19:39:06	autrilla	Do you two work with CPython's source?
+2015-12-15 19:39:07	════>	kylls (~kylls_@gateway/vpn/privateinternetaccess/kylls) has joined #python
+2015-12-15 19:39:13	bowzer	man, i always want to define lambdas on the same line, because they're already so compact as it is, i just want to compact them more
+2015-12-15 19:39:14	_habnabit	i have in the past
+2015-12-15 19:39:15	autrilla	How do you know this stuff :/
+2015-12-15 19:39:19	════>	Skuzzzy (~Skuzzzy@host-45-118.aztevds.tempe.az.us.clients.pavlovmedia.com) has joined #python
+2015-12-15 19:39:20	KirkMcDonald	I have read through it a great deal.
+2015-12-15 19:39:28	_habnabit	same
+2015-12-15 19:39:31	_habnabit	never for good reasons
+2015-12-15 19:39:36	KirkMcDonald	Never ever.
+2015-12-15 19:39:51	KirkMcDonald	You only go digging when there's something to find. Case in point.
+2015-12-15 19:39:52	autrilla	Like now :p
+2015-12-15 19:40:08	bowzer	what about making a lambda generator?
+2015-12-15 19:40:25	<════	yedi (~yedi@c-76-117-143-120.hsd1.nj.comcast.net) has quit (Remote host closed the connection)
+2015-12-15 19:40:31	════>	jteneyck (~jteneyck@unaffiliated/josephteneyck) has joined #python
+2015-12-15 19:40:31	<════	spt0 (~spt0@unaffiliated/spt0) has quit (Ping timeout: 256 seconds)
+2015-12-15 19:40:46	autrilla	I don't think you can yield inside lambdas
+2015-12-15 19:40:49	════>	desantis_ (~desantis@50.153.219.10) has joined #python
+2015-12-15 19:40:51	_habnabit	you can
+2015-12-15 19:41:03	════>	yedi (~yedi@c-76-117-143-120.hsd1.nj.comcast.net) has joined #python
+2015-12-15 19:41:42	autrilla	_habnabit: lambda: yield 1 is a SyntaxError?
+2015-12-15 19:41:47	_habnabit	autrilla, (yield 1)
+2015-12-15 19:41:49	<════	austengary (~muffinz@cpe-75-82-50-255.socal.res.rr.com) has quit (Read error: Connection reset by peer)
+2015-12-15 19:42:00	autrilla	oh
+2015-12-15 19:42:05	KirkMcDonald	'yield' is fun.
+2015-12-15 19:42:15	<════	mrhanky (mrhanky@unterschicht.tv) has quit (Quit: G-Lined)
+2015-12-15 19:42:19	autrilla	I know nothing about python
+2015-12-15 19:42:30	════>	mrhanky (mrhanky@cocaine-import.agency) has joined #python
+2015-12-15 19:42:37	<════	desantis (~desantis@50.153.219.10) has quit (Ping timeout: 240 seconds)
+2015-12-15 19:42:45	<════	mrhanky (mrhanky@cocaine-import.agency) has quit (Client Quit)
+2015-12-15 19:42:49	--	desantis_ is now known as desantis
+2015-12-15 19:42:55	nszceta	any ideas on how to best take in a python list as a command line argument to another python interpreter?
+2015-12-15 19:42:56	════>	austengary (~muffinz@cpe-75-82-50-255.socal.res.rr.com) has joined #python
+2015-12-15 19:42:58	<════	lobius (~Thunderbi@162-228-82-186.lightspeed.wepbfl.sbcglobal.net) has quit (Ping timeout: 265 seconds)
+2015-12-15 19:43:05	_habnabit	nszceta, json?
+2015-12-15 19:43:13	autrilla	not eval
+2015-12-15 19:43:17	_habnabit	http://codepad.org/CdocE0Vw unexpected floats
+2015-12-15 19:43:21	nszceta	json.dumps/loads?
+2015-12-15 19:43:31	_habnabit	nszceta, sure
+2015-12-15 19:43:31	nszceta	will that be properly escaped?
+2015-12-15 19:43:38	<════	echindod (~echindod@2602:304:cded:5d70:1c33:a27e:5d92:c991) has quit (Quit: Leaving...)
+2015-12-15 19:43:40	_habnabit	nszceta, it'll be json encoded
+2015-12-15 19:43:58	nszceta	just making sure that a dumped json command-line friendly?
+2015-12-15 19:44:06	autrilla	yes
+2015-12-15 19:44:06	 *	nszceta apologies for bad english
+2015-12-15 19:44:11	nszceta	thanks
+2015-12-15 19:44:14	_habnabit	nszceta, there's nothing that would be 'unfriendly' about it
+2015-12-15 19:44:19	<════	kalem (~kalem@unaffiliated/kalem) has quit (Remote host closed the connection)
+2015-12-15 19:44:25	nszceta	unescaped spaces are very unfriendlty
+2015-12-15 19:44:34	autrilla	nszceta: what do you mean?
+2015-12-15 19:44:35	_habnabit	nszceta, only if you involve a shell
+2015-12-15 19:44:40	_habnabit	nszceta, so, don't involve a shell
+2015-12-15 19:44:43	nszceta	i want to invoke popen
+2015-12-15 19:44:54	════>	mango_ (561f853e@gateway/web/cgi-irc/kiwiirc.com/ip.86.31.133.62) has joined #python
+2015-12-15 19:44:57	autrilla	nszceta: so don't do it with shell=True
+2015-12-15 19:44:57	_habnabit	nszceta, great! so just don't use shell=True and you'll be fine
+2015-12-15 19:45:10	════>	heaviside (~heaviside@172.56.27.57) has joined #python
+2015-12-15 19:45:17	<════	yedi (~yedi@c-76-117-143-120.hsd1.nj.comcast.net) has quit (Ping timeout: 240 seconds)
+2015-12-15 19:45:17	<════	albel727 (~albel727@unaffiliated/albel727) has quit (Ping timeout: 240 seconds)
+2015-12-15 19:45:45	════>	yedi (~yedi@c-76-117-143-120.hsd1.nj.comcast.net) has joined #python
+2015-12-15 19:46:32	════>	baweaver (~baweaver@2601:644:8280:b3c:14a2:9acf:99df:4014) has joined #python
+2015-12-15 19:46:35	════>	Pinkamena_D (~Pinkamena@c-69-136-96-66.hsd1.nj.comcast.net) has joined #python
+2015-12-15 19:46:35	<════	mango_ (561f853e@gateway/web/cgi-irc/kiwiirc.com/ip.86.31.133.62) has quit (Client Quit)
+2015-12-15 19:47:27	<════	simplycycling (~rsherman@65-78-99-3.c3-0.smt-ubr1.atw-smt.pa.cable.rcn.com) has quit (Quit: leaving)
+2015-12-15 19:47:30	<════	OdicforceSounds (~odicforce@a89-154-78-153.cpe.netcabo.pt) has quit (Quit: leaving)
+2015-12-15 19:47:34	════>	desophos (~desophos@71-83-197-83.dhcp.hspr.ca.charter.com) has joined #python
+2015-12-15 19:47:50	nszceta	argv[0] is the interpreter itself?
+2015-12-15 19:48:13	autrilla	nszceta: have you considered using a library that handles that kind of thing for you?
+2015-12-15 19:48:20	autrilla	click for example
+2015-12-15 19:48:20	════>	desophos_ (~desophos@71-83-197-83.dhcp.hspr.ca.charter.com) has joined #python
+2015-12-15 19:48:28	nszceta	?
+2015-12-15 19:48:40	nszceta	subprocess and json seem like more than enough
+2015-12-15 19:48:44	════>	sertsa (~sertsa@69.39.10.223) has joined #python
+2015-12-15 19:49:07	autrilla	I mean to parse command line arguments
+2015-12-15 19:49:09	<════	desophos (~desophos@71-83-197-83.dhcp.hspr.ca.charter.com) has quit (Disconnected by services)
+2015-12-15 19:49:12	════>	curtis_ (~cwens@96.53.50.226) has joined #python
+2015-12-15 19:49:12	--	desophos_ is now known as desophos
+2015-12-15 19:49:20	autrilla	But sure, yes, argv[0] is the script's name
+2015-12-15 19:49:32	nszceta	eh, no need to overcomplicate it
+2015-12-15 19:49:37	════>	pydo (~rhunter@172.98.67.7) has joined #python
+2015-12-15 19:49:40	nszceta	i'm banking on argv for now
+2015-12-15 19:50:08	autrilla	afaik argv[0] is just the first thing after 'python'
+2015-12-15 19:50:11	════>	desantis_ (~desantis@50.153.219.10) has joined #python
+2015-12-15 19:50:12	════>	dotpot (~dotpot@unaffiliated/dotpot) has joined #python
+2015-12-15 19:50:13	<════	jakesyl (~jakesyl@50.153.125.1) has quit (Ping timeout: 265 seconds)
+2015-12-15 19:50:14	<════	Noldorin (~noldorin@unaffiliated/noldorin) has quit (Quit: –)
+2015-12-15 19:50:44	nszceta	i thought it was 'python' itself
+2015-12-15 19:51:14	════>	kingplusplus_ (~kingplusp@41.58.11.130) has joined #python
+2015-12-15 19:51:17	<════	josuebrunel (~josuebrun@2a01:e35:2f0b:900:ba86:87ff:fe53:30f7) has quit (Ping timeout: 240 seconds)
+2015-12-15 19:51:17	knarfly	I have a python program that is written in 3 but the server at work only has 2.7.8...can anyone recommend a converter that will dumb down this code?
+2015-12-15 19:51:26	nszceta	3to2
+2015-12-15 19:51:29	autrilla	knarfly: virtualenv
+2015-12-15 19:51:35	<════	desantis (~desantis@50.153.219.10) has quit (Ping timeout: 272 seconds)
+2015-12-15 19:51:36	--	desantis_ is now known as desantis
+2015-12-15 19:51:40	autrilla	as in, install python 3
+2015-12-15 19:52:05	<════	kingplusplus (~kingplusp@41.58.11.202) has quit (Ping timeout: 255 seconds)
+2015-12-15 19:52:05	--	kingplusplus_ is now known as kingplusplus
+2015-12-15 19:52:25	knarfly	the new IT guy doesn't want to install 3...go figure
+2015-12-15 19:52:43	nszceta	Lol
+2015-12-15 19:53:13	════>	dlitvak (~dlitvak@190.19.25.204) has joined #python
+2015-12-15 19:53:14	════>	drink1n (~drink1n@unaffiliated/xrosnight) has joined #python
+2015-12-15 19:53:40	nszceta	knarfly try 3to2 or http://pythonhosted.org/six/
+2015-12-15 19:53:54	autrilla	knarfly: he doesn't have to know
+2015-12-15 19:54:30	════>	spt0 (~spt0@unaffiliated/spt0) has joined #python
+2015-12-15 19:55:12	<════	dotpot (~dotpot@unaffiliated/dotpot) has quit (Ping timeout: 260 seconds)
+2015-12-15 19:55:29	════>	sb- (~strictlyb@docean-ns.ringzworldllc.com) has joined #python
+2015-12-15 19:56:06	<════	ep (uid109503@gateway/web/irccloud.com/x-iqtyenqkvueksded) has quit (Quit: Connection closed for inactivity)
+2015-12-15 19:56:11	<════	cewing (~textual@174-21-98-77.tukw.qwest.net) has quit (Quit: hasta la bagel)
+2015-12-15 19:56:15	<════	tom_simpson (~tsimpson@103.224.120.243) has quit (Quit: tom_simpson)
+2015-12-15 19:56:39	════>	tom_simpson (~tsimpson@103.224.120.243) has joined #python
+2015-12-15 19:56:55	════>	bfrog (~tburdick@unaffiliated/submersive) has joined #python
+2015-12-15 19:56:59	<════	desantis (~desantis@50.153.219.10) has quit (Ping timeout: 265 seconds)
+2015-12-15 19:57:38	--	Simotek__ is now known as Simotek
+2015-12-15 19:58:00	════>	anonnumberano (~anonnumbe@unaffiliated/anonnumberanon) has joined #python
+2015-12-15 19:58:30	<════	hyperknot (~anonymous@catv-188-142-240-170.catv.broadband.hu) has quit (Quit: hyperknot)
+2015-12-15 19:58:33	<════	dlitvak (~dlitvak@190.19.25.204) has quit (Ping timeout: 272 seconds)
+2015-12-15 19:59:07	<════	kerrick (~Adium@38.110.175.206) has quit (Quit: Leaving.)
+2015-12-15 19:59:17	════>	fofoni (~ztcptxm1b@187-15-172-20.user.veloxzone.com.br) has joined #python
+2015-12-15 19:59:39	════>	zsak423 (~zsak423@unaffiliated/zsak423) has joined #python
+2015-12-15 19:59:40	════>	rahulnht (~rahulnht@59.91.130.33) has joined #python
+2015-12-15 19:59:49	<════	spt0 (~spt0@unaffiliated/spt0) has quit (Ping timeout: 272 seconds)
+2015-12-15 19:59:53	<════	austengary (~muffinz@cpe-75-82-50-255.socal.res.rr.com) has quit (Ping timeout: 265 seconds)
+2015-12-15 20:00:09	<════	heaviside (~heaviside@172.56.27.57) has quit (Quit: Leaving)
+2015-12-15 20:00:38	<════	jteneyck (~jteneyck@unaffiliated/josephteneyck) has quit (Ping timeout: 255 seconds)
+2015-12-15 20:01:02	<════	raj (~raj@unaffiliated/cypha) has quit (Remote host closed the connection)
+2015-12-15 20:01:02	<════	raj` (~raj@unaffiliated/cypha) has quit (Remote host closed the connection)
+2015-12-15 20:01:06	════>	austengary (~muffinz@cpe-75-82-50-255.socal.res.rr.com) has joined #python
+2015-12-15 20:01:10	════>	jteneyck (~jteneyck@unaffiliated/josephteneyck) has joined #python
+2015-12-15 20:01:37	════>	heaviside (~heaviside@172.56.27.57) has joined #python
+2015-12-15 20:02:11	<════	rahulnht (~rahulnht@59.91.130.33) has left #python ("Leaving")
+2015-12-15 20:02:21	════>	desantis (~desantis@172.56.20.179) has joined #python
+2015-12-15 20:02:21	<════	desantis (~desantis@172.56.20.179) has quit (Client Quit)
+2015-12-15 20:03:00	<════	ojii|work (~ojii_work@pix.hde.co.jp) has quit (Remote host closed the connection)
+2015-12-15 20:03:17	════>	mrhanky (mrhanky@cocaine-import.agency) has joined #python
+2015-12-15 20:03:25	════>	desantis (~desantis@172.56.20.179) has joined #python
+2015-12-15 20:04:32	<════	Rollabunna (~Rollabunn@p76ed51a6.tokynt01.ap.so-net.ne.jp) has quit (Read error: No route to host)
+2015-12-15 20:04:33	════>	nimomo (~nimomo@bzq-109-67-139-145.red.bezeqint.net) has joined #python
+2015-12-15 20:04:34	<════	zsak423 (~zsak423@unaffiliated/zsak423) has quit (Ping timeout: 246 seconds)
+2015-12-15 20:04:52	--	Hoffman is now known as The_DorkKnight
+2015-12-15 20:05:26	<════	yedi (~yedi@c-76-117-143-120.hsd1.nj.comcast.net) has quit (Remote host closed the connection)
+2015-12-15 20:05:31	<════	nszceta (~nszceta@c-50-175-158-180.hsd1.tx.comcast.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2015-12-15 20:05:50	<════	braincrash (~braincras@81.193.133.244) has quit (Quit: bye bye)
+2015-12-15 20:05:59	════>	Lhun (~Lhun@187.189.167.4) has joined #python
+2015-12-15 20:06:01	════>	yedi (~yedi@c-76-117-143-120.hsd1.nj.comcast.net) has joined #python
+2015-12-15 20:06:03	════>	Jinx00 (b9288005@gateway/web/freenode/ip.185.40.128.5) has joined #python
+2015-12-15 20:06:05	════>	mihanentalpo (~Icedove@94.180.57.55) has joined #python
+2015-12-15 20:07:46	pydo	I'm having an issue with an absolute import in python3. Here is the directory structure https://bpaste.net/show/eb639b5c73fe and here is the 2 import statements I tried https://bpaste.net/show/a1ae52dbc91d. Both relative and absolute have failed. I'd appreciate it if anyone could tell me what's wrong thanks.
+2015-12-15 20:08:46	<════	nimomo (~nimomo@bzq-109-67-139-145.red.bezeqint.net) has quit (Ping timeout: 246 seconds)
+2015-12-15 20:09:04	<════	trav408 (~travis@205.158.22.121.ptr.us.xo.net) has quit (Ping timeout: 265 seconds)
+2015-12-15 20:09:07	limbera	if you had to recommend a single book to someone who wanted to learn python, what would it be?
+2015-12-15 20:09:17	limbera	context: person can program, has a compsci degree
+2015-12-15 20:09:57	pydo	this maybe = https://www.packtpub.com/application-development/python-3-object-oriented-programming
+2015-12-15 20:10:02	════>	saurabhjha (~saurabhjh@122.15.93.21) has joined #python
+2015-12-15 20:10:03	<════	malinoff (~malinoff@unaffiliated/malinoff) has quit (Ping timeout: 265 seconds)
+2015-12-15 20:10:33	<════	yedi (~yedi@c-76-117-143-120.hsd1.nj.comcast.net) has quit (Ping timeout: 256 seconds)
+2015-12-15 20:10:34	<════	cdunklau (~cdunklau@unaffiliated/cdunklau) has quit (Ping timeout: 260 seconds)
+2015-12-15 20:11:37	<════	tvm (~tvm@router-sever2-nat-e.pilsfree.net) has quit (Ping timeout: 240 seconds)
+2015-12-15 20:11:39	<════	xvx (~xvx@93.191.206.232) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2015-12-15 20:11:51	<════	thinkdoge (~thinkdoge@69.165.152.7) has quit (Ping timeout: 272 seconds)
+2015-12-15 20:12:36	════>	legend (~blue@122.161.212.246) has joined #python
+2015-12-15 20:14:00	_habnabit	pydo, you're trying to do the import from something in the tests directory? also this structure is kind of confusing. is tests under mydirectory or not?
+2015-12-15 20:14:51	KirkMcDonald	I filed a bug about that lambda thing: http://bugs.python.org/issue25879
+2015-12-15 20:14:52	<════	Guddu_ (~Guddu@unaffiliated/guddu) has quit (Quit: Leaving)
+2015-12-15 20:14:58	════>	Mr_Psmith (~mr_psmith@d149-67-249-75.try.wideopenwest.com) has joined #python
+2015-12-15 20:15:08	pydo	_habnabit: I am import from file1_test.py which is in the test directory
+2015-12-15 20:15:17	<════	Mufin|Lappy587 (~MufinMcFl@c-50-150-56-92.hsd1.ga.comcast.net) has quit (Quit: Leaving)
+2015-12-15 20:15:29	asdf	KirkMcDonald, oh, wasnt it reported before? i've seen the thing a few days ago
+2015-12-15 20:15:40	pydo	_habnabit: tests directory is within mydirectory
+2015-12-15 20:15:41	Mr_Psmith	Hi, I have a question about the correct way to package an app for distribution on PyPI. All examples seem to focus on packaging /packages/ or /modules/, but I have a standalone app meant to be run from the command line ala ./myapp.py
+2015-12-15 20:15:41	Zeranoe	Why am I getting '<Response [302]>' on a requests.head() on a url that is not valid?
+2015-12-15 20:15:53	KirkMcDonald	asdf: I didn't find it, which is not to say it's not a dupe.
+2015-12-15 20:15:55	<════	desantis (~desantis@172.56.20.179) has quit (Quit: desantis)
+2015-12-15 20:16:01	KirkMcDonald	Dup? Dup. Duplicate.
+2015-12-15 20:16:02	Mr_Psmith	Does anyone have any examples of apps on PyPI so that I might check out their directory structure?
+2015-12-15 20:16:04	offby1	Zeranoe:  ... because that's what the server is returning?
+2015-12-15 20:16:16	_habnabit	Zeranoe, what makes you think it's 'not valid'?
+2015-12-15 20:16:29	asdf	KirkMcDonald: http://bugs.python.org/issue25843
+2015-12-15 20:16:41	_habnabit	Mr_Psmith, passacre, magic-wormhole
+2015-12-15 20:16:50	Mr_Psmith	_habnabit: Thank you. I’ll check them out.
+2015-12-15 20:16:51	KirkMcDonald	asdf: Heck, I found it just after.
+2015-12-15 20:16:55	django_	to find substrings is it: substring is in string or substring in string
+2015-12-15 20:16:56	Zeranoe	Returns of a 404 in the browser. I supposes they could have their server configured to respond  302 for everything
+2015-12-15 20:16:59	_habnabit	KirkMcDonald, link it?
+2015-12-15 20:17:13	_habnabit	Zeranoe, perhaps it's a 302 to a 404
+2015-12-15 20:17:22	_habnabit	pydo, ok, and how are you starting python?
+2015-12-15 20:17:42	Zeranoe	_habnabit: I bet that's it... Now sure how to test for that then...
+2015-12-15 20:17:48	════>	braincrash (~braincras@81.193.133.244) has joined #python
+2015-12-15 20:18:05	<════	arescorpio (~arescorpi@40-243-16-190.fibertel.com.ar) has quit (Quit: Leaving.)
+2015-12-15 20:18:10	KirkMcDonald	_habnabit: The thing asdf linked.
+2015-12-15 20:18:14	_habnabit	oh
+2015-12-15 20:18:26	pydo	_habnabit: through CLI, python3 file1_test.py
+2015-12-15 20:18:38	_habnabit	pydo, ok, you can't run modules inside a package directly
+2015-12-15 20:18:41	_habnabit	pydo, bit.ly/pypackages
+2015-12-15 20:19:04	════>	komugi (~mindset@lost.darkquark.org) has joined #python
+2015-12-15 20:19:29	════>	Kyokushin (~Kyokushin@S0106602ad0805a96.ed.shawcable.net) has joined #python
+2015-12-15 20:19:41	<════	heaviside (~heaviside@172.56.27.57) has quit (Quit: Leaving)
+2015-12-15 20:20:02	The_DarkKnight	Hey all. ^_^
+2015-12-15 20:20:07	<════	andreazevedo (~andreazev@199.201.64.130) has quit (Ping timeout: 240 seconds)
+2015-12-15 20:20:11	pydo	_habnabit: ok thanks. I guess I have to reorganize my tests folders
+2015-12-15 20:20:11	The_DarkKnight	Is "Learn Python the hard way" actually good?
+2015-12-15 20:20:17	<════	z1haze (~z1haze4@50-5-191-106.dynamic.fuse.net) has left #python ("Leaving")
+2015-12-15 20:20:22	_habnabit	pydo, why would you have to reorganize them?
+2015-12-15 20:20:26	The_DarkKnight	If you're a complete beginner, of course.
+2015-12-15 20:21:14	════>	dpn` (dpn_freeno@2600:3c00::f03c:91ff:feae:acd1) has joined #python
+2015-12-15 20:21:15	<════	mrkent_ (~textual@unaffiliated/mrkent) has quit
+2015-12-15 20:21:27	KirkMcDonald	The_DarkKnight: We recommend it in the channel topic, at least.
+2015-12-15 20:21:40	<════	jzk (~eccehomo@ec2-54-151-3-223.us-west-1.compute.amazonaws.com) has quit (K-Lined)
+2015-12-15 20:21:43	The_DarkKnight	I noticed.
+2015-12-15 20:21:56	════>	microdex (~microdex@c-73-158-197-76.hsd1.ca.comcast.net) has joined #python
+2015-12-15 20:22:35	<════	ky13a (~ky13a@100.10.47.63) has quit (Remote host closed the connection)
+2015-12-15 20:22:38	════>	citizen-stig (~citizen-s@89.221.207.219) has joined #python
+2015-12-15 20:22:46	════>	sshack (~textual@154.20.5.72) has joined #python
+2015-12-15 20:23:01	<════	mcddewitt (~mcddewitt@wsip-98-191-183-244.ph.ph.cox.net) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2015-12-15 20:24:25	<════	frostschutz (~frostschu@x2f65d30.dyn.telefonica.de) has quit (Remote host closed the connection)
+2015-12-15 20:24:40	════>	d4rkforc1 (~darkforce@pdpc/supporter/student/d4rkforce) has joined #python
+2015-12-15 20:24:57	════>	codeitloadit (~codeitloa@ip68-106-220-197.oc.oc.cox.net) has joined #python
+2015-12-15 20:25:10	pydo	_habnabit: I always do my imports this way and they normally work. What would you recommend I change to achieve a absolute import?
+2015-12-15 20:25:26	<════	legend (~blue@122.161.212.246) has quit (Quit: legend)
+2015-12-15 20:25:52	_habnabit	pydo, nothing? i already said the problem isn't with the import
+2015-12-15 20:25:59	<════	TheoryCat (~TheoryCat@unaffiliated/wye-naught/x-8734122) has quit (Ping timeout: 265 seconds)
+2015-12-15 20:26:07	django_	what is the easiest of maping a variable to a string
+2015-12-15 20:26:25	django_	'very good' --> very good
+2015-12-15 20:26:28	django_	brand new --> new
+2015-12-15 20:26:30	<════	badon (~badon@pdpc/supporter/active/badon) has quit (Disconnected by services)
+2015-12-15 20:26:30	<════	kazimuth (~james@dhcp-18-189-38-215.dyn.mit.edu) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2015-12-15 20:26:33	════>	badon_ (~badon@pdpc/supporter/active/badon) has joined #python
+2015-12-15 20:26:34	django_	new --> brand new
+2015-12-15 20:26:35	django_	err*
+2015-12-15 20:26:42	django_	 new --> brand new
+2015-12-15 20:26:45	_habnabit	django_, a dict?
+2015-12-15 20:26:47	════>	Zumbido (~Cristian@190.172.158.38) has joined #python
+2015-12-15 20:26:56	pydo	_habnabit: Yes its that I can't import directly from a package
+2015-12-15 20:27:03	_habnabit	pydo, no, that's not what i said
+2015-12-15 20:27:06	django_	im grabbing products with different conditions
+2015-12-15 20:27:08	--	badon_ is now known as badon
+2015-12-15 20:27:23	django_	and uploading it to a website that has a dropdown menu with those conditions but they arent exactly equal
+2015-12-15 20:27:26	_habnabit	pydo, you can't start python by passing it to the path of something inside a package
+2015-12-15 20:27:33	════>	peshalto (~peshalto@76-244-36-72.lightspeed.sntcca.sbcglobal.net) has joined #python
+2015-12-15 20:27:35	<════	kennethreitz (~kennethre@heroku/kennethreitz) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2015-12-15 20:27:40	django_	ez: new on one page = brand new on other
+2015-12-15 20:27:41	<════	citizen-stig (~citizen-s@89.221.207.219) has quit (Ping timeout: 272 seconds)
+2015-12-15 20:27:47	<════	d4rkforce (~darkforce@pdpc/supporter/student/d4rkforce) has quit (Ping timeout: 240 seconds)
+2015-12-15 20:27:47	pydo	_habnabit: Right sorry, I missread am I little tired.
+2015-12-15 20:28:11	════>	khodafez (uid28187@gateway/web/irccloud.com/x-tbtozdeidojhbvyu) has joined #python
+2015-12-15 20:28:30	════>	jzk (~eccehomo@ec2-54-215-50-160.us-west-1.compute.amazonaws.com) has joined #python
+2015-12-15 20:28:34	════>	zepolen (~zepolen@188.4.137.173.dsl.dyn.forthnet.gr) has joined #python
+2015-12-15 20:29:27	<════	blackgoat (~blackgoat@222.104.135.236) has quit (Ping timeout: 240 seconds)
+2015-12-15 20:30:18	<════	encod3 (~encod3@81.30.42.83) has quit (Read error: Connection reset by peer)
+2015-12-15 20:30:45	════>	encod3 (~encod3@81.30.42.83) has joined #python
+2015-12-15 20:30:51	<════	sudomarize (~sudomariz@141.70.115.180) has quit (Ping timeout: 272 seconds)
+2015-12-15 20:31:01	════>	jlf (~user@pdpc/supporter/active/jlf) has joined #python
+2015-12-15 20:31:18	<════	Simotek (~Simotek@opensuse/member/simotek) has quit (Ping timeout: 265 seconds)
+2015-12-15 20:31:23	<════	nabblet (~ben@unaffiliated/benkinooby) has quit (Quit: leaving)

@@ -1,0 +1,494 @@
+2013-09-15 08:56:06	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-09-15 08:56:06	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-09-15 08:56:06	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/guile.so": libguile-2.0.so.22: cannot open shared object file: No such file or directory
+2013-09-15 08:56:06	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-09-15 08:56:06		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-09-15 08:56:13		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-09-15 20:47:27	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-09-15 20:47:27	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-09-15 20:47:27	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/guile.so": libguile-2.0.so.22: cannot open shared object file: No such file or directory
+2013-09-15 20:47:27	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-09-15 20:47:27		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-09-15 20:47:33		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-09-15 22:34:15	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-09-15 22:34:15	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-09-15 22:34:15	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/guile.so": libguile-2.0.so.22: cannot open shared object file: No such file or directory
+2013-09-15 22:34:15	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-09-15 22:34:15		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-09-15 22:34:22		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-09-17 16:31:59	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-09-17 16:31:59	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-09-17 16:31:59	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/guile.so": libguile-2.0.so.22: cannot open shared object file: No such file or directory
+2013-09-17 16:31:59	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-09-17 16:31:59		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-09-17 16:32:04		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-09-17 19:15:07	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-09-17 19:15:07	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-09-17 19:15:08	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/guile.so": libguile-2.0.so.22: cannot open shared object file: No such file or directory
+2013-09-17 19:15:08	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-09-17 19:15:08		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-09-17 19:15:14		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-09-23 20:29:55	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-09-23 20:29:55	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-09-23 20:29:55	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/guile.so": libguile-2.0.so.22: cannot open shared object file: No such file or directory
+2013-09-23 20:29:55	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-09-23 20:29:55		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-09-23 20:30:01	=!=	irc: command "join" must be executed on irc buffer (server or channel)
+2013-09-23 20:30:09		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-09-24 14:05:46	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-09-24 14:05:46	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-09-24 14:05:46	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/guile.so": libguile-2.0.so.22: cannot open shared object file: No such file or directory
+2013-09-24 14:05:46	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-09-24 14:05:46		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-09-24 14:05:51		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-09-25 08:35:58	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-09-25 08:35:58	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-09-25 08:35:58	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/guile.so": libguile-2.0.so.22: cannot open shared object file: No such file or directory
+2013-09-25 08:35:58	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-09-25 08:35:58		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-09-25 08:36:06		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-09-26 22:13:22	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-09-26 22:13:22	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-09-26 22:13:22	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/guile.so": libguile-2.0.so.22: cannot open shared object file: No such file or directory
+2013-09-26 22:13:22	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-09-26 22:13:22		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-09-26 22:13:30		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-09-28 15:29:47	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-09-28 15:29:47	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-09-28 15:29:47	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/guile.so": libguile-2.0.so.22: cannot open shared object file: No such file or directory
+2013-09-28 15:29:47	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-09-28 15:29:47		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-09-28 15:29:53		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-09-28 17:25:15	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-09-28 17:25:15	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-09-28 17:25:15	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/guile.so": libguile-2.0.so.22: cannot open shared object file: No such file or directory
+2013-09-28 17:25:15	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-09-28 17:25:15		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-09-28 17:25:21		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-10-03 21:01:18	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-10-03 21:01:18	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-10-03 21:01:18	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/guile.so": libguile-2.0.so.22: cannot open shared object file: No such file or directory
+2013-10-03 21:01:18	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-10-03 21:01:18		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-10-03 21:01:23		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-10-04 19:43:54	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-10-04 19:43:54	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-10-04 19:43:54	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/guile.so": libguile-2.0.so.22: cannot open shared object file: No such file or directory
+2013-10-04 19:43:54	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-10-04 19:43:54		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-10-04 19:44:02		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-10-05 15:30:20	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-10-05 15:30:20	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-10-05 15:30:20	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/guile.so": libguile-2.0.so.22: cannot open shared object file: No such file or directory
+2013-10-05 15:30:20	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-10-05 15:30:20		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-10-05 15:30:28		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-10-06 14:37:24	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-10-06 14:37:24	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-10-06 14:37:25	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/guile.so": libguile-2.0.so.22: cannot open shared object file: No such file or directory
+2013-10-06 14:37:25	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-10-06 14:37:25		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-10-06 14:37:31		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-10-09 18:19:28	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-10-09 18:19:28	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-10-09 18:19:28	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/guile.so": libguile-2.0.so.22: cannot open shared object file: No such file or directory
+2013-10-09 18:19:28	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-10-09 18:19:28		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-10-09 18:19:35		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-10-10 19:02:08	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-10-10 19:02:08	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-10-10 19:02:08	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/guile.so": libguile-2.0.so.22: cannot open shared object file: No such file or directory
+2013-10-10 19:02:08	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-10-10 19:02:08		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-10-10 19:02:13		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-10-14 19:15:15	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-10-14 19:15:15	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-10-14 19:15:15	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/guile.so": libguile-2.0.so.22: cannot open shared object file: No such file or directory
+2013-10-14 19:15:15	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-10-14 19:15:15		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-10-14 19:15:20		irc: server irc.freenode.ne created (temporary server, NOT SAVED!)
+2013-10-14 19:15:30	=!=	irc: command "join" must be executed on connected irc server
+2013-10-14 19:15:41	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-10-14 19:15:41	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-10-14 19:15:41	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/guile.so": libguile-2.0.so.22: cannot open shared object file: No such file or directory
+2013-10-14 19:15:41	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-10-14 19:15:41		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-10-14 19:15:47		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-10-15 16:49:28	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-10-15 16:49:28	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-10-15 16:49:28	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/guile.so": libguile-2.0.so.22: cannot open shared object file: No such file or directory
+2013-10-15 16:49:28	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-10-15 16:49:28		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-10-15 16:49:41		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-10-18 10:53:00	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-10-18 10:53:00	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-10-18 10:53:00	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/guile.so": libguile-2.0.so.22: cannot open shared object file: No such file or directory
+2013-10-18 10:53:00	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-10-18 10:53:00		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-10-18 10:53:06		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-10-20 16:05:50	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-10-20 16:05:50	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-10-20 16:05:50		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-10-20 16:05:57		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-10-23 20:35:07	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-10-23 20:35:07	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-10-23 20:35:07		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-10-23 20:35:16		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-10-24 17:19:45	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-10-24 17:19:45	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-10-24 17:19:45		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-10-24 17:19:51		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-10-24 18:51:06	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-10-24 18:51:06	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-10-24 18:51:06		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-10-24 18:51:12		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-10-24 18:51:20	=!=	irc: command "join" must be executed on connected irc server
+2013-10-25 16:17:44	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-10-25 16:17:44	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-10-25 16:17:44		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-10-25 16:17:51		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-11-01 14:29:00	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-11-01 14:29:00	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-11-01 14:29:00		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-11-01 14:29:06		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-11-03 19:04:00	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-11-03 19:04:00	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-11-03 19:04:00		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-11-03 19:04:06		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-11-05 19:25:50	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-11-05 19:25:50	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-11-05 19:25:51		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-11-05 19:25:58	=!=	irc: command "join" must be executed on irc buffer (server or channel)
+2013-11-05 19:26:05		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-11-06 16:06:40	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-11-06 16:06:40	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-11-06 16:06:40		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-11-06 16:06:46		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-11-08 13:07:27	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-11-08 13:07:27	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-11-08 13:07:27		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-11-08 13:07:31		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-11-08 13:08:00	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-11-08 13:08:00	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-11-08 13:08:00		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-11-08 13:08:08		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-11-11 16:17:22	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-11-11 16:17:22	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-11-11 16:17:22		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-11-11 16:17:29		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-11-12 19:24:40	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-11-12 19:24:40	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-11-12 19:24:40		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-11-12 19:24:46		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-11-15 20:47:16	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-11-15 20:47:16	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-11-15 20:47:16		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-11-15 20:47:22		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-11-22 07:06:24	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-11-22 07:06:24	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-11-22 07:06:24		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-11-22 07:06:29		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-11-25 22:01:13	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-11-25 22:01:13	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-11-25 22:01:13		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-11-25 22:01:19	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-11-25 22:01:19	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-11-25 22:01:19		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-11-25 22:01:25		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-11-27 00:44:55	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-11-27 00:44:55	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-11-27 00:44:55		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-11-27 00:45:02		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-11-27 09:46:14	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-11-27 09:46:14	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-11-27 09:46:14		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-11-27 09:46:24		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-11-27 11:52:08	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-11-27 11:52:08	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-11-27 11:52:08		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-11-27 11:52:15		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-11-27 22:23:09	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-11-27 22:23:09	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-11-27 22:23:09		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-11-27 22:23:14		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-11-29 09:13:00	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-11-29 09:13:00	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-11-29 09:13:00		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-11-29 09:13:05		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-12-01 08:16:03	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-12-01 08:16:03	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-12-01 08:16:03		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-12-01 08:16:09		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-12-01 10:25:01	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-12-01 10:25:01	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-12-01 10:25:01		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-12-01 10:25:06		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-12-01 17:43:53	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-12-01 17:43:53	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-12-01 17:43:53		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-12-01 17:43:59		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-12-01 17:44:37	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-12-01 17:44:37	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-12-01 17:44:37		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-12-01 17:44:43		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-12-02 16:43:43	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-12-02 16:43:43	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-12-02 16:43:44		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-12-02 16:43:52		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-12-03 14:36:01	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-12-03 14:36:01	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-12-03 14:36:01		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-12-03 14:36:06		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-12-04 19:15:01	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-12-04 19:15:01	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-12-04 19:15:01		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-12-04 19:15:06		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-12-04 19:26:45	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-12-04 19:26:45	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-12-04 19:26:45		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-12-04 19:26:51		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-12-06 20:16:57	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-12-06 20:16:57	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-12-06 20:16:57		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-12-06 20:17:02		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-12-10 23:08:44	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-12-10 23:08:44	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-12-10 23:08:44		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-12-13 19:52:20	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-12-13 19:52:20	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-12-13 19:52:20		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-12-15 15:39:02	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-12-15 15:39:02	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-12-15 15:39:02		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-12-20 20:11:16	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-12-20 20:11:16	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-12-20 20:11:17		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-12-20 20:11:22		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-12-20 20:27:22	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-12-20 20:27:22	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-12-20 20:27:22		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-12-20 20:27:29		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-12-22 09:24:49	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-12-22 09:24:49	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-12-22 09:24:49		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-12-22 09:24:55		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-12-22 09:28:22	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-12-22 09:28:22	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-12-22 09:28:22		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-12-22 09:29:28		Option "irc.server.freenode.autoconnect":
+2013-12-22 09:29:28		  description: automatically connect to server when WeeChat is starting
+2013-12-22 09:29:28		  type: boolean
+2013-12-22 09:29:28		  values: on, off
+2013-12-22 09:29:28		  default value: (undefined)
+2013-12-22 09:29:28		  current value: (undefined)
+2013-12-22 09:29:28		  undefined value allowed (null)
+2013-12-22 09:30:09	=!=	Option "irc.freenode.net.autoconnect" not found (tip: you can use "*" at beginning and/or end of option to see a sublist)
+2013-12-22 09:30:34	=!=	Error: option "irc.freenode.net.autoconnect" not found
+2013-12-22 09:30:44	=!=	Error: option "irc.freenode.autoconnect" not found
+2013-12-22 09:30:51		Option changed: irc.server.freenode.autoconnect = on  (default: (undefined))
+2013-12-22 09:31:04	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-12-22 09:31:04	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-12-22 09:31:04		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-12-22 09:34:27	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-12-22 09:34:27	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-12-22 09:34:27		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-12-22 09:34:52	=!=	Error: option "irc.server.freenode.autoload" not found
+2013-12-22 09:36:03		Option changed: irc.server.freenode.autojoin = "#archlinux,#manjaro,#linuxdistrocommunity"  (default: (undefined))
+2013-12-22 09:36:11	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": libtcl8.6.so: cannot open shared object file: No such file or directory
+2013-12-22 09:36:11	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-12-22 09:36:11		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, xfer
+2013-12-24 23:24:00		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-12-25 21:07:26		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-12-26 08:37:49		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-12-26 21:47:00		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-12-27 07:34:20		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-12-28 10:06:03		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-12-29 00:13:11		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-12-29 10:58:56		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-12-29 23:15:04		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-12-30 14:36:14		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-12-30 20:03:39		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-01-02 08:59:25		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-01-03 08:28:35		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-01-04 16:12:55		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-01-17 18:08:25		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-01-17 19:17:23		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-01-22 18:50:25		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-01-28 10:37:11		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-01-28 19:40:54		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-01-28 20:01:34		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-01-29 18:41:53		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-01-30 18:37:56		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-01-31 18:42:21		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-02-01 11:02:57		Options reloaded from sec.conf
+2014-02-01 11:02:57		Options reloaded from weechat.conf
+2014-02-01 11:02:57		Options reloaded from plugins.conf
+2014-02-01 11:02:57		Options reloaded from charset.conf
+2014-02-01 11:02:57		Options reloaded from xfer.conf
+2014-02-01 11:02:57		Options reloaded from irc.conf
+2014-02-01 11:02:57		Options reloaded from aspell.conf
+2014-02-01 11:02:57		Options reloaded from alias.conf
+2014-02-01 11:02:57		Options reloaded from relay.conf
+2014-02-01 11:02:57		Options reloaded from script.conf
+2014-02-01 11:02:57		Options reloaded from logger.conf
+2014-02-01 11:02:57		Options reloaded from rmodifier.conf
+2014-02-01 19:27:22		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-02-06 18:17:13		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-02-07 22:23:26		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-02-08 09:06:26		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-02-08 12:34:57		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-02-08 16:49:01		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-02-09 12:49:11		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-02-10 16:49:32		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-02-27 17:14:01		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-02-27 18:48:50		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-03-02 23:04:53		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-03-15 21:17:36		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-04-24 21:05:54		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-04-27 15:41:38		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-05-03 18:19:37		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-05-05 18:37:02		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-05-11 14:14:26		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-05-16 19:52:36		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-05-18 07:00:25		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-05-22 19:14:38		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-05-24 20:35:09		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-05-25 10:39:37		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-05-26 15:18:11		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-06-03 17:26:12		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-07-02 07:51:33		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-07-04 16:38:32		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-07-08 19:14:52		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-07-18 19:41:26		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-07-21 16:42:53		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-07-21 18:03:42		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-07-22 18:32:34		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-07-23 19:38:59		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-07-24 18:42:24		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-07-26 13:50:31		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-07-30 15:13:01		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-08-06 15:43:24		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-08-15 17:30:27		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-08-20 14:54:47		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-08-21 16:43:03		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-08-23 19:19:43		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-08-24 15:55:27		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-08-29 22:31:36		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-08-30 16:40:44		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-09-03 14:25:16		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-09-08 17:22:48		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-09-11 18:25:26		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-09-16 14:57:01		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-09-20 12:27:56		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-09-23 18:25:13		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-02 17:54:49		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-02 20:20:50		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-04 21:07:36		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-05 15:14:15		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-08 19:57:07		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-15 21:43:57		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-15 21:45:19		fifo: pipe closed
+2014-10-15 21:45:22		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-15 21:45:26		fifo: pipe closed
+2014-10-15 22:32:54		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-15 23:04:57		fifo: pipe closed
+2014-10-15 23:06:33		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-15 23:13:08		fifo: pipe closed
+2014-10-15 23:15:06		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-15 23:55:50		fifo: pipe closed
+2014-10-16 18:27:48		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-16 20:42:07		fifo: pipe closed
+2014-10-16 20:42:57		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-16 21:12:42		fifo: pipe closed
+2014-10-16 21:12:46		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-17 09:53:35		fifo: pipe closed
+2014-10-23 12:59:57		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-26 21:22:38		fifo: removing old fifo pipe "/home/msjche/.weechat/weechat_fifo_12757"
+2014-10-26 21:22:38		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-26 22:41:27		fifo: pipe closed
+2014-10-28 12:46:14		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-28 19:48:11		fifo: removing old fifo pipe "/home/msjche/.weechat/weechat_fifo_18283"
+2014-10-28 19:48:11		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-30 19:49:40		fifo: removing old fifo pipe "/home/msjche/.weechat/weechat_fifo_2842"
+2014-10-30 19:49:40		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-31 13:46:47		fifo: pipe closed
+2014-10-31 13:47:41		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-11-03 21:46:03		fifo: pipe closed
+2014-11-03 21:57:34		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-11-06 20:22:10		fifo: removing old fifo pipe "/home/msjche/.weechat/weechat_fifo_22236"
+2014-11-06 20:22:10		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-11-06 21:02:33		fifo: pipe closed
+2014-11-08 17:06:36		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-11-09 17:02:04		fifo: pipe closed
+2014-11-09 17:02:06		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-11-23 15:09:50		fifo: removing old fifo pipe "/home/msjche/.weechat/weechat_fifo_25214"
+2014-11-23 15:09:50		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-11-24 08:48:35		fifo: pipe closed
+2014-11-24 08:53:23		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-11-24 21:59:35		fifo: pipe closed
+2014-11-30 15:30:41		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-12-02 17:24:46		fifo: removing old fifo pipe "/home/msjche/.weechat/weechat_fifo_8728"
+2014-12-02 17:24:46		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-12-03 20:34:46		fifo: removing old fifo pipe "/home/msjche/.weechat/weechat_fifo_3628"
+2014-12-03 20:34:46		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-12-04 05:30:05		fifo: removing old fifo pipe "/home/msjche/.weechat/weechat_fifo_30918"
+2014-12-04 05:30:05		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-12-04 19:49:13		fifo: removing old fifo pipe "/home/msjche/.weechat/weechat_fifo_18477"
+2014-12-04 19:49:13		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-12-19 15:52:25		fifo: removing old fifo pipe "/home/msjche/.weechat/weechat_fifo_3765"
+2014-12-19 15:52:25		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-12-21 12:37:02		fifo: removing old fifo pipe "/home/msjche/.weechat/weechat_fifo_28617"
+2014-12-21 12:37:02		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-12-21 15:47:27		fifo: pipe closed
+2014-12-27 13:10:51		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-12-27 14:36:20		fifo: pipe closed
+2014-12-27 14:39:21		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-12-29 19:03:35		fifo: removing old fifo pipe "/home/msjche/.weechat/weechat_fifo_27419"
+2014-12-29 19:03:35		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-12-31 13:32:31		fifo: removing old fifo pipe "/home/msjche/.weechat/weechat_fifo_2006"
+2014-12-31 13:32:31		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-12-31 13:33:15		fifo: pipe closed
+2014-12-31 13:36:26		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-12-31 17:03:02		fifo: pipe closed
+2015-01-01 18:25:47		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-01-01 18:26:06		fifo: pipe closed
+2015-01-02 13:50:19		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-01-02 13:50:31		fifo: pipe closed
+2015-01-06 19:14:22		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-01-06 19:17:23		fifo: pipe closed
+2015-01-06 19:17:39		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-01-06 19:37:18		fifo: pipe closed
+2015-01-28 19:50:17		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-01-28 19:50:51		fifo: pipe closed
+2015-01-28 19:50:53		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-01-30 11:33:44		fifo: removing old fifo pipe "/home/msjche/.weechat/weechat_fifo_3545"
+2015-01-30 11:33:44		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-01-30 20:47:00		fifo: removing old fifo pipe "/home/msjche/.weechat/weechat_fifo_1544"
+2015-01-30 20:47:00		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-01-31 15:51:33		fifo: removing old fifo pipe "/home/msjche/.weechat/weechat_fifo_5374"
+2015-01-31 15:51:33		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-01-31 17:47:07		fifo: pipe closed
+2015-02-01 22:57:58		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-02-02 09:22:15		fifo: pipe closed
+2015-02-03 16:46:37		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-02-03 16:49:26		fifo: pipe closed
+2015-02-03 16:49:35		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-02-03 16:49:37		fifo: pipe closed
+2015-02-03 19:10:55		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-02-03 22:23:00		fifo: pipe closed
+2015-02-23 10:53:57	=!=	Warning: /home/msjche/.weechat/irc.conf, line 6: unknown option for section "look": buffer_open_before_autojoin = on
+2015-02-23 10:53:57	=!=	Warning: /home/msjche/.weechat/irc.conf, line 7: unknown option for section "look": buffer_open_before_join = off
+2015-02-23 10:53:57	=!=	Warning: /home/msjche/.weechat/irc.conf, line 31: unknown option for section "look": item_channel_modes_hide_args = "k"
+2015-02-23 10:53:57	=!=	Warning: /home/msjche/.weechat/irc.conf, line 35: unknown option for section "look": join_auto_add_chantype = off
+2015-02-23 10:53:57	=!=	Warning: /home/msjche/.weechat/irc.conf, line 63: unknown option for section "look": temporary_servers = off
+2015-02-23 10:53:57	=!=	Warning: /home/msjche/.weechat/irc.conf, line 72: unknown option for section "color": item_nick_modes = default
+2015-02-23 10:53:57	=!=	Warning: /home/msjche/.weechat/irc.conf, line 131: unknown option for section "server_default": sasl_fail = continue
+2015-02-23 10:53:57	=!=	irc: error creating server option "freenode.sasl_fail"
+2015-02-23 10:53:57	=!=	Warning: /home/msjche/.weechat/irc.conf, line 160: invalid value for option: freenode.sasl_fail
+2015-02-23 10:53:57	=!=	Warning: /home/msjche/.weechat/script.conf, line 49: unknown option for section "scripts": url_force_https = on
+2015-02-23 10:53:57	=!=	Warning: /home/msjche/.weechat/relay.conf, line 23: unknown option for section "network": clients_purge_delay = 0
+2015-02-23 10:53:57	=!=	Warning: /home/msjche/.weechat/relay.conf, line 29: unknown option for section "network": ssl_priorities = "NORMAL:-VERS-SSL3.0"
+2015-02-23 10:53:57		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2015-02-23 12:20:27		fifo: pipe closed
+2015-02-25 22:22:50		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2015-02-25 22:25:52		fifo: pipe closed

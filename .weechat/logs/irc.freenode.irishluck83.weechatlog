@@ -1,0 +1,19 @@
+2015-11-08 16:45:47	msjche	Hey Irish, what's bugging you about laptop-mode-tools?
+2015-11-08 16:46:00	Irishluck83	how to tweak it
+2015-11-08 16:46:19	msjche	which part? are you in the conf.d/ directory?
+2015-11-08 16:46:46	Irishluck83	i'm in the intel_pstate.conf
+2015-11-08 16:47:55	msjche	from what i see here you can change the pct range on battery if you want
+2015-11-08 16:48:42	Irishluck83	would increasing it help or decrease it
+2015-11-08 16:49:33	msjche	i think the 0 to 50 is a percent of cpu.  you could decrease the max to lower power
+2015-11-08 16:49:48	msjche	check out the cpufreq.conf
+2015-11-08 16:50:24	msjche	i set that to maximum on BATT_CPU.... slows your computer down quit a bit but probably helps a lot on battery
+2015-11-08 16:51:35	Irishluck83	which BATT_CPU?
+2015-11-08 16:53:26	msjche	at the bottom of cpufreq.conf - BATT_CPU_THROTTLING=maximum (was medium)
+2015-11-08 16:53:33	Irishluck83	thought so
+2015-11-08 16:53:55	Irishluck83	you said that i need to do the systemd also
+2015-11-08 16:55:06	msjche	yeah start and enable with systemctl enable/start laptop-mode.service
+2015-11-08 17:33:33	Irishluck83	k
+2015-11-08 18:32:19	--	irc: disconnected from server
+2015-11-08 19:30:50	<════	Irishluck83 (~Irishluck@unaffiliated/irishluck83) has quit (Quit: WeeChat 1.3)
+2015-11-08 19:31:13	════>	Irishluck83 (~Irishluck@unaffiliated/irishluck83) is back on server
+2015-11-08 19:38:17	<════	Irishluck83 (~Irishluck@unaffiliated/irishluck83) has quit (Quit: WeeChat 1.3)

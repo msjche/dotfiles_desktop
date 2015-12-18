@@ -1,0 +1,216 @@
+2015-11-08 14:09:18	Psyq	are you going to make another install videos on Arch or are you stay on Gentoo?
+2015-11-08 14:10:02	msjche	i'm actually using architect linux these days to install arch.  it's super easy and installs straight arch
+2015-11-08 14:10:10	msjche	it's like the old ncurses instal framework for arch
+2015-11-08 14:10:32	msjche	linux action show spotlighted it this week
+2015-11-08 14:10:59	Psyq	okie so no more pacstrap 
+2015-11-08 14:11:41	msjche	i may consider doing an install again.  if i did it would be to explain how to not to use yaourt or pacaur and compile packages manually
+2015-11-08 14:12:00	msjche	would need to create a local database, etc.  i might do that
+2015-11-08 14:12:41	Psyq	okie why are you leaving yaourt and pacaur out?
+2015-11-08 14:12:49	msjche	i suspect you can make it so the downloaded packages are upgraded as they are released
+2015-11-08 14:13:24	msjche	well, i think the original premise of arch is to make && make install packages for stuff not in official repos.
+2015-11-08 14:13:46	msjche	or pacman -U ... those packages
+2015-11-08 14:14:10	Psyq	so you would keep it pure arch with pacman and that is it
+2015-11-08 14:14:22	msjche	yeah that would be the premise
+2015-11-08 14:14:25	Psyq	no yaourt or pacaur
+2015-11-08 14:14:37	Psyq	I can see that
+2015-11-08 14:15:08	msjche	right, if you notice, you need to enable archlinux.fr/... to get yaourt before getting access to the AUR
+2015-11-08 14:15:40	Psyq	but wouldn't it good a good thing for me to follow one of your old Arch install videos to get to know how Arch works
+2015-11-08 14:15:43	msjche	i'm just not sure how to ensure packages get upgraded that way...need to do some research
+2015-11-08 14:16:05	msjche	yeah, look at my systemd install vid.  it's pretty current
+2015-11-08 14:16:57	Psyq	cool I will do that and I will be watching your channel to see if you upload any new Arch videos
+2015-11-08 14:17:49	Psyq	I want to try Gentoo but I don't feel like I know too much about linux to take that challange now
+2015-11-08 14:18:31	msjche	just take your time.  gentoo will probably take a few tries to complete, but once you get through it you'll know a lot more
+2015-11-08 14:20:00	Psyq	yeah I followed your Gentoo install video before and learned a lot but I just didn't really now how to get some configurations to work 
+2015-11-08 14:20:25	Psyq	and the fact that I needed to compile a lot of things from source
+2015-11-08 14:21:28	msjche	haha, yeah, the compilations can take quite a while.  just stay away from libreoffice and chromium until everything is up-to-date haha
+2015-11-08 14:21:45	Psyq	hehehe
+2015-11-08 14:22:19	Psyq	atleast I can use i3 or Awesome then luakit as a webbrowser hehehe
+2015-11-08 14:22:31	msjche	yup
+2015-11-08 14:23:44	Psyq	by the way msjche you are using awesome did you ever try out i3
+2015-11-08 14:24:31	msjche	no, i've never really got into i3.  i like the tiling paradigm, but it just doesn't seem to be as customizable as awesome.  i think i'd get tired of it very quickly
+2015-11-08 14:25:05	Psyq	that is always good to know that
+2015-11-08 14:25:05	msjche	oh yeah, i did try it on a debian install a year ago or so
+2015-11-08 14:25:52	Psyq	because I am stock between choosing awesome or i3
+2015-11-08 14:28:06	msjche	i3 is definitely very popular.  more than awesome i'd say
+2015-11-08 14:29:24	Psyq	well yeah but which one is the most customizable of them
+2015-11-08 14:29:45	msjche	definitely awesome from what i've seen
+2015-11-08 14:30:03	Psyq	:)
+2015-11-08 14:35:07	Psyq	wow they changed cfdisk
+2015-11-08 14:48:57	Psyq	why is it that all the new iso's I download and try to configure my ethernet then it is not called eth0 anymore hehe instead it is enp0s3
+2015-11-08 14:49:31	msjche	good question, they changed that a year ago or so.  proly with the 4.0 kernel
+2015-11-08 14:50:56	Psyq	arrhh that would explain it
+2015-11-08 14:51:23	Psyq	msjche: do you know how I change the keymaps under the installation?
+2015-11-08 14:51:48	msjche	on the terminal only version?  no afraid not.
+2015-11-08 14:52:26	Psyq	you are still using grub-bios?
+2015-11-08 14:53:04	msjche	yeah.  i've gotten UEFI to work, but it always seems to be very sketchy.  don't trust it
+2015-11-08 14:53:34	Psyq	that is good to know 
+2015-11-08 14:54:17	Psyq	I am hoping that my work will approve that I will buy the 15" XPS soon
+2015-11-08 14:55:22	Psyq	you been on the XPS for some time now how is it working for you?
+2015-11-08 15:06:42	msjche	i actually just failed to get gentoo installed on it...for the second time :(
+2015-11-08 15:07:14	msjche	the nvidia optimus intel + nvidia using bumblebee is a serious pain on gentoo.  super easy on arch tho
+2015-11-08 15:07:17	Psyq	so it is back to arch on that one
+2015-11-08 15:44:13	Psyq	msjche: 
+2015-11-08 15:44:29	msjche	ya whats up?
+2015-11-08 15:44:54	Psyq	I think that I am doing something wrong with the installation of Arch
+2015-11-08 15:45:05	msjche	what step?
+2015-11-08 15:45:49	Psyq	I made the two partitions sda1 and sda2 mounted /mnt/ to sda2 and I mount /mnt/home to sda2
+2015-11-08 15:46:03	Psyq	then I build the system with pacstrap
+2015-11-08 15:46:40	msjche	you have both mounted to sda2 from what you've said here
+2015-11-08 15:47:06	Psyq	when I then ls the /mnt/ I see the root, but when I ls the /mnt/home I see then same as if i ls /mnt
+2015-11-08 15:47:31	msjche	mount /dev/sda1 /mnt/boot
+2015-11-08 15:47:36	msjche	mount /dev/sda2 /mnt/
+2015-11-08 15:47:57	msjche	you're going to have to start over probably
+2015-11-08 15:48:14	Psyq	okie so I shouldn't mount sda2 to home then
+2015-11-08 15:48:31	msjche	oh, here's what you need
+2015-11-08 15:48:38	msjche	mount /dev/sda1 /mnt/
+2015-11-08 15:48:44	msjche	mount /dev/sda2 /mnt/home
+2015-11-08 15:49:10	Psyq	are u sure what about boot
+2015-11-08 15:49:26	msjche	boot would just be on sda1 with /
+2015-11-08 15:49:47	msjche	if you want that separate you need 3 partitions
+2015-11-08 15:49:54	msjche	mount /dev/sda1 /mnt/boot
+2015-11-08 15:50:00	msjche	mount /dev/sda2 /mnt/
+2015-11-08 15:50:07	msjche	mount /dev/sda3 /mnt/home
+2015-11-08 15:50:37	Psyq	okie because in your video your are saying 
+2015-11-08 15:50:54	Psyq	mount /dev/sda2 /mnt/
+2015-11-08 15:51:04	Psyq	mkdir -p /mnt/boot
+2015-11-08 15:51:08	Psyq	mkdir -p /mnt/home
+2015-11-08 15:51:28	Psyq	mount /dev/sda2 /mnt/home
+2015-11-08 15:51:35	Psyq	mount /dev/sda1 /mnt/boot
+2015-11-08 15:52:19	msjche	if i did it was an error.  if you declare /home as a separate part it should have been on /dev/sda3
+2015-11-08 15:52:20	Psyq	if I do that then I get the base in both /mnt/ and /mnt/home
+2015-11-08 15:52:57	Psyq	okie so I should just mount /dev/sda2 /mnt/
+2015-11-08 15:53:10	Psyq	and mount /dev/sda1 /mnt/boot
+2015-11-08 15:53:15	msjche	yup
+2015-11-08 15:53:21	Psyq	okie
+2015-11-08 15:53:23	Psyq	thanks
+2015-11-08 15:53:32	msjche	no prob, good luck :)
+2015-11-08 15:57:42	Psyq	FYI the adduser does not work in arch anymore
+2015-11-08 15:57:44	Psyq	:)
+2015-11-08 17:45:27	Psyq	still here msjche 
+2015-11-08 17:59:32	msjche	ya what's up?
+2015-11-08 17:59:47	msjche	actually recording a new arch install vid :)
+2015-11-08 18:03:31	Psyq	:)
+2015-11-08 18:03:33	Psyq	cool
+2015-11-08 18:03:49	Psyq	I got the yaourt to work
+2015-11-08 18:32:19	--	irc: disconnected from server
+2015-12-06 06:28:38	psyq	msjche you have a minute?
+2015-12-06 07:59:36	<════	psyq (~Psyq@unaffiliated/psyq) has quit (Quit: Conversation terminated)
+2015-12-06 10:37:58	msjche	psyq: there are a few things you need to make sure
+2015-12-06 10:38:13	psyq	okie
+2015-12-06 10:38:46	msjche	check your /etc/locale.conf - should have LANG=en_US.UTF-8 or equivalent
+2015-12-06 10:39:06	psyq	msjche: i am following your video
+2015-12-06 10:39:11	msjche	then make sure you have poweline fonts installed.  I have a few in my config files 
+2015-12-06 10:39:33	msjche	the last thing is you may need to mess with font sizes.  some sizes don't have all the characters
+2015-12-06 10:39:58	psyq	okie I think I didn't install the powerline fonts
+2015-12-06 10:40:11	psyq	they should be in AUR right?
+2015-12-06 10:40:28	msjche	yeah should find them with yaourt powerline fonts
+2015-12-06 10:40:37	psyq	sweet
+2015-12-06 10:40:52	psyq	and can I do it in gentoo
+2015-12-06 10:41:50	msjche	yeah, media-fonts/powerline-symbols
+2015-12-06 10:42:00	psyq	really msjche I don't know what distro that I want to stick too I am moving between Arch, Gentoo and Void hehehe
+2015-12-06 10:42:15	msjche	hmm, never used Void...
+2015-12-06 10:42:38	msjche	i'm running both. with my laptop here i'm using Arch.  my desktop is Gentoo
+2015-12-06 10:42:47	msjche	really like them both
+2015-12-06 10:44:34	msjche	which terminal are you using?
+2015-12-06 10:46:06	psyq	me too I love Arch and Gentoo now I tried void and I love that one too it is really hard
+2015-12-06 10:46:16	psyq	I am using rxvt-unicode
+2015-12-06 10:47:18	psyq	and with your .xresources hehehehe
+2015-12-06 10:47:26	msjche	:)
+2015-12-06 10:47:41	msjche	yeah, urxvt can be ... difficult ... sometimes
+2015-12-06 10:47:50	psyq	your setups I have always like everything that you have made
+2015-12-06 10:48:10	msjche	thanks! yeah i agonize over design
+2015-12-06 10:48:17	msjche	too much probably haha
+2015-12-06 10:49:19	psyq	hehehehe well msjche I have to say I am always looking forward to see how your layout will look
+2015-12-06 10:50:25	msjche	i'm actually thinking about going back to a minimal awesome layout.  and have a switching system using buttons or somthing 
+2015-12-06 10:50:34	psyq	like when you made the arch updated install hehehe i was fascinated by the Gentoo design
+2015-12-06 10:50:41	msjche	to go between pimped out and minimalistic
+2015-12-06 10:50:54	psyq	really
+2015-12-06 10:51:13	psyq	so you can just switch between the two?
+2015-12-06 10:52:12	msjche	yeah, i'd have a "PROFILES" folder in .config/awesome, then use symlinks to one or the other configs, using a simple bash script, which could then be tied to buttons...or keybindings.  still developing the idea
+2015-12-06 10:53:23	psyq	how do you come up with all of this?
+2015-12-06 10:53:54	msjche	haha, i don't know, just get bored and want more options :)
+2015-12-06 10:54:06	psyq	:)
+2015-12-06 10:54:49	msjche	the issue i have with my pimped out config is batter life.  awesome uses like 4-6% cpu with all the graphical widgets and all.  i'd go to minimal on battery for instance
+2015-12-06 10:55:12	psyq	okie
+2015-12-06 10:55:37	psyq	how did you setup the conky that you are using on your gentoo box?
+2015-12-06 10:56:20	msjche	i actually copied it from someone online
+2015-12-06 10:56:32	msjche	then tweeked it a little
+2015-12-06 10:56:35	psyq	nice
+2015-12-06 10:58:46	psyq	I have never got around to figure out the way to play with it
+2015-12-06 10:59:06	msjche	you mean awesome?
+2015-12-06 10:59:15	psyq	conky and awesome 
+2015-12-06 10:59:32	psyq	honestly I hate lua and awesome uses lua :(
+2015-12-06 10:59:47	msjche	oh yeah, conky is a bit strange, but pretty straight forward.  the only weird part are the offsets.
+2015-12-06 10:59:55	msjche	haha
+2015-12-06 11:00:15	msjche	so psyq where do you live?
+2015-12-06 11:09:25	psyq	I am living in Denmark
+2015-12-06 11:09:35	msjche	cool
+2015-12-06 11:09:48	psyq	:)
+2015-12-06 11:10:06	psyq	you got a fan half way across the world :)
+2015-12-06 11:10:21	msjche	haha, you're too nice :)
+2015-12-06 11:33:19	psyq	:)
+2015-12-06 11:37:05	psyq	msjche I tried ubuntu as the first linux distro but didn't like it then mint linux which I liked stayed there for a long time then I heard about Arch tryed it as a newbie went back to mint, after I got a little bit more know how on mint I tried debian stayed there to a couple of mounths
+2015-12-06 11:39:47	psyq	Then I thought about trying out a really hardcore linux distro that is when I tryed Gentoo which really scared me hehehe, then I talked to someone in school and he told me that i really should try Arch so I did and found your channel after that day I have been a fan of what you have do and what you are doing
+2015-12-06 11:54:46	msjche	that actually sounds quit a bit like my story too.  i had apple hardware and played around with dual booting, then tripple booting with ubuntu.
+2015-12-06 11:55:30	msjche	from ubuntu i went straight to arch and stayed there for quite a while.  i've only done the gentoo thing for a year or so.  i'll probably stay arch and gentoo indefinitely
+2015-12-06 12:03:07	psyq	but why is it that Gentoo is so popular
+2015-12-06 12:04:19	msjche	idk, but i think it's mark of pride if you can install it and keep it running
+2015-12-06 12:04:32	msjche	and, portage is just awesome
+2015-12-06 12:05:35	psyq	what is it with that portage?
+2015-12-06 12:12:42	msjche	just allows for a fully custom system. and tbh, it's just really cool watching it work :)
+2015-12-06 12:13:33	psyq	that is why everyone that is using Gentoo love it so much
+2015-12-06 12:32:38	psyq	msjche it is the dejavu of the powerline fonts that I need to download right?
+2015-12-06 12:33:06	msjche	yeah, if that's what you're using in .Xresources
+2015-12-06 12:34:05	psyq	how come the urxvt is looking for the .Xdefaults and not the .Xresources
+2015-12-06 12:34:57	msjche	you may need to do xrdb -merge ~/.Xresources
+2015-12-06 12:35:57	psyq	okie
+2015-12-06 12:36:03	msjche	then close out all urxvt and relaunch
+2015-12-06 12:37:00	psyq	okie
+2015-12-06 12:46:03	psyq	msjche do I need to install the powerline theme?
+2015-12-06 12:46:27	msjche	you need to have it in .oh-my-zsh/themes/ can find it on github
+2015-12-06 12:47:04	psyq	I just found it ;)
+2015-12-06 12:48:12	psyq	are you still using the powerline theme?
+2015-12-06 12:48:21	msjche	yeah
+2015-12-06 12:48:43	msjche	made a slight tweak so the green is now grey
+2015-12-06 12:49:14	psyq	how does that look
+2015-12-06 12:51:40	msjche	http://imgur.com/Q0W4uOS
+2015-12-06 12:52:23	psyq	nice
+2015-12-06 12:59:03	psyq	damn it looks nice
+2015-12-06 13:01:55	msjche	thx :)
+2015-12-06 13:02:40	psyq	and thank you I got mine to work also
+2015-12-06 13:02:53	msjche	cool good to hear
+2015-12-06 13:04:30	psyq	this is so awesome now
+2015-12-06 13:04:33	psyq	hehehe
+2015-12-06 13:04:54	psyq	I am using openbox and now for the first time it is just the way I want it
+2015-12-06 13:05:13	msjche	right on :)
+2015-12-06 13:05:15	psyq	and the cool part is I wrote all the commands down
+2015-12-06 13:05:27	msjche	good way to learn
+2015-12-06 13:06:26	psyq	yeah besides now I am better at Arch then before so it is so nice
+2015-12-06 13:08:20	psyq	I am going to reinstall this laptop with Arch then I have a other laptop I might try running gentoo on but i am not sure I am running VoidLinux on my desktop so i think that it would be good to run Gentoo on the second laptop
+2015-12-06 13:08:30	psyq	then I should be covered heheheh
+2015-12-06 15:23:24	psyq	msjche: busy?
+2015-12-06 15:24:04	msjche	not really, watching the warriors game
+2015-12-06 15:25:04	msjche	what's up?
+2015-12-06 15:25:21	psyq	warriora
+2015-12-06 15:25:46	psyq	I was thinking what do I need to run multiple screen in Arch?
+2015-12-06 15:26:04	msjche	hmmm, i've never messed with it...
+2015-12-06 15:27:03	psyq	oohh damn hehehe
+2015-12-06 15:27:19	msjche	what card to you have?
+2015-12-06 15:27:21	psyq	because I just got the best idea never
+2015-12-06 15:27:37	psyq	well i will need to look at it tomorrow
+2015-12-06 15:28:44	psyq	but my workstation at work I will reinstall it with Arch or Gentoo but it has 3 monitors connected to it and I think it is an intel grafics card to be honest
+2015-12-06 15:29:07	msjche	what WM/DE?
+2015-12-06 15:29:52	psyq	that is really what I am thinking about if I should use awesome or something els
+2015-12-06 15:30:27	msjche	a full DE like gnome or plasma probably could do it out the box.  for awesome or openbox you may need to mess with some configs
+2015-12-06 15:32:35	psyq	that is what makes it so much fun heheh
+2015-12-06 15:32:53	msjche	yep
+2015-12-06 15:33:21	psyq	but I might have to install gnome or plasma for a failsafe heheh
+2015-12-06 15:33:45	msjche	that's what i would do
+2015-12-06 15:34:47	psyq	good it is settled then
+2015-12-06 15:34:49	psyq	hehehehe
+2015-12-06 15:34:59	psyq	I got my project now
+2015-12-06 15:35:08	msjche	have fun bud :)
+2015-12-06 15:36:12	psyq	thanks I update you all
+2015-12-08 14:12:29	psyq	I think I need your help with the NetworkManager
+2015-12-08 15:58:17	<════	psyq (~Psyq@unaffiliated/psyq) has quit (Quit: Conversation terminated)
+2015-12-08 18:38:32	--	irc: disconnected from server

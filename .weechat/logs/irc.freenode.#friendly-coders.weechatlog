@@ -1,0 +1,162 @@
+2015-03-06 17:36:31	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #friendly-coders
+2015-03-06 17:36:31	--	Topic for #friendly-coders is "Hi, don't ask to ask :) ##asm #awk #bash #bzr ##c ##c++ #d #ed #erlang #gcc #gdb #git #haskell #html ##java ##javascript #kate #ksh #latex #lisp #lua #mercurial #networking #openssh #perl ##php #pike ##posix #postgresql #prolog #python #r #regex #ruby-lang #scheme #sed #svn #tcl ##tty #winapi ##workingset #xml ##yacc | No cursing, no dissing | http://ideone.com/ | http://sprunge.us/"
+2015-03-06 17:36:31	--	Topic set by igli on Sat, 21 Jun 2014 16:31:30
+2015-03-06 17:36:31	--	Channel #friendly-coders: 130 nicks (1 op, 0 voices, 129 normals)
+2015-03-06 17:36:32	--	PvNotice(ChanServ): If you want help, _wait_ for an answer. | "Help make it fun." | Please stay on-topic ;)
+2015-03-06 17:36:33	--	Mode #friendly-coders [+cnt]
+2015-03-06 17:36:33	--	Channel created on Thu, 22 Mar 2007 11:00:39
+2015-03-06 17:48:27	════>	NoCreativity (~quassel@177.207.55.74.dynamic.adsl.gvt.net.br) has joined #friendly-coders
+2015-03-06 17:49:26	<════	jailbot (~textual@50.247.131.163) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2015-03-06 17:53:24	<════	George__ (~George__@172.56.38.115) has quit (Ping timeout: 246 seconds)
+2015-03-06 17:55:02	<════	SpeakerToMeat (~Speaker@prgmr/customer/SpeakerToMeat) has quit (Read error: No route to host)
+2015-03-06 17:58:51	<════	Onionnion (~Onionnion@CPE-70-92-28-84.wi.res.rr.com) has quit (Ping timeout: 256 seconds)
+2015-03-06 18:02:31	════>	kake007 (~kake@150.129.130.33) has joined #friendly-coders
+2015-03-06 18:08:47	<════	aditsu (~aditsu@183178080020.ctinets.com) has quit (Ping timeout: 255 seconds)
+2015-03-06 18:19:53	════>	moss (~moss@unaffiliated/moss) has joined #friendly-coders
+2015-03-06 18:22:00	<════	jimvideo (~jimvideo@184-12-233-85.dr01.brny.ca.frontiernet.net) has quit (Quit: Time to reboot Windoze..... Good night from the State of Jefferson everybody.)
+2015-03-06 18:26:05	════>	jailbot (~textual@c-73-44-196-102.hsd1.il.comcast.net) has joined #friendly-coders
+2015-03-06 18:30:44	<════	Albori (~Albori@64-251-150-248.fidnet.com) has quit (Ping timeout: 265 seconds)
+2015-03-06 18:48:46	<════	alaunay (~asl@2a02-8428-00fa-8000-6670-02ff-fe10-f497.rev.sfr.net) has quit (Quit: Leaving)
+2015-03-06 18:51:58	════>	aditsu (~aditsu@202.4.201.36) has joined #friendly-coders
+2015-03-06 18:56:36	<════	phi0x (~phi0x@S0106306023d71b33.vs.shawcable.net) has quit (Quit: Leaving)
+2015-03-06 19:05:50	════>	threefourme (~threefour@71.177.68.161) has joined #friendly-coders
+2015-03-06 19:07:38	<════	threefourme (~threefour@71.177.68.161) has quit (Client Quit)
+2015-03-06 19:14:59	--	Griz64 is now known as Griz|LT
+2015-03-06 19:17:14	<════	starless (~starless@cpe-67-247-235-240.buffalo.res.rr.com) has quit (Quit: Leaving)
+2015-03-06 19:23:28	<════	aditsu (~aditsu@202.4.201.36) has quit (Ping timeout: 244 seconds)
+2015-03-06 19:25:07	════>	starless (~starless@cpe-67-247-235-240.buffalo.res.rr.com) has joined #friendly-coders
+2015-03-06 19:27:11	════>	antons (~antons@199.48.121.14) has joined #friendly-coders
+2015-03-06 19:30:15	<════	Kevin-_- (~kevinmelk@c-67-170-212-154.hsd1.ca.comcast.net) has quit (Ping timeout: 245 seconds)
+2015-03-06 19:33:23	════>	SpeakerToMeat (~Speaker@190.200.159.132) has joined #friendly-coders
+2015-03-06 19:33:28	<════	bigbadjudas (~666@pool-98-115-142-29.phlapa.fios.verizon.net) has quit (Disconnected by services)
+2015-03-06 19:33:28	<════	SpeakerToMeat (~Speaker@190.200.159.132) has quit (Changing host)
+2015-03-06 19:33:28	════>	SpeakerToMeat (~Speaker@prgmr/customer/SpeakerToMeat) has joined #friendly-coders
+2015-03-06 19:33:52	════>	bigbadjudas (~666@pool-98-115-142-29.phlapa.fios.verizon.net) has joined #friendly-coders
+2015-03-06 19:36:05	<════	theShirbiny (~theShirbi@unaffiliated/theshirbiny) has quit (Ping timeout: 255 seconds)
+2015-03-06 19:36:09	════>	sillysquirt (~sillysqui@71.42.153.34) has joined #friendly-coders
+2015-03-06 19:36:26	sillysquirt	hello guys, how do I get started with ruby as my first programming language? I need books
+2015-03-06 19:37:06	sillysquirt	I'm on Windows and I notice The Book of Ruby
+2015-03-06 19:37:17	sillysquirt	any other books? Yes/No?
+2015-03-06 19:38:13	antons	guys can someone help with node.js please ?
+2015-03-06 19:40:05	<════	starless (~starless@cpe-67-247-235-240.buffalo.res.rr.com) has quit (Quit: Leaving)
+2015-03-06 19:41:42	════>	starless (~starless@cpe-67-247-235-240.buffalo.res.rr.com) has joined #friendly-coders
+2015-03-06 19:43:16	════>	theShirbiny (~theShirbi@unaffiliated/theshirbiny) has joined #friendly-coders
+2015-03-06 19:43:25	<════	theShirbiny (~theShirbi@unaffiliated/theshirbiny) has quit (Client Quit)
+2015-03-06 19:47:43	════>	gnostikoi (~user@76.126.151.173) has joined #friendly-coders
+2015-03-06 19:48:18	════>	Kevin-_- (~kevinmelk@c-67-170-212-154.hsd1.ca.comcast.net) has joined #friendly-coders
+2015-03-06 19:52:46	<════	starless (~starless@cpe-67-247-235-240.buffalo.res.rr.com) has quit (Quit: Leaving)
+2015-03-06 19:58:03	<════	x98gvyn54ugm (~vfbtgn@5-12-202-152.residential.rdsnet.ro) has quit (Quit: Leaving)
+2015-03-06 20:05:50	<════	alokbeniwal (~alokbeniw@c-24-130-122-40.hsd1.ca.comcast.net) has quit (Quit: alokbeniwal)
+2015-03-06 20:06:02	<════	moss (~moss@unaffiliated/moss) has quit (Quit: WeeChat 1.1.1)
+2015-03-06 20:06:56	<════	Griz|LT (~griz@fu/infra/griz) has quit (Remote host closed the connection)
+2015-03-06 20:07:19	════>	aditsu (~aditsu@059148208052.ctinets.com) has joined #friendly-coders
+2015-03-06 20:07:25	<════	sillysquirt (~sillysqui@71.42.153.34) has quit (Quit: Leaving)
+2015-03-06 20:10:12	════>	Griz|LT (~griz@50-52-16-56.cral.id.frontiernet.net) has joined #friendly-coders
+2015-03-06 20:20:01	--	Griz|LT is now known as GrizLT
+2015-03-06 20:20:13	<════	GrizLT (~griz@50-52-16-56.cral.id.frontiernet.net) has quit (Changing host)
+2015-03-06 20:20:13	════>	GrizLT (~griz@fu/infra/griz) has joined #friendly-coders
+2015-03-06 20:20:51	tappi	i tried to learn ruby once
+2015-03-06 20:21:18	tappi	it as a pita at the time, i think i wanted to learn ruby 2.something but all the materials were for 1.9
+2015-03-06 20:21:42	tappi	ruby doesn't supply an official tutorial or anything
+2015-03-06 20:23:55	<════	red_menace (~pingachu@75-166-91-102.hlrn.qwest.net) has quit (Quit: leaving...)
+2015-03-06 20:24:08	════>	desultory (~desultory@gentoo/developer/desultory) has joined #friendly-coders
+2015-03-06 20:24:54	<════	GrizLT (~griz@fu/infra/griz) has quit (Remote host closed the connection)
+2015-03-06 20:25:03	<════	krendil (~krendil@218.53.96.58.static.exetel.com.au) has quit (Ping timeout: 256 seconds)
+2015-03-06 20:26:37	════>	firebird1 (~firebird@61.3.105.152) has joined #friendly-coders
+2015-03-06 20:27:39	════>	GrizLT (~griz@fu/infra/griz) has joined #friendly-coders
+2015-03-06 20:29:25	<════	jailbot (~textual@c-73-44-196-102.hsd1.il.comcast.net) has quit (Ping timeout: 245 seconds)
+2015-03-06 20:37:21	<════	Richard_2340985 (~Miranda@dslb-088-066-077-189.088.066.pools.vodafone-ip.de) has quit (Ping timeout: 244 seconds)
+2015-03-06 20:38:02	<════	ddubz (~ddubz@host-240.splunk.com) has quit (Read error: Connection reset by peer)
+2015-03-06 20:39:03	<════	eigenvalue (~eigenvalu@unaffiliated/eigenvalue) has quit (Ping timeout: 245 seconds)
+2015-03-06 20:39:03	<════	brenns10 (~brenns10@cpe-184-56-218-236.neo.res.rr.com) has quit (Ping timeout: 245 seconds)
+2015-03-06 20:39:03	════>	brenns10 (~brenns10@cpe-184-56-218-236.neo.res.rr.com) has joined #friendly-coders
+2015-03-06 20:40:27	════>	x98gvyn (~vfbtgn@188.25.38.168) has joined #friendly-coders
+2015-03-06 20:42:52	════>	amigojapan (~amigojapa@c119045.net21845.cablenet.ne.jp) has joined #friendly-coders
+2015-03-06 20:44:42	--	irc: disconnected from server
+2015-03-06 21:05:22	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #friendly-coders
+2015-03-06 21:05:22	--	Topic for #friendly-coders is "Hi, don't ask to ask :) ##asm #awk #bash #bzr ##c ##c++ #d #ed #erlang #gcc #gdb #git #haskell #html ##java ##javascript #kate #ksh #latex #lisp #lua #mercurial #networking #openssh #perl ##php #pike ##posix #postgresql #prolog #python #r #regex #ruby-lang #scheme #sed #svn #tcl ##tty #winapi ##workingset #xml ##yacc | No cursing, no dissing | http://ideone.com/ | http://sprunge.us/"
+2015-03-06 21:05:22	--	Topic set by igli on Sat, 21 Jun 2014 16:31:30
+2015-03-06 21:05:22	--	Channel #friendly-coders: 123 nicks (1 op, 0 voices, 122 normals)
+2015-03-06 21:05:22	--	Notice(asimov.freenode.net): [freenode-info] help freenode weed out clonebots -- please register your IRC nick and auto-identify: http://freenode.net/faq.shtml#nicksetup
+2015-03-06 21:05:22	--	PvNotice(ChanServ): If you want help, _wait_ for an answer. | "Help make it fun." | Please stay on-topic ;)
+2015-03-06 21:05:50	--	Mode #friendly-coders [+cnt]
+2015-03-06 21:05:50	--	Channel created on Thu, 22 Mar 2007 11:00:39
+2015-03-06 21:07:16	════>	moss (~moss@unaffiliated/moss) has joined #friendly-coders
+2015-03-06 21:11:28	════>	zeitue (~z@67.221.133.157) has joined #friendly-coders
+2015-03-06 21:13:20	<════	alexbobp (~alex@capitalthree.pwnz.org) has quit (Ping timeout: 240 seconds)
+2015-03-06 21:13:26	════>	Richard_2340985 (~Miranda@dslb-178-001-202-161.178.001.pools.vodafone-ip.de) has joined #friendly-coders
+2015-03-06 21:14:14	════>	alexbobp (~alex@capitalthree.pwnz.org) has joined #friendly-coders
+2015-03-06 21:14:37	--	alexbobp is now known as Guest1635
+2015-03-06 21:15:44	<════	NoCreativity (~quassel@177.207.55.74.dynamic.adsl.gvt.net.br) has quit (Read error: Connection reset by peer)
+2015-03-06 21:19:02	════>	NoCreativity (~quassel@177.207.55.74.dynamic.adsl.gvt.net.br) has joined #friendly-coders
+2015-03-06 21:22:02	<════	NoCreativity (~quassel@177.207.55.74.dynamic.adsl.gvt.net.br) has quit (Read error: Connection reset by peer)
+2015-03-06 21:23:07	<════	kake007 (~kake@150.129.130.33) has quit (Ping timeout: 252 seconds)
+2015-03-06 21:30:38	════>	heroux (~heroux@gateway/shell/insomnia247/x-ksrrsdxlrznuiwac) has joined #friendly-coders
+2015-03-06 21:33:16	<════	moss (~moss@unaffiliated/moss) has quit (Quit: rehash)
+2015-03-06 21:33:45	════>	moss (~moss@unaffiliated/moss) has joined #friendly-coders
+2015-03-06 21:38:09	════>	antons_ (~antons@199.48.120.2) has joined #friendly-coders
+2015-03-06 21:39:38	<════	zeitue (~z@67.221.133.157) has quit (Read error: Connection reset by peer)
+2015-03-06 21:41:11	<════	antons (~antons@199.48.121.14) has quit (Ping timeout: 265 seconds)
+2015-03-06 21:43:41	<════	hmstrmn (~hmstrmn@grm-studby-128-39-149-158.studby.uia.no) has quit (Quit: Leaving)
+2015-03-07 06:37:51	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #friendly-coders
+2015-03-07 06:37:51	--	Topic for #friendly-coders is "Hi, don't ask to ask :) ##asm #awk #bash #bzr ##c ##c++ #d #ed #erlang #gcc #gdb #git #haskell #html ##java ##javascript #kate #ksh #latex #lisp #lua #mercurial #networking #openssh #perl ##php #pike ##posix #postgresql #prolog #python #r #regex #ruby-lang #scheme #sed #svn #tcl ##tty #winapi ##workingset #xml ##yacc | No cursing, no dissing | http://ideone.com/ | http://sprunge.us/"
+2015-03-07 06:37:51	--	Topic set by igli on Sat, 21 Jun 2014 16:31:30
+2015-03-07 06:37:51	--	Channel #friendly-coders: 126 nicks (1 op, 0 voices, 125 normals)
+2015-03-07 06:37:51	--	PvNotice(ChanServ): If you want help, _wait_ for an answer. | "Help make it fun." | Please stay on-topic ;)
+2015-03-07 06:38:18	--	Mode #friendly-coders [+cnt]
+2015-03-07 06:38:18	--	Channel created on Thu, 22 Mar 2007 11:00:39
+2015-03-07 06:39:50	════>	starless (~starless@cpe-67-247-235-240.buffalo.res.rr.com) has joined #friendly-coders
+2015-03-07 06:45:16	<════	bazrush (~bazrush@149.152.238.178.in-addr.arpa) has quit (Read error: Connection reset by peer)
+2015-03-07 06:45:51	════>	bazrush (~bazrush@149.152.238.178.in-addr.arpa) has joined #friendly-coders
+2015-03-07 06:58:02	════>	nitro25 (~nitro25@cpe-104-229-4-53.rochester.res.rr.com) has joined #friendly-coders
+2015-03-07 07:01:09	<════	Vashet (~Vashet@ool-43501bd8.dyn.optonline.net) has quit (Remote host closed the connection)
+2015-03-07 07:04:03	════>	Vashet (~Vashet@ool-43501bd8.dyn.optonline.net) has joined #friendly-coders
+2015-03-07 07:06:26	════>	Kevin-_- (~kevinmelk@c-67-170-212-154.hsd1.ca.comcast.net) has joined #friendly-coders
+2015-03-07 07:14:50	<════	infiniteNOP (~infiniteN@unaffiliated/infinitenop) has quit (Ping timeout: 240 seconds)
+2015-03-07 07:26:05	════>	GrizLT (~griz@fu/infra/griz) has joined #friendly-coders
+2015-03-07 07:27:16	════>	TheAres (~TheAres@unaffiliated/theares) has joined #friendly-coders
+2015-03-07 07:27:27	<════	TheAres (~TheAres@unaffiliated/theares) has left #friendly-coders ("Palaver http://palaverapp.com/")
+2015-03-07 07:28:49	════>	Amkei (~Amkei@unaffiliated/amkei) has joined #friendly-coders
+2015-03-07 07:36:35	<════	starless (~starless@cpe-67-247-235-240.buffalo.res.rr.com) has quit (Quit: Leaving)
+2015-03-07 07:38:52	════>	infiniteNOP (~infiniteN@unaffiliated/infinitenop) has joined #friendly-coders
+2015-03-07 07:46:39	--	irc: disconnected from server
+2015-03-07 07:47:27	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #friendly-coders
+2015-03-07 07:47:27	--	Topic for #friendly-coders is "Hi, don't ask to ask :) ##asm #awk #bash #bzr ##c ##c++ #d #ed #erlang #gcc #gdb #git #haskell #html ##java ##javascript #kate #ksh #latex #lisp #lua #mercurial #networking #openssh #perl ##php #pike ##posix #postgresql #prolog #python #r #regex #ruby-lang #scheme #sed #svn #tcl ##tty #winapi ##workingset #xml ##yacc | No cursing, no dissing | http://ideone.com/ | http://sprunge.us/"
+2015-03-07 07:47:27	--	Topic set by igli on Sat, 21 Jun 2014 16:31:30
+2015-03-07 07:47:28	--	Channel #friendly-coders: 130 nicks (1 op, 0 voices, 129 normals)
+2015-03-07 07:47:28	--	PvNotice(ChanServ): If you want help, _wait_ for an answer. | "Help make it fun." | Please stay on-topic ;)
+2015-03-07 07:47:55	--	Mode #friendly-coders [+cnt]
+2015-03-07 07:47:55	--	Channel created on Thu, 22 Mar 2007 11:00:39
+2015-03-07 07:49:55	<════	aditsu (~aditsu@059148208052.ctinets.com) has quit (Ping timeout: 250 seconds)
+2015-03-07 08:03:09	<════	infiniteNOP (~infiniteN@unaffiliated/infinitenop) has quit (Ping timeout: 246 seconds)
+2015-03-07 08:14:14	<════	George__ (~George__@c-24-130-139-81.hsd1.ca.comcast.net) has quit (Remote host closed the connection)
+2015-03-07 08:14:41	════>	George__ (~George__@c-24-130-139-81.hsd1.ca.comcast.net) has joined #friendly-coders
+2015-03-07 08:16:44	════>	freecoder (~freecoder@49.248.160.146) has joined #friendly-coders
+2015-03-07 08:19:28	<════	George__ (~George__@c-24-130-139-81.hsd1.ca.comcast.net) has quit (Ping timeout: 256 seconds)
+2015-03-07 08:19:55	--	irc: disconnected from server
+2015-03-07 08:24:58	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #friendly-coders
+2015-03-07 08:24:58	--	Topic for #friendly-coders is "Hi, don't ask to ask :) ##asm #awk #bash #bzr ##c ##c++ #d #ed #erlang #gcc #gdb #git #haskell #html ##java ##javascript #kate #ksh #latex #lisp #lua #mercurial #networking #openssh #perl ##php #pike ##posix #postgresql #prolog #python #r #regex #ruby-lang #scheme #sed #svn #tcl ##tty #winapi ##workingset #xml ##yacc | No cursing, no dissing | http://ideone.com/ | http://sprunge.us/"
+2015-03-07 08:24:58	--	Topic set by igli on Sat, 21 Jun 2014 16:31:30
+2015-03-07 08:24:58	--	Channel #friendly-coders: 127 nicks (1 op, 0 voices, 126 normals)
+2015-03-07 08:24:58	--	PvNotice(ChanServ): If you want help, _wait_ for an answer. | "Help make it fun." | Please stay on-topic ;)
+2015-03-07 08:25:25	--	Mode #friendly-coders [+cnt]
+2015-03-07 08:25:25	--	Channel created on Thu, 22 Mar 2007 11:00:39
+2015-03-07 08:26:29	════>	aditsu (~aditsu@120.88.228.60) has joined #friendly-coders
+2015-03-07 08:27:12	--	irc: disconnected from server
+2015-03-07 08:29:18	════>	msjche (~msjche@c-50-143-182-236.hsd1.ca.comcast.net) has joined #friendly-coders
+2015-03-07 08:29:18	--	Topic for #friendly-coders is "Hi, don't ask to ask :) ##asm #awk #bash #bzr ##c ##c++ #d #ed #erlang #gcc #gdb #git #haskell #html ##java ##javascript #kate #ksh #latex #lisp #lua #mercurial #networking #openssh #perl ##php #pike ##posix #postgresql #prolog #python #r #regex #ruby-lang #scheme #sed #svn #tcl ##tty #winapi ##workingset #xml ##yacc | No cursing, no dissing | http://ideone.com/ | http://sprunge.us/"
+2015-03-07 08:29:18	--	Topic set by igli on Sat, 21 Jun 2014 16:31:30
+2015-03-07 08:29:18	--	Channel #friendly-coders: 128 nicks (1 op, 0 voices, 127 normals)
+2015-03-07 08:29:18	--	PvNotice(ChanServ): If you want help, _wait_ for an answer. | "Help make it fun." | Please stay on-topic ;)
+2015-03-07 08:29:44	--	Mode #friendly-coders [+cnt]
+2015-03-07 08:29:44	--	Channel created on Thu, 22 Mar 2007 11:00:39
+2015-03-07 08:37:16	════>	gnostikoi (~user@76.126.151.173) has joined #friendly-coders
+2015-03-07 08:39:37	<════	Kevin-_- (~kevinmelk@c-67-170-212-154.hsd1.ca.comcast.net) has quit (Ping timeout: 252 seconds)
+2015-03-07 08:41:17	--	irc: disconnected from server
+2015-03-17 20:22:55	════>	msjche (~msjche@gateway/vpn/privateinternetaccess/msjche) has joined #friendly-coders
+2015-03-17 20:22:55	--	Topic for #friendly-coders is "Hi, don't ask to ask :) ##asm #awk #bash #bzr ##c ##c++ #d #ed #erlang #gcc #gdb #git #haskell #html ##java ##javascript #kate #ksh #latex #lisp #lua #mercurial #networking #openssh #perl ##php #pike ##posix #postgresql #prolog #python #r #regex #ruby-lang #scheme #sed #svn #tcl ##tty #winapi ##workingset #xml ##yacc | No cursing, no dissing | http://ideone.com/ | http://sprunge.us/"
+2015-03-17 20:22:55	--	Topic set by igli on Sat, 21 Jun 2014 16:31:30
+2015-03-17 20:22:55	--	Channel #friendly-coders: 134 nicks (1 op, 0 voices, 133 normals)
+2015-03-17 20:22:55	--	PvNotice(ChanServ): If you want help, _wait_ for an answer. | "Help make it fun." | Please stay on-topic ;)
+2015-03-17 20:22:57	--	Mode #friendly-coders [+cnt]
+2015-03-17 20:22:58	--	Channel created on Thu, 22 Mar 2007 11:00:39
