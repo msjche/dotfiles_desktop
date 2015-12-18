@@ -9,6 +9,9 @@
 .config/pianobar/title
 .config/ranger/bookmarks
 .config/ranger/history
+.config/transmission-daemon/resume/
+.config/transmission-daemon/torrents/
+.config/transmission-daemon/stats.json
 .mpd/mpd.db
 .mpd/mpd.log
 .mpd/mpd.pid
@@ -17,4 +20,3 @@
 .mutt/com*
 Scripts/mps
 .mpd/playlists/default.m3u
-
