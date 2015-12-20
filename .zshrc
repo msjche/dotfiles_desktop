@@ -429,7 +429,7 @@ hacker-top() { python ~/Scripts/hacker-top/hacker_top.py  ;}
 reddit-top() { python ~/git/reddit-top/reddit_top ;}
 
 # Transmission
-T() { ~/Scripts/blocklist.sh && transmission-daemon && sleep 2 && transmission-remote-cli ;}
+T() { ~/Scripts/blocklist.sh && transmission-daemon && transmission-remote-cli ;}
 
 # Pirate Bay search
 tpb() { clear && figlet -c Pirate Bay && ~/Scripts/tpb.sh ;}
