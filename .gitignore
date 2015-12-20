@@ -15,6 +15,7 @@
 .config/transmission-daemon/torrents/
 .config/transmission-daemon/stats.json
 .config/transmission-daemon/dht.dat
+.config/transmission-daemon/blocklists/
 .mpd/mpd.db
 .mpd/mpd.log
 .mpd/mpd.pid
