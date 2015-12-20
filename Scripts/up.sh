@@ -9,3 +9,4 @@ insync start &
 #hp-systray &
 /usr/bin/megasync &
 /opt/dropbox/dropboxd &
+redshift

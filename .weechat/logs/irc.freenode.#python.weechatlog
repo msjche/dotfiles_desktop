@@ -727,3 +727,483 @@
 2015-12-15 20:31:01	════>	jlf (~user@pdpc/supporter/active/jlf) has joined #python
 2015-12-15 20:31:18	<════	Simotek (~Simotek@opensuse/member/simotek) has quit (Ping timeout: 265 seconds)
 2015-12-15 20:31:23	<════	nabblet (~ben@unaffiliated/benkinooby) has quit (Quit: leaving)
+2015-12-19 10:15:30	════>	msjche (~msjche@unaffiliated/msjche) has joined #python
+2015-12-19 10:15:30	--	Topic for #python is "Don't paste, use https://bpaste.net/+python | http://bit.ly/psf-coc | NO LOL | Tutorial: http://bit.ly/MCAhYx | New programmer? http://goo.gl/c170V | Specify 2.x or 3.x in your question | Find your local User Group: http://goo.gl/S1Zsq | #python-fr #python.de #python-es #python.tw #python.pl #python-br #python-nl #python-ir #python.it #python-ro #python-india #python-hu #python-dev"
+2015-12-19 10:15:30	--	Topic set by ssbr_at_work (scorchsabe@python/site-packages/ssbr) on Tue, 01 Sep 2015 00:01:20
+2015-12-19 10:15:30	--	Channel #python: 1605 nicks (0 ops, 0 voices, 1605 normals)
+2015-12-19 10:15:31	--	Channel created on Sat, 25 Nov 2006 22:42:41
+2015-12-19 10:15:53	<════	lobefux (wetware@95.85.5.30) has quit (Quit: leaving)
+2015-12-19 10:15:53	ChrisWarrick	lumidee: woah, what is this supposed to do
+2015-12-19 10:15:56	════>	roentgen_ (~roentgen@unaffiliated/roentgen) has joined #python
+2015-12-19 10:16:01	yeryry	if movie[-1] == "movie" then surely "movie" in movie is true too?
+2015-12-19 10:16:17	════>	codeitloadit (~codeitloa@wsip-64-147-2-2.oc.oc.cox.net) has joined #python
+2015-12-19 10:16:19	nchambers	^
+2015-12-19 10:16:22	════>	rymate1234 (~rymate@ns354110.ip-91-121-101.eu) has joined #python
+2015-12-19 10:16:41	<════	Jitta (~Jitta@ip5b41ba47.dynamic.kabel-deutschland.de) has quit (Ping timeout: 240 seconds)
+2015-12-19 10:16:52	════>	colegatron (~colegatro@ec2-54-77-43-52.eu-west-1.compute.amazonaws.com) has joined #python
+2015-12-19 10:16:53	<════	dlitvak (~dlitvak@190.19.25.204) has quit (Remote host closed the connection)
+2015-12-19 10:17:15	════>	u0m3 (~u0m3@89.120.204.99) has joined #python
+2015-12-19 10:17:16	lumidee	ChrisWarrick, it filters csv (tab seperated) elements from the csv list, so if movie is in the list and not series etc the line is appended
+2015-12-19 10:17:22	<════	Yotson (~Yotson@2001:980:6ac8:1:d534:71f7:f35:3c0c) has quit (Quit: .)
+2015-12-19 10:17:31	ChrisWarrick	lumidee: tab-separated csv is tsv
+2015-12-19 10:17:32	SilentGhost	using some sort of set operation perhaps
+2015-12-19 10:17:43	<════	haso2 (~Thunderbi@150.81-167-193.customer.lyse.net) has quit (Remote host closed the connection)
+2015-12-19 10:17:58	════>	Jikan (~Jikan@noein.haruka.fr) has joined #python
+2015-12-19 10:18:03	ChrisWarrick	lumidee: You could try to replace series/game with all(x not in movie for x in ('series', 'game'))
+2015-12-19 10:18:04	════>	haso2 (~Thunderbi@150.81-167-193.customer.lyse.net) has joined #python
+2015-12-19 10:19:14	════>	zaphod_b (~zaphod_b@unaffiliated/zaphod-b/x-3411942) has joined #python
+2015-12-19 10:19:21	<════	hmuemu (~wb@p5DC1B3EE.dip0.t-ipconnect.de) has quit (Ping timeout: 260 seconds)
+2015-12-19 10:19:25	════>	Mellified_Man (~Mellified@eddie.mellified.com) has joined #python
+2015-12-19 10:19:40	════>	OrangeTux (~auke@5249F022.cm-4-2d.dynamic.ziggo.nl) has joined #python
+2015-12-19 10:19:48	════>	Jitta (~Jitta@ip5b41d797.dynamic.kabel-deutschland.de) has joined #python
+2015-12-19 10:20:44	════>	kuter (~kuter@031011249005.bialystok.vectranet.pl) has joined #python
+2015-12-19 10:20:47	════>	peppermachete (~peppermac@cable-84-43-152-12.mnet.bg) has joined #python
+2015-12-19 10:20:59	════>	therealfakemoot (~therealfa@70.39.249.226) has joined #python
+2015-12-19 10:21:16	<════	millerti (~millerti@cpe-69-204-199-109.stny.res.rr.com) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2015-12-19 10:21:41	<════	roentgen_ (~roentgen@unaffiliated/roentgen) has quit (Quit: WeeChat 1.3)
+2015-12-19 10:21:47	════>	Fred_Flintstone (~Fred_Flin@cpc79019-cbly7-2-0-cust133.6-2.cable.virginm.net) has joined #python
+2015-12-19 10:22:01	════>	roentgen_ (~roentgen@unaffiliated/roentgen) has joined #python
+2015-12-19 10:22:14	════>	Jon_R (Jon_R@82-71-10-145.dsl.in-addr.zen.co.uk) has joined #python
+2015-12-19 10:22:42	════>	areski (~areski@80.174.128.111.dyn.user.ono.com) has joined #python
+2015-12-19 10:22:44	<════	jazzzu (~jazoja@D97B7B1C.cm-3-4b.dynamic.ziggo.nl) has quit (Ping timeout: 265 seconds)
+2015-12-19 10:22:51	<════	sk4tsh (~sk4tsh@aftr-37-201-194-224.unity-media.net) has quit (Ping timeout: 260 seconds)
+2015-12-19 10:22:54	<════	lorddaedra (~lorddaedr@ppp158-255-164-52.pppoe.spdop.ru) has quit (Ping timeout: 255 seconds)
+2015-12-19 10:22:54	<════	donspaulding (~donspauld@98.215.46.106) has quit (Read error: Connection reset by peer)
+2015-12-19 10:23:57	════>	jstein (~quassel@gentoo/developer/jstein) has joined #python
+2015-12-19 10:24:13	<════	kappa123 (4f43ac2f@gateway/web/freenode/ip.79.67.172.47) has quit (Ping timeout: 252 seconds)
+2015-12-19 10:24:17	<════	BullHorn (~BullHorn@bzq-79-182-62-87.red.bezeqint.net) has quit (Ping timeout: 256 seconds)
+2015-12-19 10:24:38	lumidee	ChrisWarrick, thanks. i think i can also do something like: movie_match = (movie[-1] == "movie"), series_game = all(x not in movie for x in ('series', 'game'))     if movie_match and series_game:
+2015-12-19 10:24:57	════>	Beluki (~HexChat@83.165.46.39) has joined #python
+2015-12-19 10:24:58	════>	GentileBen (GentileBen@cpc70133-lutn12-2-0-cust324.9-3.cable.virginm.net) has joined #python
+2015-12-19 10:25:01	ChrisWarrick	lumidee: you could do that
+2015-12-19 10:25:40	lumidee	yeryry, hm, sometimes movie has a different index, that's why i use -1 :)
+2015-12-19 10:25:52	lumidee	(it's always the last element in the list)
+2015-12-19 10:25:59	════>	Yotson (~Yotson@2001:980:6ac8:1:25:83c7:c645:fda3) has joined #python
+2015-12-19 10:26:12	yeryry	Yes... But if it's the last element, it must be "in movie" too, meaning that part is redundant
+2015-12-19 10:26:33	<════	haso2 (~Thunderbi@150.81-167-193.customer.lyse.net) has quit (Ping timeout: 256 seconds)
+2015-12-19 10:28:39	════>	Viper168 (~Viper@unaffiliated/viper168) has joined #python
+2015-12-19 10:28:45	tim167	hi, I am trying to use liblo.ServerThread within a gtk application, but it seems to be suspended by gtk until an event occurs... any ideas?
+2015-12-19 10:29:01	lumidee	yeryry, the list provides als tv series and tv movies and then the last element is sometimes e.g. "tv" or "series". i can't do 'movie' in movie, because it also occurs that the line contains the word movie though the last element is "tv"
+2015-12-19 10:29:10	<════	infodel (~infodel@c-67-161-0-145.hsd1.ca.comcast.net) has quit (Ping timeout: 240 seconds)
+2015-12-19 10:29:17	════>	TheoryCat (TheoryCat@unaffiliated/wye-naught/x-8734122) has joined #python
+2015-12-19 10:29:26	════>	brizz (~brizz@naboo.mktrn.net) has joined #python
+2015-12-19 10:29:44	brizz	whats the syntax to do a functools.partial on this? .start((pyuv.UV_READABLE | pyuv.UV_WRITABLE), self._handle_events)
+2015-12-19 10:29:46	yeryry	<lumidee> hi! how can you write such an ugly long if expression concisely:   if movie[-1] == "movie" and "movie" in movie a
+2015-12-19 10:30:01	yeryry	You had it there...
+2015-12-19 10:30:42	lumidee	yeryry, oh, you're right. i can omit "movie" in movie. didn't notice i had that dragged that within the expression. thanks ^
+2015-12-19 10:31:14	brizz	functools.partial(switcher, iowatcher.start, (pyuv.UV_READABLE | pyuv.UV_WRITABLE), self._handle_events)) doesnt seem to be doing it
+2015-12-19 10:31:16	════>	lorddaedra (~lorddaedr@ppp158-255-164-52.pppoe.spdop.ru) has joined #python
+2015-12-19 10:31:36	<════	maesrin (~maesrin@176.92.205.194) has quit (Ping timeout: 260 seconds)
+2015-12-19 10:32:07	<════	TheoryCat (TheoryCat@unaffiliated/wye-naught/x-8734122) has quit (Read error: Connection reset by peer)
+2015-12-19 10:32:45	════>	infodel (~infodel@c-67-161-0-145.hsd1.ca.comcast.net) has joined #python
+2015-12-19 10:32:54	════>	beatdown (~beatdown@unaffiliated/beatdown) has joined #python
+2015-12-19 10:32:57	════>	AndyRez (~andyrez@104.156.228.183) has joined #python
+2015-12-19 10:33:14	rab00f	@brizz, just omit the last arg?
+2015-12-19 10:33:33	════>	duailibe (~duailibe@unaffiliated/duailibe) has joined #python
+2015-12-19 10:33:58	════>	averagecase (~bolle@cl-6544.cgn-01.de.sixxs.net) has joined #python
+2015-12-19 10:34:07	<════	lorddaedra (~lorddaedr@ppp158-255-164-52.pppoe.spdop.ru) has quit (Read error: Connection reset by peer)
+2015-12-19 10:35:08	════>	otter768 (~otter768@cpe-67-11-53-3.satx.res.rr.com) has joined #python
+2015-12-19 10:35:38	<════	sayan (~sayanchow@fedora/sayan) has quit (Ping timeout: 256 seconds)
+2015-12-19 10:35:42	════>	malinus (~malinus@unaffiliated/malinus) has joined #python
+2015-12-19 10:35:56	<════	malinus (~malinus@unaffiliated/malinus) has left #python
+2015-12-19 10:36:10	════>	dcrouch (~dcrouch@24-180-93-136.dhcp.bycy.mi.charter.com) has joined #python
+2015-12-19 10:36:16	════>	Gloomy (~Gloomy@ip-62-235-165-145.dsl.scarlet.be) has joined #python
+2015-12-19 10:36:18	<════	kuter (~kuter@031011249005.bialystok.vectranet.pl) has quit (Remote host closed the connection)
+2015-12-19 10:36:25	════>	sayan (~sayanchow@fedora/sayan) has joined #python
+2015-12-19 10:36:27	════>	untitaker_ (~untitaker@62-47-249-196.adsl.highway.telekom.at) has joined #python
+2015-12-19 10:36:59	<════	oaulakh (~oaulakh@unaffiliated/oaulakh) has quit (Quit: Leaving)
+2015-12-19 10:37:15	════>	jeflopo (~jeflopo@kamic9137.ddns.jazztel.es) has joined #python
+2015-12-19 10:37:19	<════	infodel (~infodel@c-67-161-0-145.hsd1.ca.comcast.net) has quit (Ping timeout: 256 seconds)
+2015-12-19 10:37:38	<════	duailibe (~duailibe@unaffiliated/duailibe) has quit (Client Quit)
+2015-12-19 10:38:04	════>	infodel (~infodel@c-67-161-0-145.hsd1.ca.comcast.net) has joined #python
+2015-12-19 10:38:11	<════	sudomarize (~sudomariz@141.70.115.180) has quit (Ping timeout: 240 seconds)
+2015-12-19 10:38:36	<════	untitaker (~untitaker@62-46-215-184.adsl.highway.telekom.at) has quit (Ping timeout: 260 seconds)
+2015-12-19 10:38:36	--	untitaker_ is now known as untitaker
+2015-12-19 10:38:48	════>	cyborg-one (~cyborg-on@37.203.29.10) has joined #python
+2015-12-19 10:38:55	<════	h3xc0d3r (~h3xc0d3r@198.252.153.226) has quit (Ping timeout: 272 seconds)
+2015-12-19 10:38:57	════>	recognos1o (~recognosc@unaffiliated/recognosco) has joined #python
+2015-12-19 10:39:16	<════	dowwie (~quassel@unaffiliated/dowwie) has left #python ("http://quassel-irc.org - Chat comfortably. Anywhere.")
+2015-12-19 10:39:45	<════	otter768 (~otter768@cpe-67-11-53-3.satx.res.rr.com) has quit (Ping timeout: 260 seconds)
+2015-12-19 10:39:54	<════	lavros (~lavros@92.46.21.32) has quit (Quit: leaving)
+2015-12-19 10:40:34	<════	pokmo (~pokmo@unaffiliated/pokmo) has left #python ("ciao")
+2015-12-19 10:40:53	════>	dlitvak (~dlitvak@190.19.25.204) has joined #python
+2015-12-19 10:41:18	════>	james41382 (~james4138@unaffiliated/james41382) has joined #python
+2015-12-19 10:41:51	<════	nigeldgreen (~nigeldgre@2.24.216.112) has quit (Ping timeout: 256 seconds)
+2015-12-19 10:42:24	════>	Kirito (~Kirito@pdpc/supporter/student/kirito) has joined #python
+2015-12-19 10:42:26	════>	JayFK_ (~JayFK@p5DE86D9F.dip0.t-ipconnect.de) has joined #python
+2015-12-19 10:42:41	<════	pbrunier (~pbrunier@5418F9D0.cm-5-1d.dynamic.ziggo.nl) has quit (Ping timeout: 260 seconds)
+2015-12-19 10:43:15	════>	italorossi (~Adium@179.156.47.253) has joined #python
+2015-12-19 10:43:16	<════	jakesyl (~jakesyl@2601:8a:403:2dff:a53b:c087:ac4d:fd5a) has quit (Ping timeout: 260 seconds)
+2015-12-19 10:43:25	════>	tembies (~samantha@bouncy.tembies.com) has joined #python
+2015-12-19 10:43:44	════>	millerti (~millerti@cpe-69-204-199-109.stny.res.rr.com) has joined #python
+2015-12-19 10:44:45	<════	Siecje (~Cody@CPE788df722a481-CM788df722a480.cpe.net.cable.rogers.com) has quit (Read error: Connection reset by peer)
+2015-12-19 10:44:59	════>	F2Knight (~F2Knight@c-50-139-86-39.hsd1.or.comcast.net) has joined #python
+2015-12-19 10:45:03	<════	dszmaj (~dominik@109.173.216.253) has quit (Remote host closed the connection)
+2015-12-19 10:45:05	════>	kuter (~kuter@031011249005.bialystok.vectranet.pl) has joined #python
+2015-12-19 10:45:10	<════	dray3 (~daaray@104-185-78-22.lightspeed.rlghnc.sbcglobal.net) has quit (Quit: Leaving.)
+2015-12-19 10:45:11	<════	roentgen_ (~roentgen@unaffiliated/roentgen) has quit (Quit: WeeChat 1.3)
+2015-12-19 10:45:38	════>	roentgen (~roentgen@unaffiliated/roentgen) has joined #python
+2015-12-19 10:46:19	════>	h3xc0d3r (~h3xc0d3r@176.43.145.78) has joined #python
+2015-12-19 10:46:53	════>	otter768 (~otter768@cpe-67-11-53-3.satx.res.rr.com) has joined #python
+2015-12-19 10:47:36	════>	b0nn (~shane@210.54.34.66) has joined #python
+2015-12-19 10:47:43	<════	pecey (~brut3f0rc@unaffiliated/brut3f0rc3) has quit (Quit: Leaving)
+2015-12-19 10:48:31	<════	Destos (~anonymous@ip98-178-165-32.tu.ok.cox.net) has quit (Quit: Destos)
+2015-12-19 10:49:00	<════	philr_ (~phil@ppp121-45-32-226.lns20.adl2.internode.on.net) has quit (Ping timeout: 255 seconds)
+2015-12-19 10:49:01	════>	crisisking (~crisiskin@mute.somethingdead.com) has joined #python
+2015-12-19 10:49:08	════>	mcddewitt (~mcddewitt@wsip-98-191-183-244.ph.ph.cox.net) has joined #python
+2015-12-19 10:49:21	<════	EPG (~EPG@p508F4601.dip0.t-ipconnect.de) has quit (Quit: EPG)
+2015-12-19 10:49:29	<════	b1rkh0ff (~b1rkh0ff@cable-146-255-154-40.dynamic.telemach.ba) has quit (Remote host closed the connection)
+2015-12-19 10:49:36	<════	sanketdg (~sanketdg@103.251.83.162) has quit (Quit: Leaving)
+2015-12-19 10:49:41	<════	nimomo (~nimomo@bzq-109-67-139-145.red.bezeqint.net) has quit (Ping timeout: 240 seconds)
+2015-12-19 10:50:19	════>	nigeldgreen (~nigeldgre@2.24.216.112) has joined #python
+2015-12-19 10:51:53	<════	dlitvak (~dlitvak@190.19.25.204) has quit (Remote host closed the connection)
+2015-12-19 10:52:25	<════	xcesariox (~xcesariox@27.125.155.20) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2015-12-19 10:53:10	════>	Ajacmac (~Ajacmac@blk-252-13-229.eastlink.ca) has joined #python
+2015-12-19 10:53:11	<════	infodel (~infodel@c-67-161-0-145.hsd1.ca.comcast.net) has quit (Ping timeout: 260 seconds)
+2015-12-19 10:53:38	════>	cdown (~cdown@cha67-2-88-190-20-156.fbxo.proxad.net) has joined #python
+2015-12-19 10:53:57	════>	b1rkh0ff (~b1rkh0ff@cable-146-255-154-40.dynamic.telemach.ba) has joined #python
+2015-12-19 10:54:08	<════	sternmull (~kringel@p4FF0F0E7.dip0.t-ipconnect.de) has quit (Ping timeout: 272 seconds)
+2015-12-19 10:54:21	<════	h3xc0d3r (~h3xc0d3r@176.43.145.78) has quit (Ping timeout: 240 seconds)
+2015-12-19 10:55:05	════>	infodel (~infodel@c-67-161-0-145.hsd1.ca.comcast.net) has joined #python
+2015-12-19 10:55:59	════>	h3xc0d3r (~h3xc0d3r@199.254.238.217) has joined #python
+2015-12-19 10:56:19	<════	DLSteve (~DLSteve@50.251.202.251) has quit (Quit: All rise, the honorable DLSteve has left the channel.)
+2015-12-19 10:56:21	════>	jakesyl (~jakesyl@2601:8a:403:2dff:a53b:c087:ac4d:fd5a) has joined #python
+2015-12-19 10:56:39	<════	disappointment (~disappoin@user-94-254-133-171.play-internet.pl) has quit (Ping timeout: 255 seconds)
+2015-12-19 10:56:43	════>	WayToDoor (~milk.bott@AMontsouris-655-1-139-182.w92-128.abo.wanadoo.fr) has joined #python
+2015-12-19 10:56:57	<════	Kirkegaard (~Kirke_@87-49-228-135-dynamic.dk.customer.tdc.net) has quit (Quit: Goodbye all)
+2015-12-19 10:57:54	<════	syzygy_ (~scottmeye@ool-2f12c458.dyn.optonline.net) has quit (Quit: syzygy_)
+2015-12-19 10:58:55	════>	axelis (~alex@46.12.31.89.dsl.dyn.forthnet.gr) has joined #python
+2015-12-19 10:59:30	════>	lorddaedra (~lorddaedr@109.252.149.199) has joined #python
+2015-12-19 11:00:19	tim167	if I create a number of gtk.VScale widgets in a for loop, how can I access them later to set their values with hscale.set_value(v)?
+2015-12-19 11:00:40	════>	the_rat (~the_rat@ip5f5aef15.dynamic.kabel-deutschland.de) has joined #python
+2015-12-19 11:00:45	<════	prestorium (~davividal@177.92.36.83) has quit (Quit: Leaving)
+2015-12-19 11:00:55	tim167	i mean, in the for loop, the same name is used for each slider, and I can only call .set_value() on the last created one
+2015-12-19 11:01:31	════>	evansde77 (~evansde77@c-71-201-249-102.hsd1.il.comcast.net) has joined #python
+2015-12-19 11:01:34	<════	JayFK_ (~JayFK@p5DE86D9F.dip0.t-ipconnect.de) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2015-12-19 11:01:57	therealfakemoot	tim167: you'd probably want to store them in a list, or a dict or something
+2015-12-19 11:02:01	therealfakemoot	if oyu need to refer to them later
+2015-12-19 11:02:26	therealfakemoot	Use a list comprehension, maybe.
+2015-12-19 11:02:43	tim167	therealfakemoot, hmm, so I append them to a list ?
+2015-12-19 11:02:47	therealfakemoot	Sure
+2015-12-19 11:02:51	therealfakemoot	That'd work just fine
+2015-12-19 11:02:54	════>	Watball (~Watball@5249B916.cm-4-2c.dynamic.ziggo.nl) has joined #python
+2015-12-19 11:03:03	therealfakemoot	Or use a dict if accessing them by some non-integer identifier makes more sense.
+2015-12-19 11:03:20	<════	graffix (~graffix@50.245.120.105) has quit (Ping timeout: 245 seconds)
+2015-12-19 11:03:34	tim167	therealfakemoot, ah great, I'd never have thought of that, thanks :)
+2015-12-19 11:03:46	<════	Gloomy (~Gloomy@ip-62-235-165-145.dsl.scarlet.be) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2015-12-19 11:03:48	════>	mirrolux (~nirrorlux@198.8.80.139) has joined #python
+2015-12-19 11:03:56	therealfakemoot	it's what I do
+2015-12-19 11:04:16	<════	mandeepb (~mandeepb@162.216.46.152) has quit (Ping timeout: 260 seconds)
+2015-12-19 11:04:33	════>	graffix (~graffix@50.245.120.105) has joined #python
+2015-12-19 11:04:54	<════	Watball (~Watball@5249B916.cm-4-2c.dynamic.ziggo.nl) has quit (Max SendQ exceeded)
+2015-12-19 11:05:48	════>	Watball (~Watball@5249B916.cm-4-2c.dynamic.ziggo.nl) has joined #python
+2015-12-19 11:06:36	<════	areski (~areski@80.174.128.111.dyn.user.ono.com) has quit (Ping timeout: 260 seconds)
+2015-12-19 11:06:47	<════	evansde77 (~evansde77@c-71-201-249-102.hsd1.il.comcast.net) has quit (Ping timeout: 256 seconds)
+2015-12-19 11:06:57	<════	axelis (~alex@46.12.31.89.dsl.dyn.forthnet.gr) has quit (Quit: Leaving)
+2015-12-19 11:07:10	════>	zsak423 (~zsak423@unaffiliated/zsak423) has joined #python
+2015-12-19 11:07:36	════>	areski (~areski@80.174.128.123.dyn.user.ono.com) has joined #python
+2015-12-19 11:07:46	════>	ariscop_ (~Phase4@ppp118-209-236-155.lns20.mel8.internode.on.net) has joined #python
+2015-12-19 11:09:08	<════	Symian (~user@162.219.3.205) has quit (Ping timeout: 265 seconds)
+2015-12-19 11:09:37	<════	ariscop (~Phase4@ppp118-209-231-174.lns20.mel8.internode.on.net) has quit (Ping timeout: 256 seconds)
+2015-12-19 11:10:05	════>	elbo22 (~iefk@unaffiliated/elbo22) has joined #python
+2015-12-19 11:10:36	<════	jadi (~jadi@151.243.35.186) has quit (Ping timeout: 272 seconds)
+2015-12-19 11:10:47	ignacio	Hello, I need help
+2015-12-19 11:10:54	nchambers	me too :L
+2015-12-19 11:10:58	<════	lorddaedra (~lorddaedr@109.252.149.199) has quit
+2015-12-19 11:11:02	nchambers	oh you mean with python
+2015-12-19 11:11:03	════>	elastix (~Thunderbi@net-2-37-59-153.cust.vodafonedsl.it) has joined #python
+2015-12-19 11:11:47	ignacio	:P
+2015-12-19 11:11:53	<════	jordanl (~jordan@unaffiliated/jordanl) has quit (Ping timeout: 256 seconds)
+2015-12-19 11:12:01	nchambers	:
+2015-12-19 11:12:03	nchambers	:D
+2015-12-19 11:12:12	════>	Vornicus (~Vorn@2601:198:102:12f0:68a6:e403:ea20:3eca) has joined #python
+2015-12-19 11:12:16	<════	roentgen (~roentgen@unaffiliated/roentgen) has quit (Quit: WeeChat 1.3)
+2015-12-19 11:12:22	<════	cdown (~cdown@cha67-2-88-190-20-156.fbxo.proxad.net) has quit (Read error: Connection reset by peer)
+2015-12-19 11:12:39	lindenk	wait, for loops copy primitives? `a = [1,2,3]; for x in a: x -=1; assert(a == [1,2,3])  ?
+2015-12-19 11:12:57	════>	cdown (~cdown@199.201.66.0) has joined #python
+2015-12-19 11:12:59	════>	lorddaedra (~lorddaedr@ppp109-252-149-199.pppoe.spdop.ru) has joined #python
+2015-12-19 11:13:15	<════	glebihan (~glebihan@unaffiliated/glebihan) has quit (Read error: Connection reset by peer)
+2015-12-19 11:13:27	<════	Yzguy (~Yzguy@c-98-235-63-240.hsd1.pa.comcast.net) has quit (Quit: Cya)
+2015-12-19 11:13:42	ignacio	So, Here I'm
+2015-12-19 11:13:45	ignacio	I have this dict: http://fpaste.org/303280/52400145/
+2015-12-19 11:14:00	ignacio	It's possible to sort the dict in base of dict[key][2] ?
+2015-12-19 11:14:51	<════	Ululus (~Ululus@particular-barn.volia.net) has quit (Quit: Leaving)
+2015-12-19 11:14:54	════>	roentgen (~roentgen@unaffiliated/roentgen) has joined #python
+2015-12-19 11:15:09	--	cats is now known as santacat
+2015-12-19 11:15:40	ignacio	Anyone u.u
+2015-12-19 11:15:43	henbruas	ignacio, you can't sort dicts
+2015-12-19 11:15:43	SilentGhost	ignacio: what do you want to get as ouput?
+2015-12-19 11:15:46	SilentGhost	*output
+2015-12-19 11:15:54	ignacio	Something like this
+2015-12-19 11:15:57	════>	fvea (~fvea@pD955AFCC.dip0.t-ipconnect.de) has joined #python
+2015-12-19 11:16:09	<════	codewaffle (~codewaffl@96-40-72-113.dhcp.aldl.mi.charter.com) has quit (Quit: bye!)
+2015-12-19 11:16:31	<════	roflmyeggo (~carl@S0106002129a63685.vw.shawcable.net) has quit (Ping timeout: 260 seconds)
+2015-12-19 11:16:33	ignacio	http://fpaste.org/303283/45055257/
+2015-12-19 11:16:38	ignacio	SilentGhost, ^
+2015-12-19 11:16:59	therealfakemoot	lindenk: It's not so much that python is copying anything. ints are immutable, which means you can't modify them in place.
+2015-12-19 11:17:05	SilentGhost	ignacio: that's not possible, dicts are not sortable
+2015-12-19 11:17:06	nchambers	lindenk: indeed
+2015-12-19 11:17:07	<════	otter768 (~otter768@cpe-67-11-53-3.satx.res.rr.com) has quit (Remote host closed the connection)
+2015-12-19 11:17:17	ignacio	I used to have acode like this
+2015-12-19 11:17:21	════>	Destos (~anonymous@ip98-178-165-32.tu.ok.cox.net) has joined #python
+2015-12-19 11:17:21	<════	Destos (~anonymous@ip98-178-165-32.tu.ok.cox.net) has quit (Client Quit)
+2015-12-19 11:17:30	ignacio	sorted(studentTasks['tasks'].iteritems(), key=lambda x: x[1]['title'], reverse=False)
+2015-12-19 11:17:33	SilentGhost	ignacio: you might want to create a new sequence that would contain elements of the dict
+2015-12-19 11:17:34	ignacio	for sort those things I think
+2015-12-19 11:17:44	therealfakemoot	Er. Maybe I have it backwards.
+2015-12-19 11:17:45	SilentGhost	ignacio: yes, but that creates a list
+2015-12-19 11:17:53	ignacio	Oh
+2015-12-19 11:17:55	ignacio	So what can I do?
+2015-12-19 11:18:06	nchambers	therealfakemoot: ints are immutable?
+2015-12-19 11:18:14	SilentGhost	ignacio: what's wrong with this code?
+2015-12-19 11:18:27	════>	fub (~fub@aftr-37-201-168-181.unity-media.net) has joined #python
+2015-12-19 11:18:28	ignacio	SilentGhost, its for an old instance,
+2015-12-19 11:18:36	ignacio	I don't use it anymore
+2015-12-19 11:18:45	henbruas	lindenk, read <therealfakemoot> lindenk: It's not so much that python is copying anything. ints are immutable, which means you can't modify them in place.
+2015-12-19 11:18:47	henbruas	wwops
+2015-12-19 11:18:48	henbruas	wrong paste
+2015-12-19 11:18:50	henbruas	http://nedbatchelder.com/text/names.html
+2015-12-19 11:18:51	lindenk	ignacio: http://stackoverflow.com/questions/11089655/sorting-dictionary-python-3
+2015-12-19 11:19:04	therealfakemoot	nchambers: that is correct
+2015-12-19 11:19:11	ignacio	thanks
+2015-12-19 11:19:13	ignacio	I will look at that lindenk
+2015-12-19 11:19:19	therealfakemoot	nchambers: but I think it's actually a different thing at play in the for loop problem lindenk is having
+2015-12-19 11:19:27	SilentGhost	ignacio: do you understand what's happening there? can you write something similar for your new "instance"?
+2015-12-19 11:19:31	nchambers	therealfakemoot: hrmmm
+2015-12-19 11:19:53	therealfakemoot	nchambers: I'm on the clock for work right now but I can fiddle with a gist or something in a few
+2015-12-19 11:20:01	<════	shookees (~paulius@unaffiliated/doublestring) has quit (Ping timeout: 240 seconds)
+2015-12-19 11:20:12	════>	schneider (hgryj@unaffiliated/schneider) has joined #python
+2015-12-19 11:20:18	lindenk	well, ill just use a few maps, but still, it's cumbersome to have to create an entirely new list just to inc a few values
+2015-12-19 11:20:31	henbruas	You don't have to
+2015-12-19 11:20:34	nchambers	therealfakemoot: I would appreciate it. I'm having a hard time visualizing it
+2015-12-19 11:20:42	════>	haso2 (~Thunderbi@150.81-167-193.customer.lyse.net) has joined #python
+2015-12-19 11:20:49	════>	aspire (~aspire@unaffiliated/aspire) has joined #python
+2015-12-19 11:20:50	nedbat	lindenk: making new lists is better anyway, it prevents accidental sharing.
+2015-12-19 11:21:00	lindenk	but im not multithreading
+2015-12-19 11:21:03	<════	italorossi (~Adium@179.156.47.253) has quit (Quit: Leaving.)
+2015-12-19 11:21:39	therealfakemoot	nchambers: I am too, haha
+2015-12-19 11:21:52	therealfakemoot	nchambers: it's been ages since I've been around, I think I'm super rusty
+2015-12-19 11:21:58	nchambers	same here :D
+2015-12-19 11:21:59	════>	tristianc (~tristianc@pool-173-73-83-32.washdc.fios.verizon.net) has joined #python
+2015-12-19 11:21:59	therealfakemoot	nedbat: hello sir
+2015-12-19 11:21:59	henbruas	nchambers, visualising what?
+2015-12-19 11:22:00	lindenk	and my program design doesn't use anything outside of it's scope
+2015-12-19 11:22:03	<════	gnarlyquack (~gnarlyqua@24-136-26-109.c3-0.lem-ubr2.chi-lem.il.cable.rcn.com) has quit (Ping timeout: 246 seconds)
+2015-12-19 11:22:08	nchambers	or rather, not rusty, just inexperienced
+2015-12-19 11:22:12	nedbat	therealfakemoot: hi
+2015-12-19 11:22:13	nchambers	henbruas: int are immutable
+2015-12-19 11:22:20	henbruas	What
+2015-12-19 11:22:28	henbruas	*What's to visualise
+2015-12-19 11:22:30	════>	PiGuy (18669026@gateway/web/freenode/ip.24.102.144.38) has joined #python
+2015-12-19 11:22:33	nedbat	lindenk: ok, but making a new list isn't actually that cumbersome:  subd = [x-1 for x in old_list]
+2015-12-19 11:22:47	nchambers	henbruas: what is happening
+2015-12-19 11:22:55	nedbat	lindenk: in any case, loop variables don't work the way you want.  we can help you understand why
+2015-12-19 11:23:03	lindenk	nedbat: well, that was an example, my real problem is ints in lists of lists
+2015-12-19 11:23:11	PiGuy	Hello
+2015-12-19 11:23:17	lindenk	nedbat: yeah i know...thanks
+2015-12-19 11:23:26	henbruas	nchambers, ints don't have methods that change their value, hence they're immutable
+2015-12-19 11:23:26	PiGuy	Could I run the line "df / | tail -1 | awk  '{print $4}'" with a python program , and save the result in a .txt file? I am using a Raspberry Pi on Raspbian Wheezy
+2015-12-19 11:23:44	════>	slav0nic (slav0nic@python.su) has joined #python
+2015-12-19 11:24:21	nedbat	lindenk: what does the list of lists represent?  Maybe there's an easier way.
+2015-12-19 11:25:03	════>	utah777 (~sergey@broadband-90-154-71-72.nationalcablenetworks.ru) has joined #python
+2015-12-19 11:25:07	════>	Ululus (~Ululus@particular-barn.volia.net) has joined #python
+2015-12-19 11:25:30	nchambers	PiGuy: yes
+2015-12-19 11:25:37	rab00f	PiGuy, i guess the subprocess module would do
+2015-12-19 11:25:52	════>	sedeki (~textual@unaffiliated/sedeki) has joined #python
+2015-12-19 11:26:01	════>	JamesNZ (~JamesNZ@fedora/JamesNZ) has joined #python
+2015-12-19 11:26:18	<════	zaphod_b (~zaphod_b@unaffiliated/zaphod-b/x-3411942) has quit (Remote host closed the connection)
+2015-12-19 11:26:28	lindenk	nedbat: they hold a bunch of interval pairs (start, end) in a list. I need to modify them all to start from the lowest starting interval. My solution was to sort the list by first element, then subtract the first pair's start from every interval in the list
+2015-12-19 11:26:30	rab00f	try this http://stackoverflow.com/questions/13332268/python-subprocess-command-with-pipe?
+2015-12-19 11:26:39	SilentGhost	PiGuy: but it would be much easier to just call 'df /' using subprocess and then parse the output in python
+2015-12-19 11:26:48	════>	Jguy (~Jguy@unaffiliated/jguy) has joined #python
+2015-12-19 11:26:52	therealfakemoot	lindenk: Sounds like you may want to use a dict where the keys are tuples
+2015-12-19 11:26:56	════>	zaphod_b (~zaphod_b@unaffiliated/zaphod-b/x-3411942) has joined #python
+2015-12-19 11:27:02	════>	wordsToLiveBy (~wordsToLi@gateway/vpn/privateinternetaccess/wordstoliveby) has joined #python
+2015-12-19 11:27:15	SilentGhost	PiGuy: which version of python do you have?
+2015-12-19 11:27:15	therealfakemoot	lindenk: `pairs = {(0,0): 'some_value, (0,1): 'other_value'}`
+2015-12-19 11:27:47	lindenk	therealfakemoot:  but they don't hold values, it's just a list of (start,end) times that i need to normalize
+2015-12-19 11:27:53	PiGuy	Thanks guys. Does anyone have an example of how to do this? I am a C++ Developer but I haven't used Python. (I tried python but all I got was a termial that could do math).
+2015-12-19 11:28:02	PiGuy	SilentGhost: I do not know. How can I check?
+2015-12-19 11:28:16	SilentGhost	PiGuy: python -V
+2015-12-19 11:28:18	therealfakemoot	lindenk: Oh, fair enough
+2015-12-19 11:28:26	lindenk	Like: [(20,40), (50,80)] -> [(0,20), (30,60)]
+2015-12-19 11:28:28	therealfakemoot	lindenk: So why is it a list of lists, then, instead of a list of tuples?
+2015-12-19 11:28:35	therealfakemoot	Or did I misread that
+2015-12-19 11:28:37	lindenk	because I'm reading json for it
+2015-12-19 11:28:44	therealfakemoot	?
+2015-12-19 11:28:48	SilentGhost	PiGuy: subprocess.check_output(['df', '/'])
+2015-12-19 11:28:53	════>	desophos (~desophos@71-83-197-83.dhcp.hspr.ca.charter.com) has joined #python
+2015-12-19 11:29:03	lindenk	json doesn't support tuples, so i read in a list of lists
+2015-12-19 11:29:15	nedbat	lindenk: start0 = min(start for start,end in pairs);  adjusted = [(start-start0, end-start0) for start, end in pairs]
+2015-12-19 11:29:17	therealfakemoot	lindenk: Anyways, if you have `[(20,40), (50,80)]` and you call sorted(whatever), it will sort them the way you want.
+2015-12-19 11:29:32	therealfakemoot	By the first key of each tuple and then b y the second
+2015-12-19 11:29:38	therealfakemoot	cause sorted() is smart like that
+2015-12-19 11:29:53	SilentGhost	therealfakemoot: that's just regular tuple comparison
+2015-12-19 11:30:10	therealfakemoot	Right
+2015-12-19 11:30:14	BlaXpirit	putting it like that is misleading
+2015-12-19 11:30:14	therealfakemoot	That too
+2015-12-19 11:30:35	SilentGhost	BlaXpirit: who are you talking to?
+2015-12-19 11:30:45	lindenk	nedbat: huh, yeah that's much more readable. thanks
+2015-12-19 11:30:47	BlaXpirit	putting it like that is misleading  <therealfakemoot> cause sorted() is smart like that
+2015-12-19 11:31:00	bjs	(1, 2) < (1, 3) == True
+2015-12-19 11:31:06	bjs	rather than sorted doing anything special
+2015-12-19 11:31:21	BlaXpirit	bjs, hah funny thing is your expression is false
+2015-12-19 11:31:28	bjs	BlaXpirit: yeah
+2015-12-19 11:31:41	<════	mirrolux (~nirrorlux@198.8.80.139) has quit (Ping timeout: 260 seconds)
+2015-12-19 11:32:11	bjs	BlaXpirit: if you want to be pedantic, (((1, 2) < (1,3)) == True) evaluates to True
+2015-12-19 11:32:14	bjs	:p
+2015-12-19 11:32:17	<════	zaphod_b (~zaphod_b@unaffiliated/zaphod-b/x-3411942) has quit (Ping timeout: 256 seconds)
+2015-12-19 11:33:56	<════	localuser- (~quassel@unaffiliated/localuser-) has quit (Read error: Connection reset by peer)
+2015-12-19 11:34:32	════>	localuser- (~quassel@unaffiliated/localuser-) has joined #python
+2015-12-19 11:34:34	════>	jayjo (~jayjo@unaffiliated/jayjo) has joined #python
+2015-12-19 11:34:51	jwhisnant	bjs: this can be fixed with True=False, if you want different behavior (in Python 2.7.9) :)
+2015-12-19 11:34:58	SilentGhost	hm, that's actually very confusing
+2015-12-19 11:35:52	<════	fvea (~fvea@pD955AFCC.dip0.t-ipconnect.de) has quit (Quit: fvea)
+2015-12-19 11:36:12	════>	dlitvak (~dlitvak@190.19.25.204) has joined #python
+2015-12-19 11:36:18	SilentGhost	ah, no, now i understand
+2015-12-19 11:36:19	<════	njbair (~njbair@162-235-224-9.lightspeed.bcvloh.sbcglobal.net) has quit (Quit: I'm Out)
+2015-12-19 11:36:23	<════	feathered_person (~feathered@fsf/member/feathered-person) has quit (Read error: Connection reset by peer)
+2015-12-19 11:36:30	<════	acucci (5d922c84@gateway/web/freenode/ip.93.146.44.132) has quit (Quit: Page closed)
+2015-12-19 11:38:33	rab00f	wow python allows this : 2 < True. Never knew
+2015-12-19 11:38:50	<════	jeflopo (~jeflopo@kamic9137.ddns.jazztel.es) has quit (Remote host closed the connection)
+2015-12-19 11:39:17	bjs	rab00f: 1 == True, and, 0 == False
+2015-12-19 11:39:20	rab00f	also TIL: int(True) evaluates to 1
+2015-12-19 11:39:23	rab00f	ya
+2015-12-19 11:39:25	nedbat	rab00f: py 2, but not by 3.
+2015-12-19 11:39:30	════>	jeflopo (~jeflopo@kamic9137.ddns.jazztel.es) has joined #python
+2015-12-19 11:39:31	<════	sedeki (~textual@unaffiliated/sedeki) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2015-12-19 11:39:39	<════	jayjo (~jayjo@unaffiliated/jayjo) has quit (Ping timeout: 256 seconds)
+2015-12-19 11:39:52	henbruas	nedbat, huh?
+2015-12-19 11:39:53	bjs	nedbat: uhhh, are you sure about that?
+2015-12-19 11:39:54	_habnabit	nedbat, both of those things are valid in python 3
+2015-12-19 11:40:00	rab00f	hi im trying this in py3
+2015-12-19 11:40:02	<════	jeflopo (~jeflopo@kamic9137.ddns.jazztel.es) has quit (Remote host closed the connection)
+2015-12-19 11:40:03	nedbat	oh, sorry, you are right.
+2015-12-19 11:40:33	════>	jeflopo (~jeflopo@kamic9137.ddns.jazztel.es) has joined #python
+2015-12-19 11:40:37	SilentGhost	rab00f: isinstance(True, int)
+2015-12-19 11:40:45	<════	haso2 (~Thunderbi@150.81-167-193.customer.lyse.net) has quit (Ping timeout: 255 seconds)
+2015-12-19 11:40:56	rab00f	cool :)
+2015-12-19 11:41:02	<════	dlitvak (~dlitvak@190.19.25.204) has quit (Ping timeout: 265 seconds)
+2015-12-19 11:41:11	════>	TakinOver (~quassel@seattle.tunnelr.com) has joined #python
+2015-12-19 11:42:22	<════	codeitloadit (~codeitloa@wsip-64-147-2-2.oc.oc.cox.net) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2015-12-19 11:44:32	════>	veegee (~veegee@104.234.245.34) has joined #python
+2015-12-19 11:44:59	════>	donspaulding (~donspauld@98.215.46.106) has joined #python
+2015-12-19 11:45:32	<════	tuskkk___ (uid18470@gateway/web/irccloud.com/x-hdryoluvqryokovi) has quit (Quit: Connection closed for inactivity)
+2015-12-19 11:45:55	<════	Perkol (~Perkol@nat3-minsk-pool-46-53-181-64.telecom.by) has quit (Quit: Leaving)
+2015-12-19 11:47:30	════>	feathered_person (~feathered@fsf/member/feathered-person) has joined #python
+2015-12-19 11:47:49	<════	cliluw (~cliluw@unaffiliated/cliluw) has quit (Ping timeout: 265 seconds)
+2015-12-19 11:48:12	<════	JamesNZ (~JamesNZ@fedora/JamesNZ) has quit (Quit: Leaving)
+2015-12-19 11:48:47	════>	cliluw (~cliluw@unaffiliated/cliluw) has joined #python
+2015-12-19 11:49:31	<════	donspaulding (~donspauld@98.215.46.106) has quit (Ping timeout: 240 seconds)
+2015-12-19 11:49:41	<════	tadgh (~tadgh1@216-211-66-15.dynamic.tbaytel.net) has quit (Ping timeout: 240 seconds)
+2015-12-19 11:50:24	<════	wallyduchamp (~dvu@CPE3085a9e5fe40-CM84948c49b720.cpe.net.cable.rogers.com) has quit (Ping timeout: 246 seconds)
+2015-12-19 11:51:44	<════	lorddaedra (~lorddaedr@ppp109-252-149-199.pppoe.spdop.ru) has quit
+2015-12-19 11:51:53	════>	Seppy (~SilentPen@unaffiliated/silentpenguin) has joined #python
+2015-12-19 11:52:45	════>	legend (~blue@122.161.239.186) has joined #python
+2015-12-19 11:53:40	<════	somuchpie (~somuchpie@cpe-76-175-189-230.socal.res.rr.com) has quit (Quit: Zzzz…)
+2015-12-19 11:54:14	<════	juanfra (~juanfra@unaffiliated/juanfra) has quit (Quit: juanfra)
+2015-12-19 11:55:11	<════	legend (~blue@122.161.239.186) has quit (Client Quit)
+2015-12-19 11:55:13	════>	roflmyeggo (~carl@S0106002129a63685.vw.shawcable.net) has joined #python
+2015-12-19 11:55:14	════>	codeitloadit (~codeitloa@ip68-106-220-197.oc.oc.cox.net) has joined #python
+2015-12-19 11:55:36	<════	AusteritySucks (~Austerity@unaffiliated/austeritysucks) has quit (Ping timeout: 255 seconds)
+2015-12-19 11:57:02	════>	wallyduchamp (~dvu@CPE3085a9e5fe40-CM84948c49b720.cpe.net.cable.rogers.com) has joined #python
+2015-12-19 11:57:34	<════	b1rkh0ff (~b1rkh0ff@cable-146-255-154-40.dynamic.telemach.ba) has quit (Remote host closed the connection)
+2015-12-19 11:57:58	<════	nigeldgreen (~nigeldgre@2.24.216.112) has quit (Ping timeout: 265 seconds)
+2015-12-19 11:58:25	LordKalma	any number greater than one casts as True btw
+2015-12-19 11:58:38	════>	lorddaedra (~lorddaedr@ppp109-252-149-199.pppoe.spdop.ru) has joined #python
+2015-12-19 11:59:11	<════	elkclone (~patrick@shellium/member/elkclone) has quit (Quit: Ex-Chat)
+2015-12-19 11:59:31	<════	DarkElement (~darkeleme@unaffiliated/darkelement) has quit (Ping timeout: 240 seconds)
+2015-12-19 11:59:41	<════	shhx (~shhx@80.64.134.37.dynamic.jazztel.es) has quit (Ping timeout: 260 seconds)
+2015-12-19 11:59:56	<════	smccarthy (~smccarthy@ip68-231-177-195.tc.ph.cox.net) has quit (Remote host closed the connection)
+2015-12-19 12:00:01	<════	Calle__Lid (~Ailongam@94.254.51.236) has quit (Read error: Connection reset by peer)
+2015-12-19 12:00:51	════>	gumol (~user@ip47-32-173-82.adsl2.static.versatel.nl) has joined #python
+2015-12-19 12:01:21	════>	dlitvak (~dlitvak@190.19.25.204) has joined #python
+2015-12-19 12:01:25	<════	dlitvak (~dlitvak@190.19.25.204) has quit (Remote host closed the connection)
+2015-12-19 12:01:33	════>	basix (~basix@unaffiliated/basix) has joined #python
+2015-12-19 12:01:38	════>	pitoow (~pitoow@189.126.56.210) has joined #python
+2015-12-19 12:02:17	════>	fvea (~fvea@pD955AFCC.dip0.t-ipconnect.de) has joined #python
+2015-12-19 12:03:38	════>	Spynxic (4bbeb199@gateway/web/cgi-irc/kiwiirc.com/ip.75.190.177.153) has joined #python
+2015-12-19 12:05:05	════>	Calle__Lid (~Ailongam@94.254.51.236) has joined #python
+2015-12-19 12:05:11	<════	wallyduchamp (~dvu@CPE3085a9e5fe40-CM84948c49b720.cpe.net.cable.rogers.com) has quit (Ping timeout: 240 seconds)
+2015-12-19 12:05:52	════>	kingplusplus_ (~kingplusp@41.58.0.28) has joined #python
+2015-12-19 12:06:18	════>	Siecje (~Cody@CPE788df722a481-CM788df722a480.cpe.net.cable.rogers.com) has joined #python
+2015-12-19 12:06:32	Spynxic	Is anyone aware of a way to escape numbers in python? (Using pymongo) I'm attempting to call the first object in an array by index but db.collection.myarray.0 returns a syntax error
+2015-12-19 12:07:32	════>	delphinas (~LingonBer@cpc86823-seve27-2-0-cust146.13-3.cable.virginm.net) has joined #python
+2015-12-19 12:07:39	delphinas	Hello.
+2015-12-19 12:08:11	delphinas	How can I test if a number is divisible by 3 apart from "if number % 3 == 0"
+2015-12-19 12:08:14	delphinas	?P)
+2015-12-19 12:08:26	════>	otter768 (~otter768@cpe-67-11-53-3.satx.res.rr.com) has joined #python
+2015-12-19 12:08:26	agronholm	delphinas: what more do you need?
+2015-12-19 12:08:31	<════	kingplusplus (~kingplusp@41.58.7.109) has quit (Ping timeout: 240 seconds)
+2015-12-19 12:08:31	--	kingplusplus_ is now known as kingplusplus
+2015-12-19 12:08:35	agronholm	ie. why do you need an alternate method?
+2015-12-19 12:08:46	<════	millerti (~millerti@cpe-69-204-199-109.stny.res.rr.com) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2015-12-19 12:08:58	════>	AusteritySucks (~Austerity@unaffiliated/austeritysucks) has joined #python
+2015-12-19 12:09:11	delphinas	just out of interest (any other logical solution to this ?)
+2015-12-19 12:09:12	<════	cdown (~cdown@199.201.66.0) has quit (Read error: Connection reset by peer)
+2015-12-19 12:09:23	nedbat	Spynxic: that seems like a question about mongo?  doesn't this work?  db.collection.myarray[0]
+2015-12-19 12:09:25	deepy	divide it by 3 and check the result?
+2015-12-19 12:09:42	agronholm	deepy: that's what delphinas is already doing
+2015-12-19 12:09:45	delphinas	why this would no be good? number / 3 == True ?
+2015-12-19 12:09:48	nedbat	delphinas: that's the way to test. You can invent exotic other ways, but that's the way.
+2015-12-19 12:10:00	nedbat	delphinas: because number / 3 is never true
+2015-12-19 12:10:01	<════	joke2k (~joke2k@2.236.247.201) has quit (Ping timeout: 240 seconds)
+2015-12-19 12:10:09	<════	basix (~basix@unaffiliated/basix) has quit (Quit: basix)
+2015-12-19 12:10:14	deepy	nedbat: 4/3 == True
+2015-12-19 12:10:29	nedbat	delphinas: you also can't use:  "if number is divisible by three:"  since that isn't how Python works.
+2015-12-19 12:10:39	agronholm	deepy: only on python 2
+2015-12-19 12:10:43	delphinas	ahh so synthax problems ok
+2015-12-19 12:10:52	deepy	delphinas: the proper way to express it is by using %
+2015-12-19 12:10:58	════>	millerti (~millerti@cpe-69-204-199-109.stny.res.rr.com) has joined #python
+2015-12-19 12:11:00	rab00f	a quick hack that i vaguely remember goes like: just check if the last 2 digits are divisible by 3 (again, you need the % operator here)
+2015-12-19 12:11:05	════>	cdown (~cdown@cha67-2-88-190-20-156.fbxo.proxad.net) has joined #python
+2015-12-19 12:11:13	rab00f	not entirely useful :)
+2015-12-19 12:11:29	delphinas	ahh so you would still use the operator %
+2015-12-19 12:11:31	rab00f	that's for doing mental arithmetic :)
+2015-12-19 12:11:50	delphinas	ok so thanks for the answers I've just wanted to check out :)
+2015-12-19 12:11:53	<════	gumol (~user@ip47-32-173-82.adsl2.static.versatel.nl) has quit (Remote host closed the connection)
+2015-12-19 12:11:54	quelqun_dautre	rab00f: digits in base 10 ?
+2015-12-19 12:11:54	<════	millerti (~millerti@cpe-69-204-199-109.stny.res.rr.com) has quit (Client Quit)
+2015-12-19 12:11:57	════>	sgtbigman (~sgtbigman@c-73-247-99-29.hsd1.in.comcast.net) has joined #python
+2015-12-19 12:12:03	jwhisnant	rab00f: if the sum of the digits is divisble by 3 ...
+2015-12-19 12:12:08	karhu	one possibility of checking for divisibility by 3 is summing all the digits and checking if the sum is divisible by 3
+2015-12-19 12:12:11	rab00f	ya something likee that
+2015-12-19 12:12:21	════>	Noldorin (~noldorin@unaffiliated/noldorin) has joined #python
+2015-12-19 12:12:25	rab00f	forgot the exact algorithm
+2015-12-19 12:12:25	════>	gumol (~user@ip47-32-173-82.adsl2.static.versatel.nl) has joined #python
+2015-12-19 12:12:30	quelqun_dautre	but is it really faster ?
+2015-12-19 12:12:30	════>	DLSteve (~DLSteve@c-73-239-22-33.hsd1.wa.comcast.net) has joined #python
+2015-12-19 12:12:36	rab00f	tha's for mod 4 i guess
+2015-12-19 12:12:46	rab00f	I mean checking last two digits divisibility
+2015-12-19 12:12:54	odigem	Hi
+2015-12-19 12:13:48	odigem	i use xlsxwriter for return file as ByteIO
+2015-12-19 12:13:56	rab00f	quelqun_dautre, not faster, just useful for doing manual, mental arithmetic
+2015-12-19 12:14:04	odigem	file generaion is simple
+2015-12-19 12:14:08	════>	uskerine (sdfsdfsd@86.Red-79-157-168.dynamicIP.rima-tde.net) has joined #python
+2015-12-19 12:14:12	uskerine	hi
+2015-12-19 12:14:20	Spynxic	nedbat: Thanks, I guess mongodb assumed a native python developer would assume such a syntax.  db.collection.myarray[0] is executed as db.collection.myarray.0
+2015-12-19 12:14:25	odigem	but while generated in 1 minute
+2015-12-19 12:14:31	nedbat	Spynxic: is that what you want?
+2015-12-19 12:14:56	uskerine	I want to process some files using Python in Windows. I just installed python but I am not sure on how to launch a python script on a given directory, can I use CMD Windows and then invoke python? if so, how?
+2015-12-19 12:15:03	--	ZeeNoodley is now known as Minori
+2015-12-19 12:15:09	<════	Minori (~ZNG@unaffiliated/zeenoodley) has quit (Changing host)
+2015-12-19 12:15:09	════>	Minori (~ZNG@unaffiliated/minori) has joined #python
+2015-12-19 12:15:54	<════	robbyoconnor (~wakawaka@guifications/user/r0bby) has quit (Quit: Konversation terminated!)
+2015-12-19 12:15:57	Spynxic	nedbat: I actually want access to the value of the item at that index, however this puts me one step closer so thank you
+2015-12-19 12:16:24	karhu	uskerine: python needs to be in your PATH-variable
+2015-12-19 20:21:02	════>	msjche1 (~msjche@unaffiliated/msjche) has joined #python
+2015-12-19 20:21:02	--	Topic for #python is "Don't paste, use https://bpaste.net/+python | http://bit.ly/psf-coc | NO LOL | Tutorial: http://bit.ly/MCAhYx | New programmer? http://goo.gl/c170V | Specify 2.x or 3.x in your question | Find your local User Group: http://goo.gl/S1Zsq | #python-fr #python.de #python-es #python.tw #python.pl #python-br #python-nl #python-ir #python.it #python-ro #python-india #python-hu #python-dev"
+2015-12-19 20:21:02	--	Topic set by ssbr_at_work (scorchsabe@python/site-packages/ssbr) on Tue, 01 Sep 2015 00:01:20
+2015-12-19 20:21:02	--	Channel #python: 1561 nicks (0 ops, 0 voices, 1561 normals)
+2015-12-19 20:21:04	--	Channel created on Sat, 25 Nov 2006 22:42:41
+2015-12-19 20:21:15	════>	big_foot (~big_foot@176.114.191.12) has joined #python
+2015-12-19 20:22:34	<════	zaphod_b (~zaphod_b@unaffiliated/zaphod-b/x-3411942) has quit (Ping timeout: 265 seconds)
+2015-12-19 20:22:42	<════	bdavenport (~davenport@2001:470:8:2ad:20c:29ff:fe1e:68c4) has quit (Ping timeout: 240 seconds)
+2015-12-19 20:23:25	<════	wodim (~oook@kvirc/developer/wodim) has quit (Quit: ZNC - http://znc.in)
+2015-12-19 20:23:30	<════	uestra (~uestra@p5DDA6574.dip0.t-ipconnect.de) has quit (Quit: Colloquy for iPhone - http://colloquy.mobi)
+2015-12-19 20:23:42	════>	wodim (~oook@kvirc/developer/wodim) has joined #python
+2015-12-19 20:24:37	<════	wordsToLiveBy (~wordsToLi@unaffiliated/wordstoliveby) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2015-12-19 20:24:57	════>	eka (~eka@123.63.216.13) has joined #python
+2015-12-19 20:26:04	<════	TheoryCat (TheoryCat@unaffiliated/wye-naught/x-8734122) has quit (Quit: TheoryCat)
+2015-12-19 20:26:27	════>	mrkent (~textual@unaffiliated/mrkent) has joined #python
+2015-12-19 20:27:48	<════	threeminutemonta (~david@ppp118-209-109-247.lns20.mel4.internode.on.net) has quit (Ping timeout: 256 seconds)

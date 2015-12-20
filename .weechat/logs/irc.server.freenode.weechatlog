@@ -19860,3 +19860,123 @@
 2015-12-15 18:07:06	--	-
 2015-12-15 18:07:06	--	End of /MOTD command.
 2015-12-15 18:07:06	--	User mode [+i] by msjche1
+2015-12-19 10:15:20	--	irc: connecting to server chat.freenode.net/6667...
+2015-12-19 10:15:20	--	irc: connected to chat.freenode.net/6667 (94.125.182.252)
+2015-12-19 10:15:21	--	adams.freenode.net: *** Looking up your hostname...
+2015-12-19 10:15:21	--	adams.freenode.net: *** Checking Ident
+2015-12-19 10:15:21	--	adams.freenode.net: *** Couldn't look up your hostname
+2015-12-19 10:15:21	--	adams.freenode.net: *** No Ident response
+2015-12-19 10:15:21	--	irc: client capability, server supports: account-notify extended-join identify-msg multi-prefix sasl
+2015-12-19 10:15:21	--	irc: client capability, requesting: sasl
+2015-12-19 10:15:21	--	irc: client capability, enabled: sasl
+2015-12-19 10:15:22	--	You are now logged in as msjche. (msjche!msjche@unaffiliated/msjche)
+2015-12-19 10:15:23	--	SASL authentication successful
+2015-12-19 10:15:23	--	Welcome to the freenode Internet Relay Chat Network msjche
+2015-12-19 10:15:23	--	Your host is adams.freenode.net[94.125.182.252/6667], running version ircd-seven-1.1.3
+2015-12-19 10:15:23	--	This server was created Mon Jul 20 2015 at 16:58:36 UTC
+2015-12-19 10:15:23	--	adams.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-12-19 10:15:23	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-12-19 10:15:23	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-12-19 10:15:23	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2015-12-19 10:15:23	--	There are 155 users and 82881 invisible on 25 servers
+2015-12-19 10:15:23	--	26 :IRC Operators online
+2015-12-19 10:15:23	--	10 :unknown connection(s)
+2015-12-19 10:15:23	--	51369 :channels formed
+2015-12-19 10:15:23	--	I have 6751 clients and 1 servers
+2015-12-19 10:15:23	--	6751 12001 :Current local users 6751, max 12001
+2015-12-19 10:15:23	--	83036 98867 :Current global users 83036, max 98867
+2015-12-19 10:15:23	--	Highest connection count: 12002 (12001 clients) (2054981 connections received)
+2015-12-19 10:15:23	--	- adams.freenode.net Message of the Day -
+2015-12-19 10:15:23	--	- Welcome to adams.freenode.net. Thanks to ATW Internet Kft
+2015-12-19 10:15:23	--	- (http://www.atw.hu) for sponsoring this server!
+2015-12-19 10:15:23	--	-
+2015-12-19 10:15:23	--	- ADAMS, DOUGLAS (1952-2001).  Author of The Hitch Hikers Guide
+2015-12-19 10:15:23	--	- to the Galaxy and many other witty and humourous books,
+2015-12-19 10:15:23	--	- portrayed in his uniquely British irony. He is sorely missed
+2015-12-19 10:15:23	--	- by many millions of devoted fans. "So long and thanks for all
+2015-12-19 10:15:23	--	- the books!"
+2015-12-19 10:15:23	--	-
+2015-12-19 10:15:23	--	- Welcome to freenode - supporting the free and open source
+2015-12-19 10:15:23	--	- software communities since 1998.
+2015-12-19 10:15:23	--	-
+2015-12-19 10:15:23	--	- By connecting to freenode you indicate that you have read and
+2015-12-19 10:15:23	--	- accept our policies as set out on http://www.freenode.net
+2015-12-19 10:15:23	--	- freenode runs an open proxy scanner. Please join #freenode for
+2015-12-19 10:15:23	--	- any network-related questions or queries, where a number of
+2015-12-19 10:15:23	--	- volunteer staff and helpful users will be happy to assist you.
+2015-12-19 10:15:23	--	-
+2015-12-19 10:15:23	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-12-19 10:15:23	--	- together with like-minded FOSS enthusiasts for talks and
+2015-12-19 10:15:23	--	- real-life collaboration.
+2015-12-19 10:15:23	--	-
+2015-12-19 10:15:23	--	- We would like to thank Private Internet Access
+2015-12-19 10:15:23	--	- (https://www.privateinternetaccess.com/) and the other
+2015-12-19 10:15:23	--	- organisations that help keep freenode and our other projects
+2015-12-19 10:15:23	--	- running for their sustained support.
+2015-12-19 10:15:23	--	-
+2015-12-19 10:15:23	--	- In particular we would like to thank the sponsor
+2015-12-19 10:15:23	--	- of this server, details of which can be found above.
+2015-12-19 10:15:23	--	-
+2015-12-19 10:15:23	--	End of /MOTD command.
+2015-12-19 10:15:23	--	User mode [+i] by msjche
+2015-12-19 20:20:53	--	irc: connecting to server chat.freenode.net/6667...
+2015-12-19 20:20:53	--	irc: connected to chat.freenode.net/6667 (31.13.222.109)
+2015-12-19 20:20:53	--	hitchcock.freenode.net: *** Looking up your hostname...
+2015-12-19 20:20:54	--	hitchcock.freenode.net: *** Checking Ident
+2015-12-19 20:20:54	--	hitchcock.freenode.net: *** Couldn't look up your hostname
+2015-12-19 20:20:54	--	hitchcock.freenode.net: *** No Ident response
+2015-12-19 20:20:54	--	irc: client capability, server supports: account-notify extended-join identify-msg multi-prefix sasl
+2015-12-19 20:20:54	--	irc: client capability, requesting: sasl
+2015-12-19 20:20:54	--	irc: nickname "msjche" is already in use, trying nickname "msjche1"
+2015-12-19 20:20:54	--	irc: client capability, enabled: sasl
+2015-12-19 20:20:55	--	You are now logged in as msjche. (msjche1!msjche@unaffiliated/msjche)
+2015-12-19 20:20:56	--	SASL authentication successful
+2015-12-19 20:20:56	--	Welcome to the freenode Internet Relay Chat Network msjche1
+2015-12-19 20:20:56	--	Your host is hitchcock.freenode.net[31.13.222.109/6667], running version ircd-seven-1.1.3
+2015-12-19 20:20:56	--	This server was created Tue Jul 21 2015 at 18:44:23 UTC
+2015-12-19 20:20:56	--	hitchcock.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-12-19 20:20:56	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-12-19 20:20:56	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-12-19 20:20:56	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2015-12-19 20:20:56	--	There are 149 users and 78097 invisible on 25 servers
+2015-12-19 20:20:56	--	26 :IRC Operators online
+2015-12-19 20:20:56	--	17 :unknown connection(s)
+2015-12-19 20:20:56	--	50973 :channels formed
+2015-12-19 20:20:56	--	I have 4590 clients and 1 servers
+2015-12-19 20:20:56	--	4590 9856 :Current local users 4590, max 9856
+2015-12-19 20:20:56	--	78246 98867 :Current global users 78246, max 98867
+2015-12-19 20:20:56	--	Highest connection count: 9857 (9856 clients) (1720855 connections received)
+2015-12-19 20:20:56	--	- hitchcock.freenode.net Message of the Day -
+2015-12-19 20:20:56	--	-
+2015-12-19 20:20:56	--	- Welcome to hitchcock.freenode.net in Sofia, Bulgaria, EU, kindly sponsored by
+2015-12-19 20:20:56	--	- Neterra Communications (www.neterra.net)
+2015-12-19 20:20:56	--	-
+2015-12-19 20:20:56	--	- HITCHCOCK, SIR ALFRED [1899 - 1980] Born in Essex,
+2015-12-19 20:20:56	--	- England, Sir Alfred Hitchcock was a noted film director
+2015-12-19 20:20:56	--	- and producer. Over a long career he pioneered many modern
+2015-12-19 20:20:56	--	- techniques in film-making, made more than 50 feature films,
+2015-12-19 20:20:56	--	- and influenced many present-day directors and producers.
+2015-12-19 20:20:56	--	-
+2015-12-19 20:20:56	--	- Welcome to freenode - supporting the free and open source
+2015-12-19 20:20:56	--	- software communities since 1998.
+2015-12-19 20:20:56	--	-
+2015-12-19 20:20:56	--	- By connecting to freenode you indicate that you have read and
+2015-12-19 20:20:56	--	- accept our policies as set out on http://www.freenode.net
+2015-12-19 20:20:56	--	- freenode runs an open proxy scanner. Please join #freenode for
+2015-12-19 20:20:56	--	- any network-related questions or queries, where a number of
+2015-12-19 20:20:56	--	- volunteer staff and helpful users will be happy to assist you.
+2015-12-19 20:20:56	--	-
+2015-12-19 20:20:56	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-12-19 20:20:56	--	- together with like-minded FOSS enthusiasts for talks and
+2015-12-19 20:20:56	--	- real-life collaboration.
+2015-12-19 20:20:56	--	-
+2015-12-19 20:20:56	--	- We would like to thank Private Internet Access
+2015-12-19 20:20:56	--	- (https://www.privateinternetaccess.com/) and the other
+2015-12-19 20:20:56	--	- organisations that help keep freenode and our other projects
+2015-12-19 20:20:56	--	- running for their sustained support.
+2015-12-19 20:20:56	--	-
+2015-12-19 20:20:56	--	- In particular we would like to thank the sponsor
+2015-12-19 20:20:56	--	- of this server, details of which can be found above.
+2015-12-19 20:20:56	--	-
+2015-12-19 20:20:56	--	End of /MOTD command.
+2015-12-19 20:20:56	--	User mode [+i] by msjche1

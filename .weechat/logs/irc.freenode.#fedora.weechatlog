@@ -25359,3 +25359,87 @@
 2015-12-15 20:16:18	<════	aeperezt (~aeperezt@fedora/aeperezt) has quit (Remote host closed the connection)
 2015-12-15 20:18:18	<════	Venusaur (~wdwrwf@wikipedia/Antonio-Lopez) has quit (Ping timeout: 240 seconds)
 2015-12-15 20:30:44	════>	nmal (~nm@c-73-207-103-130.hsd1.ga.comcast.net) has joined #fedora
+2015-12-19 10:15:30	════>	msjche (~msjche@unaffiliated/msjche) has joined #fedora
+2015-12-19 10:15:30	--	Topic for #fedora is "Fedora 22 and 23 end-user support || NEVER USE FEDY || Please READ: http://tinyurl.com/chanfaq || Common bugs: http://tinyurl.com/f22bugs http://tinyurl.com/f23bugs || IRC Feedback: http://tinyurl.com/fedoraircsig || Updated Live isos: http://tinyurl.com/Live-respins || Default to OPEN: http://tinyurl.com/default-open"
+2015-12-19 10:15:30	--	Topic set by nirik (~nirik-fre@75.148.32.185) on Tue, 01 Dec 2015 19:24:14
+2015-12-19 10:15:30	--	Channel #fedora: 489 nicks (2 ops, 0 voices, 487 normals)
+2015-12-19 10:15:31	--	PvNotice(ChanServ): "Any advice you read here is provided by individual community members. You should use it at your OWN RISK. This advice is owned by each individual, and does NOT represent the views of Freenode, Fedora or Red Hat. This channel may be logged"
+2015-12-19 10:15:38	--	Channel created on Sat, 31 Jan 2004 20:59:18
+2015-12-19 10:16:49	infodel	After running a dnf update on my Fedora 23 install.....upon reboot I am unable to get my system back up with the main blocker being the "start job is running for wait for plymouth boot screen to quit".  This is my first experience with this, can anyone assist with helping resolve the issue to get my desktop to boot again?
+2015-12-19 10:17:15	════>	u0m3 (~u0m3@89.120.204.99) has joined #fedora
+2015-12-19 10:19:29	════>	martincbate (~martincba@71-91-112-217.dhcp.ftwo.tx.charter.com) has joined #fedora
+2015-12-19 10:22:05	<════	anna` (~a@abjt.uk) has quit (Quit: -)
+2015-12-19 10:24:19	════>	martinkl_ (~martinkle@ip5f5ad3f0.dynamic.kabel-deutschland.de) has joined #fedora
+2015-12-19 10:28:21	<════	martinkl_ (~martinkle@ip5f5ad3f0.dynamic.kabel-deutschland.de) has quit (Ping timeout: 240 seconds)
+2015-12-19 10:28:46	════>	deavmi_mobile (~deavmi@41.164.24.122) has joined #fedora
+2015-12-19 10:29:10	<════	infodel (~infodel@c-67-161-0-145.hsd1.ca.comcast.net) has quit (Ping timeout: 240 seconds)
+2015-12-19 10:30:10	<════	palasso (~quassel@palassopoulosge.ath.forthnet.gr) has quit (Remote host closed the connection)
+2015-12-19 10:31:36	<════	maesrin (~maesrin@176.92.205.194) has quit (Ping timeout: 260 seconds)
+2015-12-19 10:31:55	════>	ja-barr (~howaboutu@159.203.255.34) has joined #fedora
+2015-12-19 10:32:46	════>	infodel (~infodel@c-67-161-0-145.hsd1.ca.comcast.net) has joined #fedora
+2015-12-19 10:32:57	════>	AndyRez (~andyrez@104.156.228.183) has joined #fedora
+2015-12-19 10:34:15	<════	deavmi_mobile (~deavmi@41.164.24.122) has quit (Remote host closed the connection)
+2015-12-19 10:35:00	════>	rdieter (~rdieter1@fedora/rdieter) has joined #fedora
+2015-12-19 10:35:27	════>	Egyptian[Home] (~marafa@107.15.70.112) has joined #fedora
+2015-12-19 10:35:38	<════	sayan (~sayanchow@fedora/sayan) has quit (Ping timeout: 256 seconds)
+2015-12-19 10:36:24	════>	sayan (~sayanchow@fedora/sayan) has joined #fedora
+2015-12-19 10:37:19	<════	infodel (~infodel@c-67-161-0-145.hsd1.ca.comcast.net) has quit (Ping timeout: 256 seconds)
+2015-12-19 10:38:05	════>	infodel (~infodel@c-67-161-0-145.hsd1.ca.comcast.net) has joined #fedora
+2015-12-19 10:38:22	════>	PoPpiLLs (~damien@184.56.231.127) has joined #fedora
+2015-12-19 10:39:15	════>	HowardwLo (~HowardwLo@c-24-5-124-255.hsd1.ca.comcast.net) has joined #fedora
+2015-12-19 10:39:28	════>	_0bitcount (~Big_Byte@213.37.175.244.dyn.user.ono.com) has joined #fedora
+2015-12-19 10:40:57	<════	voidspacexyz (~VoidSpace@106.51.27.133) has quit (Quit: Leaving)
+2015-12-19 10:41:22	════>	lbazan (~LoKoMurdo@fedora/LoKoMurdoK) has joined #fedora
+2015-12-19 10:43:16	<════	Lorenzo64 (~Lorenzo@151.42.45.229) has quit (Quit: Leaving)
+2015-12-19 10:44:41	<════	Egyptian[Home] (~marafa@107.15.70.112) has quit (Ping timeout: 256 seconds)
+2015-12-19 10:51:02	════>	EddieTheJedi (~Thunderbi@pool-96-232-133-181.nycmny.fios.verizon.net) has joined #fedora
+2015-12-19 10:53:11	<════	infodel (~infodel@c-67-161-0-145.hsd1.ca.comcast.net) has quit (Ping timeout: 260 seconds)
+2015-12-19 10:55:03	════>	deavmi_mobile (~deavmi@41.164.24.122) has joined #fedora
+2015-12-19 10:55:05	════>	infodel (~infodel@c-67-161-0-145.hsd1.ca.comcast.net) has joined #fedora
+2015-12-19 10:57:21	════>	jalalsfs (~jalal@unaffiliated/jalalsfs) has joined #fedora
+2015-12-19 10:57:28	════>	Usurp (~syl@reactos/developer/Usurp) has joined #fedora
+2015-12-19 10:57:36	════>	Bleakwise (~Bleakwise@2605:6000:7945:f000:d582:6f5c:6d1d:18a8) has joined #fedora
+2015-12-19 11:00:37	<════	spybert (~spybert@c-50-173-18-125.hsd1.ca.comcast.net) has left #fedora ("Leaving")
+2015-12-19 11:00:39	<════	fabior (~fabior@wikipedia/fabior1984) has quit (Read error: Connection reset by peer)
+2015-12-19 11:02:21	<════	talisein (~talisein@april-fools/2013/sixth/talisein) has quit (Quit: WeeChat 1.4-dev)
+2015-12-19 11:06:52	<════	Xard (~ardax@a91-155-240-21.elisa-laajakaista.fi) has quit (Remote host closed the connection)
+2015-12-19 11:07:45	════>	ariscop_ (~Phase4@ppp118-209-236-155.lns20.mel8.internode.on.net) has joined #fedora
+2015-12-19 11:09:37	<════	ariscop (~Phase4@ppp118-209-231-174.lns20.mel8.internode.on.net) has quit (Ping timeout: 256 seconds)
+2015-12-19 11:11:03	════>	elastix (~Thunderbi@net-2-37-59-153.cust.vodafonedsl.it) has joined #fedora
+2015-12-19 11:11:13	<════	PoPpiLLs (~damien@184.56.231.127) has quit (Ping timeout: 272 seconds)
+2015-12-19 11:11:40	════>	kleptos (~kleptos@unaffiliated/kleptos) has joined #fedora
+2015-12-19 11:12:03	<════	|narcos| (uid99359@gateway/web/irccloud.com/x-ttyxomdkrjmfolas) has quit
+2015-12-19 11:12:18	<════	pppingme (~pppingme@unaffiliated/pppingme) has quit (Remote host closed the connection)
+2015-12-19 11:13:15	<════	glebihan (~glebihan@unaffiliated/glebihan) has quit (Read error: Connection reset by peer)
+2015-12-19 11:18:00	════>	pppingme (~pppingme@unaffiliated/pppingme) has joined #fedora
+2015-12-19 11:21:59	════>	tristianc (~tristianc@pool-173-73-83-32.washdc.fios.verizon.net) has joined #fedora
+2015-12-19 11:22:29	════>	PoPpiLLs (~damien@cpe-184-56-231-127.neo.res.rr.com) has joined #fedora
+2015-12-19 11:23:09	<════	HowardwLo (~HowardwLo@c-24-5-124-255.hsd1.ca.comcast.net) has left #fedora
+2015-12-19 11:26:00	════>	JamesNZ (~JamesNZ@fedora/JamesNZ) has joined #fedora
+2015-12-19 11:26:36	════>	Jguy (~Jguy@unaffiliated/jguy) has joined #fedora
+2015-12-19 11:27:16	<════	CoreISP (~CoreISP@simplemachines/rootadmin/CoreISP) has quit (Quit: This computer has gone to sleep)
+2015-12-19 11:27:16	--	qsuscs is now known as qsx
+2015-12-19 11:29:22	════>	bitlord (~bitlord@unaffiliated/bitlord) has joined #fedora
+2015-12-19 11:30:31	════>	Kostic (~marko@178-221-111-253.dynamic.isp.telekom.rs) has joined #fedora
+2015-12-19 11:32:38	════>	CoreISP (~CoreISP@simplemachines/rootadmin/CoreISP) has joined #fedora
+2015-12-19 11:38:32	════>	KimmoNO (~Kimmono@3.89-10-117.nextgentel.com) has joined #fedora
+2015-12-19 11:41:18	<════	EddieTheJedi (~Thunderbi@pool-96-232-133-181.nycmny.fios.verizon.net) has quit (Ping timeout: 246 seconds)
+2015-12-19 11:48:12	<════	JamesNZ (~JamesNZ@fedora/JamesNZ) has quit (Quit: Leaving)
+2015-12-19 11:50:24	<════	dabzse (~dabzse@cpc27-maid5-2-0-cust97.20-1.cable.virginm.net) has quit (Remote host closed the connection)
+2015-12-19 11:50:52	════>	seseri (~Kachou_ag@fedora/ageha) has joined #fedora
+2015-12-19 11:51:26	════>	naknak (~naknak@c-24-23-181-176.hsd1.ca.comcast.net) has joined #fedora
+2015-12-19 11:54:45	════>	spybert (~spybert@c-50-173-18-125.hsd1.ca.comcast.net) has joined #fedora
+2015-12-19 11:59:40	<════	deavmi_mobile (~deavmi@41.164.24.122) has quit (Quit: Cheers all. Be good and don't do drugs.)
+2015-12-19 12:04:47	<════	CoreISP (~CoreISP@simplemachines/rootadmin/CoreISP) has quit (Quit: This computer has gone to sleep)
+2015-12-19 12:07:21	<════	sauvin_ (~sauvin@about/linux/staff/sauvin) has quit (Remote host closed the connection)
+2015-12-19 12:11:45	<════	mgottschlag (~quassel@reactos/tester/phoenix64) has quit (Ping timeout: 246 seconds)
+2015-12-19 12:15:01	════>	talisein (~talisein@april-fools/2013/sixth/talisein) has joined #fedora
+2015-12-19 20:21:03	════>	msjche1 (~msjche@unaffiliated/msjche) has joined #fedora
+2015-12-19 20:21:03	--	Topic for #fedora is "Fedora 22 and 23 end-user support || NEVER USE FEDY || Please READ: http://tinyurl.com/chanfaq || Common bugs: http://tinyurl.com/f22bugs http://tinyurl.com/f23bugs || IRC Feedback: http://tinyurl.com/fedoraircsig || Updated Live isos: http://tinyurl.com/Live-respins || Default to OPEN: http://tinyurl.com/default-open"
+2015-12-19 20:21:03	--	Topic set by nirik (~nirik-fre@75.148.32.185) on Tue, 01 Dec 2015 19:24:14
+2015-12-19 20:21:03	--	Channel #fedora: 489 nicks (2 ops, 0 voices, 487 normals)
+2015-12-19 20:21:04	--	PvNotice(ChanServ): "Any advice you read here is provided by individual community members. You should use it at your OWN RISK. This advice is owned by each individual, and does NOT represent the views of Freenode, Fedora or Red Hat. This channel may be logged"
+2015-12-19 20:21:10	--	Channel created on Sat, 31 Jan 2004 20:59:18
+2015-12-19 20:23:27	Khaytsus	They can not coexist, so you must have a dual GPU
+2015-12-19 20:23:35	Khaytsus	But if X starts at all, that's not a problem.
+2015-12-19 20:26:18	N3LRX	Did this time you were playing with your niece happen to be while it was performing an update? Also; 'fpaste --sysinfo' and paste the url provided.

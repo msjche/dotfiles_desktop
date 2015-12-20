@@ -3659,3 +3659,121 @@
 2015-12-15 18:07:03	--	- -------------------------------------------------------
 2015-12-15 18:07:03	--	End of /MOTD command.
 2015-12-15 18:07:03	--	User mode [+iRx] by msjche1
+2015-12-19 10:15:20	--	irc: connecting to server irc.geekshed.net/6667...
+2015-12-19 10:15:21	--	irc: connected to irc.geekshed.net/6667 (192.241.228.170)
+2015-12-19 10:15:21	--	fe-00106.GeekShed.net: *** Looking up your hostname...
+2015-12-19 10:15:21	--	fe-00106.GeekShed.net: *** Checking ident...
+2015-12-19 10:15:21	--	fe-00106.GeekShed.net: *** Couldn't resolve your hostname; using your IP address instead
+2015-12-19 10:15:23	--	fe-00106.GeekShed.net: *** No ident response; username prefixed with ~
+2015-12-19 10:15:23	--	CTCP requested by IRC: VERSION
+2015-12-19 10:15:23	--	CTCP reply to IRC: VERSION WeeChat 1.3 (Dec 16 2015)
+2015-12-19 10:15:23	--	Welcome to the GeekShed IRC Network msjche!~msjche@198.8.80.219
+2015-12-19 10:15:23	--	Your host is fe-00106.GeekShed.net, running version Unreal3.2.10.3-gs
+2015-12-19 10:15:23	--	This server was created Tue Sep 22 2015 at 00:43:46 UTC
+2015-12-19 10:15:23	--	fe-00106.GeekShed.net Unreal3.2.10.3-gs iowghraAsORTVSxNCWqBzvdHtGpIDc lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjUZ
+2015-12-19 10:15:23	--	CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=100 CHANLIMIT=#:100 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+2015-12-19 10:15:23	--	MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGUZ NETWORK=GeekShed CASEMAPPING=ascii EXTBAN=~,qjncrRaT ELIST=MNUCT :are supported by this server
+2015-12-19 10:15:23	--	STATUSMSG=~&@%+ EXCEPTS INVEX :are supported by this server
+2015-12-19 10:15:23	--	There are 114 users and 2108 invisible on 12 servers
+2015-12-19 10:15:23	--	33 :operator(s) online
+2015-12-19 10:15:23	--	4 :unknown connection(s)
+2015-12-19 10:15:23	--	1191 :channels formed
+2015-12-19 10:15:23	--	I have 496 clients and 0 servers
+2015-12-19 10:15:23	--	496 1116 :Current local users 496, max 1116
+2015-12-19 10:15:23	--	2222 5334 :Current global users 2222, max 5334
+2015-12-19 10:15:23	--	- fe-00106.GeekShed.net Message of the Day -
+2015-12-19 10:15:23	--	- 28/11/2013 2:05
+2015-12-19 10:15:23	--	-   _____           _     _____ _              _
+2015-12-19 10:15:23	--	-  / ____|         | |   / ____| |            | |
+2015-12-19 10:15:23	--	- | |  __  ___  ___| | _| (___ | |__   ___  __| |
+2015-12-19 10:15:23	--	- | | |_ |/ _ \/ _ \ |/ /\___ \| '_ \ / _ \/ _` |
+2015-12-19 10:15:23	--	- | |__| |  __/  __/   < ____) | | | |  __/ (_| |
+2015-12-19 10:15:23	--	-  \_____|\___|\___|_|\_\_____/|_| |_|\___|\__,_|
+2015-12-19 10:15:23	--	-
+2015-12-19 10:15:23	--	-
+2015-12-19 10:15:23	--	- Before continuing please read the Geek Shed
+2015-12-19 10:15:23	--	- Terms Of Service: http://www.geekshed.net/tos/
+2015-12-19 10:15:23	--	-
+2015-12-19 10:15:23	--	- By connecting and retaining a connection to any
+2015-12-19 10:15:23	--	- part of Geek Shed you state that you have read,
+2015-12-19 10:15:23	--	- understand, and hereby agree to comply with and accept
+2015-12-19 10:15:23	--	- the Geek Shed Terms Of Service, disclaimers,
+2015-12-19 10:15:23	--	- and rules stated in the document.
+2015-12-19 10:15:23	--	-
+2015-12-19 10:15:23	--	- IF YOU DO NOT AGREE, DISCONNECT NOW AND
+2015-12-19 10:15:23	--	- DO NOT RECONNECT!
+2015-12-19 10:15:23	--	-
+2015-12-19 10:15:23	--	- -------------------------------------------------------
+2015-12-19 10:15:23	--	-
+2015-12-19 10:15:23	--	- :: Our Site  http://www.geekshed.net/
+2015-12-19 10:15:23	--	- :: Free BNC  http://www.geekshed.net/bnc/
+2015-12-19 10:15:23	--	- :: Web Chat  http://www.geekshed.net/chat/
+2015-12-19 10:15:23	--	- :: Commands  http://www.geekshed.net/commands/
+2015-12-19 10:15:23	--	- :: Forums    http://www.geekshed.net/forum/
+2015-12-19 10:15:23	--	- :: Quotes    http://www.geekshed.net/qdb/
+2015-12-19 10:15:23	--	- :: Staff     http://www.geekshed.net/staff/
+2015-12-19 10:15:23	--	- :: Twitter   http://www.twitter.com/geekshed
+2015-12-19 10:15:23	--	- :: YouTube   http://www.youtube.com/geekshedirc
+2015-12-19 10:15:23	--	-
+2015-12-19 10:15:23	--	- -------------------------------------------------------
+2015-12-19 10:15:23	--	End of /MOTD command.
+2015-12-19 10:15:23	--	User mode [+iRx] by msjche
+2015-12-19 20:20:53	--	irc: connecting to server irc.geekshed.net/6667...
+2015-12-19 20:20:53	--	irc: connected to irc.geekshed.net/6667 (192.241.228.170)
+2015-12-19 20:20:53	--	fe-00106.GeekShed.net: *** Looking up your hostname...
+2015-12-19 20:20:53	--	fe-00106.GeekShed.net: *** Checking ident...
+2015-12-19 20:20:53	--	fe-00106.GeekShed.net: *** No ident response; username prefixed with ~
+2015-12-19 20:20:53	--	fe-00106.GeekShed.net: *** Couldn't resolve your hostname; using your IP address instead
+2015-12-19 20:20:53	--	irc: nickname "msjche" is already in use, trying nickname "msjche1"
+2015-12-19 20:20:53	--	CTCP requested by IRC: VERSION
+2015-12-19 20:20:53	--	CTCP reply to IRC: VERSION WeeChat 1.3 (Dec 19 2015)
+2015-12-19 20:20:53	--	Welcome to the GeekShed IRC Network msjche1!~msjche@204.152.215.122
+2015-12-19 20:20:53	--	Your host is fe-00106.GeekShed.net, running version Unreal3.2.10.3-gs
+2015-12-19 20:20:53	--	This server was created Tue Sep 22 2015 at 00:43:46 UTC
+2015-12-19 20:20:53	--	fe-00106.GeekShed.net Unreal3.2.10.3-gs iowghraAsORTVSxNCWqBzvdHtGpIDc lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjUZ
+2015-12-19 20:20:53	--	CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=100 CHANLIMIT=#:100 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+2015-12-19 20:20:53	--	MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGUZ NETWORK=GeekShed CASEMAPPING=ascii EXTBAN=~,qjncrRaT ELIST=MNUCT :are supported by this server
+2015-12-19 20:20:53	--	STATUSMSG=~&@%+ EXCEPTS INVEX :are supported by this server
+2015-12-19 20:20:53	--	There are 113 users and 2334 invisible on 12 servers
+2015-12-19 20:20:53	--	35 :operator(s) online
+2015-12-19 20:20:53	--	1182 :channels formed
+2015-12-19 20:20:53	--	I have 729 clients and 0 servers
+2015-12-19 20:20:53	--	729 1116 :Current local users 729, max 1116
+2015-12-19 20:20:53	--	2447 5334 :Current global users 2447, max 5334
+2015-12-19 20:20:53	--	- fe-00106.GeekShed.net Message of the Day -
+2015-12-19 20:20:53	--	- 28/11/2013 2:05
+2015-12-19 20:20:53	--	-   _____           _     _____ _              _
+2015-12-19 20:20:53	--	-  / ____|         | |   / ____| |            | |
+2015-12-19 20:20:53	--	- | |  __  ___  ___| | _| (___ | |__   ___  __| |
+2015-12-19 20:20:53	--	- | | |_ |/ _ \/ _ \ |/ /\___ \| '_ \ / _ \/ _` |
+2015-12-19 20:20:53	--	- | |__| |  __/  __/   < ____) | | | |  __/ (_| |
+2015-12-19 20:20:53	--	-  \_____|\___|\___|_|\_\_____/|_| |_|\___|\__,_|
+2015-12-19 20:20:53	--	-
+2015-12-19 20:20:53	--	-
+2015-12-19 20:20:53	--	- Before continuing please read the Geek Shed
+2015-12-19 20:20:53	--	- Terms Of Service: http://www.geekshed.net/tos/
+2015-12-19 20:20:53	--	-
+2015-12-19 20:20:53	--	- By connecting and retaining a connection to any
+2015-12-19 20:20:53	--	- part of Geek Shed you state that you have read,
+2015-12-19 20:20:53	--	- understand, and hereby agree to comply with and accept
+2015-12-19 20:20:53	--	- the Geek Shed Terms Of Service, disclaimers,
+2015-12-19 20:20:53	--	- and rules stated in the document.
+2015-12-19 20:20:53	--	-
+2015-12-19 20:20:53	--	- IF YOU DO NOT AGREE, DISCONNECT NOW AND
+2015-12-19 20:20:53	--	- DO NOT RECONNECT!
+2015-12-19 20:20:53	--	-
+2015-12-19 20:20:53	--	- -------------------------------------------------------
+2015-12-19 20:20:53	--	-
+2015-12-19 20:20:53	--	- :: Our Site  http://www.geekshed.net/
+2015-12-19 20:20:53	--	- :: Free BNC  http://www.geekshed.net/bnc/
+2015-12-19 20:20:53	--	- :: Web Chat  http://www.geekshed.net/chat/
+2015-12-19 20:20:53	--	- :: Commands  http://www.geekshed.net/commands/
+2015-12-19 20:20:53	--	- :: Forums    http://www.geekshed.net/forum/
+2015-12-19 20:20:53	--	- :: Quotes    http://www.geekshed.net/qdb/
+2015-12-19 20:20:53	--	- :: Staff     http://www.geekshed.net/staff/
+2015-12-19 20:20:53	--	- :: Twitter   http://www.twitter.com/geekshed
+2015-12-19 20:20:53	--	- :: YouTube   http://www.youtube.com/geekshedirc
+2015-12-19 20:20:53	--	-
+2015-12-19 20:20:53	--	- -------------------------------------------------------
+2015-12-19 20:20:53	--	End of /MOTD command.
+2015-12-19 20:20:53	--	User mode [+iRx] by msjche1

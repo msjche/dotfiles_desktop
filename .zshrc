@@ -48,6 +48,7 @@ COMPLETION_WAITING_DOTS="true"
 export EDITOR="vim"
 export PAGER="less"
 export BROWSER="luakit"
+export BROWSERCLI="w3m"
 export MOVPLAY="mpv"
 export PICVIEW="feh"
 export SNDPLAY="mpv"
@@ -211,7 +212,7 @@ alias geek-new='~/Scripts/geeknote/geeknote-new-note.sh'
 alias space='ncdu'
 alias space-color='cdu'
 alias ll='ls -l'
-alias la='ls -lsa'
+alias la='ls -ltra'
 alias l='ls'
 alias C='clear'
 alias se='sudo vim'
@@ -322,7 +323,7 @@ alias FF-cam='mplayer -cache 128 -tv driver=v4l2:width=467:height=262 -vo xv tv:
 
 
 ## Net
-alias NM='sudo systemctl restart NetworkManager.service'
+alias NM='sudo /etc/init.d/NetworkManager restart'
 alias WW='wicd-curses'
 alias hogs='sudo nethogs tun0'
 alias net-driftnet='echo "see pics from other computers on network" && sudo driftnet -i eno1'
@@ -428,7 +429,7 @@ hacker-top() { python ~/Scripts/hacker-top/hacker_top.py  ;}
 reddit-top() { python ~/git/reddit-top/reddit_top ;}
 
 # Transmission
-T() { sudo ~/Scripts/blocklist.sh && transmission-daemon && sleep 2 && transmission-remote-cli ;}
+T() { ~/Scripts/blocklist.sh && transmission-daemon && sleep 2 && transmission-remote-cli ;}
 
 # Pirate Bay search
 tpb() { clear && figlet -c Pirate Bay && ~/Scripts/tpb.sh ;}
