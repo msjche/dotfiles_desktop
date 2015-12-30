@@ -6043,3 +6043,44 @@
 2015-12-19 20:21:03		Options saved to irc.conf
 2015-12-19 20:21:03		Options saved to irc.conf
 2015-12-19 20:21:03		Options saved to irc.conf
+2015-12-28 16:01:47		URL server listening on ('127.0.0.1', 33616)
+2015-12-28 16:01:47	=!=	WARNING: the script weeget.py is obsolete since WeeChat 0.3.9 (it is replaced by command /script)
+2015-12-28 16:01:47	=!=	To uninstall weeget.py: /weeget remove weeget.py
+2015-12-28 16:01:47		python scripts loaded: autoconnect, urlserver, weeget
+2015-12-28 16:01:47		perl scripts loaded: beep, buffers, iset
+2015-12-28 16:01:47		script: downloading list of scripts...
+2015-12-28 16:01:47		Plugins loaded: alias, aspell, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-12-28 16:01:48		Options saved to irc.conf
+2015-12-28 16:01:49		script: 299 scripts for WeeChat 1.3
+2015-12-28 16:01:50		Options saved to irc.conf
+2015-12-28 16:01:56		Options saved to irc.conf
+2015-12-28 16:01:56		Options saved to irc.conf
+2015-12-28 16:01:56		Options saved to irc.conf
+2015-12-28 16:01:56		Options saved to irc.conf
+2015-12-28 16:01:56		Options saved to irc.conf
+2015-12-28 16:01:56		Options saved to irc.conf
+2015-12-28 16:01:57		Options saved to irc.conf
+2015-12-28 16:01:57		Options saved to irc.conf
+2015-12-28 16:01:57		Options saved to irc.conf
+2015-12-28 16:01:57		Options saved to irc.conf
+2015-12-28 16:01:57		Options saved to irc.conf
+2015-12-28 16:01:57		Options saved to irc.conf
+2015-12-28 16:01:57		Options saved to irc.conf
+2015-12-28 18:06:07		Options saved to irc.conf
+2015-12-28 18:06:10		Options saved to irc.conf
+2015-12-28 18:06:26		Options saved to irc.conf
+2015-12-28 18:06:28		Options saved to irc.conf
+2015-12-28 18:07:53		Options saved to irc.conf
+2015-12-28 18:08:30		Options saved to irc.conf
+2015-12-28 18:08:30		Options saved to irc.conf
+2015-12-28 18:08:30		Options saved to irc.conf
+2015-12-28 18:08:32		Options saved to irc.conf
+2015-12-28 18:08:34		Options saved to irc.conf
+2015-12-28 18:08:36		Options saved to irc.conf
+2015-12-28 18:08:38		Options saved to irc.conf
+2015-12-28 18:08:40		Options saved to irc.conf
+2015-12-28 18:08:42		Options saved to irc.conf
+2015-12-28 18:08:44		Options saved to irc.conf
+2015-12-28 18:08:46		Options saved to irc.conf
+2015-12-28 18:08:48		Options saved to irc.conf
+2015-12-28 18:08:50		Options saved to irc.conf

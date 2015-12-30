@@ -47,7 +47,7 @@ COMPLETION_WAITING_DOTS="true"
 #export NMON=cmknt
 export EDITOR="vim"
 export PAGER="less"
-export BROWSER="luakit"
+export BROWSER="qutebrowser"
 export BROWSERCLI="w3m"
 export MOVPLAY="mpv"
 export PICVIEW="feh"
@@ -273,7 +273,7 @@ alias compressMKV='ffmpeg -i input.mkv -c:v libx264 $1'
 
 ## Transmission
 alias IP-update='~/Scripts/blocklist.sh'
-alias tsm-check='luakit http://localhost:9091/transmission/web'
+alias tsm-check='qutebrowser http://localhost:9091/transmission/web'
 alias t='transmission-daemon && transmission-remote-cli'
 alias kT='killall transmission-daemon'
 
@@ -486,7 +486,7 @@ tsm-start-torrent() { transmission-remote -t"$1" --start ;}
 tsm-purge() { transmission-remote -t"$1" --remove-and-delete ;} # will delete data also
 tsm-remove() { transmission-remote -t"$1" --remove ;} # does not delete data
 tsm-info() { transmission-remote -t"$1" --info ;}
-tsm-speed() { while true;do clear; transmission-remote -t"$1" -i | grep Speed;sleep 1;done ;}
+#tsm-speed() { while true;do clear; transmission-remote -t"$1" -i | grep Speed;sleep 1;done ;}
 
 ###########################################################
 ######################### FFMPEG ########################## 
@@ -516,10 +516,11 @@ ffx_OUTPUT_FINAL=~/Screencasts/screencast.mp4
 
 FF-full() { 
 	ffmpeg \
-	-thread_queue_size 512 \
+	-thread_queue_size 2048 \
 	-f alsa \
 	-ac $ffx_MONO \
 	-i $ffx_PULSE \
+	-thread_queue_size 512 \
 	-f x11grab \
 	-r $ffx_FPS \
 	-s $ffx_WIN_FULL \
@@ -738,6 +739,6 @@ source /home/msjche/.oh-my-zsh/oh-my-zsh.sh
 clear
 #/home/msjche/Scripts/pacolor.sh
 #/home/msjche/Scripts/starwars.sh
-/home/msjche/Scripts/batman.sh
+#/home/msjche/Scripts/batman.sh
 #/home/msjche/Scripts/invaders1.sh
-#screenfetch
+screenfetch

@@ -41547,3 +41547,539 @@
 2015-12-19 20:21:03	--	Topic set by wiktor_b (~wiktor@fez.tardis.ed.ac.uk) on Sun, 04 Oct 2015 14:08:11
 2015-12-19 20:21:03	--	Channel #gentoo-chat: 203 nicks (1 op, 48 voices, 154 normals)
 2015-12-19 20:21:18	--	Channel created on Sat, 25 Nov 2006 22:43:03
+2015-12-28 16:01:57	════>	msjche (~msjche@unaffiliated/msjche) has joined #gentoo-chat
+2015-12-28 16:01:57	--	Topic for #gentoo-chat is "Welcome to #Gentoo-Chistmas. Read our chan policy - https://gchat.gentooligans.com | We are a Gentoo channel so be respectful! This is not an 'official' support chan! Use #Gentoo for that! | https://xkcd.com/1357/ | http://releases.gentooligans.com  | nappy xmoose (all rights reserved hosler Tm) |"
+2015-12-28 16:01:57	--	Topic set by edit_21 (~edit_21@unaffiliated/edit21/x-00000001) on Thu, 24 Dec 2015 13:31:13
+2015-12-28 16:01:57	--	Channel #gentoo-chat: 208 nicks (2 ops, 126 voices, 80 normals)
+2015-12-28 16:02:13	--	Channel created on Sat, 25 Nov 2006 22:43:03
+2015-12-28 16:02:22	CMEPTb	FrostFeline, weird, yea that file is being updated as i would expect to see in the term that emerge was kicked off on.  what gives????
+2015-12-28 16:03:06	AsumFace	aah, now there's output. unpacking took so long
+2015-12-28 16:03:10	CMEPTb	AsumFace, all i got was >>> Emerging (43 of 46) www-client/chromium-48.0.2564.41::gentoo
+2015-12-28 16:04:33	CMEPTb	the only thing i can think of where it's diff, is it now wants 10gigs in /tmp/, so i sent it to another partition via .notmpfs line in an env file
+2015-12-28 16:04:45	CMEPTb	but others, like libreoffice is same and i think i saw output there
+2015-12-28 16:13:19	+FrostFeline	"It’s a JRPG-like game. They’re monsters. As the hero, slaying these things is usually your whole gig. NBD, right? Wrong. It is a very BD. (Big deal. Not Blu-ray disc.)"
+2015-12-28 16:13:37	+FrostFeline	I play many game very blu-ray disc
+2015-12-28 16:20:51	<════	mochi (~mochi@unaffiliated/mochi) has quit (Remote host closed the connection)
+2015-12-28 16:30:50	Viperlin	hosler: washing my pc http://i.imgur.com/axlBvLx.jpg
+2015-12-28 16:31:16	════>	mpagano (~mike@gentoo/developer/mpagano) has joined #gentoo-chat
+2015-12-28 16:31:17	--	Mode #gentoo-chat [+v mpagano] by ChanServ
+2015-12-28 16:33:27	AsumFace	eclean-hydro
+2015-12-28 16:33:54	+FrostFeline	AsumFace: Seems legit
+2015-12-28 16:34:11	+FrostFeline	AsumFace: Inb4 shorted PSU blows up motherboard ;)
+2015-12-28 16:35:24	════>	Channel6 (~YourKicks@unaffiliated/yourkicks) has joined #gentoo-chat
+2015-12-28 16:40:02	<════	CrowX- (~CrowX----@79.141.122.86) has quit (Remote host closed the connection)
+2015-12-28 16:41:07	scryspc	Viperlin: might want to wash that tile grout too
+2015-12-28 16:41:56	hosler	aaahaha
+2015-12-28 16:44:33	<════	twwwater (~tww@221.10.5.197) has quit (Read error: Connection reset by peer)
+2015-12-28 16:46:11	════>	khumba (~khumba@unaffiliated/khumba) has joined #gentoo-chat
+2015-12-28 16:46:33	<════	Channel6 (~YourKicks@unaffiliated/yourkicks) has quit (Quit: Leaving)
+2015-12-28 16:51:14	+Monkeh	FrostFeline: Nothing wrong with doing that
+2015-12-28 16:53:03	════>	twwwater (~tww@125.71.215.217) has joined #gentoo-chat
+2015-12-28 16:54:29	════>	linux_dream (~linux_dre@unaffiliated/linux-dream/x-5839402) has joined #gentoo-chat
+2015-12-28 16:57:00	<════	salviadud (~Rgonzalez@189-211-190-134.static.axtel.net) has quit (Quit: Leaving)
+2015-12-28 17:03:00	+FrostFeline	Monkeh: Everything is wrong with blowing up a motherboard
+2015-12-28 17:03:11	+Monkeh	But washing one has nothing to do with that
+2015-12-28 17:03:42	+FrostFeline	Washing it in the way that is described in the picture could definitely blow something up
+2015-12-28 17:04:28	+Monkeh	Not really
+2015-12-28 17:04:37	+Monkeh	It's water, not liquid metal
+2015-12-28 17:04:46	AsumFace	what if the water is superconducting?
+2015-12-28 17:05:03	AsumFace	I'm pretty sure it is
+2015-12-28 17:05:05	hosler	superconduction is a molecular property
+2015-12-28 17:05:11	hosler	not a random act
+2015-12-28 17:05:30	AsumFace	only when observed :^
+2015-12-28 17:06:37	════>	FuZi0N (~FuZi0N@unaffiliated/fuzi0n) has joined #gentoo-chat
+2015-12-28 17:07:01	FuZi0N	is it true gentoo is out of date?
+2015-12-28 17:07:01	FuZi0N	my friend tells me its running mandrake or slackware
+2015-12-28 17:07:13	hosler	lol wut
+2015-12-28 17:07:19	AsumFace	TIL
+2015-12-28 17:07:26	hosler	gentoo is gentoo
+2015-12-28 17:07:46	FuZi0N	?
+2015-12-28 17:07:48	+Monkeh	Only talented trolls allowed, off with you.
+2015-12-28 17:08:03	hosler	im pretty sure gentoo is running ubuntu
+2015-12-28 17:08:30	FuZi0N	wtf
+2015-12-28 17:08:34	hosler	ok i lied
+2015-12-28 17:08:36	FuZi0N	how am i trolling?
+2015-12-28 17:08:43	FuZi0N	its an honest question
+2015-12-28 17:08:48	AsumFace	gentoo is ubuntu with feature-removal layer
+2015-12-28 17:08:51	hosler	you friend doesnt know what he is talking about
+2015-12-28 17:09:00	FuZi0N	i was told to redirect my question from #gentoo to here
+2015-12-28 17:09:09	hosler	haha
+2015-12-28 17:09:09	<════	Cirrus_Minor (~Cirrus_Mi@CAcert/Cirrus-Minor) has quit (Quit: ◀▬▬ ••••••ᗣ••••••ᗧ•ᗣᗣ••••◀▬▬   We Love You)
+2015-12-28 17:09:29	FuZi0N	could you please elaborate
+2015-12-28 17:09:39	hosler	uh your friend doesnt know what he is talking about
+2015-12-28 17:09:43	hosler	what he said doesnt make sense
+2015-12-28 17:09:47	FuZi0N	ah
+2015-12-28 17:10:00	FuZi0N	yeah... he didnt really explain either
+2015-12-28 17:10:10	FuZi0N	because i though gentoo updates monthly
+2015-12-28 17:10:15	FuZi0N	especially with the rolling updates
+2015-12-28 17:10:20	FuZi0N	so i just wanted to make sure
+2015-12-28 17:10:20	FuZi0N	lol
+2015-12-28 17:10:25	hosler	more than monthly
+2015-12-28 17:10:28	hosler	hourly
+2015-12-28 17:10:35	+Monkeh	tamiko: You will be punished. Maybe.
+2015-12-28 17:10:39	FuZi0N	now you're trolling
+2015-12-28 17:10:40	FuZi0N	lol
+2015-12-28 17:10:43	hosler	nope
+2015-12-28 17:10:48	hosler	rolling release is rolling
+2015-12-28 17:11:08	hosler	wheels dont stop turning baby
+2015-12-28 17:11:11	+FrostFeline	Monkeh: tamiko?
+2015-12-28 17:11:16	+Monkeh	FrostFeline: Yes, tamiko
+2015-12-28 17:11:24	hosler	tamiko was right to send him here
+2015-12-28 17:12:16	+tamiko	Monkeh: ;-)
+2015-12-28 17:12:20	FuZi0N	lol
+2015-12-28 17:12:24	FuZi0N	yep yep
+2015-12-28 17:12:30	FuZi0N	rollin on dem 20s on the benz
+2015-12-28 17:12:37	hosler	yeah just like that
+2015-12-28 17:12:37	FuZi0N	but im really not trolling
+2015-12-28 17:12:38	+FrostFeline	Oh, just that I don't see mention of tamiko elsewhere
+2015-12-28 17:12:40	FuZi0N	lol
+2015-12-28 17:12:42	FuZi0N	im serious
+2015-12-28 17:12:45	--	Mode #gentoo-chat [+o Monkeh] by ChanServ
+2015-12-28 17:12:47	hosler	me too
+2015-12-28 17:13:02	hosler	monkeh dont ban for being noob
+2015-12-28 17:13:09	hosler	or do
+2015-12-28 17:13:11	hosler	i dont care
+2015-12-28 17:13:19	<════	jstein_ (~quassel@gentoo/developer/jstein) has quit (Remote host closed the connection)
+2015-12-28 17:13:20	FuZi0N	ive never used gentoo
+2015-12-28 17:13:25	FuZi0N	im just trying to learn
+2015-12-28 17:13:31	hosler	install it
+2015-12-28 17:13:33	FuZi0N	my plan is to use gentoo or debian
+2015-12-28 17:13:41	+tamiko	Monkeh: Well, #gentoo-chat is way more on-topic than #gentoo for this kind of question.
+2015-12-28 17:13:43	hosler	one is more fun than the other
+2015-12-28 17:13:43	Viperlin	aww
+2015-12-28 17:13:45	FuZi0N	but wanted to get some more info
+2015-12-28 17:13:46	Viperlin	lemmy died
+2015-12-28 17:13:58	@Monkeh	tamiko: But only talented trolls are accepted.
+2015-12-28 17:14:06	FuZi0N	IM NOT A TROLL
+2015-12-28 17:14:21	FuZi0N	i don't understand why you think i am
+2015-12-28 17:14:22	+FrostFeline	capslock is cruise control for cool
+2015-12-28 17:14:33	hosler	FuZi0N: what you said is crazy
+2015-12-28 17:14:34	FuZi0N	because i asked in 2 channels?
+2015-12-28 17:14:47	FuZi0N	i dont even know what "mandrake" is
+2015-12-28 17:15:04	FuZi0N	i was just pasting what my friend told me lol
+2015-12-28 17:15:07	+FrostFeline	FuZi0N: Mandrake is a dead linux distro
+2015-12-28 17:15:08	hosler	you could have said are tacos brocoli?
+2015-12-28 17:15:15	FuZi0N	ahh
+2015-12-28 17:15:29	hosler	my favorite color is trees
+2015-12-28 17:15:36	FuZi0N	if you don't beleive me i can pastebin irc log
+2015-12-28 17:15:40	FuZi0N	from my friend
+2015-12-28 17:15:46	hosler	yeah
+2015-12-28 17:15:46	@Monkeh	Please no
+2015-12-28 17:15:50	hosler	i wanna see
+2015-12-28 17:15:51	FuZi0N	lol kk
+2015-12-28 17:15:59	hosler	bring your friend in here
+2015-12-28 17:16:29	SpaceToast	FuZi0N: Slackware = the oldest linux distribution. It does not offer any form of dependency resolution. Mandrake = one of the older distros. Nothing all that interesting about it imo.
+2015-12-28 17:16:43	+FrostFeline	hosler: Tacos definitely is brocolli
+2015-12-28 17:16:43	hosler	wow slackware is the oldest?
+2015-12-28 17:16:55	+FrostFeline	I started out on Mandriva Linux, even paid for the pro version.
+2015-12-28 17:17:11	+FrostFeline	Obviously the oldest distro is LFS ;)
+2015-12-28 17:17:12	SpaceToast	hosler: oldest that still exists*
+2015-12-28 17:17:17	hosler	no
+2015-12-28 17:17:25	hosler	wait
+2015-12-28 17:17:32	hosler	brocolli is trees
+2015-12-28 17:17:54	FuZi0N	i know of Mandriva
+2015-12-28 17:17:59	+tamiko	Monkeh: :-)
+2015-12-28 17:18:07	+FrostFeline	I think "Is <distro> outdated is a valid question"
+2015-12-28 17:18:24	+FrostFeline	Maybe he asked because he didn't know the answer :p
+2015-12-28 17:18:30	SpaceToast	FuZi0N: a distribution is defined by 3 things. 1. its package manager (slackware uses pkgtool, mandrake uses rpmdrake (RPM format), gentoo uses portage (ebuild format)). 2. its defaults (slackware is a bit similar to gentoo here, mandrake is closer to other more popular ones). 3. Approach to updates (slackware is weird, mandrake is dead, gentoo has different keywords and is constantly updated)
+2015-12-28 17:18:43	hosler	he said gentoo is slackware or mandrake
+2015-12-28 17:18:58	SpaceToast	FuZi0N: hopefully that helps clear it up. In short, Gentoo has nothing in common with slackware or mandrake except some approaches towards defaults being a bit similar to slackware.
+2015-12-28 17:19:23	+FrostFeline	hosler: No, gentoo is sourcemage
+2015-12-28 17:19:24	+FrostFeline	totally
+2015-12-28 17:19:30	hosler	im a wizard
+2015-12-28 17:19:39	 *	hosler shoots gentoo out of his mandrake
+2015-12-28 17:20:00	hosler	thus gentoo is born
+2015-12-28 17:20:15	SpaceToast	gentoo is lunar, but not weird :^)
+2015-12-28 17:20:23	hosler	hey SpaceToast
+2015-12-28 17:20:26	hosler	make me a spell
+2015-12-28 17:20:27	+FrostFeline	hosler: Funny you should say "Wizard"
+2015-12-28 17:20:28	<════	r3g3x (~r3g3x@unaffiliated/r3g3x) has quit (Remote host closed the connection)
+2015-12-28 17:20:37	SpaceToast	btw, I'm curious, anyone here using paludis or pkgcore?
+2015-12-28 17:20:54	+FrostFeline	hosler: Mandrake was rebranded to Mandriva because the owner of "Mandrake the magician" sued Mandriva
+2015-12-28 17:20:54	 *	SpaceToast casts hosler-itis-magicahnum
+2015-12-28 17:21:02	hosler	no i need a spell i can use
+2015-12-28 17:21:13	 *	FrostFeline gives hosler a magic missile
+2015-12-28 17:21:14	hosler	FrostFeline: yeah thats me
+2015-12-28 17:21:21	hosler	no i dont need magical item
+2015-12-28 17:22:01	@Monkeh	tamiko: Refreshingly I own a machine which has little if any Realtek hardware in it
+2015-12-28 17:22:22	+tamiko	Monkeh: This is surprising. Very old, or very new?
+2015-12-28 17:22:31	@Monkeh	tamiko: Semi-recently. Price tag in four figures.
+2015-12-28 17:22:39	+tamiko	Monkeh: Ah. :-D
+2015-12-28 17:22:40	@Monkeh	(originally.. I did not pay that)
+2015-12-28 17:22:54	FuZi0N	SpaceToast that's really helpful
+2015-12-28 17:22:55	FuZi0N	thanks
+2015-12-28 17:23:04	hosler	give her a ++
+2015-12-28 17:23:08	SpaceToast	^
+2015-12-28 17:23:09	hosler	SpaceToast++
+2015-12-28 17:23:11	 *	SpaceToast wants dat karma
+2015-12-28 17:23:20	@Monkeh	tamiko: The pricetag of a Latitude includes a no-Realtek-crap guarantee. Or near enough.
+2015-12-28 17:23:29	@Monkeh	tamiko: So did Thinkpads at one point
+2015-12-28 17:24:04	+tamiko	Monkeh: Jup. This t540p here has... - just guess what sound chip...
+2015-12-28 17:24:10	hosler	FuZi0N: what channel is your friend in
+2015-12-28 17:24:11	@Monkeh	Realtek?
+2015-12-28 17:24:12	@Monkeh	:)
+2015-12-28 17:24:25	hosler	nm thats weird
+2015-12-28 17:24:57	@Monkeh	tamiko: My old R61 was a Sigmatel iirc.. this has IDT.
+2015-12-28 17:25:06	FuZi0N	irc.internetz.me:+6697
+2015-12-28 17:25:08	FuZi0N	#main
+2015-12-28 17:25:15	FuZi0N	nick defiler
+2015-12-28 17:25:19	hosler	too lazy
+2015-12-28 17:25:22	+FrostFeline	What's wrong with Realtek sound chips?
+2015-12-28 17:25:27	FuZi0N	ill pastebin
+2015-12-28 17:25:31	+FrostFeline	Or realtek in general?
+2015-12-28 17:25:34	FuZi0N	he clarified his statement
+2015-12-28 17:25:34	@Monkeh	FrostFeline: Everything
+2015-12-28 17:25:54	+FrostFeline	I've got a realtek gigabit nic, seems legit.
+2015-12-28 17:26:14	@Monkeh	imately cheap and nasty
+2015-12-28 17:27:09	+FrostFeline	Monkeh: http://amzn.com/B003CFATNI My nic
+2015-12-28 17:27:31	@Monkeh	The very definition.
+2015-12-28 17:27:37	+tamiko	Monkeh: Touché, touché.
+2015-12-28 17:27:57	+FrostFeline	Monkeh: But it's made by tp-link and they make nice soho routers.
+2015-12-28 17:28:05	+tamiko	I remember the very first generation of Realtek's Gigabit NICs.
+2015-12-28 17:28:11	FuZi0N	http://pastebin.com/YH8vQ5e8
+2015-12-28 17:28:12	+tamiko	They barely performed above 100MBit.
+2015-12-28 17:28:14	FuZi0N	pls read
+2015-12-28 17:28:29	@Monkeh	FrostFeline: Using the cheapest QCA chipsets available.
+2015-12-28 17:28:40	@Monkeh	.. that said, they're perfectly functional if you're not expecting high performance.
+2015-12-28 17:28:52	+FrostFeline	I get gigabit out of that nic
+2015-12-28 17:29:05	+FrostFeline	Not sure what you mean.
+2015-12-28 17:29:06	SpaceToast	err....
+2015-12-28 17:29:15	+FrostFeline	or are you talking about the tp-link routers?
+2015-12-28 17:29:21	@Monkeh	Both.
+2015-12-28 17:29:24	SpaceToast	FuZi0N: I'm just going to say that your friend has no clue on what he's talking about and stop there
+2015-12-28 17:29:34	FuZi0N	lol
+2015-12-28 17:29:37	FuZi0N	ok
+2015-12-28 17:29:46	════>	zlg (~daniel@gentoo/developer/zlg) has joined #gentoo-chat
+2015-12-28 17:29:46	--	Mode #gentoo-chat [+v zlg] by ChanServ
+2015-12-28 17:30:04	FuZi0N	yeah... i thought he was wayyy off when he was comparing ubuntu to gentoo hardened
+2015-12-28 17:30:06	eroen	!karma SpaceToast
+2015-12-28 17:30:07	+willikins	eroen: karma for SpaceToast: 9
+2015-12-28 17:30:12	eroen	!karma shiznix
+2015-12-28 17:30:13	+willikins	eroen: karma for shiznix: 2
+2015-12-28 17:30:14	SpaceToast	hey eroen :)
+2015-12-28 17:30:20	eroen	!karma shingetsu
+2015-12-28 17:30:20	+willikins	eroen: karma for shingetsu: 8
+2015-12-28 17:30:25	SpaceToast	heh
+2015-12-28 17:30:26	eroen	o/ SpaceToast
+2015-12-28 17:30:40	+tamiko	!karma jobs
+2015-12-28 17:30:40	+willikins	tamiko: karma for jobs: -1656
+2015-12-28 17:30:43	SpaceToast	hah
+2015-12-28 17:30:44	eroen	!karma verbose
+2015-12-28 17:30:44	+willikins	eroen: karma for verbose: -1863
+2015-12-28 17:30:48	FuZi0N	there is no such thing is "ubuntu naturally hardened kernel" right?
+2015-12-28 17:30:48	@Monkeh	I think it's generally wise not to take advice from people who have difficulty with spelling simple words.
+2015-12-28 17:30:57	FuZi0N	ahah
+2015-12-28 17:31:17	 *	Monkeh returns to drawing
+2015-12-28 17:31:19	SpaceToast	FuZi0N: read https://wiki.ubuntu.com/SecurityTeam/Roadmap/KernelHardening on ubuntu and hardened kernels
+2015-12-28 17:31:22	 *	eroen prefers his kernels all-organic
+2015-12-28 17:31:32	SpaceToast	FuZi0N: the primary reason to use gentoo is that it is far more flexible in what it can do
+2015-12-28 17:31:35	+zlg	I just had an idea; would there be a way to design a (more) secure IRC network that relies on GPG keys for identification instead of plaintext passwords?
+2015-12-28 17:31:51	+tamiko	!karma willikins
+2015-12-28 17:31:51	+willikins	tamiko: karma for willikins: -8
+2015-12-28 17:31:54	eroen	passwords for irc? :O
+2015-12-28 17:32:08	eroen	willikins++
+2015-12-28 17:32:08	+willikins	eroen: =D
+2015-12-28 17:32:11	SpaceToast	zlg: why not the SSL cert stuff that already exists?
+2015-12-28 17:32:15	FuZi0N	SpaceToast: for example?
+2015-12-28 17:32:24	+zlg	SpaceToast: Because the CA model is broken.
+2015-12-28 17:32:36	SpaceToast	FuZi0N: on a proper gentoo setup, everything is very cleanly interconnected, with no fluff around the edges. This is thanks to the USE flag mechanics that portage (and derivatives) uses
+2015-12-28 17:32:41	+zlg	It's centralized and largely controlled by corporations.
+2015-12-28 17:32:50	eroen	zlg: irc/sasl has no ca :P
+2015-12-28 17:33:06	SpaceToast	FuZi0N: ubuntu has one very specific use case in mind, and wanting anything outside of that is borderline impossible to set up (even things inside of that can get messy!)
+2015-12-28 17:33:08	+zlg	GPG has keyservers, but no single keyserver is more important than another, and they aren't really required.
+2015-12-28 17:33:25	+zlg	eroen: Self-signed?
+2015-12-28 17:33:27	SpaceToast	FuZi0N: moreover, Gentoo allows you to get newer releases of packages faster, since there is no release system as in most binary distributions
+2015-12-28 17:33:39	+zlg	SpaceToast: In theory*
+2015-12-28 17:33:54	+zlg	Not all packages will get updated in a timely manner as it depends on how much time the maintainer has :P
+2015-12-28 17:34:04	+zlg	I know I was a bit late in updating apulse.
+2015-12-28 17:34:07	+zlg	By a few days.
+2015-12-28 17:34:13	SpaceToast	yes zlg, but typically still faster than the 6 months you gotta wait on *buntu :P
+2015-12-28 17:34:18	+zlg	oh, haha.
+2015-12-28 17:34:22	+zlg	Yeah, far faster than that.
+2015-12-28 17:34:29	SpaceToast	that was my point, lol
+2015-12-28 17:34:36	FuZi0N	SpaceToast: but what about in terms of security?
+2015-12-28 17:34:36	+zlg	But I thought package updates still happen on an Ubuntu release...
+2015-12-28 17:34:40	+tamiko	zlg: Well, at least a fourth of the gentoo repository is a bit unmaintained as well.
+2015-12-28 17:34:49	+zlg	tamiko: Wow is it that bad?
+2015-12-28 17:35:08	SpaceToast	FuZi0N: finally, since Gentoo effectively forces (outside of public binhosts) you to compile everything, packages will tend to run faster, since they can be optimized more closely for your specific hardware, rather than try and be working in as many places as possible
+2015-12-28 17:35:09	+zlg	I've honestly never figured out how to do meta analysis on the tree.
+2015-12-28 17:35:15	SpaceToast	FuZi0N: in terms of security there are two parts to it
+2015-12-28 17:35:40	+FrostFeline	Monkeh: Not sure what you mean by that. That gigabit nic by TP-Link does have gigabit performance.
+2015-12-28 17:35:43	+zlg	I'm sure find, grep, and wc would get me far.
+2015-12-28 17:36:03	SpaceToast	FuZi0N: first of all, toolchain hardening is a thing (in fact, there are packages that allow you to use a hardened toolchain and harden everything possible by defailt), which means that many vulnerabilities will be caught at compile time or similar
+2015-12-28 17:36:12	SpaceToast	(though, as your friend pointed out, this isn't TERRIBLY important)
+2015-12-28 17:36:14	+tamiko	zlg: Well, don't trust random numbers ;-)
+2015-12-28 17:36:38	+zlg	Like 14? :P
+2015-12-28 17:36:38	+tamiko	zlg: Luckily, the part of the tree that is unmaintained tends to highly coincide with dead upstream anyway.
+2015-12-28 17:36:41	@Monkeh	FrostFeline: That very much depends on what you put through it and how well it likes the cabling. Plus, y'know, offload functionality is nice, Realtek aren't good at that.
+2015-12-28 17:36:53	+zlg	tamiko: That's at least somewhat of a relief.
+2015-12-28 17:36:57	SpaceToast	FuZi0N: secondly, Gentoo has a very good track record of applying security related patches very quickly, as well as backporting them. This is much easier for Gentoo systems to do, since there is no lengthy process of remaking packages and updating binary repos involved, and rather a simple bump in an ebuild with a new patch file.
+2015-12-28 17:37:08	+zlg	SpaceToast: ++
+2015-12-28 17:37:08	+FrostFeline	Monkeh: Are you talking about TCP checksum offload?
+2015-12-28 17:37:22	@Monkeh	FrostFeline: There's a lot of other things you can offload..
+2015-12-28 17:37:48	SpaceToast	FuZi0N: it is important to note, that a vast majority of actual security issues tend to happen due to USER error, rather than security issues in software. Though if the latter is what you're worried about, Gentoo is one of the best choices.
+2015-12-28 17:38:05	hosler	also gentoo community is best community
+2015-12-28 17:38:10	eroen	^
+2015-12-28 17:38:20	hosler	because eroen
+2015-12-28 17:38:20	eroen	and gentoo is BestOS
+2015-12-28 17:38:33	eroen	and famous chemist hosler
+2015-12-28 17:38:37	+zlg	hosler: ++
+2015-12-28 17:38:38	hosler	im a wizard
+2015-12-28 17:38:48	eroen	no, bernalex is wizard
+2015-12-28 17:38:48	SpaceToast	FuZi0N: the primary DOWNSIDE to Gentoo is that it does have a learning curve (since you need to learn how to properly use all that extra flexibility it gives you), as well as installing larger packages (e.g firefox) takes far longer, since you must compile them (note: compiling smaller packages from source can sometimes be faster than downloading the binaries for them, under some circumstances!)
+2015-12-28 17:38:59	+FrostFeline	Monkeh: Oh
+2015-12-28 17:39:00	+zlg	I've used a handful of distros and I have to say the Gentoo community's been the best imo.
+2015-12-28 17:39:11	hosler	i can install gentoo in 20 minutes
+2015-12-28 17:39:18	+FrostFeline	Monkeh: And what about the TP-Link routers?
+2015-12-28 17:39:20	+zlg	I never felt like I was welcome or encouraged to contribute with Ubuntu, Debian, or Arch.
+2015-12-28 17:39:29	eroen	hosler: I have a script that does it in 1
+2015-12-28 17:39:33	SpaceToast	anyway, FuZi0N, hopefully you can easily tell that 1. "nobody uses it" is outright false; and 2. if that argument mattered, it would apply to linux in general, making the very argument outright silly
+2015-12-28 17:39:35	hosler	no way
+2015-12-28 17:39:38	@Monkeh	FrostFeline: They're slow MIPS things
+2015-12-28 17:39:57	+zlg	eroen: It takes over a minute to bootstrap stage3 and sync :P
+2015-12-28 17:39:58	+tamiko	hosler: What? Takes you that long? I do a $ c-clone amd64 and I have a fresh install (in a VM). Almost instantaneous :-P
+2015-12-28 17:39:59	SpaceToast	zlg: with Arch it's a bit better (the AUR is fairly inviting), but it's not "proper" contributing. Ubuntu and Debian? forget about htat
+2015-12-28 17:40:08	eroen	hosler: ya way. https://bpaste.net/show/95e312cb50e0
+2015-12-28 17:40:15	eroen	(it's kinda half-baked, tho.
+2015-12-28 17:40:16	+FrostFeline	Monkeh: Slow in what sense? I get full gigabit out of my TP-Link gear.
+2015-12-28 17:40:18	hosler	tamiko: you must use cheat codes
+2015-12-28 17:40:46	hosler	eroen: do i see genkernel
+2015-12-28 17:40:47	+FrostFeline	Monkeh: The only limitation is you can get gigabit over a VPN if you use the TP-Link as the concentrator.
+2015-12-28 17:40:50	+zlg	SpaceToast: Yeah. Couple the poor quality of AUR's PKGBUILDs and how elitist the community became (especially after Judd's retirement from the project) and you have what's left of a distro that held great promise.
+2015-12-28 17:40:56	+zlg	At least their wiki's pretty good.
+2015-12-28 17:41:03	@Monkeh	FrostFeline: Full gigabit doing.. what?
+2015-12-28 17:41:04	SpaceToast	agreed zlg :)
+2015-12-28 17:41:11	+zlg	I can't be too harsh on Arch, though; they drove me to come here :)
+2015-12-28 17:41:13	@Monkeh	FrostFeline: As a dumb switch I would expect nothing else..
+2015-12-28 17:41:16	SpaceToast	exactly :)
+2015-12-28 17:41:21	+tamiko	hosler: Well, $ btrfs clone [...] and a sketchy script that copies the container configuration.
+2015-12-28 17:41:31	hosler	yeah thats cheating
+2015-12-28 17:41:38	+zlg	I wouldn't have learned as much about Linux if it wasn't for Gentoo.
+2015-12-28 17:41:40	+FrostFeline	Monkeh: routing packets of course,
+2015-12-28 17:41:49	+zlg	my first self-compiled, self-configured kernel was on Gentoo
+2015-12-28 17:41:50	eroen	hosler: not quite, it relies on a pre-built kernel and initramfs
+2015-12-28 17:42:08	@Monkeh	FrostFeline: I very much doubt it can route at 1Gbps with any sort of complexity in the rules.
+2015-12-28 17:42:11	hosler	eroen: my 20 minutes includes custom kernel build
+2015-12-28 17:42:13	+zlg	Speaking of VMs...
+2015-12-28 17:42:15	+tamiko	My whole LInux experience was and is on Gentoo.
+2015-12-28 17:42:38	+tamiko	Somehow boring :-/
+2015-12-28 17:42:49	+zlg	hosler: Any suggestions on how to best work with a VPS? I want to build packages on an identical VM and then make those packages available to the remote VPS. Is that a good model?
+2015-12-28 17:42:52	+FrostFeline	Monkeh: Well the device only has 2 interfaces, usually. The rules can't be that complex in the first place.
+2015-12-28 17:42:54	Viperlin	try others, you'll cry
+2015-12-28 17:42:56	+zlg	I used to use a chroot but it had some odd behaviors.
+2015-12-28 17:42:59	@Monkeh	Sure they can
+2015-12-28 17:43:05	hosler	zlg: just build on vps
+2015-12-28 17:43:17	hosler	no reason not to
+2015-12-28 17:43:21	+zlg	Time?
+2015-12-28 17:43:22	+FrostFeline	Monkeh: Unless you use the swconfig to split the switch.
+2015-12-28 17:43:32	+zlg	I guess I could set the number of jobs to a lower value..
+2015-12-28 17:43:43	hosler	i have several gentoo vps
+2015-12-28 17:43:46	hosler	well i did
+2015-12-28 17:44:01	hosler	compile time was never any more of an issue than on my primary laptop
+2015-12-28 17:44:31	+zlg	It's a somewhat cheap VPS.
+2015-12-28 17:44:38	hosler	yeah all my vps are lowend
+2015-12-28 17:44:40	+zlg	But it's not like I host anything terribly complex.
+2015-12-28 17:44:50	 *	Viperlin takes off every zlg 
+2015-12-28 17:44:52	+zlg	I'm thinking about a restructure.
+2015-12-28 17:44:56	+zlg	Viperlin: haha
+2015-12-28 17:44:59	+FrostFeline	Monkeh: Maybe  I'm thinking of it the wrong way...?
+2015-12-28 17:45:01	hosler	you can do vagrant setup
+2015-12-28 17:45:14	+tamiko	zlg: I have a 900MB Gentoo VPS for years now.
+2015-12-28 17:45:23	+zlg	tamiko: Wow. What does it host?
+2015-12-28 17:45:31	+zlg	hosler: Can't say I'm familiar with vagrarnt.
+2015-12-28 17:45:33	+zlg	vagrant*
+2015-12-28 17:45:42	hosler	zlg: pretty much one computer to rule them all
+2015-12-28 17:45:55	hosler	change on main computer will change on all slaves
+2015-12-28 17:46:23	+FrostFeline	I know there's some complex traffic shaping  things you can do with openwrt and friends.
+2015-12-28 17:46:32	+tamiko	zlg: It is running an apache with postgres. And did also serve as a mumble server until recently.
+2015-12-28 18:07:53	--	irc: disconnected from server
+2015-12-28 18:08:42	════>	msjche (~msjche@unaffiliated/msjche) has joined #gentoo-chat
+2015-12-28 18:08:42	--	Topic for #gentoo-chat is "Welcome to #Gentoo-Chistmas. Read our chan policy - https://gchat.gentooligans.com | We are a Gentoo channel so be respectful! This is not an 'official' support chan! Use #Gentoo for that! | https://xkcd.com/1357/ | http://releases.gentooligans.com  | nappy xmoose (all rights reserved hosler Tm) |"
+2015-12-28 18:08:42	--	Topic set by edit_21 (~edit_21@unaffiliated/edit21/x-00000001) on Thu, 24 Dec 2015 13:31:14
+2015-12-28 18:08:43	--	Channel #gentoo-chat: 206 nicks (3 ops, 126 voices, 77 normals)
+2015-12-28 18:08:50	+Milo-	on other news, Lemmy died :o
+2015-12-28 18:08:58	+Milo-	I was fairly certain he'd live forever.
+2015-12-28 18:08:59	SpaceToast	so I guess whoever was asking the questions is goner
+2015-12-28 18:09:01	SpaceToast	gone*
+2015-12-28 18:09:07	--	Channel created on Sat, 25 Nov 2006 22:43:03
+2015-12-28 18:09:08	SpaceToast	maybe they got overwhelmed by my lengthy answers
+2015-12-28 18:09:12	+FrostFeline	Yeah it's gone.
+2015-12-28 18:09:24	+FrostFeline	It's fairly simple to use a low power beam to power the radio reciever on the other end. and have that receiver send an "alive" signal.
+2015-12-28 18:09:33	+Milo-	born on 25th of december, died on 26th of december
+2015-12-28 18:10:08	+FrostFeline	Milo-: Who?
+2015-12-28 18:10:16	+Milo-	Lemmy Kilmister
+2015-12-28 18:10:46	<════	khumba (~khumba@unaffiliated/khumba) has quit (Quit: Ja mata.)
+2015-12-28 18:11:48	<════	keytoaster (~tobias@gentoo/developer/keytoaster) has quit (Ping timeout: 272 seconds)
+2015-12-28 18:13:36	+FrostFeline	I think a home fully powered  by power beaming would be pretty slick though. Milo-, imagine the headlines "Hacker gives person 3rd degree burns"
+2015-12-28 18:13:38	+FrostFeline	xd
+2015-12-28 18:15:05	<════	mvaenskae (~mvaenskae@unaffiliated/mvaenskae) has quit (Ping timeout: 255 seconds)
+2015-12-28 18:15:20	+Milo-	:p
+2015-12-28 18:15:58	+Milo-	in the 90s, the media was so clueless about hacking that they kept spreading rumours how hackers can make any device explode.
+2015-12-28 18:18:09	AsumFace	>i'm'p'l'y'i'n'g' 't'h'e'y' c'a'n''t'
+2015-12-28 18:18:27	AsumFace	am i doing this right?
+2015-12-28 18:18:33	+Griz64	hahahahaha
+2015-12-28 18:18:36	════>	keytoaster (~tobias@217.79.215.98) has joined #gentoo-chat
+2015-12-28 18:18:36	<════	keytoaster (~tobias@217.79.215.98) has quit (Changing host)
+2015-12-28 18:18:36	════>	keytoaster (~tobias@gentoo/developer/keytoaster) has joined #gentoo-chat
+2015-12-28 18:18:36	--	Mode #gentoo-chat [+v keytoaster] by ChanServ
+2015-12-28 18:18:37	+Milo-	:D
+2015-12-28 18:18:39	+Griz64	you bad, AsumFace!
+2015-12-28 18:18:39	+FrostFeline	AsumFace: I don't understand what you're implying
+2015-12-28 18:19:41	+FrostFeline	I'm sure power beaming firmware could be designed to be read only and only allow beaming to unobstructed devices that have the proper signalling in place.
+2015-12-28 18:19:48	+FrostFeline	but that assumes it's well designed.
+2015-12-28 18:19:58	════>	fefelix2 (~fefe@x4d089fa9.dyn.telefonica.de) has joined #gentoo-chat
+2015-12-28 18:20:23	+Milo-	that's a dangerous assumption :)
+2015-12-28 18:20:40	+Milo-	and nothing is read-only :p
+2015-12-28 18:20:41	scryspc	Milo-: i had a sneaking suspicion things were going to catch up to him
+2015-12-28 18:20:58	<════	fefelix (~Miranda@x5d824f5e.dyn.telefonica.de) has quit (Ping timeout: 250 seconds)
+2015-12-28 18:21:12	+Milo-	scryspc which "him"?
+2015-12-28 18:21:16	scryspc	Milo-: lemmy
+2015-12-28 18:21:20	+Milo-	ah
+2015-12-28 18:21:27	<════	fefelix1 (~fefe@x5d824f5e.dyn.telefonica.de) has quit (Ping timeout: 260 seconds)
+2015-12-28 18:21:33	+FrostFeline	Milo-: EEPROM is read only if you sever the write pin.
+2015-12-28 18:22:01	scryspc	switching from whiskey to vodka for health reasons...c'mon
+2015-12-28 18:22:03	+Milo-	"what doesn't kill, you makes you stronger" :p
+2015-12-28 18:22:05	scryspc	and he said that just four months ago
+2015-12-28 18:22:23	+Milo-	he's been using drugs and alcohol in insane amounts for most of his life
+2015-12-28 18:22:34	scryspc	right
+2015-12-28 18:24:55	SpaceToast	hey Griz64 :)
+2015-12-28 18:25:55	scryspc	but eventually it was cancer
+2015-12-28 18:26:02	+Milo-	indeed
+2015-12-28 18:26:54	<════	keytoaster (~tobias@gentoo/developer/keytoaster) has quit (Ping timeout: 256 seconds)
+2015-12-28 18:31:13	Viperlin	scryspc: also switched from coca-cola to vodka for health reasons
+2015-12-28 18:31:19	Viperlin	diabeetus
+2015-12-28 18:31:29	Viperlin	\m/
+2015-12-28 18:33:45	════>	srlang (~srlang@98.122.144.77) has joined #gentoo-chat
+2015-12-28 18:34:12	════>	keytoaster (~tobias@217.79.215.98) has joined #gentoo-chat
+2015-12-28 18:34:12	<════	keytoaster (~tobias@217.79.215.98) has quit (Changing host)
+2015-12-28 18:34:12	════>	keytoaster (~tobias@gentoo/developer/keytoaster) has joined #gentoo-chat
+2015-12-28 18:34:12	--	Mode #gentoo-chat [+v keytoaster] by ChanServ
+2015-12-28 18:35:45	════>	Phr33d0m (~x@gentoo/contributor/phr33d0m) has joined #gentoo-chat
+2015-12-28 18:37:40	+FrostFeline	Who here uses web forums?
+2015-12-28 18:38:33	Viperlin	literally everybody?
+2015-12-28 18:38:44	<════	twwwater (~tww@125.71.215.217) has quit (Ping timeout: 260 seconds)
+2015-12-28 18:39:03	+FrostFeline	Viperlin: For a long period from 2010-2013 I think I didn't use any web forums.
+2015-12-28 18:39:13	+FrostFeline	I spent all my time playing eve online and other games.
+2015-12-28 18:39:47	+FrostFeline	Reddit is just the meta-meta-forums :)
+2015-12-28 18:40:01	════>	N8Fear (~n8fear@233-15-142-46.pool.kielnet.net) has joined #gentoo-chat
+2015-12-28 18:43:14	<════	N8Fear_ (~n8fear@152-19-142-46.pool.kielnet.net) has quit (Ping timeout: 265 seconds)
+2015-12-28 18:43:29	SpaceToast	FrostFeline: I don't really like using forums. The closest I get is reddit and the very occasional gentoo forum post.
+2015-12-28 18:43:43	+FrostFeline	reddit is a forum though.
+2015-12-28 18:43:55	+FrostFeline	You post there, other people read and respond.
+2015-12-28 18:44:25	Viperlin	lots of things are forums, but people like to demonize popular forums
+2015-12-28 18:44:51	+stintel	the problem with most forums is heaps of useless posts :)
+2015-12-28 18:45:38	SpaceToast	FrostFeline: reddit is closer to a chan than a forum, and even then, I don't really participate much on that
+2015-12-28 18:45:48	+FrostFeline	What's the difference?
+2015-12-28 18:46:00	+stintel	I ran a few small forums myself, a long time ago
+2015-12-28 18:48:04	+Griz64	hey SpaceToast. how's you?
+2015-12-28 18:48:12	SpaceToast	exhausted ^^;;
+2015-12-28 18:48:14	SpaceToast	work sux
+2015-12-28 18:48:27	+Griz64	*nod*
+2015-12-28 18:48:39	+Griz64	i can and do sympathize.
+2015-12-28 18:48:40	 *	FrostFeline puts space butter and space jelly on SpaceToast
+2015-12-28 18:48:52	+FrostFeline	SpaceToast: Have a relaxing facial!
+2015-12-28 18:48:58	SpaceToast	tsk :P
+2015-12-28 18:49:14	 *	SpaceToast is seeding and burning that new live dvd
+2015-12-28 18:49:33	+FrostFeline	mmm
+2015-12-28 18:49:48	+FrostFeline	Seeding Linux ISOs, feelsgoodman
+2015-12-28 18:50:47	 *	AsumFace is just sitting here crawling gigabytes of websites
+2015-12-28 18:51:10	════>	catpigger (~catpig@p5B09E2CA.dip0.t-ipconnect.de) has joined #gentoo-chat
+2015-12-28 18:51:24	+zlg	FrostFeline: Which ISOs? I wouldn't mind seeding.
+2015-12-28 18:51:38	+zlg	I have an idle BT client :P
+2015-12-28 18:51:39	+FrostFeline	zlg: Gentoo/Kali
+2015-12-28 18:51:50	+zlg	Ah. Link to amd64 Gentoo torrent?
+2015-12-28 18:51:52	+FrostFeline	Well, those are the ones I have seeded in the past
+2015-12-28 18:52:26	+zlg	nevermind, we have a new website that makes that easier to do
+2015-12-28 18:52:50	+FrostFeline	I don't think gentoo has torrents any more
+2015-12-28 18:53:06	+FrostFeline	http://torrents.gentoo.org does not resolve
+2015-12-28 18:53:09	+zlg	Hmm.
+2015-12-28 18:53:13	+zlg	That sucks.
+2015-12-28 18:53:47	+FrostFeline	I wonder who the corporate sponsors for gentoo are?
+2015-12-28 18:53:50	kuzetsa	I just confirmed (doesn't resolve for me either)
+2015-12-28 18:54:16	+zlg	Huh, sure enough. I checked the "get Gentoo" page with all the options.
+2015-12-28 18:54:21	+zlg	No torrent(s) to be found.
+2015-12-28 18:54:42	+zlg	I wonder if my little VPS could host a simple tracker
+2015-12-28 18:54:52	+zlg	Enough for Gentoo-related torrents.
+2015-12-28 18:55:26	+FrostFeline	Not much point really.
+2015-12-28 18:55:30	<════	catpig (~catpig@91.9.231.242) has quit (Ping timeout: 272 seconds)
+2015-12-28 18:55:45	+FrostFeline	You won't get traffic if the gentoo website doesn't link to your torrents.
+2015-12-28 18:55:51	+zlg	True.
+2015-12-28 18:56:18	+zlg	infra would be better off doing it, or setting up something automated to generate torrent files and provide the initial seeding.
+2015-12-28 18:56:31	<════	CMEPTb (~CMEPTb@unaffiliated/cmeptb) has quit (Remote host closed the connection)
+2015-12-28 18:57:17	+Griz64	woops. i think i've got a broken system. :-(
+2015-12-28 18:57:23	+Griz64	Griz64-QuadCore ~ # emerge --sync
+2015-12-28 18:57:24	+Griz64	>>> Syncing repository 'gentoo' into '/usr/portage'...
+2015-12-28 18:57:24	+Griz64	!!! /usr/portage appears to be under revision control (contains .git).
+2015-12-28 18:57:24	+Griz64	!!! Aborting rsync sync.
+2015-12-28 18:57:25	+Griz64	 
+2015-12-28 18:57:45	+FrostFeline	Griz64: *crash boom sizzle*
+2015-12-28 18:58:10	+FrostFeline	zlg: Maybe gentoo just has enough big iron to host the normal files?
+2015-12-28 18:58:18	+zlg	Griz64: /etc/portage/repos.conf/gentoo.conf contents?
+2015-12-28 18:58:35	+zlg	FrostFeline: Probably. I've never had issues with direct downloads.
+2015-12-28 18:59:19	+zlg	Welp, time to get some chores done so I can mess with the VPS later.
+2015-12-28 18:59:22	+zlg	bbiab
+2015-12-28 19:00:51	════>	weker (~user@2a02:908:cf12:96c0:52e5:49ff:fe52:cc45) has joined #gentoo-chat
+2015-12-28 19:01:40	════>	audiodef (~Audiodef@172.77.242.227) has joined #gentoo-chat
+2015-12-28 19:05:14	<════	weker (~user@2a02:908:cf12:96c0:52e5:49ff:fe52:cc45) has left #gentoo-chat ("Leaving")
+2015-12-28 19:05:28	+nebg	some idea on how to show file size even for hidden files ?
+2015-12-28 19:05:34	+nebg	i used du -sh *
+2015-12-28 19:05:41	+nebg	but it doesn't show me size of hidden files
+2015-12-28 19:06:05	+FrostFeline	bah
+2015-12-28 19:06:07	AsumFace	-a
+2015-12-28 19:06:23	+nebg	AsumFace, no it will show them revursively in that case
+2015-12-28 19:06:27	+FrostFeline	The bluray VUKs for Jet Li's "The One" haven't been released yet.
+2015-12-28 19:06:40	+FrostFeline	So now my bluray is a nice coaster :D
+2015-12-28 19:07:37	+FrostFeline	I've seen some of the requirements for AACS licensing...
+2015-12-28 19:07:44	AsumFace	-d1 -a maybe?
+2015-12-28 19:07:48	+FrostFeline	big media is so bad at everything
+2015-12-28 19:09:18	+perfinion	nebg: there is a shopt to make globbing do hidden files too, alternatively i just du -sh * .* :P
+2015-12-28 19:09:47	<════	fefelix2 (~fefe@x4d089fa9.dyn.telefonica.de) has quit (Remote host closed the connection)
+2015-12-28 19:10:07	+nebg	perfinion, it doesn't work...
+2015-12-28 19:10:13	+nebg	:(
+2015-12-28 19:10:28	+perfinion	nebg: i like: du -cxh -d1 . | sort -h
+2015-12-28 19:10:59	+perfinion	-c is total, -h is human, -d1 means go only one deep in the current dir
+2015-12-28 19:11:06	+perfinion	then sort it in order
+2015-12-28 19:11:29	+perfinion	-x is dont cross filesystem boundaries cuz i have a lot of NFS mounts
+2015-12-28 19:14:05	 *	jesuisb gives an -s for summary
+2015-12-28 19:14:20	+FrostFeline	night
+2015-12-28 19:15:24	+perfinion	jesuisb: no, summary conflicts with -d1
+2015-12-28 19:15:38	+perfinion	-s means like 0-deep, -d1 means 1-deep
+2015-12-28 19:16:26	jesuisb	huh, i never use depth
+2015-12-28 19:16:56	<════	audiodef (~Audiodef@172.77.242.227) has quit (Remote host closed the connection)
+2015-12-28 19:17:35	SpaceToast	zlg sorry missed it: https://forums.gentoo.org/viewtopic-t-1036050.html
+2015-12-28 19:24:11	+FrostFeline	SpaceToast: That's cute http://store.steampowered.com/app/391570/
+2015-12-28 19:24:33	+FrostFeline	SpaceToast: The windows recommended hardware specs for the undertale OST is Windows 90 Million nad 999GB of RAM.
+2015-12-28 19:24:43	SpaceToast	heh
+2015-12-28 19:24:45	SpaceToast	GOTY tho
+2015-12-28 19:24:55	+FrostFeline	I didn't know Windows was getting that far in versions
+2015-12-28 19:25:03	+FrostFeline	Where did Undertale make GOTY?
+2015-12-28 19:25:54	SpaceToast	in my heart (and TotalBiscuit's top 10)
+2015-12-28 19:26:00	+nebg	perfinion, thanks
+2015-12-28 19:26:35	+nebg	perfinion, you gave me many useful info... thank you man
+2015-12-28 19:26:39	+nebg	or woman...
+2015-12-28 19:26:40	+nebg	i don't know
+2015-12-28 19:26:56	+perfinion	heh
+2015-12-28 19:27:53	<════	linux_dream (~linux_dre@unaffiliated/linux-dream/x-5839402) has quit (Quit: Leaving)
+2015-12-28 19:31:34	════>	MattiMo (~MattiMo@c-98-236-101-117.hsd1.wv.comcast.net) has joined #gentoo-chat
+2015-12-28 19:33:03	<════	MattiMo_ (~MattiMo@c-98-236-101-117.hsd1.wv.comcast.net) has quit (Ping timeout: 245 seconds)
+2015-12-28 19:36:39	<════	tangent (~tangent@unaffiliated/lythandrel) has quit (Ping timeout: 240 seconds)
+2015-12-28 19:37:10	<════	lythandrel (~tangent@unaffiliated/lythandrel) has quit (Ping timeout: 256 seconds)
+2015-12-28 19:37:17	════>	twwwater (~tww@125.71.215.217) has joined #gentoo-chat
+2015-12-28 19:37:18	hosler	why not both
+2015-12-28 19:37:19	════>	MattiMo_ (~MattiMo@108.59.8.1) has joined #gentoo-chat
+2015-12-28 19:40:08	<════	MattiMo (~MattiMo@c-98-236-101-117.hsd1.wv.comcast.net) has quit (Ping timeout: 255 seconds)
+2015-12-28 19:43:18	+Griz64	ah christoncruches!
+2015-12-28 19:43:43	hosler	what you do
+2015-12-28 19:43:46	+Griz64	my box hasn't been 'validly' updated for over a month!
+2015-12-28 19:44:21	+Griz64	gonna have to put a checker in the codebase of 'update' for this. :-\
+2015-12-28 19:44:35	hosler	how do you do a non valid update
+2015-12-28 19:44:51	+Griz64	i wasn't getting a valid --sync
+2015-12-28 19:45:00	+Griz64	so, the machine didn't see any changes in portage
+2015-12-28 19:45:43	════>	FrozenPigs (~FrozenPig@unaffiliated/frozenpigs) has joined #gentoo-chat
+2015-12-28 19:49:53	════>	lythandrel (~tangent@unaffiliated/lythandrel) has joined #gentoo-chat
+2015-12-28 19:56:29	<════	lythandrel (~tangent@unaffiliated/lythandrel) has quit (Ping timeout: 246 seconds)
+2015-12-28 20:02:10	<════	catpigger (~catpig@p5B09E2CA.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2015-12-28 20:07:49	<════	Phr33d0m (~x@gentoo/contributor/phr33d0m) has quit (Read error: Connection reset by peer)
+2015-12-28 20:08:02	════>	Phr33d0m (~x@gentoo/contributor/phr33d0m) has joined #gentoo-chat
+2015-12-28 20:09:38	════>	lythandrel (~tangent@unaffiliated/lythandrel) has joined #gentoo-chat
+2015-12-28 20:10:03	════>	tangent (~tangent@unaffiliated/lythandrel) has joined #gentoo-chat

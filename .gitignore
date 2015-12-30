@@ -22,4 +22,4 @@
 .mutt/com*
 Scripts/mps
 .mpd/playlists/default.m3u
-.weechat/logs/
+.weechat/logs/*

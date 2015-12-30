@@ -1207,3 +1207,888 @@
 2015-12-19 20:26:04	<════	TheoryCat (TheoryCat@unaffiliated/wye-naught/x-8734122) has quit (Quit: TheoryCat)
 2015-12-19 20:26:27	════>	mrkent (~textual@unaffiliated/mrkent) has joined #python
 2015-12-19 20:27:48	<════	threeminutemonta (~david@ppp118-209-109-247.lns20.mel4.internode.on.net) has quit (Ping timeout: 256 seconds)
+2015-12-28 16:01:56	════>	msjche (~msjche@unaffiliated/msjche) has joined #python
+2015-12-28 16:01:56	--	Topic for #python is "Don't paste, use https://bpaste.net/+python | http://bit.ly/psf-coc | NO LOL | Tutorial: http://bit.ly/MCAhYx | New programmer? http://goo.gl/c170V | Specify 2.x or 3.x in your question | Find your local User Group: http://goo.gl/S1Zsq | #python-fr #python.de #python-es #python.tw #python.pl #python-br #python-nl #python-ir #python.it #python-ro #python-india #python-hu #python-dev"
+2015-12-28 16:01:56	--	Topic set by ssbr_at_work (scorchsabe@python/site-packages/ssbr) on Tue, 01 Sep 2015 00:01:20
+2015-12-28 16:01:56	--	Channel #python: 1619 nicks (0 ops, 0 voices, 1619 normals)
+2015-12-28 16:01:57	--	Channel created on Sat, 25 Nov 2006 22:42:41
+2015-12-28 16:02:13	MindDrive	WeiJunLi: I wouldn't use a class for this case.  I can't get involved much more right now as I'm at work and need to take care of things - you might want to look up some information on decorators to better understand how they work.
+2015-12-28 16:02:43	<════	Muffinlicious (~muffinlic@2602:306:bcbf:a9b0:5cbe:f902:7bb:ebff) has quit
+2015-12-28 16:02:51	════>	cdown (~cdown@dab-crx1-h-58-1.dab.02.net) has joined #python
+2015-12-28 16:02:55	samtunez	Seann8: agronholm by type() from the object I get byte
+2015-12-28 16:04:42	<════	magz0r (~magz0r@162.222.47.218) has quit (Ping timeout: 265 seconds)
+2015-12-28 16:04:58	Seann8	samtunez: .decode() should do the trick
+2015-12-28 16:05:02	<════	gmago (~gmago@177.98.135.198) has quit (Remote host closed the connection)
+2015-12-28 16:05:23	<════	Belxjander (~Belxjande@sourcemage/Mage/Abh-Elementalist) has quit (Ping timeout: 264 seconds)
+2015-12-28 16:05:23	<════	joephelius_ (~joe@46.166.188.223) has quit (Ping timeout: 264 seconds)
+2015-12-28 16:05:54	<════	clearcut__ (~clearcut_@31.176.252.225) has quit (Quit: Leaving)
+2015-12-28 16:05:54	════>	Belxjander (~Belxjande@sourcemage/Mage/Abh-Elementalist) has joined #python
+2015-12-28 16:06:28	<════	Berra (~arch@h240n1-lid-a11.ias.bredband.telia.com) has quit (Remote host closed the connection)
+2015-12-28 16:06:29	<════	nimomo (~nimomo@bzq-109-67-139-145.red.bezeqint.net) has quit (Ping timeout: 260 seconds)
+2015-12-28 16:06:43	<════	LionsMane (~don@2601:184:4500:9300:8dac:182e:c6b:b5f7) has quit (Quit: Leaving.)
+2015-12-28 16:06:56	<════	Roehmer (~roehmer@rrcs-72-43-100-122.nyc.biz.rr.com) has quit
+2015-12-28 16:07:07	samtunez	Seann8: Yep it works. Thanks
+2015-12-28 16:07:29	<════	michimuellae (~micha@p57B8CEFA.dip0.t-ipconnect.de) has quit (Ping timeout: 240 seconds)
+2015-12-28 16:07:30	<════	bill644 (~veroight@2001:8a0:d820:4e01:30af:57c9:2594:20eb) has quit (Ping timeout: 250 seconds)
+2015-12-28 16:08:59	<════	hexagoxel (~hexagoxel@x5f77b29e.dyn.telefonica.de) has quit (Ping timeout: 246 seconds)
+2015-12-28 16:09:32	<════	Betal (~Betal@unaffiliated/betal) has quit (Ping timeout: 255 seconds)
+2015-12-28 16:09:48	════>	hexagoxel (~hexagoxel@x4d0668de.dyn.telefonica.de) has joined #python
+2015-12-28 16:09:48	════>	TheCowboy (~TheCowboy@ool-4570c946.dyn.optonline.net) has joined #python
+2015-12-28 16:09:53	ljetibo	WeiJunLi: but it's not like you say, the way you def'd your UniqueName class means that if you decorate whatever method with it you will *intercept* every call made to that method, try it. I mean, just type in a = Linter(); a.code_file("filename"); or god forbid you change the func, (I'm really not sure where you're going with this one, try i.e. a.code_file.func="sadasda", I mean what do you expect to do with func?)
+2015-12-28 16:10:24	════>	phretor (~phretor@2001:41d0:8:d805::1) has joined #python
+2015-12-28 16:10:26	════>	juiko (~user@pc-158-22-83-200.cm.vtr.net) has joined #python
+2015-12-28 16:10:38	ljetibo	you want that func to return self.None(file_name)?
+2015-12-28 16:10:42	════>	graffix222 (~graffix@c-68-61-90-47.hsd1.mi.comcast.net) has joined #python
+2015-12-28 16:11:20	<════	Rodeopants (~david@c-98-243-60-94.hsd1.mi.comcast.net) has quit (Quit: Leaving)
+2015-12-28 16:11:26	<════	krobzaur (~Kyle@50.247.237.177) has quit (Ping timeout: 246 seconds)
+2015-12-28 16:11:46	<════	Ninja3047 (~Ninja3047@static-72-74-246-2.bstnma.fios.verizon.net) has quit (Quit: WeeChat 1.3)
+2015-12-28 16:12:13	<════	bernalex (~alexander@gentoo/developer/fsf.member.bernalex) has quit (Ping timeout: 245 seconds)
+2015-12-28 16:12:53	════>	friends_ (dark@75.227.9.46.customer.cdi.no) has joined #python
+2015-12-28 16:12:55	════>	eefvx (~eefvx@105.156.139.27) has joined #python
+2015-12-28 16:13:08	<════	cyanboy (~cyanboy@unaffiliated/cyanboy) has quit (Ping timeout: 255 seconds)
+2015-12-28 16:13:17	════>	shangxiao (~shangxiao@103.224.86.17) has joined #python
+2015-12-28 16:13:37	<════	editshare-ericf (~chatzilla@173-14-129-9-NewEngland.hfc.comcastbusiness.net) has quit (Quit: ChatZilla 0.9.92 [Firefox 38.5.1/20151218095812])
+2015-12-28 16:13:50	<════	Seann8 (~sean@95-44-164-84-dynamic.agg2.ddm.bbh-prp.eircom.net) has quit
+2015-12-28 16:14:24	════>	plutoniix (~q@43.249.69.226) has joined #python
+2015-12-28 16:16:27	════>	fnstudio (~fabio@151.217.208.75) has joined #python
+2015-12-28 16:16:42	════>	moloch (~moloch@c-66-41-45-149.hsd1.mn.comcast.net) has joined #python
+2015-12-28 16:16:46	<════	buzzzz (~buzzzz@139.192.136.189) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2015-12-28 16:17:51	════>	sandlst (~sandlst@108-234-101-152.lightspeed.brhmal.sbcglobal.net) has joined #python
+2015-12-28 16:19:17	════>	brr (drums@xX.berryX.com) has joined #python
+2015-12-28 16:20:13	<════	doza (~doza@cpe-69-203-216-154.nyc.res.rr.com) has quit (Ping timeout: 276 seconds)
+2015-12-28 16:20:42	════>	EricPoe_ (~EricPoe@64-126-85-96.dyn.everestkc.net) has joined #python
+2015-12-28 16:20:58	════>	TheNet (~TheNet@c-24-63-107-93.hsd1.vt.comcast.net) has joined #python
+2015-12-28 16:21:51	WeiJunLi	ljetibo: self.func refers to the decorated func, in thisi case code_file, right
+2015-12-28 16:21:51	<════	xintox (~xintox@104.219.55.207) has quit (Ping timeout: 272 seconds)
+2015-12-28 16:21:51	<════	Niham (~textual@catv-89-134-120-148.catv.broadband.hu) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2015-12-28 16:21:51	--	CyrilPeponnet is now known as CP|AFK
+2015-12-28 16:22:44	<════	schneider (~tczdn@unaffiliated/schneider) has quit (Ping timeout: 260 seconds)
+2015-12-28 16:22:44	<════	hunter (~thm@199.201.64.132) has quit (Ping timeout: 250 seconds)
+2015-12-28 16:24:00	════>	tlab (~tlab@104.235.20.192) has joined #python
+2015-12-28 16:24:00	<════	evansde77 (~evansde77@c-71-201-249-102.hsd1.il.comcast.net) has quit (Ping timeout: 272 seconds)
+2015-12-28 16:24:00	════>	xintox (~xintox@104.219.55.207) has joined #python
+2015-12-28 16:24:00	<════	ZyX-I (~ZyX-I@broadband-77-37-230-22.nationalcablenetworks.ru) has quit (Ping timeout: 264 seconds)
+2015-12-28 16:24:05	<════	Seylerius (~seylerius@72-35-195-100.eoni.com) has quit (Ping timeout: 265 seconds)
+2015-12-28 16:25:17	<════	Lobstaman3 (~Lobstaman@172.98.67.36) has quit (Remote host closed the connection)
+2015-12-28 16:25:17	friends_	im trying to make a sub folder and im using os.makedirs(file3+'__'+rating(file2)), rating(file2) gives 2 variables but the last variable is created in a new sub directory while the first one is in the same folder name as 'file3', im curious how to combine all 3 into that same folder name
+2015-12-28 16:25:17	<════	latk (~textual@cpc6-telf12-2-0-cust242.16-1.cable.virginm.net) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2015-12-28 16:25:31	ljetibo	WeiJunLi: no, self.func is "None" unless you set it otherwise, because so far, I didn't see you provide a different example at least, we never assign anything to func it is always "None". You're thinking about it wrongly, what you did is actually "replace" your function "code_file" of Linter class with an instance of UniqueName
+2015-12-28 16:25:31	ljetibo	not somehow magically inherited the attributes of Linter by the UniqueName class
+2015-12-28 16:26:19	════>	Lobstaman3 (~Lobstaman@104.243.109.127) has joined #python
+2015-12-28 16:26:19	friends_	the one i have for file3 is file3 = os.path.join(subdir, genrs(file2))
+2015-12-28 16:26:19	════>	Muffinlicious (~muffinlic@107-203-250-155.lightspeed.sntcca.sbcglobal.net) has joined #python
+2015-12-28 16:26:19	<════	xintox (~xintox@104.219.55.207) has quit (Read error: Connection reset by peer)
+2015-12-28 16:26:19	<════	cJIaB (~cJIaB@46.240.237.176) has quit (Ping timeout: 276 seconds)
+2015-12-28 16:26:19	<════	mniip (mniip@april-fools/2014/third/mniip) has quit (Ping timeout: 276 seconds)
+2015-12-28 16:26:19	<════	nug (~gnarld@162.243.252.225) has quit (Ping timeout: 276 seconds)
+2015-12-28 16:26:43	════>	Zequal (~polaroid@CPE0c473dc26c51-CM0c473dc26c50.cpe.net.cable.rogers.com) has joined #python
+2015-12-28 16:26:50	Zequal	Evening all.
+2015-12-28 16:26:52	bjs	friends_: what you're saying doesn't make much sense, what do you mean rating(...) returns 2 variables? Do you have some more code and a traceback of an error to show
+2015-12-28 16:26:59	<════	kalem (~kalem@unaffiliated/kalem) has quit (Quit: Sto andando via)
+2015-12-28 16:26:59	════>	Simotek (~Simotek@opensuse/member/simotek) has joined #python
+2015-12-28 16:27:04	════>	mniip (mniip@april-fools/2014/third/mniip) has joined #python
+2015-12-28 16:27:06	<════	Belxjander (~Belxjande@sourcemage/Mage/Abh-Elementalist) has quit (Ping timeout: 260 seconds)
+2015-12-28 16:27:20	════>	buzzzz (~buzzzz@139.192.136.189) has joined #python
+2015-12-28 16:27:36	════>	desophos (~desophos@71-83-197-83.dhcp.hspr.ca.charter.com) has joined #python
+2015-12-28 16:28:01	════>	Belxjander (~Belxjande@sourcemage/Mage/Abh-Elementalist) has joined #python
+2015-12-28 16:28:26	════>	tjt263 (~RAPSCA77I@unaffiliated/tjt263) has joined #python
+2015-12-28 16:28:38	<════	blakeohare (68843359@gateway/web/freenode/ip.104.132.51.89) has quit (Quit: Page closed)
+2015-12-28 16:29:00	════>	Vornicus (~Vorn@2601:198:102:12f0:716b:43e2:9bce:172a) has joined #python
+2015-12-28 16:29:14	<════	Belxjander (~Belxjande@sourcemage/Mage/Abh-Elementalist) has quit (Excess Flood)
+2015-12-28 16:29:44	════>	dcrouch (~dcrouch@24-180-93-136.dhcp.bycy.mi.charter.com) has joined #python
+2015-12-28 16:29:58	════>	Belxjander (~Belxjande@sourcemage/Mage/Abh-Elementalist) has joined #python
+2015-12-28 16:30:15	friends_	bjs ok http://pastebin.com/jLdxVSH0 the output of rating() is Action 7.8 9888  (genre / rating / votes), genre and rating is combined in os.makerdirs, while votes is created a sub directory, i want them all in one folder name
+2015-12-28 16:30:15	infobob	http://paste.pound-python.org/show/HoYTNHoTkGddPRX6u7Z4/ (repasted for friends_)
+2015-12-28 16:31:11	<════	curvv (~curvv@unaffiliated/curvv) has quit (Ping timeout: 264 seconds)
+2015-12-28 16:31:14	════>	kfoonamalik (~eryan@c-24-16-194-71.hsd1.wa.comcast.net) has joined #python
+2015-12-28 16:33:13	Muffinlicious	http://puu.sh/mbUH4/fe273915b8.png ew
+2015-12-28 16:33:15	Muffinlicious	there is probably a more efficient way of doing this
+2015-12-28 16:33:20	Muffinlicious	what is 'genres'?
+2015-12-28 16:33:38	════>	xk_id (~xk_id@unaffiliated/xk-id/x-0573425) has joined #python
+2015-12-28 16:33:57	════>	scott_w (~scott_w@cpc78291-gate9-2-0-cust89.16-2.cable.virginm.net) has joined #python
+2015-12-28 16:34:03	friends_	Muffinlicious haha nice screenshot
+2015-12-28 16:34:30	friends_	Muffinlicious you mean the function genrs? and yeah i know there is a more efficient way, that will be the next step
+2015-12-28 16:34:39	friends_	i just need to get this out of the way
+2015-12-28 16:34:39	<════	boutchee520 (~boutchee5@ool-457f7663.dyn.optonline.net) has quit (Ping timeout: 240 seconds)
+2015-12-28 16:34:44	Muffinlicious	ah ok
+2015-12-28 16:35:09	bjs	friends_: you "want all of them in one folder name" ?
+2015-12-28 16:35:10	friends_	atm it just filters for various genres in a text file and then echoes if it finds that genre
+2015-12-28 16:35:29	════>	enterprisey (~enterpris@wikipedia/APerson) has joined #python
+2015-12-28 16:35:36	friends_	bjs yeah like a folder name Action__7.8__9888
+2015-12-28 16:35:49	friends_	rather than Action__7.8 which it does now
+2015-12-28 16:35:53	<════	sze (~sze@unaffiliated/sze) has quit (Quit: leaving)
+2015-12-28 16:35:57	friends_	and then puts 9888 in a new sub directory
+2015-12-28 16:36:06	════>	sze (~sze@unaffiliated/sze) has joined #python
+2015-12-28 16:36:32	bjs	well where is the __9888 supposed to come from?
+2015-12-28 16:36:38	bjs	rating(...) ?
+2015-12-28 16:36:45	friends_	yeah it comes from rating()
+2015-12-28 16:36:59	════>	stealth_ (~stealth@24.72.72.149) has joined #python
+2015-12-28 16:37:00	friends_	as far as i can tell, rating() outputs a basic one liner with those
+2015-12-28 16:37:02	════>	derk0pf (~derk0pf@p508BA483.dip0.t-ipconnect.de) has joined #python
+2015-12-28 16:37:07	friends_	so i dont understand whats happening
+2015-12-28 16:37:08	<════	derk0pf (~derk0pf@p508BA483.dip0.t-ipconnect.de) has quit (Client Quit)
+2015-12-28 16:37:18	<════	ajf- (~ajf-@181-160-230-6.baf.movistar.cl) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2015-12-28 16:37:34	════>	mastaglazy (~kkool@37.48.80.165) has joined #python
+2015-12-28 16:37:43	friends_	actually, im an idiot
+2015-12-28 16:37:46	friends_	i see now
+2015-12-28 16:37:50	friends_	the / must be it
+2015-12-28 16:37:54	friends_	ok ok
+2015-12-28 16:38:02	boo7	hey all... a question - Do you use the threading module or thread module ?
+2015-12-28 16:38:42	bjs	well friends_, put some print statements in rating(...) to see what output you are actually getting
+2015-12-28 16:38:43	════>	adamholmberg (~adamholmb@216.229.21.45) has joined #python
+2015-12-28 16:38:54	════>	derk0pf (~derk0pf@p508BA483.dip0.t-ipconnect.de) has joined #python
+2015-12-28 16:39:11	friends_	bjs yeah
+2015-12-28 16:39:25	bjs	boo7: what is 'thread' ?
+2015-12-28 16:39:36	bjs	oh 2.7
+2015-12-28 16:39:52	════>	baweaver (~baweaver@50-80-249-200.client.mchsi.com) has joined #python
+2015-12-28 16:39:59	tos9	boo7: Ideally, neither.
+2015-12-28 16:40:06	bjs	boo7: use neither
+2015-12-28 16:40:11	tos9	boo7: But if you think you need threads, the threading module, as its documentation indicates.
+2015-12-28 16:40:13	<════	borisj (~stestagg@cpc9-mort5-2-0-cust95.19-2.cable.virginm.net) has quit (Quit: borisj)
+2015-12-28 16:40:20	bjs	boo7: but if you must, threading is the best choice
+2015-12-28 16:40:40	<════	xk_id (~xk_id@unaffiliated/xk-id/x-0573425) has quit (Remote host closed the connection)
+2015-12-28 16:40:51	boo7	you dont use any of them? :O
+2015-12-28 16:40:59	<════	fearnothing (~nothing@unaffiliated/fearnothing) has quit (Ping timeout: 240 seconds)
+2015-12-28 16:41:03	bjs	boo7: what are you doing that requires threads?
+2015-12-28 16:41:18	<════	scott_w (~scott_w@cpc78291-gate9-2-0-cust89.16-2.cable.virginm.net) has quit (Remote host closed the connection)
+2015-12-28 16:41:26	════>	pie__ (~pie_@unaffiliated/pie-/x-0787662) has joined #python
+2015-12-28 16:41:39	════>	scott_w (~scott_w@cpc78291-gate9-2-0-cust89.16-2.cable.virginm.net) has joined #python
+2015-12-28 16:41:40	nedbat	boo7: most people don't need threads.
+2015-12-28 16:41:48	boo7	kind a server-client thingie
+2015-12-28 16:41:51	════>	DLSteve (~DLSteve@c-73-239-22-33.hsd1.wa.comcast.net) has joined #python
+2015-12-28 16:41:55	<════	AverageJ0e (~joe@ip70-176-255-154.ph.ph.cox.net) has quit (Ping timeout: 265 seconds)
+2015-12-28 16:41:58	bjs	boo7: look at asyncio and twisted
+2015-12-28 16:42:10	════>	k3va (~k3va@2606:6000:f54b:6200:494d:9c55:2988:631e) has joined #python
+2015-12-28 16:42:22	boo7	also, for making things work faster
+2015-12-28 16:42:47	bjs	boo7: remember that Threads are primarily for concurrency purposes
+2015-12-28 16:42:53	nedbat	boo7: if your things are IO-bound, then ok.  If they are compute-bound, then they won't make things faster.
+2015-12-28 16:43:03	bjs	boo7: thanks to the GIL you cannot actually run them in parallel if not in IO
+2015-12-28 16:43:05	════>	cyanboy (~cyanboy@unaffiliated/cyanboy) has joined #python
+2015-12-28 16:43:15	════>	curvv (~curvv@unaffiliated/curvv) has joined #python
+2015-12-28 16:43:23	_habnabit	well, no, they do run in parallel
+2015-12-28 16:43:25	════>	Betal (~Betal@unaffiliated/betal) has joined #python
+2015-12-28 16:43:26	tos9	boo7: (and when they're IO bound, they won't make them faster in a way that could not be had without threads)
+2015-12-28 16:43:26	<════	scott_w (~scott_w@cpc78291-gate9-2-0-cust89.16-2.cable.virginm.net) has quit (Remote host closed the connection)
+2015-12-28 16:43:33	_habnabit	remember that 'concurrent' and 'parallel' aren't synonyms
+2015-12-28 16:43:37	<════	adamholmberg (~adamholmb@216.229.21.45) has quit (Ping timeout: 276 seconds)
+2015-12-28 16:43:37	<════	hppavilion[1] (~Devourero@93-231-58-66.gci.net) has quit (Ping timeout: 276 seconds)
+2015-12-28 16:43:41	bjs	_habnabit: yes, i know
+2015-12-28 16:43:54	Zequal	Hey there! Looking to make a predictable width for my output. I've been trying the .format method for the print function, but it isn't turning out how I expect it to.
+2015-12-28 16:43:55	_habnabit	bjs, perhaps you have your definitions reversed, then
+2015-12-28 16:44:04	Zequal	Here's some of my testing: http://pastebin.com/QkU8tsZx
+2015-12-28 16:44:05	infobob	http://paste.pound-python.org/show/4LalApLhhvJLUIHVmhVg/ (repasted for Zequal)
+2015-12-28 16:44:20	<════	pie_ (~pie_@unaffiliated/pie-/x-0787662) has quit (Ping timeout: 256 seconds)
+2015-12-28 16:44:27	tos9	_habnabit: I think this one happens to actually be a correct usage? Two threads won't execute bytecode at the same exact moment.
+2015-12-28 16:44:28	════>	scott_w (~scott_w@cpc78291-gate9-2-0-cust89.16-2.cable.virginm.net) has joined #python
+2015-12-28 16:44:36	bjs	_habnabit: you can't run in parallel without releasing GIL?
+2015-12-28 16:44:39	<════	baweaver (~baweaver@50-80-249-200.client.mchsi.com) has quit (Ping timeout: 240 seconds)
+2015-12-28 16:44:40	bjs	_habnabit: and you can't do that in Cpython
+2015-12-28 16:44:43	<════	fnstudio (~fabio@151.217.208.75) has quit (Ping timeout: 245 seconds)
+2015-12-28 16:45:03	_habnabit	bjs, sure. and many things release it
+2015-12-28 16:45:10	_habnabit	tos9, yeah, but not the point
+2015-12-28 16:45:36	tos9	Zequal: The .format method is completely unrelated to the print function FWIW.
+2015-12-28 16:45:59	tos9	Zequal: In what way is this not what you're looking for though?
+2015-12-28 16:46:05	bjs	_habnabit: what is the point then?
+2015-12-28 16:46:15	════>	kylls (~kylls_@unaffiliated/kylls) has joined #python
+2015-12-28 16:46:40	--	earenndil is now known as Elronnd
+2015-12-28 16:46:43	<════	YP-HW7 (~YP-Win10@5ec019cd.skybroadband.com) has quit (Read error: Connection reset by peer)
+2015-12-28 16:46:59	boo7	nedbat: well, mostly working with networking.. so I think its IO-bound.. python can do other stuff while the data is sent and received. right?
+2015-12-28 16:47:07	════>	Ariel_Calzada (~aricalso@181.55.239.20) has joined #python
+2015-12-28 16:47:12	nedbat	boo7: yes
+2015-12-28 16:47:22	Zequal	tos9: Well, I'd like to see an equal distance apart from each field. When the field changes in length, I don't expect it to compromise its position.. Trying to make predictable columns, basically.
+2015-12-28 16:47:31	<════	travnewmatic (~travnewma@pool-173-57-109-204.dllstx.fios.verizon.net) has quit (Ping timeout: 276 seconds)
+2015-12-28 16:47:51	tos9	Zequal: Use the tabulate module, which is probably what you actually mean.
+2015-12-28 16:48:52	_habnabit	bjs, you can't run _python code_ _in cpython_ in parallel
+2015-12-28 16:48:53	<════	kfoonamalik (~eryan@c-24-16-194-71.hsd1.wa.comcast.net) has quit (Ping timeout: 246 seconds)
+2015-12-28 16:49:17	<════	scott_w (~scott_w@cpc78291-gate9-2-0-cust89.16-2.cable.virginm.net) has quit (Remote host closed the connection)
+2015-12-28 16:49:57	tos9	Zequal: (I still don't really know what you mean though.)
+2015-12-28 16:50:13	tos9	Zequal: (It seems pretty likely that what you mean doesn't involve right-padding though.)
+2015-12-28 16:50:38	bjs	_habnabit: yes, i'm still not sure what the distinction you're trying to make is
+2015-12-28 16:51:06	Zequal	tos9: Yes and I think you're correct in that assumption.
+2015-12-28 16:51:45	Zequal	tos9: http://stackoverflow.com/questions/8356501/python-format-tabular-output Seems relevant to what I'm looking to do.
+2015-12-28 16:51:59	tos9	Zequal: Yeah. Tabulate module.
+2015-12-28 16:52:05	════>	duckpuppy (~patrickai@40.132.208.228) has joined #python
+2015-12-28 16:53:16	<════	latenite (~latenite_@91.55.87.158) has quit (Ping timeout: 272 seconds)
+2015-12-28 16:54:33	<════	k3va (~k3va@2606:6000:f54b:6200:494d:9c55:2988:631e) has quit
+2015-12-28 16:56:14	════>	D4rkmatter (~d4rkmatte@199.96.198.124) has joined #python
+2015-12-28 16:56:39	<════	duckpuppy (~patrickai@40.132.208.228) has quit (Ping timeout: 260 seconds)
+2015-12-28 16:56:41	<════	autrilla (uid86014@python/site-packages/autrilla) has quit (Quit: Connection closed for inactivity)
+2015-12-28 16:57:00	<════	mjansen (~mjansen@unaffiliated/mjansen) has quit (Quit: Konversation terminated!)
+2015-12-28 16:57:16	D4rkmatter	hello, this is my code
+2015-12-28 16:57:17	D4rkmatter	https://bpaste.net/show/25ec3dc1503b
+2015-12-28 16:57:29	D4rkmatter	when I run it, it prints out a and v correctly but at the end it gives a traceback
+2015-12-28 16:57:36	D4rkmatter	saying need more than 1 value to unpack
+2015-12-28 16:58:05	auscompgeek	D4rkmatter: one of your lines does not have a '\t'
+2015-12-28 16:58:29	D4rkmatter	ohh
+2015-12-28 16:58:29	D4rkmatter	wow
+2015-12-28 16:58:30	D4rkmatter	thanks!
+2015-12-28 16:58:37	<════	cdown (~cdown@dab-crx1-h-58-1.dab.02.net) has quit (Remote host closed the connection)
+2015-12-28 16:58:40	<════	Nightwalkerkg (~Test@cable-178-149-5-6.dynamic.sbb.rs) has quit (Quit: Leaving)
+2015-12-28 16:58:50	D4rkmatter	ah wow im dumb... can't believe i didn't see that
+2015-12-28 16:59:04	<════	mjburgess (~mjburgess@2.24.196.250) has quit (Ping timeout: 250 seconds)
+2015-12-28 16:59:13	<════	disharmonic (~disharmon@unaffiliated/disharmonic) has quit (Quit: Leaving)
+2015-12-28 16:59:14	auscompgeek	mfw I manage to guess the issue without a traceback
+2015-12-28 16:59:27	<════	fstd (~fstd@unaffiliated/fisted) has quit (Remote host closed the connection)
+2015-12-28 16:59:28	<════	djhoulihan (~djhouliha@pool-108-41-10-26.nycmny.fios.verizon.net) has quit (Remote host closed the connection)
+2015-12-28 16:59:39	dsc_	auscompgeek: you're starting to catch on, young padawan
+2015-12-28 16:59:43	════>	fstd (~fstd@unaffiliated/fisted) has joined #python
+2015-12-28 16:59:44	D4rkmatter	hahahaha
+2015-12-28 16:59:49	════>	djhoulihan (~djhouliha@pool-108-41-10-26.nycmny.fios.verizon.net) has joined #python
+2015-12-28 17:00:02	dsc_	do you hear the grasshopper at your feet?
+2015-12-28 17:00:24	<════	djhoulihan (~djhouliha@pool-108-41-10-26.nycmny.fios.verizon.net) has quit (Max SendQ exceeded)
+2015-12-28 17:00:34	<════	squeegily (squeegilya@unaffiliated/squeegily) has quit (Quit: WeeChat 1.3)
+2015-12-28 17:00:59	════>	djhoulihan (~djhouliha@pool-108-41-10-26.nycmny.fios.verizon.net) has joined #python
+2015-12-28 17:01:19	<════	bilb_ono (~alex@172.56.14.186) has quit (Ping timeout: 260 seconds)
+2015-12-28 17:01:35	<════	djhoulihan (~djhouliha@pool-108-41-10-26.nycmny.fios.verizon.net) has quit (Max SendQ exceeded)
+2015-12-28 17:02:06	<════	_iogg (~rpolli@93-34-88-111.ip49.fastwebnet.it) has quit (Ping timeout: 260 seconds)
+2015-12-28 17:02:13	<════	colegatron (~colegatro@ec2-54-77-43-52.eu-west-1.compute.amazonaws.com) has quit (Ping timeout: 265 seconds)
+2015-12-28 17:02:22	<════	Linkandzelda (~Linkandze@unaffiliated/linkandzelda) has quit (Quit: Cya)
+2015-12-28 17:02:26	════>	djhoulihan (~djhouliha@pool-108-41-10-26.nycmny.fios.verizon.net) has joined #python
+2015-12-28 17:02:31	════>	nimomo (~nimomo@bzq-109-67-139-145.red.bezeqint.net) has joined #python
+2015-12-28 17:02:37	════>	hunter (~thm@c-98-210-99-98.hsd1.ca.comcast.net) has joined #python
+2015-12-28 17:02:58	<════	bolichep (~Keith@179.38.219.69) has quit (Remote host closed the connection)
+2015-12-28 17:02:59	<════	moloch (~moloch@c-66-41-45-149.hsd1.mn.comcast.net) has quit (Ping timeout: 240 seconds)
+2015-12-28 17:03:00	<════	imachuchu (~bhartman@199.223.126.115) has quit (Quit: leaving)
+2015-12-28 17:03:06	════>	asarch (~asarch@189.188.208.70) has joined #python
+2015-12-28 17:03:24	asarch	After doing a "pip install django", is there any way to list the installed files?
+2015-12-28 17:03:54	════>	rickmak (~rickmak@014199061066.ctinets.com) has joined #python
+2015-12-28 17:04:37	════>	lobius (~Thunderbi@2602:30a:2e45:2ba0:9976:2a8:3e39:2ce5) has joined #python
+2015-12-28 17:04:47	════>	cdown (~cdown@dab-crx1-h-1-8.dab.02.net) has joined #python
+2015-12-28 17:04:58	dsc_	asarch: are you asking for the location at which pip will install files?
+2015-12-28 17:05:04	════>	terminalrecluse (~terminalr@c-67-160-141-127.hsd1.or.comcast.net) has joined #python
+2015-12-28 17:05:05	dsc_	which will be the default python data dir
+2015-12-28 17:05:12	dsc_	/usr/lib/python..../site-packages/
+2015-12-28 17:05:35	════>	Pepp3r (~Pepp3r@host217-42-136-253.range217-42.btcentralplus.com) has joined #python
+2015-12-28 17:05:55	tos9	asarch: what will you do with that information?
+2015-12-28 17:06:09	asarch	No, I don't. I mean, just like with Debian after doing an "apt-get install foo" and you check the installed files with "dpkg -L foo"
+2015-12-28 17:06:11	<════	buck1 (~buck1@8.18.218.175) has quit (Remote host closed the connection)
+2015-12-28 17:06:18	════>	Zava_ (~Zava@pD9FD3B55.dip0.t-ipconnect.de) has joined #python
+2015-12-28 17:06:18	<════	hunter (~thm@c-98-210-99-98.hsd1.ca.comcast.net) has quit (Read error: Connection reset by peer)
+2015-12-28 17:06:34	asarch	I am looking for a cascade style sheet file tos9
+2015-12-28 17:06:36	<════	Burgundy (~burgundy@86.126.1.240) has quit (Remote host closed the connection)
+2015-12-28 17:06:45	════>	Linkandzelda (~Linkandze@unaffiliated/linkandzelda) has joined #python
+2015-12-28 17:07:06	════>	hunter (~thm@199.201.64.2) has joined #python
+2015-12-28 17:07:14	<════	nimomo (~nimomo@bzq-109-67-139-145.red.bezeqint.net) has quit (Ping timeout: 260 seconds)
+2015-12-28 17:07:17	════>	Seylerius (~seylerius@72-35-195-100.eoni.com) has joined #python
+2015-12-28 17:07:27	dsc_	do a recursive ls on the module dir? :p
+2015-12-28 17:07:34	<════	shangxiao (~shangxiao@103.224.86.17) has quit (Ping timeout: 256 seconds)
+2015-12-28 17:07:40	<════	SpaceAce (~SpaceAce@124-170-174-199.dyn.iinet.net.au) has quit (Ping timeout: 276 seconds)
+2015-12-28 17:07:44	auscompgeek	locate is a great unix tool, just sayin'
+2015-12-28 17:07:48	════>	moeabdol (~moeabdol@37.105.169.252) has joined #python
+2015-12-28 17:08:38	════>	buck1 (~buck1@8.18.218.175) has joined #python
+2015-12-28 17:09:22	dsc_	why dont i know locate
+2015-12-28 17:09:23	Zequal	auscompgeek: You mean, mlocate. ;)
+2015-12-28 17:09:29	<════	Zava (~Zava@p5488D773.dip0.t-ipconnect.de) has quit (Ping timeout: 260 seconds)
+2015-12-28 17:09:29	dsc_	jeez ;')
+2015-12-28 17:09:31	D4rkmatter	me again... why am i getting an invalid syntax error with file_write.close()
+2015-12-28 17:09:45	dsc_	because you made an indentation error
+2015-12-28 17:09:49	dsc_	or some other syntax error before that line
+2015-12-28 17:10:05	D4rkmatter	wow
+2015-12-28 17:10:10	D4rkmatter	im am idiot haha
+2015-12-28 17:10:44	<════	marr (~ccc@84.40.231.249) has quit (Ping timeout: 255 seconds)
+2015-12-28 17:11:07	<════	DLSteve (~DLSteve@c-73-239-22-33.hsd1.wa.comcast.net) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2015-12-28 17:11:08	dsc_	mfw I manage to guess the issue without a paste
+2015-12-28 17:11:46	════>	doza (~doza@cpe-69-203-216-154.nyc.res.rr.com) has joined #python
+2015-12-28 17:12:13	<════	doza (~doza@cpe-69-203-216-154.nyc.res.rr.com) has quit (Remote host closed the connection)
+2015-12-28 17:12:21	════>	coderzm (django380@2406:3003:201d:398:da50:e6ff:fe40:2e97) has joined #python
+2015-12-28 17:12:35	<════	moeabdol (~moeabdol@37.105.169.252) has quit (Ping timeout: 264 seconds)
+2015-12-28 17:13:19	<════	jstein_ (~quassel@gentoo/developer/jstein) has quit (Remote host closed the connection)
+2015-12-28 17:13:40	════>	t4bs (~Trevor@ppp203-122-192-170.static.internode.on.net) has joined #python
+2015-12-28 17:13:43	════>	colegatron (~colegatro@ec2-54-77-43-52.eu-west-1.compute.amazonaws.com) has joined #python
+2015-12-28 17:15:06	════>	fission6 (~fission6@cpe-67-244-110-209.nyc.res.rr.com) has joined #python
+2015-12-28 17:15:14	════>	Motoko (~maoyama@simplemachines/serverteam/Motoko) has joined #python
+2015-12-28 17:15:26	════>	ryeno (~ryeno@97-82-201-188.dhcp.hckr.nc.charter.com) has joined #python
+2015-12-28 17:15:38	<════	Marsupermammal (~Marsuperm@c-174-60-11-249.hsd1.pa.comcast.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2015-12-28 17:15:49	<════	rickmak (~rickmak@014199061066.ctinets.com) has quit (Quit: rickmak)
+2015-12-28 17:15:49	<════	nunchuck (~nunchuck@ool-44c52df9.dyn.optonline.net) has quit (Ping timeout: 240 seconds)
+2015-12-28 17:15:50	Zequal	What I was initially proud to have written, I am not utterly disgusted with.
+2015-12-28 17:16:02	════>	krobzaur (~Kyle@c-75-68-113-169.hsd1.nh.comcast.net) has joined #python
+2015-12-28 17:16:17	Zequal	s/not//
+2015-12-28 17:16:20	════>	nszceta (~nszceta@pool-71-178-182-123.washdc.fios.verizon.net) has joined #python
+2015-12-28 17:16:43	════>	R0b0t1 (~realname@unaffiliated/r0b0t1) has joined #python
+2015-12-28 17:16:47	<════	F2Knight (~F2Knight@c-50-139-86-39.hsd1.or.comcast.net) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2015-12-28 17:16:47	<════	robvdl (~quassel@2404:130:0:1000:7933:22aa:1cb2:4988) has quit (Quit: No Ping reply in 180 seconds.)
+2015-12-28 17:17:44	<════	TheNet (~TheNet@c-24-63-107-93.hsd1.vt.comcast.net) has quit (Remote host closed the connection)
+2015-12-28 17:18:04	════>	robvdl (~quassel@2404:130:0:1000:d6b:9aeb:6a57:4591) has joined #python
+2015-12-28 17:18:15	asarch	Thank you
+2015-12-28 17:18:19	asarch	Thank you very much :-)
+2015-12-28 17:20:12	FLHerne	asarch: 'tree' is useful too
+2015-12-28 17:20:50	<════	Muffinlicious (~muffinlic@107-203-250-155.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2015-12-28 17:21:24	════>	latk (~textual@cpc6-telf12-2-0-cust242.16-1.cable.virginm.net) has joined #python
+2015-12-28 17:21:32	asarch	I remember there is a Python way to do it
+2015-12-28 17:21:43	asarch	But I can't find the annotation I did
+2015-12-28 17:21:56	asarch	"pip --verbose freeze" I think
+2015-12-28 17:22:03	════>	evansde77 (~evansde77@c-71-201-249-102.hsd1.il.comcast.net) has joined #python
+2015-12-28 17:23:03	════>	gh0st (~gh0st@a89-154-145-32.cpe.netcabo.pt) has joined #python
+2015-12-28 17:24:02	<════	cyanboy (~cyanboy@unaffiliated/cyanboy) has quit (Ping timeout: 260 seconds)
+2015-12-28 17:24:07	════>	thunderbolt (~thunderbo@rrcs-67-78-66-43.sw.biz.rr.com) has joined #python
+2015-12-28 17:24:09	════>	pyCasso (~Hyperking@cpe-98-25-89-42.sc.res.rr.com) has joined #python
+2015-12-28 17:24:12	<════	Hammy_Work (~JH@wsip-70-186-253-66.br.br.cox.net) has quit (Ping timeout: 250 seconds)
+2015-12-28 17:24:28	pyCasso	can someone help me correct an issue here http://dpaste.com/1M3AA4F
+2015-12-28 17:24:33	════>	bbbryson (~bryson@wsip-70-165-1-66.lv.lv.cox.net) has joined #python
+2015-12-28 17:24:42	asarch	Bingo! I found it! Thank you guys :-)
+2015-12-28 17:24:58	<════	bbbryson (~bryson@wsip-70-165-1-66.lv.lv.cox.net) has quit (Client Quit)
+2015-12-28 17:25:01	pyCasso	I need to add urls to corresponding tags
+2015-12-28 17:25:04	<════	Bryson (~bryson@wsip-70-165-1-66.lv.lv.cox.net) has quit (Ping timeout: 250 seconds)
+2015-12-28 17:25:42	pyCasso	currently the urls is only showing 1 item after loop is completed
+2015-12-28 17:25:59	<════	gh0st (~gh0st@a89-154-145-32.cpe.netcabo.pt) has quit (Client Quit)
+2015-12-28 17:26:19	════>	gh0st (~gh0st@a89-154-145-32.cpe.netcabo.pt) has joined #python
+2015-12-28 17:26:48	<════	EricPoe_ (~EricPoe@64-126-85-96.dyn.everestkc.net) has quit (Quit: My clay tablet has gone to sleep. ZZZzzz…)
+2015-12-28 17:27:18	<════	AlphaAtom (~textual@cpc17-heme10-2-0-cust806.9-1.cable.virginm.net) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2015-12-28 17:27:57	<════	homiziado (~homiziado@bl14-151-20.dsl.telepac.pt) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2015-12-28 17:28:17	<════	shhx (~shhx@83.230.236.85) has quit (Ping timeout: 255 seconds)
+2015-12-28 17:28:56	philr	pyCasso: What type of thing are you putting in taglist?
+2015-12-28 17:28:56	FLHerne	taglist[tags] = []
+2015-12-28 17:29:19	<════	JanC (~janc@lugwv/member/JanC) has quit (Ping timeout: 240 seconds)
+2015-12-28 17:29:37	FLHerne	clears it if a url was added already
+2015-12-28 17:29:53	════>	TheNet (~TheNet@2601:197:401:f13:a5be:6f70:4477:8756) has joined #python
+2015-12-28 17:30:10	pyCasso	taglist is dict of tag names with a list of urls as each value
+2015-12-28 17:30:47	<════	ryeno (~ryeno@97-82-201-188.dhcp.hckr.nc.charter.com) has left #python
+2015-12-28 17:31:02	philr	pyCasso: Why is there a try: except: block there? What happens if the except: triggers?
+2015-12-28 17:31:31	pyCasso	At first I rebuild the list of dicts to show only unique tags. Then with try except append the urls to corresponding tag name
+2015-12-28 17:31:32	FLHerne	if taglist[tag]: taglist[tag] = []    <-should do
+2015-12-28 17:31:33	════>	overyander (~jeff@209.141.208.197) has joined #python
+2015-12-28 17:32:51	pyCasso	philr: without it Im getting a keyerror
+2015-12-28 17:33:05	FLHerne	Except you use plural names (tags, objs) for variables referring to only one
+2015-12-28 17:33:17	════>	Luiz_Navarro (~navarro@187.113.170.127) has joined #python
+2015-12-28 17:34:36	<════	TheNet (~TheNet@2601:197:401:f13:a5be:6f70:4477:8756) has quit (Ping timeout: 250 seconds)
+2015-12-28 17:34:38	FLHerne	Argh, I don't see what that's meant to do either
+2015-12-28 17:34:39	pyCasso	FLHerne: right
+2015-12-28 17:34:55	<════	stranac (~stranac@93-141-254-103.adsl.net.t-com.hr) has quit (Read error: Connection reset by peer)
+2015-12-28 17:35:02	<════	Greek0 (~Chris@84-114-248-169.dynamic.surfer.at) has quit (Ping timeout: 250 seconds)
+2015-12-28 17:36:03	<════	sandlst (~sandlst@108-234-101-152.lightspeed.brhmal.sbcglobal.net) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2015-12-28 17:36:29	pyCasso	It could be written better. I want to take the apilist response format and rebuild it to have a dict of unique tagnames with a list of url values
+2015-12-28 17:36:44	════>	leonarth (~leonarth@unaffiliated/leonarth) has joined #python
+2015-12-28 17:37:01	════>	zh (~zh@c-98-214-249-14.hsd1.in.comcast.net) has joined #python
+2015-12-28 17:37:09	<════	krobzaur (~Kyle@c-75-68-113-169.hsd1.nh.comcast.net) has quit (Ping timeout: 240 seconds)
+2015-12-28 17:37:17	<════	latk (~textual@cpc6-telf12-2-0-cust242.16-1.cable.virginm.net) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2015-12-28 17:37:39	<════	sneakerhax (~hcs@unaffiliated/sneakerhead) has quit (Quit: Leaving)
+2015-12-28 17:37:40	philr	pyCasso: https://ideone.com/3PXoEQ
+2015-12-28 17:37:47	philr	pyCasso: No KeyError.
+2015-12-28 17:37:57	════>	sandlst (~sandlst@108-234-101-152.lightspeed.brhmal.sbcglobal.net) has joined #python
+2015-12-28 17:39:16	════>	adamholmberg (~adamholmb@216.229.21.45) has joined #python
+2015-12-28 17:39:20	════>	CAPITANOOO (~CAPITANOO@host122-156-static.117-2-b.business.telecomitalia.it) has joined #python
+2015-12-28 17:39:54	════>	localhost00 (~lo@2602:43:2952:6f00::867:5309) has joined #python
+2015-12-28 17:40:32	<════	Pepp3r (~Pepp3r@host217-42-136-253.range217-42.btcentralplus.com) has quit (Quit: Leaving)
+2015-12-28 17:40:46	════>	Guiri (~Guiri@unaffiliated/guiri) has joined #python
+2015-12-28 17:41:01	<════	cr3 (~cr3@216-246-231-101.cpe.distributel.net) has quit (Quit: leaving)
+2015-12-28 17:41:08	Guiri	Dumb question.  What's the difference between pyenv and pyenv-virtualenv, the plugin for pyenv.  I thought pyenv was for managing Python versions/environments.
+2015-12-28 17:42:34	════>	django_ (~django3@unaffiliated/django-/x-8345756) has joined #python
+2015-12-28 17:42:38	django_	hey all
+2015-12-28 17:42:44	════>	xk_id (~xk_id@unaffiliated/xk-id/x-0573425) has joined #python
+2015-12-28 17:43:20	<════	cdown (~cdown@dab-crx1-h-1-8.dab.02.net) has quit (Remote host closed the connection)
+2015-12-28 17:43:30	════>	JanC (~janc@lugwv/member/JanC) has joined #python
+2015-12-28 17:44:04	<════	adamholmberg (~adamholmb@216.229.21.45) has quit (Ping timeout: 276 seconds)
+2015-12-28 17:44:18	════>	westover_ (~westover@131.228.197.39) has joined #python
+2015-12-28 17:44:58	<════	Psychiatrist (~Psychiatr@yhikas4.ttu.ee) has quit (Ping timeout: 256 seconds)
+2015-12-28 17:45:04	════>	linusp (~Thunderbi@114.242.233.162) has joined #python
+2015-12-28 17:45:26	════>	Milijus (~Milijus@pool-100-35-218-92.nwrknj.fios.verizon.net) has joined #python
+2015-12-28 17:46:42	django_	for this error:  input_link = content[i][1]
+2015-12-28 17:46:42	django_	IndexError: list index out of range
+2015-12-28 17:46:44	<════	pwnz0r (~pwnz0r@ip68-225-9-205.pv.oc.cox.net) has quit (Remote host closed the connection)
+2015-12-28 17:46:53	django_	is it bc of the [i] or [1]
+2015-12-28 18:07:52	--	irc: disconnected from server
+2015-12-28 18:08:30	════>	msjche (~msjche@unaffiliated/msjche) has joined #python
+2015-12-28 18:08:30	--	Topic for #python is "Don't paste, use https://bpaste.net/+python | http://bit.ly/psf-coc | NO LOL | Tutorial: http://bit.ly/MCAhYx | New programmer? http://goo.gl/c170V | Specify 2.x or 3.x in your question | Find your local User Group: http://goo.gl/S1Zsq | #python-fr #python.de #python-es #python.tw #python.pl #python-br #python-nl #python-ir #python.it #python-ro #python-india #python-hu #python-dev"
+2015-12-28 18:08:30	--	Topic set by ssbr_at_work (scorchsabe@python/site-packages/ssbr) on Tue, 01 Sep 2015 00:01:20
+2015-12-28 18:08:30	--	Channel #python: 1610 nicks (0 ops, 0 voices, 1610 normals)
+2015-12-28 18:08:30	--	Channel created on Sat, 25 Nov 2006 22:42:41
+2015-12-28 18:08:46	<════	xk_id (~xk_id@unaffiliated/xk-id/x-0573425) has quit (Ping timeout: 256 seconds)
+2015-12-28 18:09:11	════>	justanotheruser (~Justan@unaffiliated/justanotheruser) has joined #python
+2015-12-28 18:09:16	════>	chemist69_ (~apl@a89-182-124-216.net-htp.de) has joined #python
+2015-12-28 18:09:24	════>	baweaver (~baweaver@50-80-249-200.client.mchsi.com) has joined #python
+2015-12-28 18:09:30	<════	jazzzu (~jazoja@D97B7B1C.cm-3-4b.dynamic.ziggo.nl) has quit (Ping timeout: 240 seconds)
+2015-12-28 18:09:34	════>	shangxiao (~shangxiao@103.224.86.17) has joined #python
+2015-12-28 18:09:49	════>	synergistics (~synergist@c-50-181-35-75.hsd1.md.comcast.net) has joined #python
+2015-12-28 18:09:57	synergistics	How do you deal with relative hrefs when trying to scrape images from a website?
+2015-12-28 18:10:02	<════	Miblo (~matt@237.83.198.146.dyn.plus.net) has quit (Ping timeout: 250 seconds)
+2015-12-28 18:10:02	--	Miblo_ is now known as Miblo
+2015-12-28 18:10:13	nedbat	synergistics: you use a framework that fixes them for you
+2015-12-28 18:10:15	masuberu	[stack@dhcppc0 devstack]$ sudo pip install --upgrade setuptools
+2015-12-28 18:10:15	masuberu	Requirement already up-to-date: setuptools in /usr/lib/python2.7/site-packages
+2015-12-28 18:10:24	════>	hiptobecubic (~john@unaffiliated/hiptobecubic) has joined #python
+2015-12-28 18:10:43	<════	Baudelaire_ (~Baudelair@wikipedia/Baudelaire) has quit (Ping timeout: 276 seconds)
+2015-12-28 18:10:58	nedbat	synergistics: like scrapy
+2015-12-28 18:11:12	altendky	masuberu: try sudo pip install xmlrpc_client
+2015-12-28 18:11:17	════>	Sawbones (~sawbon3s@205.197.242.27) has joined #python
+2015-12-28 18:11:19	altendky	masuberu: or search pypi for the correct name
+2015-12-28 18:11:29	<════	derk0pf (~derk0pf@p508BA483.dip0.t-ipconnect.de) has quit (Ping timeout: 246 seconds)
+2015-12-28 18:12:35	<════	chemist69 (~apl@a89-182-45-138.net-htp.de) has quit (Ping timeout: 264 seconds)
+2015-12-28 18:12:47	<════	tesuji (~tesuji@unaffiliated/tesuji) has quit (Ping timeout: 265 seconds)
+2015-12-28 18:12:59	<════	Earlo (~Earlo@line-10441.dyn.kponet.fi) has quit (Ping timeout: 240 seconds)
+2015-12-28 18:13:22	════>	somazero (~somazero@ip72-198-37-114.ok.ok.cox.net) has joined #python
+2015-12-28 18:13:36	<════	CptRageToaster (~CptRageTo@2602:306:ccba:9f70:21e:8cff:fe36:4c5) has quit (Ping timeout: 250 seconds)
+2015-12-28 18:13:41	tos9	No. Never `sudo pip`.
+2015-12-28 18:13:41	<════	somazero (~somazero@ip72-198-37-114.ok.ok.cox.net) has quit (Client Quit)
+2015-12-28 18:14:07	--	aceahmedmoh is now known as newyearsclause
+2015-12-28 18:14:35	altendky	tos9: sorry, i still have the bad habit and also duplicated masuberu's first command
+2015-12-28 18:14:37	<════	Belxjander (~Belxjande@sourcemage/Mage/Abh-Elementalist) has quit (Ping timeout: 276 seconds)
+2015-12-28 18:14:44	--	newyearsclause is now known as aceahmedmoh
+2015-12-28 18:14:59	<════	evansde77 (~evansde77@c-71-201-249-102.hsd1.il.comcast.net) has quit (Ping timeout: 240 seconds)
+2015-12-28 18:15:16	<════	baweaver (~baweaver@50-80-249-200.client.mchsi.com) has quit (Ping timeout: 276 seconds)
+2015-12-28 18:15:21	<════	Quitta (~quitta@2a02:1812:2d31:e200:a873:dd06:1b11:edd1) has quit (Read error: Connection reset by peer)
+2015-12-28 18:15:30	<════	mastaglazy (~kkool@37.48.80.165) has quit (Quit: Konversation terminated!)
+2015-12-28 18:15:32	<════	linusp (~Thunderbi@li747-198.members.linode.com) has quit (Ping timeout: 255 seconds)
+2015-12-28 18:15:34	<════	hoherd (~hoherd@c-67-188-35-85.hsd1.ca.comcast.net) has quit (Quit: hoherd)
+2015-12-28 18:15:50	════>	CptRageToaster (~CptRageTo@2602:306:ccba:9f70:21e:8cff:fe36:4c5) has joined #python
+2015-12-28 18:16:19	════>	somazero (~somazero@ip72-198-37-114.ok.ok.cox.net) has joined #python
+2015-12-28 18:16:22	════>	linusp (~Thunderbi@114.242.233.162) has joined #python
+2015-12-28 18:16:35	════>	Belxjander (~Belxjande@sourcemage/Mage/Abh-Elementalist) has joined #python
+2015-12-28 18:16:49	<════	_gh0st_ (~gh0st@a89-154-145-32.cpe.netcabo.pt) has quit (Quit: Ex-Chat)
+2015-12-28 18:16:51	<════	gh0st (~gh0st@a89-154-145-32.cpe.netcabo.pt) has quit (Quit: Ex-Chat)
+2015-12-28 18:17:35	<════	tmcmahon (~tmcmahon@d-230.lcom.net) has quit (Quit: Leaving)
+2015-12-28 18:18:10	masuberu	[stack@dhcppc0 devstack]$ pip install --upgrade setuptools
+2015-12-28 18:18:10	masuberu	Requirement already up-to-date: setuptools in /usr/lib/python2.7/site-packages
+2015-12-28 18:18:10	masuberu	[stack@dhcppc0 devstack]$
+2015-12-28 18:18:38	masuberu	[stack@dhcppc0 devstack]$ sudo easy_install setuptools
+2015-12-28 18:18:39	masuberu	Searching for setuptools
+2015-12-28 18:18:39	masuberu	Best match: setuptools 19.2
+2015-12-28 18:18:39	masuberu	Adding setuptools 19.2 to easy-install.pth file
+2015-12-28 18:18:39	masuberu	Installing easy_install-3.5 script to /usr/bin
+2015-12-28 18:18:40	masuberu	Installing easy_install script to /usr/bin
+2015-12-28 18:18:42	masuberu	Using /usr/lib/python2.7/site-packages
+2015-12-28 18:18:44	masuberu	Processing dependencies for setuptools
+2015-12-28 18:18:45	masuberu	Finished processing dependencies for setuptools
+2015-12-28 18:18:46	altendky	masuberu: right, try using pip to install xmlrpc_client
+2015-12-28 18:18:52	nedbat	masuberu: don't paste here.
+2015-12-28 18:19:29	════>	gh0st (~gh0st@a89-154-145-32.cpe.netcabo.pt) has joined #python
+2015-12-28 18:19:38	════>	prabampm (~Thunderbi@115.242.226.82) has joined #python
+2015-12-28 18:19:41	<════	k3va (~k3va@2606:6000:f54b:6200:d9d3:b37e:bba9:c41f) has quit (Remote host closed the connection)
+2015-12-28 18:19:42	════>	giaco (~giaco@2-238-151-49.ip244.fastwebnet.it) has joined #python
+2015-12-28 18:19:48	════>	acangiani (~acangiani@181.95.47.176) has joined #python
+2015-12-28 18:19:52	masuberu	[stack@dhcppc0 devstack]$ pip install xmlrpc_client
+2015-12-28 18:19:52	masuberu	Collecting xmlrpc-client
+2015-12-28 18:19:52	masuberu	  Could not find a version that satisfies the requirement xmlrpc-client (from versions: )
+2015-12-28 18:19:52	masuberu	No matching distribution found for xmlrpc-client
+2015-12-28 18:19:54	<════	leonarth (~leonarth@unaffiliated/leonarth) has quit
+2015-12-28 18:19:58	════>	fracting (~fracting@112.73.26.199) has joined #python
+2015-12-28 18:20:21	════>	pyios (~pyios@103.44.206.78) has joined #python
+2015-12-28 18:20:38	<════	bollullera (~anuxi@95.63.152.106) has left #python
+2015-12-28 18:20:54	════>	Wulf4 (~Wulf@unaffiliated/wulf) has joined #python
+2015-12-28 18:21:02	════>	gmago (~gmago@189-70-156-163.user.veloxzone.com.br) has joined #python
+2015-12-28 18:21:21	masuberu	[stack@dhcppc0 devstack]$ yum search xmlrpc-client
+2015-12-28 18:21:22	masuberu	Loaded plugins: fastestmirror, priorities
+2015-12-28 18:21:22	masuberu	Loading mirror speeds from cached hostfile
+2015-12-28 18:21:22	masuberu	 * base: mirror.ventraip.net.au
+2015-12-28 18:21:22	masuberu	 * epel: fedora.uberglobalmirror.com
+2015-12-28 18:21:22	masuberu	 * extras: centos.mirror.crucial.com.au
+2015-12-28 18:21:24	<════	elbo22 (~iefk@unaffiliated/elbo22) has quit (Remote host closed the connection)
+2015-12-28 18:21:24	masuberu	 * updates: centos.mirror.crucial.com.au
+2015-12-28 18:21:26	masuberu	==================================================================================== N/S matched: xmlrpc-client =====================================================================================
+2015-12-28 18:21:29	masuberu	xmlrpc-client.noarch : XML-RPC client implementation
+2015-12-28 18:21:30	yeryry	...
+2015-12-28 18:21:31	masuberu	  Name and summary matches only, use "search all" for everything.
+2015-12-28 18:21:35	altendky	masuberu: instead of pasting in here
+2015-12-28 18:21:59	altendky	masuberu: use https://bpast.net/+python as noted in the topic
+2015-12-28 18:22:14	altendky	masuberu: err, https://bpaste.net/+python
+2015-12-28 18:22:42	altendky	masuberu: what code is using this library?
+2015-12-28 18:23:13	masuberu	openstack installation script
+2015-12-28 18:23:33	altendky	masuberu: the pypi site has a couple potential options https://pypi.python.org/pypi?%3Aaction=search&term=xmlrpc_client&submit=search
+2015-12-28 18:23:48	════>	joephelius_ (~joe@55d4556d.access.ecotel.net) has joined #python
+2015-12-28 18:24:16	<════	Wulf (~Wulf@unaffiliated/wulf) has quit (Ping timeout: 272 seconds)
+2015-12-28 18:24:30	nedbat	masuberu: are we done with the pastes?
+2015-12-28 18:25:31	masuberu	yes
+2015-12-28 18:25:33	altendky	masuberu: could you link to the code in question?
+2015-12-28 18:25:45	<════	gmago (~gmago@189-70-156-163.user.veloxzone.com.br) has quit (Remote host closed the connection)
+2015-12-28 18:25:51	F311a	update your six package via pip install -U six
+2015-12-28 18:26:19	<════	blackgoat (~blackgoat@221.157.123.200) has quit (Quit: WeeChat 1.3)
+2015-12-28 18:26:51	--	pie__ is now known as pie_
+2015-12-28 18:27:22	masuberu	it says six is already up to date
+2015-12-28 18:27:25	<════	fracting (~fracting@112.73.26.199) has quit (Remote host closed the connection)
+2015-12-28 18:27:27	════>	justanot1eruser (~Justan@unaffiliated/justanotheruser) has joined #python
+2015-12-28 18:27:31	masuberu	the code is  import six.moves.xmlrpc_client as xmlrpclib
+2015-12-28 18:27:45	<════	justanotheruser (~Justan@unaffiliated/justanotheruser) has quit (Read error: Connection reset by peer)
+2015-12-28 18:27:49	<════	chr0no (~whatdoyou@188.233.53.32) has quit (Read error: No route to host)
+2015-12-28 18:27:58	<════	Milijus (~Milijus@pool-100-35-218-92.nwrknj.fios.verizon.net) has quit (Quit: This computer has gone to sleep)
+2015-12-28 18:28:08	masuberu	https://bpaste.net/show/364522a9b6c9
+2015-12-28 18:28:08	altendky	masuberu: looks like F311a is probably on to something...
+2015-12-28 18:28:15	--	pie_ is now known as pie__
+2015-12-28 18:28:34	altendky	masuberu: possibly explained http://stackoverflow.com/a/27668110/228539
+2015-12-28 18:29:28	<════	coderzm (django380@2406:3003:201d:398:da50:e6ff:fe40:2e97) has quit (Quit: Leaving)
+2015-12-28 18:30:34	════>	arescorpio (~arescorpi@54-255-114-200.fibertel.com.ar) has joined #python
+2015-12-28 18:31:37	════>	fracting (~fracting@112.73.26.199) has joined #python
+2015-12-28 18:32:26	--	CP|AFK is now known as CyrilPeponnet
+2015-12-28 18:32:54	════>	unreal_ (~unreal@unaffiliated/unreal) has joined #python
+2015-12-28 18:33:01	<════	frgttnpswd (~scott@2602:306:cdeb:9280:78ed:b753:6730:1db2) has quit (Quit: Leaving)
+2015-12-28 18:33:33	════>	stevethesmith (~Steve@40.133.167.30) has joined #python
+2015-12-28 18:34:09	--	pie__ is now known as ahahaha
+2015-12-28 18:34:12	--	ahahaha is now known as suck
+2015-12-28 18:34:20	--	suck is now known as nvm
+2015-12-28 18:34:23	--	nvm is now known as pie_
+2015-12-28 18:34:47	<════	buzzzz (~buzzzz@139.192.136.189) has quit (Read error: Connection timed out)
+2015-12-28 18:34:57	════>	gmago (~gmago@189-70-156-163.user.veloxzone.com.br) has joined #python
+2015-12-28 18:34:59	<════	cyanboy (~cyanboy@unaffiliated/cyanboy) has quit (Ping timeout: 260 seconds)
+2015-12-28 18:35:30	<════	JanC (~janc@lugwv/member/JanC) has quit (Read error: Connection reset by peer)
+2015-12-28 18:35:55	<════	unreal (~unreal@unaffiliated/unreal) has quit (Ping timeout: 260 seconds)
+2015-12-28 18:35:58	<════	JayFK (~JayFK@p5DE85A4F.dip0.t-ipconnect.de) has quit (Ping timeout: 256 seconds)
+2015-12-28 18:36:42	════>	JanC (~janc@lugwv/member/JanC) has joined #python
+2015-12-28 18:36:57	════>	Balliad (~textual@52D96D43.cm-11-1b.dynamic.ziggo.nl) has joined #python
+2015-12-28 18:37:16	════>	JayFK (~JayFK@p5DE853A4.dip0.t-ipconnect.de) has joined #python
+2015-12-28 18:37:28	<════	Balliad (~textual@52D96D43.cm-11-1b.dynamic.ziggo.nl) has quit (Client Quit)
+2015-12-28 18:38:26	<════	EricPoe_ (~EricPoe@64-126-85-96.dyn.everestkc.net) has quit (Quit: My clay tablet has gone to sleep. ZZZzzz…)
+2015-12-28 18:38:28	<════	rickmak_ (~rickmak@n1121201004.netvigator.com) has quit (Quit: rickmak_)
+2015-12-28 18:38:53	<════	Belxjander (~Belxjande@sourcemage/Mage/Abh-Elementalist) has quit (Ping timeout: 245 seconds)
+2015-12-28 18:39:29	<════	Sawbones (~sawbon3s@205.197.242.27) has quit (Remote host closed the connection)
+2015-12-28 18:39:37	<════	dangayle (~dangayle@users.spokesman.com) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2015-12-28 18:40:28	════>	xk_id (~xk_id@unaffiliated/xk-id/x-0573425) has joined #python
+2015-12-28 18:40:55	<════	gopar (~gopar@c-73-162-171-146.hsd1.ca.comcast.net) has quit (Remote host closed the connection)
+2015-12-28 18:40:57	════>	Xanderby (~Xanderby@cpe-23-242-93-86.socal.res.rr.com) has joined #python
+2015-12-28 18:41:19	════>	Belxjander (~Belxjande@sourcemage/Mage/Abh-Elementalist) has joined #python
+2015-12-28 18:41:48	<════	JanC (~janc@lugwv/member/JanC) has quit (Remote host closed the connection)
+2015-12-28 18:41:49	════>	Baudelaire (~Baudelair@wikipedia/Baudelaire) has joined #python
+2015-12-28 18:42:47	════>	rickmak_ (~rickmak@n1121201004.netvigator.com) has joined #python
+2015-12-28 18:42:48	<════	rickmak_ (~rickmak@n1121201004.netvigator.com) has quit (Client Quit)
+2015-12-28 18:43:40	════>	rickmak_ (~rickmak@n1121201004.netvigator.com) has joined #python
+2015-12-28 18:43:42	<════	gmago (~gmago@189-70-156-163.user.veloxzone.com.br) has quit (Remote host closed the connection)
+2015-12-28 18:43:49	<════	zh (~zh@c-98-214-249-14.hsd1.in.comcast.net) has quit (Remote host closed the connection)
+2015-12-28 18:43:59	════>	Sawbones (~sawbon3s@205.197.242.27) has joined #python
+2015-12-28 18:44:43	<════	Ariel_Calzada (~aricalso@181.55.239.20) has quit (Quit: Leaving.)
+2015-12-28 18:44:58	════>	bilb_ono (~alex@172.56.40.3) has joined #python
+2015-12-28 18:44:59	<════	FLHerne (~flh@unaffiliated/flherne) has quit (Ping timeout: 240 seconds)
+2015-12-28 18:45:02	════>	szt- (~szt@botters/szt) has joined #python
+2015-12-28 18:45:03	--	szt is now known as Guest21559
+2015-12-28 18:45:03	--	szt- is now known as szt
+2015-12-28 18:45:12	<════	rickmak_ (~rickmak@n1121201004.netvigator.com) has quit (Client Quit)
+2015-12-28 18:45:43	Guiri	I got pyenv and virtualenv installed.  Do I have to *activate* each directory or is there a file in which I specify the environment to use, similar to rvm?
+2015-12-28 18:45:47	════>	JanC (~janc@lugwv/member/JanC) has joined #python
+2015-12-28 18:46:30	tos9	Guiri: Don't activate virtualenvs.
+2015-12-28 18:46:34	tos9	(And don't use rvm either :)
+2015-12-28 18:46:41	tos9	Guiri: Just specify which Python you want.
+2015-12-28 18:47:07	Guiri	tos9: Sorry, I suppose I'm confused.  I thought the point of virtualenv was to have the packages isolated on a per directory level?
+2015-12-28 18:47:22	tos9	Guiri: It is. That needn't involve messing with your shell PATH.
+2015-12-28 18:47:34	════>	buzzzz (~buzzzz@139.192.136.189) has joined #python
+2015-12-28 18:47:40	Guiri	Ah, gotcha
+2015-12-28 18:47:56	<════	lobius (~Thunderbi@2602:30a:2e45:2ba0:9976:2a8:3e39:2ce5) has quit (Ping timeout: 255 seconds)
+2015-12-28 18:47:59	════>	BeSpoke (~UnDeRsOuL@unaffiliated/undersoul) has joined #python
+2015-12-28 18:48:14	<════	Guest21559 (~szt@botters/szt) has quit (Ping timeout: 246 seconds)
+2015-12-28 18:49:10	<════	somuchpie (~somuchpie@cpe-76-175-189-230.socal.res.rr.com) has quit (Max SendQ exceeded)
+2015-12-28 18:49:10	════>	lobius (~Thunderbi@2602:30a:2e45:2ba0:9976:2a8:3e39:2ce5) has joined #python
+2015-12-28 18:49:16	WeiJunLi	tos9: I am still stucked on the same issue, you havent say anything about how to fix it
+2015-12-28 18:49:45	════>	somuchpie (~somuchpie@cpe-76-175-189-230.socal.res.rr.com) has joined #python
+2015-12-28 18:49:55	<════	halto (~halto@pool-96-237-71-80.bstnma.east.verizon.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2015-12-28 18:49:58	<════	buzzzz (~buzzzz@139.192.136.189) has quit (Max SendQ exceeded)
+2015-12-28 18:49:59	--	justanot1eruser is now known as justanotheruser
+2015-12-28 18:50:02	════>	rickmak (~rickmak@n1121201004.netvigator.com) has joined #python
+2015-12-28 18:50:33	<════	btc_panh1ndler (~w7tek@c-24-10-204-182.hsd1.ut.comcast.net) has quit (Ping timeout: 245 seconds)
+2015-12-28 18:50:46	--	CyrilPeponnet is now known as CP|AFK
+2015-12-28 18:50:49	════>	SpaceAce (~SpaceAce@124-170-174-199.dyn.iinet.net.au) has joined #python
+2015-12-28 18:51:09	<════	somazero (~somazero@ip72-198-37-114.ok.ok.cox.net) has quit (Quit: Leaving)
+2015-12-28 18:51:10	════>	catpigger (~catpig@p5B09E2CA.dip0.t-ipconnect.de) has joined #python
+2015-12-28 18:51:15	════>	threestar (~xx@c-71-238-210-72.hsd1.ar.comcast.net) has joined #python
+2015-12-28 18:51:16	<════	UnDeRsOuL (~UnDeRsOuL@unaffiliated/undersoul) has quit (Ping timeout: 256 seconds)
+2015-12-28 18:51:17	--	BeSpoke is now known as UnDeRsOuL
+2015-12-28 18:51:25	djapo	how would this text be formatted ? "{} (${})".format(self.name, self.amount)
+2015-12-28 18:51:42	tos9	WeiJunLi: Sorry, which?
+2015-12-28 18:51:50	tos9	djapo: TIASA
+2015-12-28 18:51:57	tos9	-A
+2015-12-28 18:52:19	WeiJunLi	tos9: https://dpaste.de/Gris
+2015-12-28 18:52:38	<════	giaco (~giaco@2-238-151-49.ip244.fastwebnet.it) has quit (Quit: Leaving...)
+2015-12-28 18:52:47	<════	brendel (~brice@lns-bzn-49f-81-56-165-226.adsl.proxad.net) has quit (Ping timeout: 264 seconds)
+2015-12-28 18:52:50	════>	duckpuppy (~patrickai@40.132.208.228) has joined #python
+2015-12-28 18:53:15	<════	Ahmed90 (~Ahmed90@unaffiliated/ahmed90) has quit (Quit: Leaving)
+2015-12-28 18:53:23	F311a	djapo: what do you mean? something like "name ($100)". you can always check this via repl
+2015-12-28 18:53:23	tos9	Oh. This thing.
+2015-12-28 18:53:41	tos9	WeiJunLi: Just get rid of all the nonsense here -- use a normal closure, and then you won't have to bend your head to see why that doesn't work.
+2015-12-28 18:54:43	djapo	oh, okk i just didn't know how the string would format, i think i see it now
+2015-12-28 18:54:58	WeiJunLi	tos9: I do not want to get rid of it because the goal is understand how to use class decorators, it is for improving
+2015-12-28 18:55:08	<════	a3Dman (~3Dman@unaffiliated/a3dman) has quit (Ping timeout: 255 seconds)
+2015-12-28 18:55:14	WeiJunLi	tos9: I could chose easier ways to do it
+2015-12-28 18:55:30	<════	catpig (~catpig@91.9.231.242) has quit (Ping timeout: 272 seconds)
+2015-12-28 18:55:33	<════	Sawbones (~sawbon3s@205.197.242.27) has quit (Remote host closed the connection)
+2015-12-28 18:55:43	tos9	WeiJunLi: Your goal is to learn a thing that you wouldn't use in the place you're using it :)?
+2015-12-28 18:55:57	<════	hectortrope (~hectortro@unaffiliated/hectortrope) has quit (Read error: Connection reset by peer)
+2015-12-28 18:55:58	════>	moeabdol (~moeabdol@37.105.169.252) has joined #python
+2015-12-28 18:56:28	════>	hectortrope (~hectortro@unaffiliated/hectortrope) has joined #python
+2015-12-28 18:56:46	<════	bilb_ono (~alex@172.56.40.3) has quit (Quit: bilb_ono)
+2015-12-28 18:56:54	════>	nell (~alu@unaffiliated/alusion) has joined #python
+2015-12-28 18:57:08	WeiJunLi	tos9: the decorator will be used to write different suffixes, I guess it is useful for such thing
+2015-12-28 18:57:16	<════	Yzguy_ (~Yzguy@c-98-235-63-240.hsd1.pa.comcast.net) has quit (Quit: Zzz...)
+2015-12-28 18:57:24	<════	gelignite (~gelignite@f049112215.adsl.alicedsl.de) has quit (Ping timeout: 260 seconds)
+2015-12-28 18:57:37	tos9	It isn't, you should use a closure to do this.
+2015-12-28 18:57:43	════>	noobstrap (~noobstrap@200.82.172.73) has joined #python
+2015-12-28 18:58:02	<════	duckpuppy (~patrickai@40.132.208.228) has quit (Ping timeout: 272 seconds)
+2015-12-28 18:58:02	════>	prabampm1 (~Thunderbi@101.63.227.42) has joined #python
+2015-12-28 18:58:45	<════	noobstrap (~noobstrap@200.82.172.73) has quit (Client Quit)
+2015-12-28 18:58:51	<════	rickmak (~rickmak@n1121201004.netvigator.com) has quit (Quit: rickmak)
+2015-12-28 18:59:13	<════	C1ph3r (~C1ph3r@177.159.131.189) has quit (Read error: Connection reset by peer)
+2015-12-28 18:59:28	════>	noobstrap (~noobstrap@200.82.172.73) has joined #python
+2015-12-28 18:59:39	WeiJunLi	tos9: not sure how to do that with a closure
+2015-12-28 18:59:47	<════	prabampm (~Thunderbi@115.242.226.82) has quit (Ping timeout: 246 seconds)
+2015-12-28 19:00:10	<════	moeabdol (~moeabdol@37.105.169.252) has quit (Ping timeout: 240 seconds)
+2015-12-28 19:00:31	<════	AlpacaOasis (~AlpacaOas@104-244-27-29.static.monkeybrains.net) has quit (Quit: Leaving)
+2015-12-28 19:00:35	tos9	WeiJunLi: Well perhaps you'd consider learning that first, considering it's the kind of decorator you'd use 99% of the time :)
+2015-12-28 19:00:50	<════	verovan (~verovan@unaffiliated/verovan) has quit (Remote host closed the connection)
+2015-12-28 19:01:00	<════	Marco (Marco@gateway/shell/layerbnc/x-iodgmwxibwttleei) has quit (Quit: LayerBNC - http://LayerBNC.net/)
+2015-12-28 19:01:15	tos9	WeiJunLi: Anyways, your issue is that your class is old-style. But seriously, use a closure, it's already a descriptor, there's no need to do this.
+2015-12-28 19:01:46	════>	rickmak (~rickmak@n1121201004.netvigator.com) has joined #python
+2015-12-28 19:01:47	tos9	def my_whatever(suffix): def _do_stuff(): bla_bla(suffix); ...; return _do_stuff
+2015-12-28 19:01:52	<════	fnstudio (~fabio@ip1f12b419.dynamic.kabel-deutschland.de) has quit (Quit: leaving)
+2015-12-28 19:02:12	tos9	(And then @my_whatever("sssss") def Linter.code_whatever(...): ...
+2015-12-28 19:02:30	<════	localhost00 (~lo@2602:43:2952:6f00::867:5309) has quit (Ping timeout: 240 seconds)
+2015-12-28 19:03:21	════>	buzzzz (~buzzzz@139.192.136.189) has joined #python
+2015-12-28 19:03:22	<════	Baudelaire (~Baudelair@wikipedia/Baudelaire) has quit (Quit: Leaving)
+2015-12-28 19:03:40	WeiJunLi	it seems like a function decorator
+2015-12-28 19:03:45	<════	asarch (~asarch@189.188.208.70) has quit (Quit: Ex-Chat)
+2015-12-28 19:03:45	<════	noobstrap (~noobstrap@200.82.172.73) has quit (Client Quit)
+2015-12-28 19:03:54	WeiJunLi	at first glance
+2015-12-28 19:03:59	tos9	Yes, that's exactly what it is.
+2015-12-28 19:04:01	════>	nimomo (~nimomo@bzq-109-67-139-145.red.bezeqint.net) has joined #python
+2015-12-28 19:04:03	tos9	A closure is a function.
+2015-12-28 19:04:51	<════	friendlydave (~dave@2605:a000:1507:a049:e5b4:ce97:2646:3f39) has quit (Quit: ZNC 1.6.1+deb1 - http://znc.in)
+2015-12-28 19:05:02	<════	Leates (~Leates@unaffiliated/rbxdev) has quit (Quit: Follow me - http://www.twitter.com/TheLeates)
+2015-12-28 19:05:24	WeiJunLi	but well, if it is a func dec and I have a class dec, shouldn't all be the same I mean a class decorator wouldnt work anyway?
+2015-12-28 19:05:29	<════	lobius (~Thunderbi@2602:30a:2e45:2ba0:9976:2a8:3e39:2ce5) has quit (Ping timeout: 255 seconds)
+2015-12-28 19:05:33	════>	RDash_ (~Hyun@119.198.193.16) has joined #python
+2015-12-28 19:05:41	RDash_	list
+2015-12-28 19:05:43	tos9	instances are not descriptors.
+2015-12-28 19:05:56	tos9	and your implementation making it one is wrong :)
+2015-12-28 19:05:57	<════	quetzakubica (~quetzacot@89-66-216-112.dynamic.chello.pl) has quit (Ping timeout: 265 seconds)
+2015-12-28 19:06:06	tos9	If you want to learn how to write descriptors (Which is also basically a useless skill), do that :)
+2015-12-28 19:06:34	tos9	RDash_: [12, 12, 12]
+2015-12-28 19:07:26	<════	fracting (~fracting@112.73.26.199) has quit (Quit: Leaving)
+2015-12-28 19:08:02	════>	cyanboy (~cyanboy@unaffiliated/cyanboy) has joined #python
+2015-12-28 19:08:02	<════	samfalkner (~samfalkne@inet-hqmc04-o.oracle.com) has quit (Remote host closed the connection)
+2015-12-28 19:08:19	<════	nimomo (~nimomo@bzq-109-67-139-145.red.bezeqint.net) has quit (Ping timeout: 240 seconds)
+2015-12-28 19:08:30	════>	samfalkner (~samfalkne@inet-hqmc04-o.oracle.com) has joined #python
+2015-12-28 19:08:38	════>	Yzguy (~Yzguy@c-98-235-63-240.hsd1.pa.comcast.net) has joined #python
+2015-12-28 19:09:04	<════	prabampm1 (~Thunderbi@101.63.227.42) has quit (Remote host closed the connection)
+2015-12-28 19:09:20	════>	prabampm (~Thunderbi@101.63.227.42) has joined #python
+2015-12-28 19:09:26	════>	pilva (~pilva@202.254.189.46.rev.vodafone.pt) has joined #python
+2015-12-28 19:09:34	════>	btc_panh1ndler (~w7tek@c-24-10-204-182.hsd1.ut.comcast.net) has joined #python
+2015-12-28 19:10:40	════>	jayjo (~jayjo@unaffiliated/jayjo) has joined #python
+2015-12-28 19:10:53	<════	anserk (~anserk@24.216.104.10) has quit (Ping timeout: 255 seconds)
+2015-12-28 19:11:48	<════	D4rkmatter (~d4rkmatte@199.96.198.124) has quit (Ping timeout: 245 seconds)
+2015-12-28 19:12:42	════>	linusp1 (~Thunderbi@li568-169.members.linode.com) has joined #python
+2015-12-28 19:13:08	<════	linusp (~Thunderbi@114.242.233.162) has quit (Ping timeout: 276 seconds)
+2015-12-28 19:13:08	--	linusp1 is now known as linusp
+2015-12-28 19:15:04	<════	btc_panh1ndler (~w7tek@c-24-10-204-182.hsd1.ut.comcast.net) has quit (Ping timeout: 256 seconds)
+2015-12-28 19:15:17	════>	aavrug (~gaurav@117.240.170.130) has joined #python
+2015-12-28 19:15:46	════>	Marco (~Marco@Im.Sexy.And.I.Know.It.LayerBNC.org) has joined #python
+2015-12-28 19:16:02	<════	Marco (~Marco@Im.Sexy.And.I.Know.It.LayerBNC.org) has quit (Client Quit)
+2015-12-28 19:16:17	<════	juiko (~user@pc-158-22-83-200.cm.vtr.net) has quit (Remote host closed the connection)
+2015-12-28 19:16:39	════>	blackgoat (~blackgoat@221.157.123.200) has joined #python
+2015-12-28 19:16:54	<════	blackgoat (~blackgoat@221.157.123.200) has quit (Client Quit)
+2015-12-28 19:17:10	════>	Oatmeal (~Suzeanne@75-103-145-152.ccrtc.com) has joined #python
+2015-12-28 19:17:46	════>	blackgoat (~blackgoat@221.157.123.200) has joined #python
+2015-12-28 19:18:33	════>	shiriru (~shiriru@46.10.54.164) has joined #python
+2015-12-28 19:19:05	════>	LordWillO (~LordWillO@unaffiliated/lordwillo) has joined #python
+2015-12-28 19:19:37	djapo	when should i use @property?
+2015-12-28 19:19:58	<════	robbyoconnor (~wakawaka@guifications/user/r0bby) has quit (Ping timeout: 265 seconds)
+2015-12-28 19:20:00	thunderbolt	djapo: When you're storing the value differently that attribute access.
+2015-12-28 19:20:11	════>	Marco (Marco@Im.Sexy.And.I.Know.It.LayerBNC.org) has joined #python
+2015-12-28 19:20:17	thunderbolt	djapo: Or possibly when you want it to appear as an attribute while really calculating it.
+2015-12-28 19:20:25	════>	fracting (~fracting@112.73.26.199) has joined #python
+2015-12-28 19:20:34	<════	sandlst (~sandlst@108-234-101-152.lightspeed.brhmal.sbcglobal.net) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2015-12-28 19:20:51	ljetibo	djapo: when you don't want anyone just messing with it is also a good idea. It helps with data encapsulation
+2015-12-28 19:20:56	<════	Seppy (~SilentPen@unaffiliated/silentpenguin) has quit (Remote host closed the connection)
+2015-12-28 19:21:04	wleslie	nooo, don't use it for encapsulation
+2015-12-28 19:21:09	wleslie	this is not java
+2015-12-28 19:21:42	wleslie	moving from an attribute to a method does /not/ even require a recompile, it's not an API change
+2015-12-28 19:21:44	════>	evansde77 (~evansde77@c-71-201-249-102.hsd1.il.comcast.net) has joined #python
+2015-12-28 19:21:47	thunderbolt	It's reasonable to use it to implement immutability.
+2015-12-28 19:21:51	thunderbolt	But that's not encapsulation.
+2015-12-28 19:22:10	ljetibo	how come?
+2015-12-28 19:22:12	tos9	it is not reasonable to implement immutability
+2015-12-28 19:22:24	thunderbolt	NamedTuple instead?
+2015-12-28 19:22:29	tos9	anyone doing foo.bar = 12 on random foo's doesn't need a reminder, they need to be hit on the head
+2015-12-28 19:22:39	<════	rickmak (~rickmak@n1121201004.netvigator.com) has quit (Quit: rickmak)
+2015-12-28 19:22:39	wleslie	enforcing immutability is b&d.  consenting adults, and all that.
+2015-12-28 19:22:46	tos9	what he said
+2015-12-28 19:22:57	════>	robattila256 (~robattila@node-1w7jr9qjcski662f6kng8bdmn.ipv6.telus.net) has joined #python
+2015-12-28 19:23:30	thunderbolt	Well, I disagree with that.
+2015-12-28 19:23:43	════>	saurabhjha (~saurabhjh@150.129.183.92) has joined #python
+2015-12-28 19:23:54	════>	mrksaxena (~mrksaxena@59.94.149.2) has joined #python
+2015-12-28 19:23:54	thunderbolt	But I do agree that if someone twiddles a value object, they get what they deserve :)
+2015-12-28 19:24:14	<════	rejuvyesh (~rejuvyesh@unaffiliated/rejuvyesh) has quit (Ping timeout: 250 seconds)
+2015-12-28 19:24:48	<════	masuberu (~masber@60-242-215-79.static.tpgi.com.au) has quit (Ping timeout: 265 seconds)
+2015-12-28 19:24:49	════>	phorloop (~phorloop@e4.63.01a8.ip4.static.sl-reverse.com) has joined #python
+2015-12-28 19:24:51	thunderbolt	I mean, strings enforce immutability.
+2015-12-28 19:24:55	thunderbolt	So do named tuples, frozensets.
+2015-12-28 19:25:05	thunderbolt	I think it's reasonable for user created classes to be able to do the same.
+2015-12-28 19:25:12	<════	kylls (~kylls_@unaffiliated/kylls) has quit (Ping timeout: 264 seconds)
+2015-12-28 19:25:46	<════	Burrito (~Burrito@unaffiliated/burrito) has quit (Quit: Leaving)
+2015-12-28 19:26:02	tos9	none of those objects "enforce" immutability
+2015-12-28 19:26:06	tos9	(well they do, but not in the sense you mean)
+2015-12-28 19:26:11	tos9	they just lack mutability
+2015-12-28 19:26:26	wleslie	and properties can't really enforce immutability either
+2015-12-28 19:26:33	tos9	proper.. ^ what he said again
+2015-12-28 19:26:39	════>	rpkilby (~rpkilby@108-210-149-126.lightspeed.hstntx.sbcglobal.net) has joined #python
+2015-12-28 19:27:01	thunderbolt	tos9: Right, so creating something from pyrsistent.PClass is probably the right thing to do what I'm thinking about.
+2015-12-28 19:27:16	tos9	thunderbolt: I've never used PClass. But maybe.
+2015-12-28 19:27:19	<════	addison (~addison@173-164-68-213-Oregon.hfc.comcastbusiness.net) has quit (Ping timeout: 240 seconds)
+2015-12-28 19:27:32	thunderbolt	tos9: Or subclassing NamedTuple.
+2015-12-28 19:27:36	tos9	tbh I think parts of pyrsistent that aren't related to persistence are a bit silly.
+2015-12-28 19:27:52	════>	kylls (~kylls_@unaffiliated/kylls) has joined #python
+2015-12-28 19:27:56	wleslie	djapo: properties are for changing a class later without updating all users of the class.
+2015-12-28 19:29:06	════>	robbyoconnor (~wakawaka@guifications/user/r0bby) has joined #python
+2015-12-28 19:29:14	<════	Guiri (~Guiri@unaffiliated/guiri) has quit (Ping timeout: 256 seconds)
+2015-12-28 19:29:52	tos9	djapo: my answer since you've now had like 5 :), is "use @property when foo.bar looks pretty, and you understand the ramifications of doing that" :) and if you don't know whether it looks pretty or what those ramifications are, ask -- and there are other good programmers in this room who I know disagree with that :)
+2015-12-28 19:30:27	tos9	*cough* papna
+2015-12-28 19:30:31	════>	Roehmer (~roehmer@cpe-67-243-147-228.nyc.res.rr.com) has joined #python
+2015-12-28 19:30:46	<════	neoncontrails (~neoncontr@wsip-174-79-243-9.sd.sd.cox.net) has quit (Remote host closed the connection)
+2015-12-28 19:30:48	tos9	so he can tell you "don't use @property ever unless you're making API backwards-compatibility changes" and then you've got the whole spectrum :)
+2015-12-28 19:31:07	papna	It's true!
+2015-12-28 19:31:17	papna	A 0adic function is way nicer
+2015-12-28 19:31:21	tos9	hurrah, the world is complete
+2015-12-28 19:31:22	════>	neoncontrails (~neoncontr@wsip-174-79-243-9.sd.sd.cox.net) has joined #python
+2015-12-28 19:31:23	papna	It's less deceptive and more extensible
+2015-12-28 19:31:24	wleslie	clearer
+2015-12-28 19:31:59	<════	rpkilby (~rpkilby@108-210-149-126.lightspeed.hstntx.sbcglobal.net) has quit (Ping timeout: 276 seconds)
+2015-12-28 19:32:08	<════	saurabhjha (~saurabhjh@150.129.183.92) has quit (Remote host closed the connection)
+2015-12-28 19:32:24	<════	mrksaxena (~mrksaxena@59.94.149.2) has quit (Ping timeout: 260 seconds)
+2015-12-28 19:32:27	════>	lethalspoons (~lethalspo@f050198018.adsl.alicedsl.de) has joined #python
+2015-12-28 19:32:39	wleslie	I also don't like using it as a decorator unless I'm only providing get, but that's entirely local
+2015-12-28 19:32:56	--	hypermist is now known as uberadmin
+2015-12-28 19:33:02	<════	lethalspoons (~lethalspo@f050198018.adsl.alicedsl.de) has quit (Remote host closed the connection)
+2015-12-28 19:33:16	<════	madbytes (uid126012@gateway/web/irccloud.com/x-jevrdmhbyveqlimm) has quit (Quit: Connection closed for inactivity)
+2015-12-28 19:33:19	--	uberadmin is now known as uberadminer
+2015-12-28 19:33:28	--	uberadminer is now known as hypermist
+2015-12-28 19:33:28	papna	djapo: If something does work, why not make a method?
+2015-12-28 19:34:00	<════	pedahzur (~jkugler@216-67-98-32.static.acsalaska.net) has quit (Read error: No route to host)
+2015-12-28 19:34:05	<════	phorloop (~phorloop@e4.63.01a8.ip4.static.sl-reverse.com) has quit (Ping timeout: 246 seconds)
+2015-12-28 19:34:12	════>	pedahzur (~jkugler@216-67-98-32.static.acsalaska.net) has joined #python
+2015-12-28 19:34:18	════>	ojii (~ojii@pl1185.nas82q.p-tokyo.nttpc.ne.jp) has joined #python
+2015-12-28 19:34:21	papna	djapo: Anyone who mentions 'data encapsulation' does not get Python's data model and traditions, I suspect. I don't necessarily approve of Python, but the fact is, when you're writing Python, you're only shooting yourself in the foot to try to apply such concepts at the program-enforced level.
+2015-12-28 19:34:37	════>	mrksaxena (~mrksaxena@59.94.149.2) has joined #python
+2015-12-28 19:35:03	<════	pedahzur (~jkugler@216-67-98-32.static.acsalaska.net) has quit (Client Quit)
+2015-12-28 19:35:08	<════	Hoffman (~Hoffman@unaffiliated/hoffman) has quit (Ping timeout: 245 seconds)
+2015-12-28 19:35:38	simpson	djapo: To build on what papna said, consider only using @property to preserve backwards-compatibility.
+2015-12-28 19:36:02	<════	neoncontrails (~neoncontr@wsip-174-79-243-9.sd.sd.cox.net) has quit (Ping timeout: 256 seconds)
+2015-12-28 19:36:14	<════	alanwill (~alanwill@c-50-185-32-30.hsd1.ca.comcast.net) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2015-12-28 19:37:22	════>	leon_mu (~leon_mu@124.202.227.62) has joined #python
+2015-12-28 19:37:56	<════	leon_mu (~leon_mu@124.202.227.62) has quit (Remote host closed the connection)
+2015-12-28 19:38:14	════>	Tintle (~nadied@unaffiliated/petirrojo) has joined #python
+2015-12-28 19:39:03	════>	adamholmberg (~adamholmb@216.229.21.45) has joined #python
+2015-12-28 19:39:06	<════	synergistics (~synergist@c-50-181-35-75.hsd1.md.comcast.net) has quit (Remote host closed the connection)
+2015-12-28 19:39:12	════>	kwargs_ (b6961b14@gateway/web/freenode/ip.182.150.27.20) has joined #python
+2015-12-28 19:39:24	--	Skwid is now known as Skwid|Sleep
+2015-12-28 19:39:26	<════	ekaj (~ekaj@unaffiliated/ekaj) has quit (Ping timeout: 256 seconds)
+2015-12-28 19:40:34	════>	sandlst (~sandlst@108-234-101-152.lightspeed.brhmal.sbcglobal.net) has joined #python
+2015-12-28 19:40:57	════>	yonaikel (~Yona_ikel@unaffiliated/yonaikel) has joined #python
+2015-12-28 19:41:42	<════	yonaikel (~Yona_ikel@unaffiliated/yonaikel) has left #python
+2015-12-28 19:42:15	<════	ic2000 (~ic2000@cpc9-brom9-2-0-cust86.wolv.cable.virginm.net) has left #python ("Leaving")
+2015-12-28 19:43:23	djapo	thanks to everyone who answered my question
+2015-12-28 19:43:28	<════	mrksaxena (~mrksaxena@59.94.149.2) has quit (Read error: Connection reset by peer)
+2015-12-28 19:43:28	ljetibo	hahaa, well this debate took wings. Just do clear some things out, data encapsulation deals with more than just hiding the variable from the user (to which point I agree, in python hiding this is a lost cause) but DE handles hiding internal workings of a class from the user as well. I.e. take a class ellipsoid, I'd probably define it over major and minor axis but would expose eccentricity, area, circumference to the user as a property for
+2015-12-28 19:43:29	ljetibo	sure, and through getters and setters I'd assure myself when the user is messing with one of the parameters the basic a&b are being recalculated so that no "weirdness" appears when it comes to numbers. I don't see this hiding of how internals work as a bad thing at all...
+2015-12-28 19:43:50	<════	evansde77 (~evansde77@c-71-201-249-102.hsd1.il.comcast.net) has quit (Ping timeout: 240 seconds)
+2015-12-28 19:44:12	════>	mrksaxena (~mrksaxena@59.94.149.2) has joined #python
+2015-12-28 19:44:13	════>	alanwill (~alanwill@c-50-185-32-30.hsd1.ca.comcast.net) has joined #python
+2015-12-28 19:44:19	<════	adamholmberg (~adamholmb@216.229.21.45) has quit (Ping timeout: 276 seconds)
+2015-12-28 19:45:11	════>	ekaj (~ekaj@unaffiliated/ekaj) has joined #python
+2015-12-28 19:45:52	════>	eric_lagergren (~eric_lage@c-76-121-113-163.hsd1.wa.comcast.net) has joined #python
+2015-12-28 19:46:45	════>	yonaikel (~Yona_ikel@unaffiliated/yonaikel) has joined #python
+2015-12-28 19:46:53	<════	teratorn (~teratorn@71.42.153.34) has quit (Ping timeout: 255 seconds)
+2015-12-28 19:46:59	════>	Quitta (~quitta@2a02:1812:2d31:e200:cb:3545:93b3:5d2c) has joined #python
+2015-12-28 19:47:02	<════	prehensileNipple (~nooblet@236.127.dsl.mel.iprimus.net.au) has quit (Ping timeout: 246 seconds)
+2015-12-28 19:47:19	<════	cyanboy (~cyanboy@unaffiliated/cyanboy) has quit (Ping timeout: 260 seconds)
+2015-12-28 19:47:30	<════	yonaikel (~Yona_ikel@unaffiliated/yonaikel) has left #python
+2015-12-28 19:47:44	════>	firefly2442 (~carlsonp@c-24-245-55-200.hsd1.wi.comcast.net) has joined #python
+2015-12-28 19:49:12	════>	basix (~basix@unaffiliated/basix) has joined #python
+2015-12-28 19:49:33	════>	rejuvyesh (~rejuvyesh@unaffiliated/rejuvyesh) has joined #python
+2015-12-28 19:49:48	════>	BananaDisco (~matt2@97-127-189-233.cdrr.qwest.net) has joined #python
+2015-12-28 19:50:09	<════	connor_goodwolf (~connor_go@boomer.wolfeon.com) has quit (Ping timeout: 245 seconds)
+2015-12-28 19:50:18	════>	jwarren (~chatzilla@104.200.154.53) has joined #python
+2015-12-28 19:50:26	simpson	ljetibo: There's languages where this is baked into the semantics.
+2015-12-28 19:50:39	════>	JC_Yang (~chatzilla@119.126.39.133) has joined #python
+2015-12-28 19:50:42	simpson	But Python is not one of those languages, so you're bound to get some raised eyebrows.
+2015-12-28 19:50:47	tos9	djapo: papna this conversation ended before the best part.
+2015-12-28 19:50:49	════>	sshack (~textual@d154-20-5-72.bchsia.telus.net) has joined #python
+2015-12-28 19:50:54	tos9	(I got distracted)
+2015-12-28 19:50:58	<════	prabampm (~Thunderbi@101.63.227.42) has quit (Quit: prabampm)
+2015-12-28 19:51:13	════>	connor_goodwolf (~connor_go@boomer.wolfeon.com) has joined #python
+2015-12-28 19:51:23	════>	strayArch (~strayArch@50-201-125-57-static.hfc.comcastbusiness.net) has joined #python
+2015-12-28 19:51:23	<════	Belxjander (~Belxjande@sourcemage/Mage/Abh-Elementalist) has quit (Ping timeout: 245 seconds)
+2015-12-28 19:51:41	strayArch	can you execute anything in eval without ')'
+2015-12-28 19:51:43	tos9	parallel 'git --git-dir={}/.git ls-files ''*.py'' | parallel -I{{{ git --git-dir={}/.git --work-tree={} blame {{{ | grep ''Julian.*@property''' ::: $DEVELOPMENT(e:'[[ -e $REPLY/.git ]]':) | tee >(wc -l)
+2015-12-28 19:51:50	<════	Quitta (~quitta@2a02:1812:2d31:e200:cb:3545:93b3:5d2c) has quit (Ping timeout: 255 seconds)
+2015-12-28 19:51:57	 *	offby1 's eyes cross
+2015-12-28 19:52:04	tos9	^ in my development folder... That says that I am... terrible enough to have authored 15 of those lines.
+2015-12-28 19:52:05	JC_Yang	hi, all. any recommend xml library to do simple node query and modify? is the xml package ok for the tasks?
+2015-12-28 19:52:18	ljetibo	yeah, py's not one of those langs, still doesn't mean memoise+property is not a bitchin' combo
+2015-12-28 19:52:24	<════	Zava_ (~Zava@pD9FD3B55.dip0.t-ipconnect.de) has quit (Quit: What the deuce?)
+2015-12-28 19:52:30	════>	plxhalp (46806190@gateway/web/freenode/ip.70.128.97.144) has joined #python
+2015-12-28 19:52:47	════>	Belxjander (~Belxjande@sourcemage/Mage/Abh-Elementalist) has joined #python
+2015-12-28 19:52:55	<════	WeiJunLi (~insys@197.241.207.167) has quit (Ping timeout: 260 seconds)
+2015-12-28 19:53:08	plxhalp	I get "TypeError: set expected at most 1 arguments, got 3" with this https://bpaste.net/show/baad8c63a84c
+2015-12-28 19:53:19	papna	tos9: Dear god
+2015-12-28 19:53:56	yeryry	I would say, don't call anything "setet
+2015-12-28 19:54:03	yeryry	Or even "set"
+2015-12-28 19:54:20	papna	plxhalp: Did you name a function set but then inadvertantly do something that used the builtin type set instead of your function?
+2015-12-28 19:54:27	papna	plxhalp: (I recommend not naming anything `set`)
+2015-12-28 19:54:41	simpson	ljetibo: Out of curiosity, were you thinking about Java/C# or something else?
+2015-12-28 19:54:44	<════	hiptobecubic (~john@unaffiliated/hiptobecubic) has quit (Ping timeout: 246 seconds)
+2015-12-28 19:54:46	plxhalp	papna: let me see
+2015-12-28 19:54:59	<════	blackwind_123 (~IceChat9@117.192.132.109) has quit (Ping timeout: 240 seconds)
+2015-12-28 19:55:16	════>	rickmak (~rickmak@n1121201004.netvigator.com) has joined #python
+2015-12-28 19:55:16	<════	shiriru (~shiriru@46.10.54.164) has quit (Quit: Leaving)
+2015-12-28 19:55:31	════>	lavros (~lavros@37.150.164.80) has joined #python
+2015-12-28 19:55:34	 *	simpson was thinking of E and Monte
+2015-12-28 19:56:03	<════	mrksaxena (~mrksaxena@59.94.149.2) has quit (Read error: Connection reset by peer)
+2015-12-28 19:56:29	<════	rickmak (~rickmak@n1121201004.netvigator.com) has quit (Client Quit)
+2015-12-28 19:56:31	ljetibo	simpson: honestly, I've never done java and only have some basics in C#. I mostly stick to python/c++. I mostly do numerical calcs etc...
+2015-12-28 19:57:16	════>	mrksaxena (~mrksaxena@59.94.149.2) has joined #python
+2015-12-28 19:57:25	papna	ljetibo: It's not less hidden from the user if you have .area() instead of .area
+2015-12-28 19:57:26	ljetibo	except lately, got stuck with sqlalchemy ORM
+2015-12-28 19:57:32	simpson	ljetibo: Ah. In E, it's literally impossible to get at an object's private namespace; it's something very nifty once you get used to it.
+2015-12-28 19:57:48	plxhalp	papna: now it's complaining about key not being global
+2015-12-28 19:58:07	papna	plxhalp: Pastebin a full file you're running and the full output of running the exat file you posted
+2015-12-28 19:58:08	simpson	Java/C# has POJO and the idea of polite namespace access. C++ is memory-unsafe, of course. And Python...Python is very much about mutually consenting objects.
+2015-12-28 19:58:25	simpson	We have a joke that Monte is about mutually suspicious objects.
+2015-12-28 19:58:32	papna	ljetibo: (Please forgive my bluntness in my post a couple times ago. I realized after making it I should have toned it down quite a bit.)
+2015-12-28 19:58:38	════>	prehensileNipple (~nooblet@236.127.dsl.mel.iprimus.net.au) has joined #python
+2015-12-28 19:58:44	ljetibo	papna, but how would I set it and recalc a/b without doing something like ".set("e", 213)" and then go on with if's
+2015-12-28 19:59:26	firefly2442	how can I do an appropriate equality comparison in Pandas? https://bpaste.net/show/6f33698665f1
+2015-12-28 19:59:50	ljetibo	I'm not offended or anything, just saying some things are made easier imo, I don't know :D maybe there's a better way I just got used to this by now I guess
+2015-12-28 20:00:09	<════	plxhalp (46806190@gateway/web/freenode/ip.70.128.97.144) has quit (Quit: Page closed)
+2015-12-28 20:00:39	<════	djapo (~archie@unaffiliated/djapo) has quit (Remote host closed the connection)
+2015-12-28 20:00:54	════>	djapo (~archie@unaffiliated/djapo) has joined #python
+2015-12-28 20:01:04	════>	btc_panh1ndler (~w7tek@c-24-10-204-182.hsd1.ut.comcast.net) has joined #python
+2015-12-28 20:01:34	════>	Blood-Wiper (~AA104106@pool-173-57-230-120.dllstx.fios.verizon.net) has joined #python
+2015-12-28 20:01:39	<════	djapo (~archie@unaffiliated/djapo) has quit (Client Quit)
+2015-12-28 20:01:41	<════	sysfault (~exalted@2601:8c:c102:ce80:c55e:3e3a:c233:d978) has quit (Quit: Leaving)
+2015-12-28 20:01:47	ljetibo	firefly2442: and how much is TripID, is it also 9? are you sure the dr.TripId == TripID isn't False?
+2015-12-28 20:01:55	════>	djapo (~archie@unaffiliated/djapo) has joined #python
+2015-12-28 20:02:00	--	McKraken_zzzzz is now known as McKraken
+2015-12-28 20:02:10	<════	heynow_ (~heynow@CPE6805ca343c90-CM84948c574a00.cpe.net.cable.rogers.com) has quit (Ping timeout: 240 seconds)
+2015-12-28 20:02:10	<════	catpigger (~catpig@p5B09E2CA.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2015-12-28 20:02:23	<════	Yzguy (~Yzguy@c-98-235-63-240.hsd1.pa.comcast.net) has quit (Quit: Zzz...)
+2015-12-28 20:02:33	════>	rickmak (~rickmak@n1121201004.netvigator.com) has joined #python
+2015-12-28 20:02:46	════>	heynow (~heynow@CPE6805ca343c90-CM84948c574a00.cpe.net.cable.rogers.com) has joined #python
+2015-12-28 20:02:49	ljetibo	WeiJunLi: are you still around?
+2015-12-28 20:02:56	papna	firefly2442: Can you pastebin a reproducing SSCCE? http://sscce.org/
+2015-12-28 20:03:31	════>	arvinchou_ (~Arvin@45.32.232.26) has joined #python
+2015-12-28 20:03:41	════>	malinoff (~malinoff@unaffiliated/malinoff) has joined #python
+2015-12-28 20:04:12	papna	ljetibo: I'm confused. Are the a and b independent, or is it a and e, or....?
+2015-12-28 20:04:23	kwargs_	 /JOIN #cod
+2015-12-28 20:04:26	<════	Drexl (Drexl@cpc15-camd13-2-0-cust160.hari.cable.virginm.net) has quit (Ping timeout: 255 seconds)
+2015-12-28 20:04:33	<════	kwargs_ (b6961b14@gateway/web/freenode/ip.182.150.27.20) has left #python
+2015-12-28 20:04:46	════>	nimomo (~nimomo@bzq-109-67-139-145.red.bezeqint.net) has joined #python
+2015-12-28 20:05:15	════>	phorloop (~phorloop@f4.63.01a8.ip4.static.sl-reverse.com) has joined #python
+2015-12-28 20:05:36	wleslie	ljetibo: sure, for O(log(n)) and below, providing computed properties is "probably" OK
+2015-12-28 20:06:45	<════	braincrash (~braincras@81.193.133.152) has quit (Quit: bye bye)
+2015-12-28 20:06:45	<════	sandlst (~sandlst@108-234-101-152.lightspeed.brhmal.sbcglobal.net) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2015-12-28 20:06:45	<════	MrNaz (uid133418@gateway/web/irccloud.com/x-fzdohgjgjxbvpurt) has quit (Quit: Connection closed for inactivity)
+2015-12-28 20:07:17	firefly2442	ah, I think I got my indices mixed up, my mistake, thanks
+2015-12-28 20:07:17	<════	phorloop (~phorloop@f4.63.01a8.ip4.static.sl-reverse.com) has quit (Max SendQ exceeded)
+2015-12-28 20:07:49	════>	phorloop (~phorloop@f4.63.01a8.ip4.static.sl-reverse.com) has joined #python
+2015-12-28 20:08:02	<════	mrksaxena (~mrksaxena@59.94.149.2) has quit (Ping timeout: 260 seconds)
+2015-12-28 20:08:57	ljetibo	papna: a and b are supposed to be semi major and minor axis of elipsis in my example, you can define (mostly) all about an elipsis through those two numbers. But I'd represent to the user over property as if I've actually calculated all other parameters of the elipse (such as focus points, eccentricity, area etc...)
+2015-12-28 20:09:12	<════	nimomo (~nimomo@bzq-109-67-139-145.red.bezeqint.net) has quit (Ping timeout: 246 seconds)
+2015-12-28 20:09:12	<════	Belxjander (~Belxjande@sourcemage/Mage/Abh-Elementalist) has quit (Ping timeout: 246 seconds)
+2015-12-28 20:09:12	<════	cyraxjoe (~joe@CableLink205-241.telefonia.InterCable.net) has quit (Read error: Connection reset by peer)
+2015-12-28 20:09:12	════>	cyraxjoe_ (~joe@CableLink205-241.telefonia.InterCable.net) has joined #python
+2015-12-28 20:09:38	════>	mrksaxena (~mrksaxena@59.94.149.2) has joined #python
+2015-12-28 20:09:38	════>	anserk (~anserk@24.216.104.10) has joined #python
+2015-12-28 20:09:38	ljetibo	and then if the user would want to change, i.e. area of that same ellipsis, the a/b would be recalculated in the setters without users knowledge
+2015-12-28 20:10:03	papna	ljetibo: Right, but in your example you seemed to be SETTING the eccentricity, so I wasn't sure how the object was supposed to work
+2015-12-28 20:10:03	<════	Pr0t3us (~Pr0t3us@gateway/vpn/privateinternetaccess/pr0t3us) has quit (Quit: Leaving)
+2015-12-28 20:10:03	════>	rkazak (~rkazak@c-24-6-104-170.hsd1.ca.comcast.net) has joined #python
+2015-12-28 20:10:03	<════	malinoff (~malinoff@unaffiliated/malinoff) has quit (Ping timeout: 240 seconds)
+2015-12-28 20:10:03	ljetibo	to fit the newly selected parameters
+2015-12-28 20:10:03	ljetibo	more or less that's the idea...
+2015-12-28 20:10:15	<════	yes`r (~Yo@49.205.95.146) has quit (Ping timeout: 250 seconds)
+2015-12-28 20:10:49	<════	arescorpio (~arescorpi@54-255-114-200.fibertel.com.ar) has quit (Quit: Leaving.)
+2015-12-28 20:10:49	papna	ljetibo: How does your thing even know how to deal with that. Changing the eccentricity to a given value preserving....ummm...what? (There are infinite solutions, you need a constraint.)
+2015-12-28 20:11:20	papna	ljetibo: Which is totally why a method-based API would be nicer! :)
+2015-12-28 20:11:20	════>	sofly (uid114192@gateway/web/irccloud.com/x-cxyaenacsyhdgvtw) has joined #python
