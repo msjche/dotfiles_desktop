@@ -1,6 +1,6 @@
 # User
-#user = msjche@gmail.com
-#password = 
+user = msjche@gmail.com
+password = 
 
 # Proxy (for those who are not living in the USA)
 #control_proxy = http://127.0.0.1:9090/

@@ -171,7 +171,7 @@ freenode.realname
 freenode.local_hostname
 freenode.command
 freenode.command_delay
-freenode.autojoin = "#python,#kde,#ubuntu,#debian,#fedora,#archlinux,#archlinux-offtopic,#gentoo,#gentoo-chat,#gentoo-forums,#gentoo-games,#linuxdistrocommunity,#freenode"
+freenode.autojoin = "#python,#kde,#ubuntu,#debian,#fedora,#archlinux,#archlinux-offtopic,#gentoo,#gentoo-chat,#gentoo-forums,#gentoo-games,#linuxdistrocommunity"
 freenode.autorejoin = on
 freenode.autorejoin_delay
 freenode.connection_timeout

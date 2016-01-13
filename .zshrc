@@ -110,8 +110,8 @@ alias font-check='echo "\ue0b0 \u00b1 \ue0a0 \u27a6 \u2718 \u26a1 \u2699"'
 alias Backup-local='sudo /home/msjche/Scripts/laptop_backup_local.sh'
 
 # SSH
-alias Libertas='ssh msjche@192.168.1.11'
-alias Libertas-X='ssh -X msjche@192.168.1.100'
+alias Anarchia='ssh msjche@192.168.1.9'
+alias Anarchia='ssh -X msjche@192.168.1.9'
 alias L-get='echo "/path/to/host/file ~/path/to/destination" && scp msjche@192.168.1.7:'
 
 ## Stress test
@@ -282,7 +282,7 @@ alias kT='killall transmission-daemon'
 alias MP='ncmpcpp'
 alias MO='mocp -T transparent-background'
 alias news='newsbeuter'
-alias Red='cortex xcom2'
+alias Xcom='cortex xcom2'
 alias War='cortex warriors game'
 alias nix='cortex linux'
 alias pods='podbeuter'
@@ -636,7 +636,7 @@ pods-GoldMoneyPodcasts() { nvlc-podcast "http://feeds.feedburner.com/GoldmoneyFo
 TV-m() { livestreamer -p mplayer "$1" best ;}
 TV-v() { livestreamer -p vlc "$1" best ;}
 
-Jupiter() { livestreamer -p mplayer http://www.ustream.tv/channel/jupiterbroadcasting 720p+_alt_akamai ;}
+Jupiter() { livestreamer -p mpv http://www.ustream.tv/channel/jupiterbroadcasting best ;}
 
 TwitchyMarbs() { livestreamer -p mpv http://www.twitch.tv/Marbozir best ;}
 TwitchyBeagle() { livestreamer -p mpv http://www.twitch.tv/miss_jamball best ;}
