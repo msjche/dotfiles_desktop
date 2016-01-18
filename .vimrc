@@ -10,12 +10,12 @@ let g:Powerline_symbols_override = {'BRANCH': "\Ue0a0", 'LINE': "\Ue0a1", 'RO': 
 let g:airline_powerline_fonts = 1
 
 "colorscheme wombat256
-colorscheme tango
+"colorscheme tango
 "colorscheme railscasts
 "colorscheme vividchalk
 "colorscheme distinguished
 "colorscheme monokai
-"colorscheme ir_black
+colorscheme ir_black
 "colorscheme gotham
 "colorscheme jellybeans 
 "colorscheme desertEx

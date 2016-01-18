@@ -47,7 +47,7 @@ COMPLETION_WAITING_DOTS="true"
 #export NMON=cmknt
 export EDITOR="vim"
 export PAGER="less"
-export BROWSER="qutebrowser"
+export BROWSER="opera"
 export BROWSERCLI="w3m"
 export MOVPLAY="mpv"
 export PICVIEW="feh"
@@ -168,6 +168,7 @@ alias Esync='eix-sync'
 alias Eupdate='eix --update'
 alias cdP='cd /etc/portage && sudo su'
 alias cdU='cd /etc/portage/package.use && sudo su'
+alias cdB='cd /etc/portage/package.mask && sudo su'
 alias cdK='cd /etc/portage/package.accept_keywords && sudo su'
 alias eM='sudo vim /etc/portage/make.conf'
  
