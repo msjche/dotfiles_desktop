@@ -327,7 +327,7 @@ alias FF-cam='mplayer -cache 128 -tv driver=v4l2:width=467:height=262 -vo xv tv:
 ## Net
 alias NM='sudo /etc/init.d/NetworkManager restart'
 alias WW='wicd-curses'
-alias hogs='sudo nethogs eno1'
+alias hogs='sudo nethogs tun0'
 alias net-driftnet='echo "see pics from other computers on network" && sudo driftnet -i eno1'
 alias net-ettercap='echo "set up interface to capture network data" && sudo ettercap -TQM arp -i eno1//'
 alias net-urlsnarf='echo "see which websites others on network are visiting" && sudo urlsnarf -i eno1|cut -d\" -f4'
