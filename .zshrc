@@ -158,7 +158,7 @@ alias bz2='tar -jxvf'
 ## Gentoo
 alias HowLong='genlop -t'
 alias OneShot='emerge --oneshot portage'
-alias Rebuild='revdep-rebuild -v -- --ask --keep-going'
+alias Rebuild='revdep-rebuild -v --ask --keep-going'
 alias sync='time emerge --sync'
 alias S='emerge -s'
 alias I='time emerge -av'
