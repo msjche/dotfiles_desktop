@@ -15,8 +15,8 @@ let g:airline_powerline_fonts = 1
 "colorscheme vividchalk
 "colorscheme distinguished
 "colorscheme monokai
-colorscheme ir_black
-"colorscheme gotham
+"colorscheme ir_black
+colorscheme gotham
 "colorscheme jellybeans 
 "colorscheme desertEx
 "colorscheme codeblocks_dark

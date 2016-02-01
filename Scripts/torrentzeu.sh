@@ -13,7 +13,7 @@
 program='/usr/bin/transmission-remote -a'
 
 # show N first matches by default
-limit=35
+limit=30
 
 # colors
 numbcolor='\x1b[1;35m'
