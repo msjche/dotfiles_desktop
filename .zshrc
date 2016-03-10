@@ -138,7 +138,9 @@ alias DangerConky='~/Scripts/danger_conky.sh'
 alias bc='btc'
 
 ## Games
-alias xcom='cd ~/Dropbox/XCOM/Saves/ && cp ~/.local/share/feral-interactive/XCOM/XEW/savedata/* .'
+alias cdX='cd ~/.local/share/feral-interactive/XCOM2/VFS/Local/my\ games/XCOM2/XComGame'
+alias cdX2='cd ~/.local/share/Steam/steamapps/common/XCOM\ 2/share/data/xcomgame'
+alias xcom='cd ~/Dropbox/XCOM/Saves/ && cp ~/.local/share/feral-interactive/XCOM2/VFS/Local/my\ games/XCOM2/XComGame/SaveData/* .'
 alias Steam='LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/lib32/opengl/nvidia/lib" steam'
 alias sudoku='nsudoku'
 alias tetris='bastet'
@@ -321,7 +323,8 @@ alias FF-check-final='mpv ~/Screencasts/screencast.mp4'
 # Top Right
 #alias FF-cam='mplayer -cache 128 -tv driver=v4l2:width=623:height=350 -vo xv tv:// -noborder -geometry "98%:5%" -ontop'
 # Bottom Right
-alias FF-cam='mplayer -cache 128 -tv driver=v4l2:width=467:height=262 -vo xv tv:// -noborder -geometry "99%:96%" -ontop'
+#alias FF-cam='mplayer -cache 128 -tv driver=v4l2:width=467:height=262 -vo xv tv:// -noborder -geometry "99%:96%" -ontop'
+alias FF-cam='mplayer -cache 128 -tv driver=v4l2:width=300:height=262 -vo xv tv:// -noborder -geometry "99%:60%" -ontop'
 
 
 ## Net
