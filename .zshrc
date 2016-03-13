@@ -324,7 +324,7 @@ alias FF-check-final='mpv ~/Screencasts/screencast.mp4'
 #alias FF-cam='mplayer -cache 128 -tv driver=v4l2:width=623:height=350 -vo xv tv:// -noborder -geometry "98%:5%" -ontop'
 # Bottom Right
 #alias FF-cam='mplayer -cache 128 -tv driver=v4l2:width=467:height=262 -vo xv tv:// -noborder -geometry "99%:96%" -ontop'
-alias FF-cam='mplayer -cache 128 -tv driver=v4l2:width=300:height=262 -vo xv tv:// -noborder -geometry "99%:60%" -ontop'
+alias FF-cam='mplayer -cache 256 -tv driver=v4l2:width=400:height=350 -vo xv tv:// -noborder -geometry "100%:60%" -ontop'
 
 
 ## Net
@@ -417,6 +417,9 @@ bindkey -M vicmd '^s' history-incremental-search-backward
 ###########################################################
 ######################## FUNCTIONS ######################## 
 ###########################################################
+
+# Awesome Logout
+Logout() { echo 'awesome.restart()' | awesome-client ;}
 
 # Christmas Tree
 Christmas() { perl -MAcme::POE::Tree -e 'Acme::POE::Tree->new()->run()' ;}
