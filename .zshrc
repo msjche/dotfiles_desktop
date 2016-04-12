@@ -324,7 +324,7 @@ alias FF-check-final='mpv ~/Screencasts/screencast.mp4'
 #alias FF-cam='mplayer -cache 128 -tv driver=v4l2:width=623:height=350 -vo xv tv:// -noborder -geometry "98%:5%" -ontop'
 # Bottom Right
 #alias FF-cam='mplayer -cache 128 -tv driver=v4l2:width=467:height=262 -vo xv tv:// -noborder -geometry "99%:96%" -ontop'
-alias FF-cam='mplayer -cache 256 -tv driver=v4l2:width=400:height=350 -vo xv tv:// -noborder -geometry "100%:60%" -ontop'
+alias FF-cam='mplayer -cache 256 -tv driver=v4l2:width=320:height=240 -vo xv tv:// -noborder -geometry "100%:60%" -ontop'
 
 
 ## Net
@@ -745,8 +745,9 @@ source /home/msjche/Git/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /home/msjche/.oh-my-zsh/oh-my-zsh.sh
 
 clear
+neofetch
 #/home/msjche/Scripts/pacolor.sh
 #/home/msjche/Scripts/starwars.sh
 #/home/msjche/Scripts/batman.sh
-/home/msjche/Scripts/invaders1.sh
-#screenfetch
+#/home/msjche/Scripts/invaders1.sh
+##screenfetch
