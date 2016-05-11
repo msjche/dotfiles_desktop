@@ -26,3 +26,5 @@ Scripts/mps
 .weechat/script/
 .weechat/urlserver_list.txt
 .weechat/weechat.log
+.weechat/irc.conf
+.weechat/* 
