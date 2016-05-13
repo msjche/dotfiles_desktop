@@ -1,9 +1,0 @@
-2013-10-14 19:15:20	--	irc: connecting to server irc.freenode.ne/6667...
-2013-10-14 19:15:20	=!=	irc: address "irc.freenode.ne" not found
-2013-10-14 19:15:20	=!=	irc: error: Name or service not known
-2013-10-14 19:15:20	--	irc: reconnecting to server in 10 seconds
-2013-10-14 19:15:30	--	irc: reconnecting to server...
-2013-10-14 19:15:30	--	irc: connecting to server irc.freenode.ne/6667...
-2013-10-14 19:15:30	=!=	irc: address "irc.freenode.ne" not found
-2013-10-14 19:15:30	=!=	irc: error: Name or service not known
-2013-10-14 19:15:30	--	irc: reconnecting to server in 20 seconds
