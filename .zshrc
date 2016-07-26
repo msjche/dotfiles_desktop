@@ -647,7 +647,7 @@ TV-v() { livestreamer -p vlc "$1" best ;}
 Jupiter() { livestreamer -p mpv http://www.ustream.tv/channel/jupiterbroadcasting best ;}
 
 TwitchyMarbs() { livestreamer -p mpv http://www.twitch.tv/Marbozir best ;}
-TwitchyBeagle() { livestreamer -p mpv http://www.twitch.tv/miss_jamball best ;}
+TwitchyBeagle() { livestreamer -p mpv http://www.twitch.tv/beagsandjam best ;}
 TwitchyQuill() { livestreamer -p mpv http://www.twitch.tv/quill18 best ;}
 TwitchyElysium() { livestreamer -p mpv http://www.twitch.tv/enterelysium best ;}
 
