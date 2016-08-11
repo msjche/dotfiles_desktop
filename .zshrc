@@ -140,7 +140,8 @@ alias bc='btc'
 ## Games
 alias cdX='cd ~/.local/share/feral-interactive/XCOM2/VFS/Local/my\ games/XCOM2/XComGame'
 alias cdX2='cd ~/.local/share/Steam/steamapps/common/XCOM\ 2/share/data/xcomgame'
-alias xcom='cd ~/Dropbox/XCOM/Saves/ && cp ~/.local/share/feral-interactive/XCOM2/VFS/Local/my\ games/XCOM2/XComGame/SaveData/* .'
+alias xcom2='cd ~/Dropbox/XCOM/Saves/XCOM2 && cp ~/.local/share/feral-interactive/XCOM2/VFS/Local/my\ games/XCOM2/XComGame/SaveData/* .'
+alias xcom='cd ~/Dropbox/XCOM/Saves/XCOMEW && cp ~/.local/share/feral-interactive/XCOM/XEW/savedata/* .'
 alias Steam='LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/lib32/opengl/nvidia/lib" steam'
 alias sudoku='nsudoku'
 alias tetris='bastet'
@@ -208,6 +209,7 @@ alias 1080='/home/msjche/Scripts/Theming/1080.sh'
 alias 1440='/home/msjche/Scripts/Theming/1440.sh'
 
 ## Tmux
+alias TM='~/.tmuxgo'
 alias eTM='vim ~/.tmux.conf'
 
 ## Geeknote
@@ -370,7 +372,7 @@ alias date-time='watch -n 1 -t date'
 alias stopwatch='echo "cntl-z to end" & time cat'
 alias starwars='telnet towel.blinkenlights.nl'
 alias info='inxi -F'
-alias Cap='cd ~/Screencasts/Screencaps/ && scrot -d 4'
+alias Cap='cd ~/Screencasts/Screencaps/ && scrot'
 alias rip='abcde'
 alias vidterm='mplayer -vo caca'
 #alias graph='gnuplot'
