@@ -11,10 +11,10 @@
 # you can add -- at the end to indicate end of options
 # (if your program supports it, most do)
 program='/usr/bin/transmission-remote -a'
-TPB="https://thepiratebay.se"
+TPB="https://thepiratebay.org"
 
 # show N first matches by default
-limit=25
+limit=50
 
 # colors
 numbcolor='\x1b[1;35m'
