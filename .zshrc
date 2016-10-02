@@ -138,7 +138,7 @@ alias DangerConky='~/Scripts/danger_conky.sh'
 alias bc='btc'
 
 ## Games
-alias cdX='cd ~/.local/share/feral-interactive/XCOM2/VFS/Local/my\ games/XCOM2/XComGame'
+alias cdX='cd ~/.local/share/feral-interactive/XCOM2/VFS/Local/my\ games/XCOM2/XComGame/Config/'
 alias cdX2='cd ~/.local/share/Steam/steamapps/common/XCOM\ 2/share/data/xcomgame'
 alias xcom2='cd ~/Dropbox/XCOM/Saves/XCOM2 && cp ~/.local/share/feral-interactive/XCOM2/VFS/Local/my\ games/XCOM2/XComGame/SaveData/* .'
 alias xcom='cd ~/Dropbox/XCOM/Saves/XCOMEW && cp ~/.local/share/feral-interactive/XCOM/XEW/savedata/* .'
@@ -162,7 +162,7 @@ alias bz2='tar -jxvf'
 alias HowLong='genlop -t'
 alias OneShot='emerge --oneshot portage'
 alias Rebuild='revdep-rebuild -v'
-alias sync='time emerge --sync'
+alias Sync='time emerge --sync'
 alias S='emerge -s'
 alias I='time emerge -av'
 alias Uworld='time emerge --ask --verbose --update --newuse --deep @world'
@@ -174,10 +174,13 @@ alias cdU='cd /etc/portage/package.use && sudo su'
 alias cdB='cd /etc/portage/package.mask && sudo su'
 alias cdK='cd /etc/portage/package.accept_keywords && sudo su'
 alias eM='sudo vim /etc/portage/make.conf'
- 
 ## Portage
 alias F='sudo tail -f /var/log/emerge-fetch.log'
 alias E='sudo tail -f /var/log/emerge.log'
+
+## Manjaro
+alias Man-mirrors='sudo pacman-mirrors -g && sudo pacman -Syy'
+
 
 ## Pacman
 #alias UU='packer-color -Syyu && rm /tmp/off.updates && rm /tmp/aur.updates'
