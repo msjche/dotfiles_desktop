@@ -7,7 +7,10 @@ set rnu
 let g:Powerline_symbols = "fancy"
 let g:Powerline_dividers_override = ["\Ue0b0","\Ue0b1","\Ue0b2","\Ue0b3"]
 let g:Powerline_symbols_override = {'BRANCH': "\Ue0a0", 'LINE': "\Ue0a1", 'RO': "\Ue0a2"}
-let g:airline_powerline_fonts = 1
+let g:airline_right_alt_sep = ''
+let g:airline_right_sep = ''
+let g:airline_left_alt_sep= ''
+let g:airline_left_sep = ''
 
 "colorscheme wombat256
 "colorscheme tango
@@ -22,7 +25,7 @@ colorscheme ir_black
 "colorscheme codeblocks_dark
 
 " Pathogen
-e"xecute pathogen#infect()
+execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
