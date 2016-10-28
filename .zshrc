@@ -747,13 +747,14 @@ iptv-Rueters() {  rtmpdump \
 
 
 plugins=(git archlinux vi-mode themes zsh-completions color-command)
-source /home/msjche/Git/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+#source /home/msjche/Git/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /home/msjche/.oh-my-zsh/oh-my-zsh.sh
 
 clear
-#neofetch
+neofetch
 #/home/msjche/Scripts/pacolor.sh
 #/home/msjche/Scripts/starwars.sh
 #/home/msjche/Scripts/batman.sh
 #/home/msjche/Scripts/invaders1.sh
-screenfetch
+#screenfetch
