@@ -15,13 +15,13 @@ let g:airline_left_sep = ''
 "Airline Themes
 "let g:airline_theme='dark'
 "let g:airline_theme='badwolf'
-"let g:airline_theme='ravenpower'
+let g:airline_theme='ravenpower'
 "let g:airline_theme='simple'
 "let g:airline_theme='term'
 "let g:airline_theme='ubaryd'
 "let g:airline_theme='laederon'
 "let g:airline_theme='kolor'
-let g:airline_theme='molokai'
+"let g:airline_theme='molokai'
 "let g:airline_theme='powerlineish'
 
 "colorscheme wombat256
