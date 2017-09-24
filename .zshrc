@@ -531,11 +531,11 @@ ffx_OUTPUT_FINAL=~/Screencasts/screencast.mp4
 
 FF-full() { 
 	ffmpeg \
-	-thread_queue_size 2048 \
+#	-thread_queue_size 2048 \
 	-f alsa \
 	-ac $ffx_MONO \
 	-i $ffx_PULSE \
-	-thread_queue_size 512 \
+#	-thread_queue_size 512 \
 	-f x11grab \
 	-r $ffx_FPS \
 	-s $ffx_WIN_FULL \
