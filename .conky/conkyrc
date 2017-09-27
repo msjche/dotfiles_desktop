@@ -1,7 +1,0 @@
-# MoJo's Awesome 4 Conky Config
-
-conky.config = {
-    .....
-    lua_load = "~/.config/awesome/conky/conky-dbus.lua",
-    lua_draw_hook_pre = "conky_update_awesome",
-}
