@@ -5,6 +5,7 @@ update_interval 2
 total_run_times 0
 net_avg_samples 1
 cpu_avg_samples 2
+own_window_hints undecorated,below,skip_taskbar,skip_pager,sticky
 
 imlib_cache_size 0
 double_buffer yes
@@ -32,18 +33,18 @@ own_window_argb_visual yes
 own_window_argb_value 0
 
 alignment top_left
-gap_y 55
-gap_x 75 
+gap_y 30
+gap_x 0 
 border_inner_margin 8
 draw_outline no
 draw_borders no
 
-minimum_size 470 700
-maximum_width 470
-maximum_height 700
+#minimum_size 470 700
+#maximum_width 470
+#maximum_height 700
 
-default_bar_size 300 12
-draw_bar_borders no
+default_bar_size 70 12
+#draw_bar_borders no
 
 default_color DEDEDE
 color1 1793D0
@@ -54,40 +55,55 @@ color5 DEDEDE
 color6 757575
 
 TEXT
-${font xirod:Bold:size=34}${color1} ARCH ${color}LINUX$font
+${font xirod:Bold:size=12}${color1}ARCH ${color}$font
 # SYS
 
-System Uptime $alignr $uptime
+#System Uptime $alignr $uptime
 #User(s) $alignr $user_names
 #Active Consoles $alignr $user_terms
-$sysname $kernel $alignr $machine
-NVidia Optimus: $alignr${execi 60 cat /proc/acpi/bbswitch | awk '{print $2}'}
+#$sysname $kernel $alignr $machine
+#NVidia Optimus: $alignr${execi 60 cat /proc/acpi/bbswitch | awk '{print $2}'}
 #AC Status $alignr$acpiacadapter ${battery BAT1}
-AC Status $alignr${battery BAT1}
-Battery Temp $alignr$acpitemp°C
-System Temp $alignr${exec sensors | grep Core\ 3 | awk '{print $3}'}
-Updates $alignr Pacman: ${execp cat /tmp/off.updates | wc -l}
-$alignr AUR: ${execp cat /tmp/aur.updates | wc -l}
+#AC Status $alignr${battery BAT1}
+#Battery Temp $alignr$acpitemp°C
+Temp 
+${exec sensors | grep Core\ 3 | awk '{print $3}'}
+#Updates $alignr Pacman: ${execp cat /tmp/off.updates | wc -l}
+#$alignr AUR: ${execp cat /tmp/aur.updates | wc -l}
+
+
+
+
 # CPU
-${font xirod:Bold:size=13}${color1}CPU ${hr 2}$font$color
+${font xirod:Bold:size=14}${color1}CPU$font$color
 
-${font}Core 0   ${color1}${execi 30 sensors | grep 'Core 0:' | cut -c18-19}°C${color}  @  ${cpu cpu1} % $alignr ${color6}${cpubar cpu1}${color}
-${font}Core 1   ${color1}${execi 30 sensors | grep 'Core 1:' | cut -c18-19}°C${color}  @  ${cpu cpu2} % $alignr ${color6}${cpubar cpu2}${color}
-${font}Core 2   ${color1}${execi 30 sensors | grep 'Core 2:' | cut -c18-19}°C${color}  @  ${cpu cpu3} % $alignr ${color6}${cpubar cpu3}${color}
-${font}Core 3   ${color1}${execi 30 sensors | grep 'Core 3:' | cut -c18-19}°C${color}  @  ${cpu cpu4} % $alignr ${color6}${cpubar cpu4}${color}
-${font}Core 4   ${color1}${execi 30 sensors | grep 'Core 0:' | cut -c18-19}°C${color}  @  ${cpu cpu5} % $alignr ${color6}${cpubar cpu5}${color}
-${font}Core 5   ${color1}${execi 30 sensors | grep 'Core 1:' | cut -c18-19}°C${color}  @  ${cpu cpu6} % $alignr ${color6}${cpubar cpu6}${color}
-${font}Core 6   ${color1}${execi 30 sensors | grep 'Core 2:' | cut -c18-19}°C${color}  @  ${cpu cpu7} % $alignr ${color6}${cpubar cpu7}${color}
-${font}Core 7   ${color1}${execi 30 sensors | grep 'Core 3:' | cut -c18-19}°C${color}  @  ${cpu cpu8} % $alignr ${color6}${cpubar cpu8}${color}
+${color6}${cpubar cpu1}${color}
+${color6}${cpubar cpu2}${color}
+${color6}${cpubar cpu3}${color}
+${color6}${cpubar cpu4}${color}
+${color6}${cpubar cpu5}${color}
+${color6}${cpubar cpu6}${color}
+${color6}${cpubar cpu7}${color}
+${color6}${cpubar cpu8}${color}
+${color6}${cpubar cpu9}${color}
+${color6}${cpubar cpu10}${color}
+${color6}${cpubar cpu11}${color}
+${color6}${cpubar cpu12}${color}
 
-Core 0${alignr}Core1
-${cpugraph cpu1 35,230 000000 757575} ${alignr}${cpugraph cpu2 35,230 000000 757575}
-Core 2${alignr}Core 3
-${cpugraph cpu3 35,230 000000 757575} ${alignr}${cpugraph cpu4 35,230 000000 757575}
-Core 4${alignr}Core 5
-${cpugraph cpu4 35,230 000000 757575} ${alignr}${cpugraph cpu5 35,230 000000 757575}
-Core 6${alignr}Core 7
-${cpugraph cpu6 35,230 000000 757575} ${alignr}${cpugraph cpu7 35,230 000000 757575}
+${font Droid Sans:size=6}
+Core 2${alignr}Core 2
+${cpugraph cpu1 20,33 000000 757575} ${alignr}${cpugraph cpu2 20,33 000000 757575}
+Core 3${alignr}Core 4
+${cpugraph cpu3 20,33 000000 757575} ${alignr}${cpugraph cpu4 20,33 000000 757575}
+Core 5${alignr}Core 6
+${cpugraph cpu4 20,33 000000 757575} ${alignr}${cpugraph cpu5 20,33 000000 757575}
+Core 7${alignr}Core 8
+${cpugraph cpu6 20,33 000000 757575} ${alignr}${cpugraph cpu7 20,33 000000 757575}
+Core 9${alignr}Core 10
+${cpugraph cpu6 20,33 000000 757575} ${alignr}${cpugraph cpu7 20,33 000000 757575}
+Core 11${alignr}Core 12
+${cpugraph cpu6 20,33 000000 757575} ${alignr}${cpugraph cpu7 20,33 000000 757575}
+$font
 
 # LOAD
 ${font xirod:Bold:size=13}${color1}LOAD ${hr 2}$font${color}
@@ -118,13 +134,13 @@ ${color5}${font Droid Sans:bold:size=11}RAM$font$color
 #       $swap / $swapmax $alignr $swapperc %
 #       ${color6}${swapbar 10,330 /}$color
 
-# HDD
-${font xirod:Bold:size=13}${color1}DISKS ${hr 2}$font$color
-${font Droid Sans:bold:size=11}${color5}/dev/sda   		${color6}Read:$diskio_read	Write:$diskio_write${color}   $alignr ${execi 300 sudo hddtemp /dev/sda | cut -c34-35}°C$color
-
-${font Droid Sans:bold:size=11}${color5}ROOT $font$font$alignr ${fs_type /}$font
-       ${color5}${fs_used /} / ${fs_size /} $alignr ${fs_used_perc /} %$color
-       ${color6}${fs_bar 14,450 /}$color
-${font Droid Sans:bold:size=11}${color5}HOME $font$font$alignr ${fs_type /home}$font
-       ${color5}${fs_used /home} / ${fs_size /home} $alignr ${fs_used_perc /home} %$color
-       ${color6}${fs_bar 14,450 /home}$color
+## HDD
+#${font xirod:Bold:size=13}${color1}DISKS ${hr 2}$font$color
+#${font Droid Sans:bold:size=11}${color5}/dev/sda   		${color6}Read:$diskio_read	Write:$diskio_write${color}   $alignr ${execi 300 hddtemp /dev/sda | cut -c34-35}°C$color
+#
+#${font Droid Sans:bold:size=11}${color5}ROOT $font$font$alignr ${fs_type /}$font
+#       ${color5}${fs_used /} / ${fs_size /} $alignr ${fs_used_perc /} %$color
+#       ${color6}${fs_bar 14,450 /}$color
+#${font Droid Sans:bold:size=11}${color5}HOME $font$font$alignr ${fs_type /home}$font
+#       ${color5}${fs_used /home} / ${fs_size /home} $alignr ${fs_used_perc /home} %$color
+#       ${color6}${fs_bar 14,450 /home}$color

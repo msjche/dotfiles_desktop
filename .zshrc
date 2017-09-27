@@ -128,8 +128,11 @@ alias Awesome='sudo /home/msjche/Scripts/awesome.sh'
 alias aquarium='asciiquarium'
 
 ## Conky
-alias eC='vim ~/.conkyrc'
-alias cdC='cd ~/.conky/HUD'
+# Awesome conky
+alias cdC='cd ~/.config/awesome/conky'
+alias eC='cd ~/.config/awesome/conky && vim conkyrc'
+#alias eC='vim ~/.conkyrc'
+#alias cdC='cd ~/.conky/HUD'
 alias HUD='~/Scripts/start_HUD.sh'
 alias SafeConky='~/Scripts/safe_conky.sh'
 alias DangerConky='~/Scripts/danger_conky.sh'
