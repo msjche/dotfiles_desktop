@@ -70,9 +70,10 @@ for ext in wav mp3 ogg;            do alias -s $ext=$SNDPLAY; done
 # Nvidia
 alias Nvidia-Settings='optirun -b none nvidia-settings -c :8'
 
-## System
+# System
 alias Shutdown='sudo shutdown -P now'
-alias Suspend='sudo pm-suspend'
+#alias Suspend='sudo pm-suspend'
+alias Suspend='sudo systemctl suspend'
 alias Stat='uname -a;systemd-analyze time;wc -l /lib/modules/$(uname -r)/modules.order;lsinitcpio -a /boot/initramfs-linux.img'
 #alias laptop-mode='grep -r '^\(CONTROL\|ENABLE\)_' /etc/laptop-mode/conf.d'
 alias keys='xev'
@@ -81,10 +82,9 @@ alias toggle-wifi='sudo ifconfig wlp6s0 down && sudo ifconfig wlp6s0 up'
 alias audit='lynis --auditor MoJo'
 alias Minimal='~/Scripts/minimal.sh'
 
-# Programming
-alias cdProg='cd ~/Dropbox/Programming'
-alias Prog='cd ~/Downloads/YouTube/Programming && ranger'
-alias run='ipython2'
+# Systemd
+# check for errors: sudo systemctl --failed
+# check for errors in log files: sudo journalctl -p 3 -xb
 
 # Weather
 alias Weather='wego'
@@ -188,6 +188,8 @@ alias Man-mirrors='sudo pacman-mirrors -g && sudo pacman -Syy'
 
 ## Pacman
 #alias UU='packer-color -Syyu && rm /tmp/off.updates && rm /tmp/aur.updates'
+alias Cleanup='sudo pacman -Rns $(pacman -Qtdq)'
+alias Optimize='sudo pacman-optimize'
 alias UU='packer-color -Syyu'
 alias UUA='yaourt -Syyua --devel'
 alias P='packer-color --noconfirm'
