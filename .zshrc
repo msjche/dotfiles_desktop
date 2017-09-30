@@ -188,10 +188,11 @@ alias Man-mirrors='sudo pacman-mirrors -g && sudo pacman -Syy'
 
 
 ## Pacman
-#alias UU='packer-color -Syyu && rm /tmp/off.updates && rm /tmp/aur.updates'
+alias UU='packer -Syyu && rm /tmp/off.updates && rm /tmp/aur.updates'
 alias Cleanup='sudo pacman -Rns $(pacman -Qtdq)'
 alias Optimize='sudo pacman-optimize'
-alias UU='packer -Syyu'
+alias Reflector='sudo reflector -c "United States" -f 12 -l 12 --verbose --save /etc/pacman.d/mirrorlist'
+#alias UU='packer -Syyu'
 alias UUA='yaourt -Syyua --devel'
 alias P='packer-color --noconfirm'
 alias PI='packer-color -S --noconfirm'
