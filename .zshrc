@@ -84,6 +84,10 @@ alias toggle-wifi='sudo ifconfig wlp6s0 down && sudo ifconfig wlp6s0 up'
 alias audit='lynis --auditor MoJo'
 alias Minimal='~/Scripts/minimal.sh'
 
+# Mount Encrypted Drives Manually
+alias OpenData='sudo cryptsetup --type luks open /dev/sdb1 datalv'
+alias MountData='sudo mount /dev/mapper/datavg-data /media/Data'
+
 # Systemd
 # check for errors: sudo systemctl --failed
 # check for errors in log files: sudo journalctl -p 3 -xb
