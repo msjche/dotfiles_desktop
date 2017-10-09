@@ -659,7 +659,7 @@ pods-GoldMoneyPodcasts() { nvlc-podcast "http://feeds.feedburner.com/GoldmoneyFo
 ######################## LIVE STREAMS ######################## 
 ##############################################################
 
-TV-m() { livestreamer -p mplayer "$1" best ;}
+Stream() { streamlink -p mpv "$1" best ;}
 TV-v() { livestreamer -p vlc "$1" best ;}
 
 Jupiter() { livestreamer -p mpv http://www.ustream.tv/channel/jupiterbroadcasting best ;}
