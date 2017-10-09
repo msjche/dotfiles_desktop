@@ -70,6 +70,7 @@ for ext in wav mp3 ogg;            do alias -s $ext=$SNDPLAY; done
 
 # Nvidia
 alias Nvidia-Settings='optirun -b none nvidia-settings -c :8'
+alias Nvidia-Check='lspci -k | grep -A 2 -E "(VGA|3D)"'
 
 # System
 alias Shutdown='sudo shutdown -P now'
@@ -123,7 +124,7 @@ alias Cinnamon='sudo /home/msjche/Scripts/cinnamon.sh'
 alias Awesome='sudo /home/msjche/Scripts/awesome.sh'
 
 ## Flash iso to usb drive
-#dd bs=4M if=/path/to/archlinux.iso of=/dev/sdb && sync
+#dd bs=4M if=/path/to/archlinux.iso of=/dev/sdb status=progress && sync
 
 ## Fun
 alias aquarium='asciiquarium'
