@@ -315,7 +315,7 @@ alias music='sh ~/Scripts/music.sh & '
 ## Multimedia
 alias irc='cp ~/.weechat/irc.conf.bak ~/.weechat/irc.conf && weechat-curses'
 alias M='mpv'
-alias Vids='cd ~/Downloads/.blackbox && ranger'
+alias Vids='cd ~/Movies && ranger'
 
 ## Google Calenar
 alias gcal-week='gcalcli --width 12 calw'
