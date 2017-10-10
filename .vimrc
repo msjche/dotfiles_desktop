@@ -16,14 +16,14 @@ let g:airline_left_sep = ''
 "Airline Themes
 "let g:airline_theme='dark'
 "let g:airline_theme='badwolf'
-let g:airline_theme='ravenpower'
+"let g:airline_theme='ravenpower'
 "let g:airline_theme='simple'
 "let g:airline_theme='term'
 "let g:airline_theme='ubaryd'
 "let g:airline_theme='laederon'
 "let g:airline_theme='kolor'
 "let g:airline_theme='molokai'
-"let g:airline_theme='powerlineish'
+let g:airline_theme='powerlineish'
 
 "colorscheme wombat256
 "colorscheme tango
@@ -32,10 +32,14 @@ let g:airline_theme='ravenpower'
 "colorscheme distinguished
 "colorscheme monokai
 colorscheme ir_black
+"colorscheme neodark
 "colorscheme gotham
 "colorscheme jellybeans 
-"colorscheme desertEx
+"volorscheme desertEx
+"colorscheme skittles_berry
 "colorscheme codeblocks_dark
+
+let g:neodark#terminal_transparent = 1
 
 " Pathogen
 execute pathogen#infect()
