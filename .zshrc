@@ -74,8 +74,8 @@ alias Nvidia-Check='lspci -k | grep -A 2 -E "(VGA|3D)"'
 
 # System
 alias Shutdown='sudo shutdown -P now'
-alias Suspend='sudo pm-suspend'
-#alias Suspend='sudo systemctl suspend'
+#alias Suspend='sudo pm-suspend'
+alias Suspend='sudo systemctl suspend'
 alias Stat='uname -a;systemd-analyze time;wc -l /lib/modules/$(uname -r)/modules.order;lsinitcpio -a /boot/initramfs-linux.img'
 #alias laptop-mode='grep -r '^\(CONTROL\|ENABLE\)_' /etc/laptop-mode/conf.d'
 alias keys='xev'

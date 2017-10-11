@@ -27,3 +27,4 @@ Scripts/mps
 .weechat/weechat.log
 .weechat/irc.conf
 .weechat/* 
+.oh-my-zsh/cache/*
