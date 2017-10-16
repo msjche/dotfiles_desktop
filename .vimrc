@@ -107,6 +107,9 @@ syntax enable			"use syntax highlighting
 
 " Key mappings
 
+	" I hate the Escape key
+		imap jj <Esc>
+
 	" easymotion <leader> remap
 	" Easymotion shortcut
 		map <leader>e <leader><leader>W
