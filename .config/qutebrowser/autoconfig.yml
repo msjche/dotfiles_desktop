@@ -278,3 +278,4 @@ global:
     g: https://www.google.com/search?hl=en&q={}
     gw: https://wiki.gentoo.org/?search={}
   url.start_pages: https://youtube.com/feed/subscriptions
+  zoom.default: 125%
