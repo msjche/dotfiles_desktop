@@ -141,8 +141,8 @@ global:
       F: hint all tab
       G: scroll-to-perc
       H: back
-      J: tab-next
-      K: tab-prev
+      J: tab-prev
+      K: tab-next
       L: forward
       M: bookmark-add
       N: search-prev
