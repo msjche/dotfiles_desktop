@@ -22,8 +22,8 @@ let g:airline_left_sep = ''
 "let g:airline_theme='ubaryd'
 "let g:airline_theme='laederon'
 "let g:airline_theme='kolor'
-"let g:airline_theme='molokai'
-let g:airline_theme='powerlineish'
+let g:airline_theme='molokai'
+"let g:airline_theme='powerlineish'
 
 "colorscheme wombat256
 "colorscheme tango
@@ -31,7 +31,8 @@ let g:airline_theme='powerlineish'
 "colorscheme vividchalk
 "colorscheme distinguished
 "colorscheme monokai
-colorscheme ir_black
+colorscheme molokai
+"colorscheme ir_black
 "colorscheme neodark
 "colorscheme gotham
 "colorscheme jellybeans 

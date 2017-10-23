@@ -193,7 +193,9 @@ alias E='sudo tail -f /var/log/emerge.log'
 alias Man-mirrors='sudo pacman-mirrors -g && sudo pacman -Syy'
 
 ## Pacman
-alias UU='packer -Syyu && rm /tmp/off.updates && rm /tmp/aur.updates'
+alias ReinstallAll='sudo pacman -Sy `pacman -Q | awk '{print $1}'`'
+#alias UU='packer -Syyu && rm /tmp/off.updates && rm /tmp/aur.updates'
+alias UU='packer -Syyu && rm /tmp/off.updates'
 alias Cleanup='sudo pacman -Rns $(pacman -Qtdq)'
 alias Optimize='sudo pacman-optimize'
 alias Reflector='sudo reflector -c "United States" -f 12 -l 12 --verbose --save /etc/pacman.d/mirrorlist'
@@ -765,8 +767,8 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 source /home/msjche/.oh-my-zsh/oh-my-zsh.sh
 
 clear
-neofetch --w3m --source ~/Icons/arch-blue-large.png
-#neofetch
+#neofetch --w3m --source --image_size=20px ~/Icons/arch-blue-large.png
+neofetch
 #/home/msjche/Scripts/pacolor.sh
 #/home/msjche/Scripts/starwars.sh
 #/home/msjche/Scripts/batman.sh
