@@ -194,8 +194,7 @@ alias Man-mirrors='sudo pacman-mirrors -g && sudo pacman -Syy'
 
 ## Pacman
 alias ReinstallAll='sudo pacman -Sy `pacman -Q | awk '{print $1}'`'
-#alias UU='packer -Syyu && rm /tmp/off.updates && rm /tmp/aur.updates'
-alias UU='packer -Syyu && rm /tmp/off.updates'
+alias UU='yaourt -Syyua && rm /tmp/off.updates && rm /tmp/aur.updates'
 alias Cleanup='sudo pacman -Rns $(pacman -Qtdq)'
 alias Optimize='sudo pacman-optimize'
 alias Reflector='sudo reflector -c "United States" -f 12 -l 12 --verbose --save /etc/pacman.d/mirrorlist'
