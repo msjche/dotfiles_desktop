@@ -25,6 +25,7 @@ Scripts/mps
 .w3m/w3mtmp*
 .w3m/w3mcookie*
 .w3m/history
+.w3m/cookie
 .weechat/logs/*
 .weechat/script/
 .weechat/urlserver_list.txt
