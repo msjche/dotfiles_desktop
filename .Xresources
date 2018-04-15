@@ -13,7 +13,7 @@ URxvt.externalBorder: 0
 URxvt.scrollBar: off
 URxvt.cursorBlink: true
 URxvt.cursorUnderline: false
-URxvt.cursorColor:#40ff00
+URxvt.cursorColor:#FFFF00
 URxvt.saveLines: 10000
 URxvt.scrollTtyOutput:   false
 URxvt.scrollWithBuffer:  true
