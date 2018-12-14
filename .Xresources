@@ -133,7 +133,7 @@ URxvt.keysym.M-s           	: perl:keyboard-select:search
 URxvt.keysym.M-C-v         	: perl:clipboard:paste_escaped
 !URxvt.perl-ext-common     	: tabbed,default,matcher
 !Urxvt.perl-lib            	: /usr/lib/urxvt/perl/
-URxvt.url-select.launcher  	: luakit
+URxvt.url-select.launcher  	: qutebrowser
 URxvt.url-select.autocopy  	: true
 URxvt.url-select.underline 	: true
 
