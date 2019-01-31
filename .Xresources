@@ -53,10 +53,10 @@ URxvt.keysym.Control-Right:    \033[1;5C
 !URxvt.letterSpace: -1
 
 !DejaVu Sans
-URxvt.font: xft:Dejavu Sans Mono for Powerline:pixelsize=14:antialias=true:hinting=true
-URxvt.boldFont: xft:DejaVu Sans Mono for Powerline:bold:pixelsize=14:antialias=true:hinting=true
-URxvt.italicFont: xft:DejaVu Sans Mono for Powerline:italic:pixelsize=14:antialias=true:hinting=true
-URxvt.boldItalicFont: xft:DejaVu Sans Mono for Powerline:bold:italic:pixelsize=14:antialias=true
+URxvt.font: xft:Dejavu Sans Mono for Powerline:pixelsize=14:antialias=true:hinting=true;xft:Symbola:Noto Emoji:pixelsize=14
+URxvt.boldFont: xft:DejaVu Sans Mono for Powerline:bold:pixelsize=14:antialias=true:hinting=true;xft:Symbola:Noto Emoji:pixelsize=14
+URxvt.italicFont: xft:DejaVu Sans Mono for Powerline:italic:pixelsize=14:antialias=true:hinting=true;xft:Symbola:Noto Emoji:pixelsize=14
+URxvt.boldItalicFont: xft:DejaVu Sans Mono for Powerline:bold:italic:pixelsize=14:antialias=true;xft:Symbola:Noto Emoji:pixelsize=14
 URxvt.letterSpace: -1
 
 !Droid Sans

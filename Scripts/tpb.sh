@@ -11,10 +11,11 @@
 # you can add -- at the end to indicate end of options
 # (if your program supports it, most do)
 program='/usr/bin/transmission-remote -a'
-TPB="https://thepiratebay.fail"
+daemon='transmission-daemon'
+TPB="https://thepiratebay.org"
 
 # show N first matches by default
-limit=50
+limit=70
 
 # colors
 numbcolor='\x1b[1;35m'
@@ -44,7 +45,7 @@ printhelp() {
 	echo
 	echo -e "Available options:"
 	echo -e "\t-h\t\tShow help"
-	echo -e "\t-n [num]\tShow only first N results (default 15; max 100 [top] or 30 [search])"
+	echo -e "\t-n [num]\tShow only first N results (default 15; max 100 [top] or 50 [search])"
 	echo -e "\t-C\t\tDo not use colors"
 	echo -e "\t-P [prog]\tSet torrent client command (\`-P torrent-client\` OR \`-P \"torrent-client --options\"\`)"
 	echo
@@ -140,22 +141,26 @@ if [ -z "$down" ] ; then
 	exit 0
 fi
 
-# download all torrents in list
+# starts daemon if it was not already running and download all torrents in list
 echo -n "Downloading torrent(s): "
-for torrent in $down ; do
-	# check if ID is valid and in range of results, download torrent
-	if [ $torrent -ge 1 ] ; then
-		if [ $torrent -le $limit ] ; then
-			echo -n "$torrent "
-			command="$program `echo "$r" | awk -F '|' 'NR=='$torrent'{print $2; exit}'`"
-			status=$(eval "$command" 2>&1)
-			if [ $? -ne 0 ] ; then
-				echo -n '(failed!) '
-				report="$report\n(#$torrent) $status"
+if ! [ "$(pidof $daemon)" ]; then
+	$daemon
+	for torrent in $down ; do
+		# check if ID is valid and in range of results, download torrent
+		if [ $torrent -ge 1 ] ; then
+			if [ $torrent -le $limit ] ; then
+				echo -n "$torrent "
+				command="$program `echo "$r" | awk -F '|' 'NR=='$torrent'{print $2; exit}'`"
+				status=$(eval "$command" 2>&1)
+				if [ $? -ne 0 ] ; then
+					echo -n '(failed!) '
+					report="$report\n(#$torrent) $status"
+				fi
 			fi
 		fi
-	fi
-done
+	done
+fi
+
 echo
 if [ -n "$report" ] ; then
 	echo -n "Exited with errors:"
